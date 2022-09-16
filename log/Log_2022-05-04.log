@@ -1,0 +1,907 @@
+2022-05-04 09:44:24,764:INFO:jwt
+2022-05-04 09:44:24,794:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 5, 4, 1, 49, 24, 794052)}
+2022-05-04 09:44:24,794:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTE2Mjg5NjR9.LG2z7RVWJJKj_dcOjK8VmtcuotSr58xd8ZJpwKngqfM
+2022-05-04 16:56:53,752:INFO:jwt
+2022-05-04 16:57:14,241:INFO:ads
+2022-05-04 16:57:20,505:INFO:jwt
+2022-05-04 16:58:58,502:INFO:ads
+2022-05-04 16:59:00,308:INFO:jwt
+2022-05-04 16:59:00,313:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 4, 0, 313073)}
+2022-05-04 16:59:00,313:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTUwNDB9.XvfSQFWEm16s9kH-eFxrfAavTtViw-yrGmQi-EJsQb8
+2022-05-04 17:01:15,728:INFO:ads
+2022-05-04 17:01:17,884:INFO:jwt
+2022-05-04 17:01:17,888:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 6, 17, 888578)}
+2022-05-04 17:01:17,888:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTUxNzd9.fsXGjEKRhKhwydlAVYbBfyZEKdwkEMTsKm_OuDwe-PY
+2022-05-04 17:02:07,303:INFO:ads
+2022-05-04 17:02:12,950:INFO:jwt
+2022-05-04 17:02:12,955:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 7, 12, 955025)}
+2022-05-04 17:02:12,955:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTUyMzJ9.Isj7hns3Cb7juGRycFyHxftKGL8qWvCNhBnLUnVW4RE
+2022-05-04 17:02:18,308:INFO:checkNumber
+2022-05-04 17:02:18,310:INFO:3
+2022-05-04 17:02:18,310:INFO:bankConnection
+2022-05-04 17:02:18,310:INFO:3
+2022-05-04 17:02:18,310:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:02:18,424:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:02:18,820:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:02:18,822:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:02:18,844:INFO:bankConnection
+2022-05-04 17:02:18,844:INFO:3
+2022-05-04 17:02:18,845:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:02:18,846:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:02:19,218:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:02:26,055:INFO:checkNumber
+2022-05-04 17:02:26,058:INFO:3
+2022-05-04 17:02:26,058:INFO:bankConnection
+2022-05-04 17:02:26,058:INFO:3
+2022-05-04 17:02:26,058:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:02:26,060:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:02:26,310:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:02:26,311:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:02:26,322:INFO:bankConnection
+2022-05-04 17:02:26,322:INFO:3
+2022-05-04 17:02:26,322:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:02:26,323:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:02:26,607:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:02:29,128:INFO:checkNumber
+2022-05-04 17:02:29,131:INFO:3
+2022-05-04 17:02:29,131:INFO:bankConnection
+2022-05-04 17:02:29,131:INFO:3
+2022-05-04 17:02:29,131:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:02:29,132:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:02:29,367:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:02:29,369:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:02:33,087:INFO:bankConnection
+2022-05-04 17:02:33,087:INFO:3
+2022-05-04 17:02:33,087:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:02:33,088:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:02:33,351:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:04:58,563:INFO:ads
+2022-05-04 17:05:03,695:INFO:jwt
+2022-05-04 17:05:03,699:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 10, 3, 699688)}
+2022-05-04 17:05:03,699:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTU0MDN9.1RgJCBLPqp54pF2WLow1fqyPhOwBMKAUSsSmchXfUII
+2022-05-04 17:05:09,350:INFO:checkNumber
+2022-05-04 17:05:09,352:INFO:3
+2022-05-04 17:05:09,352:INFO:bankConnection
+2022-05-04 17:05:09,352:INFO:3
+2022-05-04 17:05:09,353:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:05:09,354:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:05:09,607:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:05:09,609:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:05:09,621:INFO:bankConnection
+2022-05-04 17:05:09,621:INFO:3
+2022-05-04 17:05:09,621:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:05:09,623:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:05:09,923:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:05:46,134:INFO:ads
+2022-05-04 17:05:59,751:INFO:jwt
+2022-05-04 17:05:59,756:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 10, 59, 756180)}
+2022-05-04 17:05:59,756:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTU0NTl9.Ow3cRKiF2QMlILQgU1Y0RhF4-WNFYGeXc4QKkw6qFG4
+2022-05-04 17:06:01,478:INFO:checkNumber
+2022-05-04 17:06:01,481:INFO:3
+2022-05-04 17:06:01,481:INFO:bankConnection
+2022-05-04 17:06:01,481:INFO:3
+2022-05-04 17:06:01,481:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:06:01,483:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:06:01,747:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:06:01,749:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:06:01,761:INFO:bankConnection
+2022-05-04 17:06:01,761:INFO:3
+2022-05-04 17:06:01,761:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:06:01,762:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:06:02,085:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:06:52,784:INFO:ads
+2022-05-04 17:06:54,705:INFO:jwt
+2022-05-04 17:06:54,709:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 11, 54, 709579)}
+2022-05-04 17:06:54,709:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTU1MTR9.SHhjZBHxFzk30MEUBWxBcTwcEKtgjEoSX2vPjS3yxG4
+2022-05-04 17:06:56,914:INFO:checkNumber
+2022-05-04 17:06:56,916:INFO:3
+2022-05-04 17:06:56,916:INFO:bankConnection
+2022-05-04 17:06:56,916:INFO:3
+2022-05-04 17:06:56,916:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:06:56,918:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:06:57,121:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:06:57,123:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:06:57,135:INFO:bankConnection
+2022-05-04 17:06:57,135:INFO:3
+2022-05-04 17:06:57,136:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:06:57,137:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:06:57,389:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:07:41,672:INFO:ads
+2022-05-04 17:07:46,296:INFO:jwt
+2022-05-04 17:07:46,300:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 12, 46, 300772)}
+2022-05-04 17:07:46,301:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTU1NjZ9.tZk61KNQ9t-9kbeSb8wz8AooHrwtxg5QlwxO8sp2-3A
+2022-05-04 17:07:48,157:INFO:checkNumber
+2022-05-04 17:07:48,160:INFO:3
+2022-05-04 17:07:48,160:INFO:bankConnection
+2022-05-04 17:07:48,160:INFO:3
+2022-05-04 17:07:48,160:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:07:48,162:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:07:48,386:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:07:48,388:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:07:48,401:INFO:bankConnection
+2022-05-04 17:07:48,401:INFO:3
+2022-05-04 17:07:48,401:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:07:48,402:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:07:48,664:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:08:38,474:INFO:ads
+2022-05-04 17:09:30,306:INFO:jwt
+2022-05-04 17:09:30,311:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 14, 30, 311110)}
+2022-05-04 17:09:30,311:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTU2NzB9.cR6WHTFXe3eZXd4m7dxIqwPg8wxRBhZni_hz_DHIzSA
+2022-05-04 17:09:32,695:INFO:checkNumber
+2022-05-04 17:09:32,698:INFO:3
+2022-05-04 17:09:32,698:INFO:bankConnection
+2022-05-04 17:09:32,698:INFO:3
+2022-05-04 17:09:32,698:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:09:32,700:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:09:32,890:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:09:32,892:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:09:32,903:INFO:bankConnection
+2022-05-04 17:09:32,903:INFO:3
+2022-05-04 17:09:32,903:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:09:32,904:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:09:33,143:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:10:14,590:WARNING:Not Found: /favicon.ico
+2022-05-04 17:15:02,662:INFO:ads
+2022-05-04 17:15:06,866:INFO:jwt
+2022-05-04 17:15:06,870:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 20, 6, 870781)}
+2022-05-04 17:15:06,871:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTYwMDZ9.4CDaUQkgpOfuCJOzQhk-CtTMJmzWciWxkNoIdI4h06s
+2022-05-04 17:15:08,702:INFO:checkNumber
+2022-05-04 17:15:08,704:INFO:3
+2022-05-04 17:15:08,704:INFO:bankConnection
+2022-05-04 17:15:08,704:INFO:3
+2022-05-04 17:15:08,705:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:15:08,706:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:15:08,943:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:15:08,945:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:15:08,961:INFO:bankConnection
+2022-05-04 17:15:08,961:INFO:3
+2022-05-04 17:15:08,962:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:15:08,963:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:15:09,240:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:16:16,672:INFO:ads
+2022-05-04 17:16:20,032:INFO:jwt
+2022-05-04 17:16:20,931:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 21, 20, 931074)}
+2022-05-04 17:16:20,931:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTYwODB9.ucL4VKCaZq12LQgwXSEkY17YdtUyNmUPJVoc8f-X8gM
+2022-05-04 17:16:22,560:INFO:checkNumber
+2022-05-04 17:16:22,562:INFO:3
+2022-05-04 17:16:22,562:INFO:bankConnection
+2022-05-04 17:16:22,562:INFO:3
+2022-05-04 17:16:22,563:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:16:22,564:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:16:22,786:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:16:22,788:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:16:22,833:INFO:bankConnection
+2022-05-04 17:16:22,833:INFO:3
+2022-05-04 17:16:22,833:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:16:22,834:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:16:23,099:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:16:58,895:INFO:ads
+2022-05-04 17:17:19,966:INFO:ads
+2022-05-04 17:17:36,089:INFO:jwt
+2022-05-04 17:17:36,094:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 22, 36, 94385)}
+2022-05-04 17:17:36,094:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTYxNTZ9.EJoXmVRLGwmV_L7ZwHtVPi4Sxhz6Kz_urdb5jfjrtUc
+2022-05-04 17:17:37,762:INFO:checkNumber
+2022-05-04 17:17:37,764:INFO:3
+2022-05-04 17:17:37,764:INFO:bankConnection
+2022-05-04 17:17:37,764:INFO:3
+2022-05-04 17:17:37,764:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:17:37,766:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:17:38,011:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:17:38,013:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:17:38,024:INFO:bankConnection
+2022-05-04 17:17:38,024:INFO:3
+2022-05-04 17:17:38,024:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:17:38,026:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:17:38,309:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:17:57,985:INFO:checkNumber
+2022-05-04 17:17:57,988:INFO:3
+2022-05-04 17:17:57,988:INFO:bankConnection
+2022-05-04 17:17:57,988:INFO:3
+2022-05-04 17:17:57,988:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:17:57,990:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:17:58,187:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:17:58,189:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:17:58,201:INFO:bankConnection
+2022-05-04 17:17:58,201:INFO:3
+2022-05-04 17:17:58,201:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:17:58,203:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:17:58,471:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:18:15,636:INFO:checkNumber
+2022-05-04 17:18:15,639:INFO:3
+2022-05-04 17:18:15,639:INFO:bankConnection
+2022-05-04 17:18:15,640:INFO:3
+2022-05-04 17:18:15,640:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:18:15,641:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:18:15,888:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:18:15,890:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:18:15,902:INFO:bankConnection
+2022-05-04 17:18:15,902:INFO:3
+2022-05-04 17:18:15,902:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:18:15,903:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:18:16,175:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:18:27,279:INFO:ads
+2022-05-04 17:21:26,869:INFO:ads
+2022-05-04 17:22:02,438:INFO:jwt
+2022-05-04 17:22:02,443:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 27, 2, 443322)}
+2022-05-04 17:22:02,443:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTY0MjJ9.EBG0kk4mv_YfbqPt2dnuq3FZDdD690697xAmDBb9hBI
+2022-05-04 17:22:04,065:INFO:checkNumber
+2022-05-04 17:22:04,068:INFO:3
+2022-05-04 17:22:04,068:INFO:bankConnection
+2022-05-04 17:22:04,068:INFO:3
+2022-05-04 17:22:04,068:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:22:04,070:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:22:04,446:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:22:04,448:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:22:04,466:INFO:bankConnection
+2022-05-04 17:22:04,466:INFO:3
+2022-05-04 17:22:04,466:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:22:04,467:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:22:04,869:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:22:07,335:INFO:ads
+2022-05-04 17:22:08,326:INFO:jwt
+2022-05-04 17:22:08,330:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 27, 8, 330333)}
+2022-05-04 17:22:08,330:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTY0Mjh9.n-Dpkv0127ikpUY8kpCC_y5p92m8hDvE40QJDZ5EBug
+2022-05-04 17:22:13,531:INFO:prefix
+2022-05-04 17:22:42,630:INFO:ads
+2022-05-04 17:22:46,021:INFO:jwt
+2022-05-04 17:22:46,025:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 27, 46, 25674)}
+2022-05-04 17:22:46,025:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTY0NjZ9.Y6EzmyhK0nyk1SkvI3N3YLRnN7Ndr8YmlXuogXuhj70
+2022-05-04 17:22:49,043:INFO:prefix
+2022-05-04 17:22:51,253:INFO:searchNumber
+2022-05-04 17:22:51,762:INFO:98120268:6|98120419:6|98120473:6|98120487:6|98120494:6|98120872:6|98120914:6|98121056:6|98121262:6|98121468:6|98121537:6|98121578:6|98121642:6|98121732:6|98121952:6|98122037:6|98122067:6|98122068:6|98122168:6|98122310:6|98122481:6|98122483:6|98122523:6|98122532:6|98122534:6|98122574:6|98122594:6|98122615:6|98122643:6|98122679:6|98122827:6|98122878:6|98122943:6|98122953:6|98122996:6|98123001:6|98123091:6|98123221:6|98123276:6|98123277:6|98123407:6|98123438:6|98123449:6|98123531:6|98123580:6|98123665:6|98123677:6|98123730:6|98123731:6|98123732:6|98123759:6|98123776:6|98123806:6|98123807:6|98123813:6|98123814:6|98123835:6|98123845:6|98123846:6|98123852:6|98123853:6|98123854:6|98123856:6|98123857:6|98123862:6|98123863:6|98123869:6|98123870:6|98123876:6|98123879:6|98123882:6|98123892:6|98123897:6|98123902:6|98123903:6|98123904:6|98123906:6|98123914:6|98123915:6|98123916:6|98123917:6|98123920:6|98123923:6|98123925:6|98123927:6|98123942:6|98123946:6|98123950:6|98123951:6|98123952:6|98123953:6|98123956:6|98123957:6|98123960:6|98123961:6|98123962:6|98123963:6|98123967:6|98123968:6|98123974:6
+2022-05-04 17:22:51,873:INFO:[{'prefix': '98120268'}, {'prefix': '98120419'}, {'prefix': '98120473'}, {'prefix': '98120487'}, {'prefix': '98120494'}, {'prefix': '98120872'}, {'prefix': '98120914'}, {'prefix': '98121056'}, {'prefix': '98121262'}, {'prefix': '98121468'}, {'prefix': '98121537'}, {'prefix': '98121578'}, {'prefix': '98121642'}, {'prefix': '98121732'}, {'prefix': '98121952'}, {'prefix': '98122037'}, {'prefix': '98122067'}, {'prefix': '98122068'}, {'prefix': '98122168'}, {'prefix': '98122310'}, {'prefix': '98122481'}, {'prefix': '98122483'}, {'prefix': '98122523'}, {'prefix': '98122532'}, {'prefix': '98122534'}, {'prefix': '98122574'}, {'prefix': '98122594'}, {'prefix': '98122615'}, {'prefix': '98122643'}, {'prefix': '98122679'}, {'prefix': '98122827'}, {'prefix': '98122878'}, {'prefix': '98122943'}, {'prefix': '98122953'}, {'prefix': '98122996'}, {'prefix': '98123001'}, {'prefix': '98123091'}, {'prefix': '98123221'}, {'prefix': '98123276'}, {'prefix': '98123277'}, {'prefix': '98123407'}, {'prefix': '98123438'}, {'prefix': '98123449'}, {'prefix': '98123531'}, {'prefix': '98123580'}, {'prefix': '98123665'}, {'prefix': '98123677'}, {'prefix': '98123730'}, {'prefix': '98123731'}, {'prefix': '98123732'}, {'prefix': '98123759'}, {'prefix': '98123776'}, {'prefix': '98123806'}, {'prefix': '98123807'}, {'prefix': '98123813'}, {'prefix': '98123814'}, {'prefix': '98123835'}, {'prefix': '98123845'}, {'prefix': '98123846'}, {'prefix': '98123852'}, {'prefix': '98123853'}, {'prefix': '98123854'}, {'prefix': '98123856'}, {'prefix': '98123857'}, {'prefix': '98123862'}, {'prefix': '98123863'}, {'prefix': '98123869'}, {'prefix': '98123870'}, {'prefix': '98123876'}, {'prefix': '98123879'}, {'prefix': '98123882'}, {'prefix': '98123892'}, {'prefix': '98123897'}, {'prefix': '98123902'}, {'prefix': '98123903'}, {'prefix': '98123904'}, {'prefix': '98123906'}, {'prefix': '98123914'}, {'prefix': '98123915'}, {'prefix': '98123916'}, {'prefix': '98123917'}, {'prefix': '98123920'}, {'prefix': '98123923'}, {'prefix': '98123925'}, {'prefix': '98123927'}, {'prefix': '98123942'}, {'prefix': '98123946'}, {'prefix': '98123950'}, {'prefix': '98123951'}, {'prefix': '98123952'}, {'prefix': '98123953'}, {'prefix': '98123956'}, {'prefix': '98123957'}, {'prefix': '98123960'}, {'prefix': '98123961'}, {'prefix': '98123962'}, {'prefix': '98123963'}, {'prefix': '98123967'}, {'prefix': '98123968'}, {'prefix': '98123974'}]
+2022-05-04 17:22:54,715:INFO:blockUnblock
+2022-05-04 17:22:54,715:INFO:block
+2022-05-04 17:22:54,715:INFO:1
+2022-05-04 17:22:54,715:INFO:user_ip: 192.168.6.234
+2022-05-04 17:22:54,718:ERROR:Internal Server Error: /api/blockUnblock
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 482, in blockUnblock
+    kiosk = Status.objects.get(device_id=device_id)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Status matching query does not exist.
+2022-05-04 17:22:58,238:INFO:blockUnblock
+2022-05-04 17:22:58,238:INFO:block
+2022-05-04 17:22:58,238:INFO:1
+2022-05-04 17:22:58,238:INFO:user_ip: 192.168.6.234
+2022-05-04 17:22:58,240:ERROR:Internal Server Error: /api/blockUnblock
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 482, in blockUnblock
+    kiosk = Status.objects.get(device_id=device_id)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Status matching query does not exist.
+2022-05-04 17:23:06,622:INFO:blockUnblock
+2022-05-04 17:23:06,622:INFO:block
+2022-05-04 17:23:06,622:INFO:1
+2022-05-04 17:23:06,622:INFO:user_ip: 192.168.6.234
+2022-05-04 17:23:06,625:ERROR:Internal Server Error: /api/blockUnblock
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 482, in blockUnblock
+    kiosk = Status.objects.get(device_id=device_id)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Status matching query does not exist.
+2022-05-04 17:24:20,787:INFO:blockUnblock
+2022-05-04 17:24:20,787:INFO:block
+2022-05-04 17:24:20,787:INFO:1
+2022-05-04 17:24:20,787:INFO:user_ip: 192.168.6.51
+2022-05-04 17:24:47,998:INFO:blockUnblock
+2022-05-04 17:24:47,998:INFO:block
+2022-05-04 17:24:47,998:INFO:1
+2022-05-04 17:24:47,998:INFO:user_ip: 192.168.6.51
+2022-05-04 17:24:48,009:INFO:Failed
+2022-05-04 17:27:48,146:INFO:ads
+2022-05-04 17:27:49,525:INFO:jwt
+2022-05-04 17:27:49,529:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 32, 49, 529664)}
+2022-05-04 17:27:49,529:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTY3Njl9.Oe0_yR42wV2QU8UBBhHocaJJzQ3o1kC8P3fGznwCi7Y
+2022-05-04 17:27:51,914:INFO:prefix
+2022-05-04 17:27:53,209:INFO:searchNumber
+2022-05-04 17:27:53,718:INFO:98120268:6|98120419:6|98120473:6|98120487:6|98120494:6|98120872:6|98120914:6|98121056:6|98121262:6|98121468:6|98121537:6|98121578:6|98121642:6|98121732:6|98121952:6|98122037:6|98122067:6|98122068:6|98122168:6|98122310:6|98122481:6|98122483:6|98122523:6|98122532:6|98122534:6|98122574:6|98122594:6|98122615:6|98122643:6|98122679:6|98122827:6|98122878:6|98122943:6|98122953:6|98122996:6|98123001:6|98123091:6|98123221:6|98123276:6|98123277:6|98123407:6|98123438:6|98123449:6|98123531:6|98123580:6|98123665:6|98123677:6|98123730:6|98123731:6|98123732:6|98123759:6|98123776:6|98123806:6|98123807:6|98123813:6|98123814:6|98123835:6|98123845:6|98123846:6|98123852:6|98123853:6|98123854:6|98123856:6|98123857:6|98123862:6|98123863:6|98123869:6|98123870:6|98123876:6|98123879:6|98123882:6|98123892:6|98123897:6|98123902:6|98123903:6|98123904:6|98123906:6|98123914:6|98123915:6|98123916:6|98123917:6|98123920:6|98123923:6|98123925:6|98123927:6|98123942:6|98123946:6|98123950:6|98123951:6|98123952:6|98123953:6|98123956:6|98123957:6|98123960:6|98123961:6|98123962:6|98123963:6|98123967:6|98123968:6|98123974:6
+2022-05-04 17:27:53,830:INFO:[{'prefix': '98120268'}, {'prefix': '98120419'}, {'prefix': '98120473'}, {'prefix': '98120487'}, {'prefix': '98120494'}, {'prefix': '98120872'}, {'prefix': '98120914'}, {'prefix': '98121056'}, {'prefix': '98121262'}, {'prefix': '98121468'}, {'prefix': '98121537'}, {'prefix': '98121578'}, {'prefix': '98121642'}, {'prefix': '98121732'}, {'prefix': '98121952'}, {'prefix': '98122037'}, {'prefix': '98122067'}, {'prefix': '98122068'}, {'prefix': '98122168'}, {'prefix': '98122310'}, {'prefix': '98122481'}, {'prefix': '98122483'}, {'prefix': '98122523'}, {'prefix': '98122532'}, {'prefix': '98122534'}, {'prefix': '98122574'}, {'prefix': '98122594'}, {'prefix': '98122615'}, {'prefix': '98122643'}, {'prefix': '98122679'}, {'prefix': '98122827'}, {'prefix': '98122878'}, {'prefix': '98122943'}, {'prefix': '98122953'}, {'prefix': '98122996'}, {'prefix': '98123001'}, {'prefix': '98123091'}, {'prefix': '98123221'}, {'prefix': '98123276'}, {'prefix': '98123277'}, {'prefix': '98123407'}, {'prefix': '98123438'}, {'prefix': '98123449'}, {'prefix': '98123531'}, {'prefix': '98123580'}, {'prefix': '98123665'}, {'prefix': '98123677'}, {'prefix': '98123730'}, {'prefix': '98123731'}, {'prefix': '98123732'}, {'prefix': '98123759'}, {'prefix': '98123776'}, {'prefix': '98123806'}, {'prefix': '98123807'}, {'prefix': '98123813'}, {'prefix': '98123814'}, {'prefix': '98123835'}, {'prefix': '98123845'}, {'prefix': '98123846'}, {'prefix': '98123852'}, {'prefix': '98123853'}, {'prefix': '98123854'}, {'prefix': '98123856'}, {'prefix': '98123857'}, {'prefix': '98123862'}, {'prefix': '98123863'}, {'prefix': '98123869'}, {'prefix': '98123870'}, {'prefix': '98123876'}, {'prefix': '98123879'}, {'prefix': '98123882'}, {'prefix': '98123892'}, {'prefix': '98123897'}, {'prefix': '98123902'}, {'prefix': '98123903'}, {'prefix': '98123904'}, {'prefix': '98123906'}, {'prefix': '98123914'}, {'prefix': '98123915'}, {'prefix': '98123916'}, {'prefix': '98123917'}, {'prefix': '98123920'}, {'prefix': '98123923'}, {'prefix': '98123925'}, {'prefix': '98123927'}, {'prefix': '98123942'}, {'prefix': '98123946'}, {'prefix': '98123950'}, {'prefix': '98123951'}, {'prefix': '98123952'}, {'prefix': '98123953'}, {'prefix': '98123956'}, {'prefix': '98123957'}, {'prefix': '98123960'}, {'prefix': '98123961'}, {'prefix': '98123962'}, {'prefix': '98123963'}, {'prefix': '98123967'}, {'prefix': '98123968'}, {'prefix': '98123974'}]
+2022-05-04 17:27:55,405:INFO:blockUnblock
+2022-05-04 17:27:55,933:INFO:block
+2022-05-04 17:27:55,933:INFO:1
+2022-05-04 17:27:55,933:INFO:user_ip: 192.168.6.234
+2022-05-04 17:27:55,949:INFO:Success
+2022-05-04 17:27:55,990:INFO:5000
+2022-05-04 17:27:55,990:INFO:{u'negj': u'3000', u'honog': u'30', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'0', u'price': 5000}
+2022-05-04 17:30:28,933:INFO:ads
+2022-05-04 17:30:29,228:INFO:ads
+2022-05-04 17:48:26,960:INFO:ads
+2022-05-04 17:48:34,501:INFO:jwt
+2022-05-04 17:48:34,506:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 5, 4, 9, 53, 34, 506011)}
+2022-05-04 17:48:34,506:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTE2NTgwMTR9.r5gC29GVVWqL_ODbx_6l2i5ZmS8hB7RxQT1g_WMUXpM
+2022-05-04 17:48:35,983:INFO:checkNumber
+2022-05-04 17:48:37,954:INFO:3
+2022-05-04 17:48:37,954:INFO:bankConnection
+2022-05-04 17:48:37,954:INFO:3
+2022-05-04 17:48:37,954:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:48:37,956:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:48:38,167:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:48:38,169:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:48:38,188:INFO:bankConnection
+2022-05-04 17:48:38,188:INFO:3
+2022-05-04 17:48:38,188:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:48:38,189:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:48:38,440:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:48:43,693:INFO:userConfirmation
+2022-05-04 17:48:43,693:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 546, in userConfirmation
+    product_name = data["product_name"]
+KeyError: u'product_name'
+2022-05-04 17:49:35,536:INFO:userConfirmation
+2022-05-04 17:49:35,536:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 546, in userConfirmation
+    product_name = data["product_name"]
+KeyError: u'product_name'
+2022-05-04 17:49:45,255:INFO:userConfirmation
+2022-05-04 17:49:45,255:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 546, in userConfirmation
+    product_name = data["product_name"]
+KeyError: u'product_name'
+2022-05-04 17:50:33,411:INFO:checkNumber
+2022-05-04 17:50:33,414:INFO:3
+2022-05-04 17:50:33,415:INFO:bankConnection
+2022-05-04 17:50:33,415:INFO:3
+2022-05-04 17:50:33,415:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:50:33,416:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:50:33,670:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:50:33,672:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:50:33,687:INFO:bankConnection
+2022-05-04 17:50:33,687:INFO:3
+2022-05-04 17:50:33,687:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:50:33,688:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:50:34,068:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:50:36,088:INFO:userConfirmation
+2022-05-04 17:50:36,089:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 546, in userConfirmation
+    product_name = data["product_name"]
+KeyError: u'product_name'
+2022-05-04 17:50:39,121:INFO:checkNumber
+2022-05-04 17:50:39,124:INFO:3
+2022-05-04 17:50:39,124:INFO:bankConnection
+2022-05-04 17:50:39,124:INFO:3
+2022-05-04 17:50:39,124:INFO:{'phone_number': u'98101408', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 17:50:39,126:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:50:39,375:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 17:50:39,377:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 17:50:39,389:INFO:bankConnection
+2022-05-04 17:50:39,389:INFO:3
+2022-05-04 17:50:39,390:INFO:{'phone_number': u'98101408', 'serviceName': 'Kiosk_3'}
+2022-05-04 17:50:39,391:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 17:50:39,700:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-05-04 17:50:46,377:INFO:userConfirmation
+2022-05-04 17:50:46,377:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 546, in userConfirmation
+    product_name = data["product_name"]
+KeyError: u'product_name'
+2022-05-04 17:51:04,895:INFO:ads
+2022-05-04 17:51:53,609:INFO:userConfirmation
+2022-05-04 17:51:53,609:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 546, in userConfirmation
+    product_name = data["product_name"]
+KeyError: u'product_name'
+2022-05-04 20:52:15,080:INFO:jwt
+2022-05-04 20:52:15,085:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 12, 57, 15, 85236)}
+2022-05-04 20:52:15,085:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2NjkwMzV9.fmFBP1vxAUtwKQMONzI51tynibo86_p2LoxvrW4R0_s
+2022-05-04 20:52:19,286:INFO:ads
+2022-05-04 20:53:23,547:INFO:checkNumber
+2022-05-04 20:53:23,549:INFO:2
+2022-05-04 20:53:23,550:INFO:bankConnection
+2022-05-04 20:53:23,550:INFO:2
+2022-05-04 20:53:23,550:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-04 20:53:23,552:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 20:53:23,759:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-04 20:53:23,761:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-04 20:53:23,761:INFO:post
+2022-05-04 20:53:23,761:INFO:bankConnection
+2022-05-04 20:53:23,761:INFO:2
+2022-05-04 20:53:23,762:INFO:{'phone_number': u'98101075', 'serviceName': 'Kiosk'}
+2022-05-04 20:53:23,763:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-04 20:53:24,009:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-05-04 20:53:24,011:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 0}
+2022-05-04 20:53:46,596:INFO:hur
+2022-05-04 20:53:46,607:INFO:
+2022-05-04 20:53:46,607:INFO:
+2022-05-04 20:53:46,609:INFO:huruuniiHee
+2022-05-04 20:53:46,611:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-05-04 20:53:46,974:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1340
+2022-05-04 20:53:46,975:INFO:hariu
+2022-05-04 20:53:46,975:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041c89101771', u'auth': {u'operator': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'92478dd5-e601-413a-883b-0c46033aa839', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0430\u0432\u0437\u0430\u0433\u0430\u0442\u0430\u0439\u0436', u'addressDetail': u'6', u'firstname': u'\u0431\u0430\u0442\u0431\u0430\u044f\u0440', u'lastname': u'\u0430\u043b\u0442\u0430\u043d\u0431\u0430\u0433\u0430\u043d\u0430', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439 17-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1 \u0433\u0443\u0434\u0430\u043c\u0436  6  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043c89101771', u'soumDistrictName': u'\u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439', u'addressStreetName': u'\u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'83', u'bagKhorooName': u'17-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'25'}}}
+2022-05-04 20:53:53,235:INFO:ads
+2022-05-04 20:55:28,711:INFO:ads
+2022-05-04 20:55:48,267:INFO:ads
+2022-05-04 21:55:48,200:INFO:jwt
+2022-05-04 21:55:48,205:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 14, 0, 48, 205157)}
+2022-05-04 21:55:48,205:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2NzI4NDh9.J6N91y6iHbETKDtvebNTpwJrjtRvvztoS1kLuNpY8ZY
+2022-05-04 21:55:51,411:INFO:ads
+2022-05-04 22:55:51,289:INFO:jwt
+2022-05-04 22:55:51,294:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 15, 0, 51, 294841)}
+2022-05-04 22:55:51,295:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2NzY0NTF9.hhx4-fZBOqZ2ZVWKw4Y0gJtCJlVO7w9PDcI5JM62v7E
+2022-05-04 22:55:54,599:INFO:ads
+2022-05-04 23:55:54,603:INFO:jwt
+2022-05-04 23:55:54,607:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 16, 0, 54, 607902)}
+2022-05-04 23:55:54,608:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2ODAwNTR9.R-KH6U6o26j49JZqRksl1lAXB0unE8LPiNM-ExYkyv8
+2022-05-04 23:55:57,834:INFO:ads
+2022-05-05 00:55:57,831:INFO:jwt
+2022-05-05 00:55:57,835:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 17, 0, 57, 835879)}
+2022-05-05 00:55:57,836:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2ODM2NTd9.h7izMyASxLgOvUg-zRy4y1BYagy55f76mAfOsg-yFVs
+2022-05-05 00:56:01,053:INFO:ads
+2022-05-05 01:56:01,070:INFO:jwt
+2022-05-05 01:56:01,074:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 18, 1, 1, 74778)}
+2022-05-05 01:56:01,075:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2ODcyNjF9.qDZnJBYqsRPG7EGn3PJ3WJg4rIE2JOx6rHaugxjUZcE
+2022-05-05 01:56:04,320:INFO:ads
+2022-05-05 02:56:04,219:INFO:jwt
+2022-05-05 02:56:04,224:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 19, 1, 4, 224278)}
+2022-05-05 02:56:04,224:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2OTA4NjR9.fmE1JLO8-xE0K38I3_v6KI9pwZ3CbL3Xsqul2kGnZeo
+2022-05-05 02:56:07,458:INFO:ads
+2022-05-05 03:56:07,345:INFO:jwt
+2022-05-05 03:56:07,350:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 20, 1, 7, 350379)}
+2022-05-05 03:56:07,350:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2OTQ0Njd9.sORArvKAAnQTGSUqmFPaGpgRV9RY-sxxLX_G-g8a0Nw
+2022-05-05 03:56:10,524:INFO:ads
+2022-05-05 03:57:09,327:INFO:jwt
+2022-05-05 03:57:09,331:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 20, 2, 9, 331505)}
+2022-05-05 03:57:09,331:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2OTQ1Mjl9.R1jXYxgXUntJ0yuSUGBjq162dTX2tSc-IfHpQwaSaM4
+2022-05-05 04:56:10,459:INFO:jwt
+2022-05-05 04:56:10,464:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 21, 1, 10, 464006)}
+2022-05-05 04:56:10,464:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE2OTgwNzB9.Zx1oYqgtTH-0oJNvGvrKNgZrQMSUZnP9cVHyzfxuGfQ
+2022-05-05 04:56:13,624:INFO:ads
+2022-05-05 05:56:13,509:INFO:jwt
+2022-05-05 05:56:13,514:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 4, 22, 1, 13, 514268)}
+2022-05-05 05:56:13,514:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE3MDE2NzN9.LcqZz8cpkrxchlGJnmJWmEsc7kCzs8SJfmgYqq_4KQM
+2022-05-05 05:56:18,979:INFO:ads
+2022-05-05 06:56:19,119:INFO:jwt
+2022-05-05 06:56:19,120:ERROR:Internal Server Error: /api/jwt/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 30, in jwt
+    if Status.objects.filter(device_id=device_id).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (13)")
+2022-05-05 08:54:11,181:INFO:ads
+2022-05-05 08:54:11,182:ERROR:Internal Server Error: /api/ads
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 67, in ads
+    for i in range(len(ads)):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 1121, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (13)")
+2022-05-05 09:26:00,362:INFO:jwt
+2022-05-05 09:26:00,363:ERROR:Internal Server Error: /api/jwt/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 30, in jwt
+    if Status.objects.filter(device_id=device_id).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (13)")
+2022-05-05 09:40:08,579:INFO:jwt
+2022-05-05 09:40:08,584:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 5, 5, 1, 45, 8, 584780)}
+2022-05-05 09:40:08,585:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTE3MTUxMDh9.6WUS9NC-1dG_Y2k-SMqLXQ-e4Z-wIsybGKAr5sv8_s0
+2022-05-05 09:40:12,326:INFO:ads
+2022-05-05 09:40:33,012:INFO:checkNumber
+2022-05-05 09:40:33,015:INFO:2
+2022-05-05 09:40:33,015:INFO:bankConnection
+2022-05-05 09:40:33,015:INFO:2
+2022-05-05 09:40:33,015:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-05 09:40:33,017:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 09:40:33,289:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-05 09:40:33,291:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-05 09:40:33,291:INFO:post
+2022-05-05 09:40:33,291:INFO:bankConnection
+2022-05-05 09:40:33,291:INFO:2
+2022-05-05 09:40:33,291:INFO:{'phone_number': u'98101075', 'serviceName': 'Kiosk'}
+2022-05-05 09:40:33,293:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 09:40:33,601:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-05-05 09:40:33,603:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 0}
+2022-05-05 09:44:43,678:INFO:ads
+2022-05-05 10:06:24,537:INFO:checkNumber
+2022-05-05 10:06:24,540:INFO:2
+2022-05-05 10:06:24,541:INFO:bankConnection
+2022-05-05 10:06:24,541:INFO:2
+2022-05-05 10:06:24,541:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-05 10:06:24,543:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 10:06:24,818:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-05 10:06:24,820:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-05 10:06:24,820:INFO:post
+2022-05-05 10:06:24,820:INFO:bankConnection
+2022-05-05 10:06:24,820:INFO:2
+2022-05-05 10:06:24,820:INFO:{'phone_number': u'98101075', 'serviceName': 'Kiosk'}
+2022-05-05 10:06:24,822:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 10:06:25,109:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-05-05 10:06:25,111:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 0}
+2022-05-05 10:11:15,181:INFO:ads
+2022-05-05 10:25:57,033:INFO:userConfirmation
+2022-05-05 10:25:57,034:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 546, in userConfirmation
+    product_name = data["product_name"]
+KeyError: u'product_name'
+2022-05-05 10:31:23,924:INFO:jwt
+2022-05-05 10:31:23,929:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 5, 5, 2, 36, 23, 929464)}
+2022-05-05 10:31:23,929:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTE3MTgxODN9.AgZ7nZ0xJ5lqwZjt2vIYUDmFJVICNlxaY0RwvJj6MBk
+2022-05-05 10:38:25,508:INFO:checkNumber
+2022-05-05 10:38:25,511:INFO:2
+2022-05-05 10:38:25,512:INFO:bankConnection
+2022-05-05 10:38:25,512:INFO:2
+2022-05-05 10:38:25,512:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-05 10:38:25,514:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 10:38:25,774:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-05 10:38:25,776:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-05 10:38:25,776:INFO:post
+2022-05-05 10:38:25,776:INFO:bankConnection
+2022-05-05 10:38:25,776:INFO:2
+2022-05-05 10:38:25,776:INFO:{'phone_number': u'98101075', 'serviceName': 'Kiosk'}
+2022-05-05 10:38:25,777:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 10:38:26,054:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-05-05 10:38:26,055:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 0}
+2022-05-05 10:43:16,058:INFO:ads
+2022-05-05 10:59:12,703:INFO:checkNumber
+2022-05-05 10:59:12,706:INFO:2
+2022-05-05 10:59:12,706:INFO:bankConnection
+2022-05-05 10:59:12,706:INFO:2
+2022-05-05 10:59:12,706:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-05-05 10:59:12,708:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 10:59:12,924:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-05-05 10:59:12,926:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-05-05 10:59:12,926:INFO:post
+2022-05-05 10:59:12,926:INFO:bankConnection
+2022-05-05 10:59:12,926:INFO:2
+2022-05-05 10:59:12,926:INFO:{'phone_number': u'98101075', 'serviceName': 'Kiosk'}
+2022-05-05 10:59:12,928:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-05-05 10:59:13,194:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-05-05 10:59:13,196:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 0}
+2022-05-05 10:59:16,755:WARNING:Not Found: /info/user_confirmation_info.PNG
+2022-05-05 11:00:07,732:WARNING:Not Found: /info/user_confirmation_info.PNG
+2022-05-05 11:00:07,913:WARNING:Not Found: /favicon.ico
+2022-05-05 11:16:34,121:INFO:userConfirmation
+2022-05-05 11:16:34,121:ERROR:Internal Server Error: /api/userConfirmation/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 543, in userConfirmation
+    device_id = data["device_id"]
+KeyError: u'kiosk_name'
+2022-05-05 11:17:07,824:INFO:hur
+2022-05-05 11:17:07,836:INFO:
+2022-05-05 11:17:07,836:INFO:
+2022-05-05 11:17:07,838:INFO:huruuniiHee
+2022-05-05 11:17:07,841:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-05-05 11:17:08,295:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1340
+2022-05-05 11:17:08,296:INFO:hariu
+2022-05-05 11:17:08,296:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041c89101771', u'auth': {u'operator': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'84c599ca-ddc9-49ad-9b92-e436e75825bc', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0430\u0432\u0437\u0430\u0433\u0430\u0442\u0430\u0439\u0436', u'addressDetail': u'6', u'firstname': u'\u0431\u0430\u0442\u0431\u0430\u044f\u0440', u'lastname': u'\u0430\u043b\u0442\u0430\u043d\u0431\u0430\u0433\u0430\u043d\u0430', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439 17-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1 \u0433\u0443\u0434\u0430\u043c\u0436  6  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043c89101771', u'soumDistrictName': u'\u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439', u'addressStreetName': u'\u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'83', u'bagKhorooName': u'17-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'25'}}}

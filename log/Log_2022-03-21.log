@@ -1,0 +1,411 @@
+2022-03-21 10:41:11,509:INFO:jwt
+2022-03-21 10:41:11,550:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 2, 46, 11, 550480)}
+2022-03-21 10:41:11,551:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4MzA3NzF9.gKTMjRHdQFn1oJSK4Fh0hxD7HUTDB8SVbtZBU_oHkdI
+2022-03-21 10:41:14,895:INFO:ads
+2022-03-21 11:41:14,957:INFO:jwt
+2022-03-21 11:41:14,968:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 3, 46, 14, 968040)}
+2022-03-21 11:41:14,968:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4MzQzNzR9.ucH2HM1KtMafUbzZOBQXivv94gbZFBSKZPYLWMD4PBg
+2022-03-21 11:41:18,239:INFO:ads
+2022-03-21 12:41:18,315:INFO:jwt
+2022-03-21 12:41:18,324:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 4, 46, 18, 324928)}
+2022-03-21 12:41:18,325:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4Mzc5Nzh9.-IvGLVTpkyQz4GikrMkVg-5cU-O75Ca3RYeRZky7PzA
+2022-03-21 12:41:21,600:INFO:ads
+2022-03-21 13:05:09,610:INFO:jwt
+2022-03-21 13:05:09,619:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 10, 9, 619460)}
+2022-03-21 13:05:09,619:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4Mzk0MDl9.OZNiKE09diyx5YLOLkzpir_7abciCowsCQqhw6xmYIo
+2022-03-21 13:05:13,900:INFO:checkNumber
+2022-03-21 13:05:13,906:INFO:3
+2022-03-21 13:05:13,907:INFO:bankConnection
+2022-03-21 13:05:13,907:INFO:3
+2022-03-21 13:05:13,907:INFO:{'phone_number': u'93380808', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-21 13:05:14,006:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:05:14,319:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-03-21 13:05:14,324:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-03-21 13:05:14,391:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-03-21 13:05:14,881:INFO:checkNumber
+2022-03-21 13:05:14,886:INFO:3
+2022-03-21 13:05:14,886:INFO:bankConnection
+2022-03-21 13:05:14,887:INFO:3
+2022-03-21 13:05:14,887:INFO:{'phone_number': u'93380808', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-21 13:05:14,891:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:05:15,075:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-03-21 13:05:15,079:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-03-21 13:05:15,143:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-03-21 13:05:36,293:INFO:checkNumber
+2022-03-21 13:05:36,299:INFO:3
+2022-03-21 13:05:36,299:INFO:bankConnection
+2022-03-21 13:05:36,300:INFO:3
+2022-03-21 13:05:36,300:INFO:{'phone_number': u'93380808', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-21 13:05:36,303:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:05:36,493:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-03-21 13:05:36,498:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-03-21 13:05:36,559:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-03-21 13:05:36,769:INFO:checkNumber
+2022-03-21 13:05:36,774:INFO:3
+2022-03-21 13:05:36,775:INFO:bankConnection
+2022-03-21 13:05:36,775:INFO:3
+2022-03-21 13:05:36,775:INFO:{'phone_number': u'93380808', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-21 13:05:36,778:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:05:36,973:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-03-21 13:05:36,978:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-03-21 13:05:37,042:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-03-21 13:05:42,296:INFO:order
+2022-03-21 13:05:42,297:INFO:H-6000
+2022-03-21 13:05:42,316:INFO:dat
+2022-03-21 13:05:42,316:INFO:{u'order_id': 12907L, u'q_pay': {}}
+2022-03-21 13:09:03,398:INFO:ads
+2022-03-21 13:09:03,537:INFO:ads
+2022-03-21 13:12:18,252:INFO:ads
+2022-03-21 13:37:35,998:INFO:jwt
+2022-03-21 13:37:36,009:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 42, 36, 9264)}
+2022-03-21 13:37:36,009:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDEzNTZ9.rt1IETbq3MkHnv2UKG3uXgU7lZ_A0EahdDyQNfQ0E90
+2022-03-21 13:38:25,067:INFO:prefix
+2022-03-21 13:38:44,043:INFO:searchNumber
+2022-03-21 13:38:44,882:INFO:98247602:6|98247603:6|98247605:6|98247606:6|98247608:6|98247609:6|98247610:6|98247612:6|98247613:6|98247615:6|98247616:6|98247617:6|98247618:6|98247619:6|98247620:6|98247622:6|98247623:6|98247625:6|98247626:6|98247627:6|98247628:6|98247629:6|98247630:6|98247631:6|98247632:6|98247633:6|98247634:6|98247635:6|98247636:6|98247637:6|98247638:6|98247640:6|98247641:6|98247642:6|98247643:6|98247644:6|98247645:6|98247646:6|98247647:6|98247648:6|98247649:6|98247650:6|98247651:6|98247652:6|98247653:6|98247654:6|98247656:6|98247658:6|98247659:6|98247660:6|98247661:6|98247662:6|98247664:6|98247665:6|98247668:6|98247669:6|98247673:6|98247678:6|98247679:6|98247680:6|98247681:6|98247682:6|98247683:6|98247684:6|98247685:6|98247687:6|98247688:6|98247689:6|98247690:6|98247691:6|98247692:6|98247693:6|98247694:6|98247695:6|98247696:6|98247697:6|98247698:6
+2022-03-21 13:38:45,064:INFO:[{'prefix': '98247602'}, {'prefix': '98247603'}, {'prefix': '98247605'}, {'prefix': '98247606'}, {'prefix': '98247608'}, {'prefix': '98247609'}, {'prefix': '98247610'}, {'prefix': '98247612'}, {'prefix': '98247613'}, {'prefix': '98247615'}, {'prefix': '98247616'}, {'prefix': '98247617'}, {'prefix': '98247618'}, {'prefix': '98247619'}, {'prefix': '98247620'}, {'prefix': '98247622'}, {'prefix': '98247623'}, {'prefix': '98247625'}, {'prefix': '98247626'}, {'prefix': '98247627'}, {'prefix': '98247628'}, {'prefix': '98247629'}, {'prefix': '98247630'}, {'prefix': '98247631'}, {'prefix': '98247632'}, {'prefix': '98247633'}, {'prefix': '98247634'}, {'prefix': '98247635'}, {'prefix': '98247636'}, {'prefix': '98247637'}, {'prefix': '98247638'}, {'prefix': '98247640'}, {'prefix': '98247641'}, {'prefix': '98247642'}, {'prefix': '98247643'}, {'prefix': '98247644'}, {'prefix': '98247645'}, {'prefix': '98247646'}, {'prefix': '98247647'}, {'prefix': '98247648'}, {'prefix': '98247649'}, {'prefix': '98247650'}, {'prefix': '98247651'}, {'prefix': '98247652'}, {'prefix': '98247653'}, {'prefix': '98247654'}, {'prefix': '98247656'}, {'prefix': '98247658'}, {'prefix': '98247659'}, {'prefix': '98247660'}, {'prefix': '98247661'}, {'prefix': '98247662'}, {'prefix': '98247664'}, {'prefix': '98247665'}, {'prefix': '98247668'}, {'prefix': '98247669'}, {'prefix': '98247673'}, {'prefix': '98247678'}, {'prefix': '98247679'}, {'prefix': '98247680'}, {'prefix': '98247681'}, {'prefix': '98247682'}, {'prefix': '98247683'}, {'prefix': '98247684'}, {'prefix': '98247685'}, {'prefix': '98247687'}, {'prefix': '98247688'}, {'prefix': '98247689'}, {'prefix': '98247690'}, {'prefix': '98247691'}, {'prefix': '98247692'}, {'prefix': '98247693'}, {'prefix': '98247694'}, {'prefix': '98247695'}, {'prefix': '98247696'}, {'prefix': '98247697'}, {'prefix': '98247698'}]
+2022-03-21 13:38:53,183:INFO:searchNumber
+2022-03-21 13:38:53,963:INFO:98882476:6
+2022-03-21 13:38:53,966:INFO:[{'prefix': '98882476'}]
+2022-03-21 13:38:58,539:INFO:blockUnblock
+2022-03-21 13:38:58,539:INFO:block
+2022-03-21 13:38:58,539:INFO:7
+2022-03-21 13:38:58,540:INFO:user_ip: 192.168.16.196
+2022-03-21 13:38:58,563:INFO:Success
+2022-03-21 13:38:58,634:INFO:20000
+2022-03-21 13:38:58,635:INFO:{u'negj': u'7000', u'honog': u'14', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'8', u'price': 20000}
+2022-03-21 13:40:37,120:INFO:blockUnblock
+2022-03-21 13:40:37,120:INFO:unblock
+2022-03-21 13:40:37,120:INFO:7
+2022-03-21 13:40:37,120:INFO:user_ip: 192.168.16.196
+2022-03-21 13:40:37,138:INFO:Success
+2022-03-21 13:40:37,139:INFO:unblock
+2022-03-21 13:40:37,139:INFO:Unblocked
+2022-03-21 13:40:37,510:INFO:prefix
+2022-03-21 13:40:42,627:INFO:ads
+2022-03-21 13:40:42,758:INFO:ads
+2022-03-21 13:41:21,622:INFO:jwt
+2022-03-21 13:41:21,632:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 5, 46, 21, 632546)}
+2022-03-21 13:41:21,633:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NDE1ODF9.rtcOqfpG0xVaVC7odQyczNFZIw6J0eoLzkHX0OcKztg
+2022-03-21 13:41:24,879:INFO:ads
+2022-03-21 13:42:13,313:INFO:jwt
+2022-03-21 13:42:13,323:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 47, 13, 323215)}
+2022-03-21 13:42:13,323:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDE2MzN9.vshoTfKf9Aw-C2ssh422ufnk1HthP8nbrLWT9hDGckY
+2022-03-21 13:42:17,361:INFO:prefix
+2022-03-21 13:42:24,337:INFO:searchNumber
+2022-03-21 13:42:25,417:INFO:98882476:6
+2022-03-21 13:42:25,421:INFO:[{'prefix': '98882476'}]
+2022-03-21 13:42:27,433:INFO:blockUnblock
+2022-03-21 13:42:27,433:INFO:block
+2022-03-21 13:42:27,433:INFO:7
+2022-03-21 13:42:27,433:INFO:user_ip: 192.168.16.196
+2022-03-21 13:42:27,451:INFO:Success
+2022-03-21 13:42:27,456:INFO:20000
+2022-03-21 13:42:27,457:INFO:{u'negj': u'7000', u'honog': u'14', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'8', u'price': 20000}
+2022-03-21 13:43:43,894:INFO:blockUnblock
+2022-03-21 13:43:43,894:INFO:unblock
+2022-03-21 13:43:43,894:INFO:7
+2022-03-21 13:43:43,894:INFO:user_ip: 192.168.16.196
+2022-03-21 13:43:43,911:INFO:Success
+2022-03-21 13:43:43,912:INFO:unblock
+2022-03-21 13:43:43,912:INFO:Unblocked
+2022-03-21 13:43:44,264:INFO:prefix
+2022-03-21 13:43:46,392:INFO:ads
+2022-03-21 13:43:46,479:INFO:ads
+2022-03-21 13:43:48,907:INFO:jwt
+2022-03-21 13:43:48,916:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 48, 48, 916764)}
+2022-03-21 13:43:48,917:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDE3Mjh9.ThmEZhfJ50eIH22Lk8n-GZSXQ1-nhVfR9DuFokwW8j4
+2022-03-21 13:43:58,033:INFO:checkNumber
+2022-03-21 13:43:58,039:INFO:3
+2022-03-21 13:43:58,039:INFO:bankConnection
+2022-03-21 13:43:58,039:INFO:3
+2022-03-21 13:43:58,039:INFO:{'phone_number': u'98100002', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-21 13:43:58,042:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:43:58,214:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-03-21 13:43:58,218:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-03-21 13:43:58,218:INFO:post
+2022-03-21 13:43:58,218:INFO:bankConnection
+2022-03-21 13:43:58,218:INFO:3
+2022-03-21 13:43:58,219:INFO:{'phone_number': u'98100002', 'serviceName': 'Kiosk_3'}
+2022-03-21 13:43:58,221:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:43:58,424:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-03-21 13:43:58,428:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9385}
+2022-03-21 13:44:19,941:INFO:hur
+2022-03-21 13:44:20,055:INFO:
+2022-03-21 13:44:20,055:INFO:
+2022-03-21 13:44:20,059:INFO:huruuniiHee
+2022-03-21 13:44:20,063:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-03-21 13:44:20,608:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1295
+2022-03-21 13:44:20,610:INFO:hariu
+2022-03-21 13:44:20,610:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0416\u042f90102888', u'auth': {u'operator': {u'regnum': u'\u0416\u042f90102888', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0416\u042f90102888', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'f7b8c1b7-8f2f-4b19-b220-cdd1083e6d84', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0431\u043e\u0440\u0436\u0433\u043e\u043d', u'addressDetail': u'44', u'firstname': u'\u043e\u0434\u043e\u043d\u0447\u0438\u043c\u044d\u0433', u'lastname': u'\u0446\u043e\u0433\u0442\u0431\u0430\u0430\u0442\u0430\u0440', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445 5-\u0440 \u0445\u043e\u0440\u043e\u043e, 15 \u0445\u043e\u0440\u043e\u043e\u043b\u043e\u043b   89-\u0440 \u0431\u0430\u0439\u0440 44  \u0442\u043e\u043e\u0442', u'regnum': u'\u0436\u044f90102888', u'soumDistrictName': u'\u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445', u'addressRegionName': u'15 \u0445\u043e\u0440\u043e\u043e\u043b\u043e\u043b', u'soumDistrictCode': u'10', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'59', u'addressApartmentName': u'89', u'bagKhorooName': u'5-\u0440 \u0445\u043e\u0440\u043e\u043e'}}}
+2022-03-21 13:44:22,151:INFO:ads
+2022-03-21 13:44:26,507:INFO:jwt
+2022-03-21 13:44:26,516:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 49, 26, 515956)}
+2022-03-21 13:44:26,516:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDE3NjZ9.jnEEFta90orxRCCeVv6f4jG5VCG90kBi1yeGVdisv-s
+2022-03-21 13:44:30,342:INFO:prefix
+2022-03-21 13:44:35,727:INFO:searchNumber
+2022-03-21 13:44:36,507:INFO:98882476:6
+2022-03-21 13:44:36,511:INFO:[{'prefix': '98882476'}]
+2022-03-21 13:44:40,606:INFO:blockUnblock
+2022-03-21 13:44:40,606:INFO:block
+2022-03-21 13:44:40,607:INFO:7
+2022-03-21 13:44:40,607:INFO:user_ip: 192.168.16.196
+2022-03-21 13:44:40,626:INFO:Success
+2022-03-21 13:44:40,632:INFO:20000
+2022-03-21 13:44:40,632:INFO:{u'negj': u'7000', u'honog': u'14', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'8', u'price': 20000}
+2022-03-21 13:45:22,363:INFO:hur
+2022-03-21 13:45:22,423:INFO:5
+2022-03-21 13:45:22,423:INFO:7
+2022-03-21 13:45:22,427:INFO:huruuniiHee
+2022-03-21 13:45:22,431:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-03-21 13:45:22,650:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 401
+2022-03-21 13:45:22,652:INFO:hariu
+2022-03-21 13:45:22,653:INFO:{u'return': {u'resultCode': u'302', u'request': {u'regnum': u'\u0423\u041f94120468', u'auth': {u'operator': {u'regnum': u'\u0423\u041f94120468', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041f94120468', u'signature': u'', u'fingerprint': u''}}}, u'resultMessage': u'[citizen] \u0445\u0443\u0440\u0443\u0443 \u0445\u044d\u044d \u0442\u0430\u0430\u0440\u0430\u0445\u0433\u04af\u0439 \u0431\u0430\u0439\u043d\u0430'}}
+2022-03-21 13:45:22,653:ERROR:Хуруу хээ таарахгүй байна. Line-465
+2022-03-21 13:45:42,262:INFO:hur
+2022-03-21 13:45:42,397:INFO:5
+2022-03-21 13:45:42,398:INFO:7
+2022-03-21 13:45:42,401:INFO:huruuniiHee
+2022-03-21 13:45:42,405:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-03-21 13:45:42,825:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1134
+2022-03-21 13:45:42,827:INFO:hariu
+2022-03-21 13:45:42,827:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041f94120468', u'auth': {u'operator': {u'regnum': u'\u0423\u041f94120468', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041f94120468', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'4c84338e-53d7-405d-b35d-6f6ac398c9df', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0438\u043b\u0436\u0438\u0433\u0438\u043d', u'addressDetail': u'50', u'firstname': u'\u0445\u043e\u043d\u0433\u043e\u0440\u0437\u0443\u043b', u'lastname': u'\u043c\u04e9\u043d\u0445\u0431\u0430\u044f\u0440', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u041d\u0430\u043b\u0430\u0439\u0445 2-\u0440 \u0445\u043e\u0440\u043e\u043e,    37-\u0440 \u0431\u0430\u0439\u0440 50  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043f94120468', u'soumDistrictName': u'\u041d\u0430\u043b\u0430\u0439\u0445', u'soumDistrictCode': u'13', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'53', u'addressApartmentName': u'37', u'bagKhorooName': u'2-\u0440 \u0445\u043e\u0440\u043e\u043e'}}}
+2022-03-21 13:45:42,833:INFO:0
+2022-03-21 13:45:42,833:INFO:0
+2022-03-21 13:47:01,132:INFO:ads
+2022-03-21 13:47:01,277:INFO:ads
+2022-03-21 13:47:07,639:INFO:jwt
+2022-03-21 13:47:07,650:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 52, 7, 650340)}
+2022-03-21 13:47:07,650:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDE5Mjd9.huycFkaG594r8K3LaXSfTkCwSZ0wf7VLtQlNjiVn95I
+2022-03-21 13:47:10,748:INFO:prefix
+2022-03-21 13:47:16,224:INFO:searchNumber
+2022-03-21 13:47:17,000:INFO:-1
+2022-03-21 13:47:17,001:INFO:[]
+2022-03-21 13:47:27,991:INFO:ads
+2022-03-21 13:47:28,333:INFO:ads
+2022-03-21 13:48:23,847:INFO:jwt
+2022-03-21 13:48:23,856:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 53, 23, 855994)}
+2022-03-21 13:48:23,856:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDIwMDN9.6rpR4xZIqMeiuFAfNrIsn8Vl5OZKpGlzbbipPhkK3Is
+2022-03-21 13:48:33,770:INFO:prefix
+2022-03-21 13:49:02,254:INFO:searchNumber
+2022-03-21 13:49:03,708:INFO:98882476:6
+2022-03-21 13:49:03,712:INFO:[{'prefix': '98882476'}]
+2022-03-21 13:49:07,365:INFO:blockUnblock
+2022-03-21 13:49:07,365:INFO:block
+2022-03-21 13:49:07,365:INFO:1
+2022-03-21 13:49:07,366:INFO:user_ip: 192.168.16.196
+2022-03-21 13:49:07,390:INFO:Success
+2022-03-21 13:49:07,395:INFO:5000
+2022-03-21 13:49:07,395:INFO:{u'negj': u'3000', u'honog': u'30', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'0', u'price': 5000}
+2022-03-21 13:50:08,376:INFO:hur
+2022-03-21 13:50:08,522:INFO:2
+2022-03-21 13:50:08,522:INFO:1
+2022-03-21 13:50:08,526:INFO:huruuniiHee
+2022-03-21 13:50:08,530:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-03-21 13:50:09,035:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1134
+2022-03-21 13:50:09,037:INFO:hariu
+2022-03-21 13:50:09,037:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041f94120468', u'auth': {u'operator': {u'regnum': u'\u0423\u041f94120468', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041f94120468', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'a2dc6314-677b-42eb-aa25-76842d3724cb', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0438\u043b\u0436\u0438\u0433\u0438\u043d', u'addressDetail': u'50', u'firstname': u'\u0445\u043e\u043d\u0433\u043e\u0440\u0437\u0443\u043b', u'lastname': u'\u043c\u04e9\u043d\u0445\u0431\u0430\u044f\u0440', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u041d\u0430\u043b\u0430\u0439\u0445 2-\u0440 \u0445\u043e\u0440\u043e\u043e,    37-\u0440 \u0431\u0430\u0439\u0440 50  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043f94120468', u'soumDistrictName': u'\u041d\u0430\u043b\u0430\u0439\u0445', u'soumDistrictCode': u'13', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'53', u'addressApartmentName': u'37', u'bagKhorooName': u'2-\u0440 \u0445\u043e\u0440\u043e\u043e'}}}
+2022-03-21 13:50:09,042:INFO:0
+2022-03-21 13:50:09,043:INFO:0
+2022-03-21 13:50:47,175:WARNING:Not Found: /api/kartInfo
+2022-03-21 13:50:48,326:INFO:createNumber
+2022-03-21 13:50:48,327:INFO:1
+2022-03-21 13:50:48,337:INFO:Serial=89976060899010546676
+2022-03-21 13:50:48,362:INFO:Total sim=43
+2022-03-21 13:50:48,379:INFO:Success
+2022-03-21 13:50:48,380:INFO:Success
+2022-03-21 13:50:48,389:INFO:{'Zone': '', 'Invoice_Type': '\xd3\xa8\xd3\xa9\xd1\x80\xd1\x82 \xd0\xbd\xd1\x8c \xd3\xa9\xd0\xb3\xd3\xa9\xd1\x85', 'JobName': '', 'KioskID': u'2218', 'Email': 'mail', 'Profile': [{'City': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', 'Gender': u'\u042d\u043c', 'Birthday': u'1994/12/04', 'Address': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u041d\u0430\u043b\u0430\u0439\u0445 2-\u0440 \u0445\u043e\u0440\u043e\u043e,    37-\u0440 \u0431\u0430\u0439\u0440 50  \u0442\u043e\u043e\u0442', 'Soum': u'\u041d\u0430\u043b\u0430\u0439\u0445', 'Cert_Number': u'\u0423\u041f94120468', 'Cert_type': '\xd0\xa0\xd0\xb5\xd0\xb3\xd0\xb8\xd1\x81\xd1\x82\xd0\xb5\xd1\x80', 'Customer_Name': u'\u043c\u04e9\u043d\u0445\u0431\u0430\u044f\u0440 \u0445\u043e\u043d\u0433\u043e\u0440\u0437\u0443\u043b'}], 'Parameters': '', 'Price': u'5000', 'Sales_User': 'Kiosk', 'Sales_Name': u'\u041a\u0438\u043e\u0441\u043a3', 'OfficePhone': 'phone_num', 'KioskLocationID': u'34', 'Package': u'D70', 'Sales_Branch': u'3-\u0440 \u0441\u0430\u043b\u0431\u0430\u0440', 'PhoneNumber': u'98882476', 'Action': 'NewConnection', 'CustomerType': '%\xd0\xa5\xd1\x83\xd0\xb2\xd1\x8c \xd1\x85\xd2\xaf\xd0\xbd', 'Enjoy_Invite': '', 'Sector': '', 'Credit_Limit': '0', 'JobTitle': '', 'Pre_to_Post': '', 'ProdType': '3', 'Customer_Type': 'Individual', 'ParentID': '', 'ICCID': u'89976060899010546676', 'RUIMType': u'724', 'HomePhone': 'home_phone'}
+2022-03-21 13:50:48,412:DEBUG:Starting new HTTP connection (1): 192.168.18.232:80
+2022-03-21 13:50:52,699:DEBUG:http://192.168.18.232:80 "POST /SalesOnlineShiwelt/GAgentPrepaid.asmx/GAgentPrePaidServiceMothod HTTP/1.1" 200 106
+2022-03-21 13:50:52,701:INFO:{
+  "_status": "Successful",
+  "Message": "Prepaid шивэлт амжилттай хийгдлээ."
+}
+2022-03-21 13:50:52,701:INFO:Dugaar uusgelt: Success
+2022-03-21 13:50:58,202:INFO:ebarimt
+2022-03-21 13:50:58,203:INFO:
+2022-03-21 13:50:58,203:INFO:1
+2022-03-21 13:50:58,272:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'WI 45602113', u'billId': u'000005055873003220321338639049922', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'5000.00', u'vat': u'454.55', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD52F33375383634E515A44AFF19638E33DD556', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-03-21 13:52:02', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0443\u0433\u0430\u0430\u0440\u044b\u043d \u04af\u043d\u044d', u'name': u'\u0414\u0443\u0433\u0430\u0430\u0440\u044b\u043d \u04af\u043d\u044d', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'5000.00', u'qty': u'1.00', u'unitPrice': u'5000.00', u'vat': u'454.55'}], u'billType': u'1', u'success': True, u'amount': u'5000.00', u'branchNo': u'', u'qrData': u'8879912851556154553968007236783115818563145975573995909745160026460906041039733591039268253380266656580480098877018863595923268608919813189226579742891327531858243607660856593555473489149137112696296042523098377545850340829085652052567851718397277913677382995787830945765900603081700145366449405871822231370116658961'}
+2022-03-21 13:50:58,272:INFO:ADDLOTTERY
+2022-03-21 13:50:58,740:INFO:static/ebarimt/kiosk3/bill.bmp
+2022-03-21 13:51:10,988:INFO:ads
+2022-03-21 13:51:11,170:INFO:ads
+2022-03-21 13:51:14,539:INFO:jwt
+2022-03-21 13:51:14,548:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 5, 56, 14, 548478)}
+2022-03-21 13:51:14,548:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDIxNzR9.gIRLj8dKiMa4CQFhlHlJXQLXYViQr3SwOR7wtNTvqA0
+2022-03-21 13:51:20,831:INFO:checkNumber
+2022-03-21 13:51:20,837:INFO:3
+2022-03-21 13:51:20,837:INFO:bankConnection
+2022-03-21 13:51:20,837:INFO:3
+2022-03-21 13:51:20,838:INFO:{'phone_number': u'98882476', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-21 13:51:20,841:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:51:21,004:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-03-21 13:51:21,010:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-03-21 13:51:21,050:INFO:datas hyazgaargui
+2022-03-21 13:51:21,050:INFO:[{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}]
+2022-03-21 13:51:21,089:INFO:datas hyazgaartai
+2022-03-21 13:51:21,089:INFO:[{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/data/undsen bagts/100MB.png', u'price': 1000, u'profile_id': u'DAT-100'}, {u'url': u'static/data/undsen bagts/500MB.png', u'price': 4000, u'profile_id': u'DAT-500'}, {u'url': u'static/data/undsen bagts/1GB.png', u'price': 7000, u'profile_id': u'DAT-7000'}, {u'url': u'static/data/undsen bagts/3GB.png', u'price': 12000, u'profile_id': u'DAT-3000'}, {u'url': u'static/data/undsen bagts/8GB.png', u'price': 20000, u'profile_id': u'DAT-8000'}, {u'url': u'static/data/undsen bagts/20GB.png', u'price': 30000, u'profile_id': u'DAT60-20000'}, {u'url': u'static/data/undsen bagts/240GB.png', u'price': 240000, u'profile_id': u'DAT-120000'}]}]
+2022-03-21 13:51:21,089:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/data/undsen bagts/100MB.png', u'price': 1000, u'profile_id': u'DAT-100'}, {u'url': u'static/data/undsen bagts/500MB.png', u'price': 4000, u'profile_id': u'DAT-500'}, {u'url': u'static/data/undsen bagts/1GB.png', u'price': 7000, u'profile_id': u'DAT-7000'}, {u'url': u'static/data/undsen bagts/3GB.png', u'price': 12000, u'profile_id': u'DAT-3000'}, {u'url': u'static/data/undsen bagts/8GB.png', u'price': 20000, u'profile_id': u'DAT-8000'}, {u'url': u'static/data/undsen bagts/20GB.png', u'price': 30000, u'profile_id': u'DAT60-20000'}, {u'url': u'static/data/undsen bagts/240GB.png', u'price': 240000, u'profile_id': u'DAT-120000'}]}]}
+2022-03-21 13:51:21,284:INFO:checkNumber
+2022-03-21 13:51:21,289:INFO:3
+2022-03-21 13:51:21,290:INFO:bankConnection
+2022-03-21 13:51:21,290:INFO:3
+2022-03-21 13:51:21,290:INFO:{'phone_number': u'98882476', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-21 13:51:21,293:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:51:21,435:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-03-21 13:51:21,440:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-03-21 13:51:21,480:INFO:datas hyazgaargui
+2022-03-21 13:51:21,480:INFO:[{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}]
+2022-03-21 13:51:21,518:INFO:datas hyazgaartai
+2022-03-21 13:51:21,518:INFO:[{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/data/undsen bagts/100MB.png', u'price': 1000, u'profile_id': u'DAT-100'}, {u'url': u'static/data/undsen bagts/500MB.png', u'price': 4000, u'profile_id': u'DAT-500'}, {u'url': u'static/data/undsen bagts/1GB.png', u'price': 7000, u'profile_id': u'DAT-7000'}, {u'url': u'static/data/undsen bagts/3GB.png', u'price': 12000, u'profile_id': u'DAT-3000'}, {u'url': u'static/data/undsen bagts/8GB.png', u'price': 20000, u'profile_id': u'DAT-8000'}, {u'url': u'static/data/undsen bagts/20GB.png', u'price': 30000, u'profile_id': u'DAT60-20000'}, {u'url': u'static/data/undsen bagts/240GB.png', u'price': 240000, u'profile_id': u'DAT-120000'}]}]
+2022-03-21 13:51:21,518:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/data/undsen bagts/100MB.png', u'price': 1000, u'profile_id': u'DAT-100'}, {u'url': u'static/data/undsen bagts/500MB.png', u'price': 4000, u'profile_id': u'DAT-500'}, {u'url': u'static/data/undsen bagts/1GB.png', u'price': 7000, u'profile_id': u'DAT-7000'}, {u'url': u'static/data/undsen bagts/3GB.png', u'price': 12000, u'profile_id': u'DAT-3000'}, {u'url': u'static/data/undsen bagts/8GB.png', u'price': 20000, u'profile_id': u'DAT-8000'}, {u'url': u'static/data/undsen bagts/20GB.png', u'price': 30000, u'profile_id': u'DAT60-20000'}, {u'url': u'static/data/undsen bagts/240GB.png', u'price': 240000, u'profile_id': u'DAT-120000'}]}]}
+2022-03-21 13:51:42,402:INFO:order
+2022-03-21 13:51:42,402:INFO:UNDAT-7000
+2022-03-21 13:51:42,420:INFO:dat
+2022-03-21 13:51:42,420:INFO:{u'order_id': 12908L, u'q_pay': {}}
+2022-03-21 13:52:07,905:INFO:charge
+2022-03-21 13:52:07,906:INFO:7000
+2022-03-21 13:52:07,906:INFO:12908
+2022-03-21 13:52:07,920:INFO:Хүлээж авсан мөнгө: 7000=7000
+2022-03-21 13:52:07,935:INFO:Нийт бэлэн мөнгө=12000
+2022-03-21 13:52:07,935:INFO:bankConnection
+2022-03-21 13:52:07,935:INFO:3
+2022-03-21 13:52:07,936:INFO:{'phone_number': u'98882476', 'amount': '7000', 'serviceName': 'Kiosk_3', 'trans_id': u'12908', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'UNDAT-7000'}
+2022-03-21 13:52:07,939:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:52:08,091:WARNING:Not Found: /api/kartInfo
+2022-03-21 13:52:09,282:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPrePaidCharge/response HTTP/1.1" 200 108
+2022-03-21 13:52:09,287:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-03-21 13:52:11,328:INFO:ebarimt
+2022-03-21 13:52:11,328:INFO:
+2022-03-21 13:52:11,328:INFO:1
+2022-03-21 13:52:11,371:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'WI 45602341', u'billId': u'000005055873003220321338639049995', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'7000.00', u'vat': u'636.36', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD52F33375383634E535F46AFF39638E3827164', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-03-21 13:53:15', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0416\u0438-\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442 - \u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 + 7 \u0425\u043e\u043d\u043e\u0433', u'name': u'\u0416\u0438-\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442 - \u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 + 7 \u0425\u043e\u043d\u043e\u0433', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'7000.00', u'qty': u'1.00', u'unitPrice': u'7000.00', u'vat': u'636.36'}], u'billType': u'1', u'success': True, u'amount': u'7000.00', u'branchNo': u'', u'qrData': u'5694264401648475817328858956256592615231913524144153856698220026461893264519439113881426074627821800693413668386392657821687178576362664394949762233899785550098725378892575219365974601235291409786760000815064383778342554200245618997978701411436111457900966902134107079696135023743015748075583897891811768240071468372'}
+2022-03-21 13:52:11,371:INFO:ADDLOTTERY
+2022-03-21 13:52:11,522:INFO:static/ebarimt/kiosk3/bill.bmp
+2022-03-21 13:52:20,548:INFO:ads
+2022-03-21 13:52:20,683:INFO:ads
+2022-03-21 13:59:20,686:INFO:charge
+2022-03-21 13:59:20,687:INFO:6000
+2022-03-21 13:59:20,687:INFO:12907
+2022-03-21 13:59:20,699:INFO:Хүлээж авсан мөнгө: 6000=6000
+2022-03-21 13:59:20,713:INFO:Нийт бэлэн мөнгө=18000
+2022-03-21 13:59:20,713:INFO:bankConnection
+2022-03-21 13:59:20,713:INFO:3
+2022-03-21 13:59:20,714:INFO:{'phone_number': u'93380808', 'amount': '6000', 'serviceName': 'Kiosk_3', 'trans_id': u'12907', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'H-6000'}
+2022-03-21 13:59:20,717:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-21 13:59:22,603:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPrePaidCharge/response HTTP/1.1" 200 108
+2022-03-21 13:59:22,608:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-03-21 14:04:36,093:INFO:ebarimt
+2022-03-21 14:04:36,093:INFO:
+2022-03-21 14:04:36,094:INFO:1
+2022-03-21 14:04:36,148:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'WI 45601358', u'billId': u'000005055873003220321338639050740', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'6000.00', u'vat': u'545.45', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD52F33375383634D94BCBBA22B6C2C2C69AA9D', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-03-21 14:05:40', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'50/50 \u04af\u0439\u043b\u0447\u0438\u043b\u0433\u044d\u044d\u043d\u0438\u0439 60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u043a\u0430\u0440\u0442', u'name': u'50/50 \u04af\u0439\u043b\u0447\u0438\u043b\u0433\u044d\u044d\u043d\u0438\u0439 60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u043a\u0430\u0440\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'6000.00', u'qty': u'1.00', u'unitPrice': u'6000.00', u'vat': u'545.45'}], u'billType': u'1', u'success': True, u'amount': u'6000.00', u'branchNo': u'', u'qrData': u'8650976249413232850417461844690379693625852208681860336334470026461329638469393713175285906359634872881323356357519808257816424870388466132221222028305749005799336853165841841362733102644841984522778753815101963356798938258311985763604193610864586847073463731962010068371648524355793931389937965545693104713835367813'}
+2022-03-21 14:04:36,148:INFO:ADDLOTTERY
+2022-03-21 14:04:36,302:INFO:static/ebarimt/kiosk3/bill.bmp
+2022-03-21 14:18:50,718:INFO:jwt
+2022-03-21 14:18:50,728:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 6, 23, 50, 728470)}
+2022-03-21 14:18:50,728:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NDM4MzB9.FBINdvd_8YeUpKeITYBlaZEEp-RJ-Owb7tj4RiKUrqk
+2022-03-21 14:19:25,193:INFO:ads
+2022-03-21 14:41:24,827:INFO:jwt
+2022-03-21 14:41:24,838:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 6, 46, 24, 838569)}
+2022-03-21 14:41:24,839:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NDUxODR9.A6NtM-cPzxMJM6Xs-npuQAeeYRplhw61bgmlVu-DK6U
+2022-03-21 14:41:28,065:INFO:ads
+2022-03-21 15:41:28,055:INFO:jwt
+2022-03-21 15:41:28,064:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 7, 46, 28, 64683)}
+2022-03-21 15:41:28,065:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NDg3ODh9.5UorUz_IlHpKfIoGtkdFn4_VEyvlEpPU7xrLGnkXmzI
+2022-03-21 15:41:31,292:INFO:ads
+2022-03-21 16:11:38,628:INFO:jwt
+2022-03-21 16:11:38,640:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 8, 16, 38, 640448)}
+2022-03-21 16:11:38,641:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NTA1OTh9.JkGSvWiLn7Q3p8OKlXTE6IiMaMfW-PFLv2AqhLYcpxw
+2022-03-21 16:11:46,350:INFO:ads
+2022-03-21 16:11:47,036:INFO:jwt
+2022-03-21 16:11:47,045:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 21, 8, 16, 47, 45859)}
+2022-03-21 16:11:47,046:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc4NTA2MDd9.L-SxKhXAb8dB6Y3Iz-FULvmZNRrp__bk7JjdP-_dL6U
+2022-03-21 16:11:49,991:INFO:ads
+2022-03-21 16:41:31,199:INFO:jwt
+2022-03-21 16:41:31,209:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 8, 46, 31, 209318)}
+2022-03-21 16:41:31,209:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NTIzOTF9.UI1P8fU63B7pfOm_RuCRoHZmSsSkGKIGNkpVJCZPQRc
+2022-03-21 16:41:34,540:INFO:ads
+2022-03-21 17:41:35,353:INFO:jwt
+2022-03-21 17:41:35,362:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 9, 46, 35, 362486)}
+2022-03-21 17:41:35,362:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NTU5OTV9.pD88qP6XfgAqM69hFIFc2Ugaftv76KIsaXPDHbYf8zE
+2022-03-21 17:41:38,701:INFO:ads
+2022-03-21 18:41:38,721:INFO:jwt
+2022-03-21 18:41:38,732:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 10, 46, 38, 732426)}
+2022-03-21 18:41:38,733:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NTk1OTh9.cavYSR-hXsC3WrELjNgCSw28LQgISjFHVxqs9mF81Tc
+2022-03-21 18:41:41,951:INFO:ads
+2022-03-21 19:41:42,139:INFO:jwt
+2022-03-21 19:41:42,150:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 11, 46, 42, 150597)}
+2022-03-21 19:41:42,151:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NjMyMDJ9.h4MC0KXQgbiiZ_yuAyWZA0oQBynUdyQwdVIf-IvHFA0
+2022-03-21 19:41:45,443:INFO:ads
+2022-03-21 20:41:45,862:INFO:jwt
+2022-03-21 20:41:45,872:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 12, 46, 45, 872618)}
+2022-03-21 20:41:45,873:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NjY4MDV9.CDEOu40nEwt2fvJNABDdb2VRnZaReI6iD_2DuWD0J-4
+2022-03-21 20:41:49,092:INFO:ads
+2022-03-21 21:41:49,329:INFO:jwt
+2022-03-21 21:41:49,341:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 13, 46, 49, 341059)}
+2022-03-21 21:41:49,341:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NzA0MDl9.dmjQR6-9RDn7SrbmSCNy4X_7IAL3Ait8pcOrhX4b5aE
+2022-03-21 21:41:52,603:INFO:ads
+2022-03-21 22:41:52,674:INFO:jwt
+2022-03-21 22:41:52,684:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 14, 46, 52, 684232)}
+2022-03-21 22:41:52,684:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4NzQwMTJ9.q5fh1G-Q1OjUKT8lMPunRlXhIhznqqrKCjgcoozl9wQ
+2022-03-21 22:41:55,902:INFO:ads
+2022-03-21 23:41:55,804:INFO:jwt
+2022-03-21 23:41:55,813:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 15, 46, 55, 812989)}
+2022-03-21 23:41:55,813:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4Nzc2MTV9.5x6j0sYdkv7Ca7TaZwzRe4NnwF3eF5O6LLhTu4v-tsA
+2022-03-21 23:41:59,025:INFO:ads
+2022-03-22 00:41:59,215:INFO:jwt
+2022-03-22 00:41:59,225:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 16, 46, 59, 225428)}
+2022-03-22 00:41:59,226:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4ODEyMTl9.dFHtZGnrkV7OlYmWl7WttrKgK9dw-EpZIErsiPjbtls
+2022-03-22 00:42:02,485:INFO:ads
+2022-03-22 01:42:02,493:INFO:jwt
+2022-03-22 01:42:02,502:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 17, 47, 2, 502459)}
+2022-03-22 01:42:02,502:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4ODQ4MjJ9.qM_wpg2LiKrn40fHt0tGXxFyESrw9ipEOZND0GzX81s
+2022-03-22 01:42:05,761:INFO:ads
+2022-03-22 02:42:05,817:INFO:jwt
+2022-03-22 02:42:05,826:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 18, 47, 5, 826889)}
+2022-03-22 02:42:05,827:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4ODg0MjV9.O_VXWlU6V4qv505-8AaNNTBPmmOsKzg8H0wNIFeGzR0
+2022-03-22 02:42:09,046:INFO:ads
+2022-03-22 03:42:09,287:INFO:jwt
+2022-03-22 03:42:09,297:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 19, 47, 9, 297137)}
+2022-03-22 03:42:09,297:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4OTIwMjl9.dLezOMz8XaSy_eUJIA5ZpVGVY69bTzOH7dqJmECtPvI
+2022-03-22 03:42:12,617:INFO:ads
+2022-03-22 04:42:12,669:INFO:jwt
+2022-03-22 04:42:12,679:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 20, 47, 12, 679389)}
+2022-03-22 04:42:12,679:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4OTU2MzJ9.LvfaUDVkfiOiH5WwJgshk58kQYLSpwJ3uNZfuaVbeIc
+2022-03-22 04:42:15,932:INFO:ads
+2022-03-22 05:42:16,497:INFO:jwt
+2022-03-22 05:42:16,508:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 21, 47, 16, 508669)}
+2022-03-22 05:42:16,509:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc4OTkyMzZ9.zdKb1S3z481wUd4SHyFaW3ie2sd3thENq4dC7u19m1I
+2022-03-22 05:42:19,746:INFO:ads
+2022-03-22 06:42:20,147:INFO:jwt
+2022-03-22 06:42:20,157:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 22, 47, 20, 157718)}
+2022-03-22 06:42:20,158:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc5MDI4NDB9.bQyf8VF33MWu3kSwLoowq7PXrkJQKazPt2BickcT7x8
+2022-03-22 06:42:23,471:INFO:ads
+2022-03-22 07:42:23,436:INFO:jwt
+2022-03-22 07:42:23,445:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 21, 23, 47, 23, 445242)}
+2022-03-22 07:42:23,445:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc5MDY0NDN9.UQmqaLOZl0OLPao1PcZZr_Bpg_7axHnwwBjJBa-gbf4
+2022-03-22 07:42:26,820:INFO:ads
+2022-03-22 08:35:53,039:INFO:ads
+2022-03-22 08:42:27,010:INFO:jwt
+2022-03-22 08:42:27,020:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 22, 0, 47, 27, 20442)}
+2022-03-22 08:42:27,020:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc5MTAwNDd9.sU8I1Qrw9IRwao2xzTew18h7ZstuwQmEaD7Ijz98Bi0
+2022-03-22 08:42:30,301:INFO:ads
+2022-03-22 09:42:30,468:INFO:jwt
+2022-03-22 09:42:30,478:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 3, 22, 1, 47, 30, 478188)}
+2022-03-22 09:42:30,478:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NDc5MTM2NTB9.ONugeocSVnMvHZyo9M9rvydk-OBI4ZFWKOq13Wxpy1M
+2022-03-22 09:42:33,784:INFO:ads
+2022-03-22 10:01:08,495:WARNING:Not Found: /api/kartInfo
+2022-03-22 10:07:02,457:INFO:jwt
+2022-03-22 10:07:02,467:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 3, 22, 2, 12, 2, 467901)}
+2022-03-22 10:07:02,468:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDc5MTUxMjJ9.ZoSbUZJ-Byi9TuUZ5SLYElhzgPDGihhZ23_VpQImYuw
+2022-03-22 10:07:12,450:INFO:checkNumber
+2022-03-22 10:07:12,457:INFO:3
+2022-03-22 10:07:12,457:INFO:bankConnection
+2022-03-22 10:07:12,457:INFO:3
+2022-03-22 10:07:12,458:INFO:{'phone_number': u'98090211', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-03-22 10:07:12,461:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-22 10:07:12,640:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-03-22 10:07:12,644:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-03-22 10:07:12,762:INFO:bankConnection
+2022-03-22 10:07:12,762:INFO:3
+2022-03-22 10:07:12,763:INFO:{'phone_number': u'98090211', 'serviceName': 'Kiosk_3'}
+2022-03-22 10:07:12,765:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-03-22 10:07:12,981:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128

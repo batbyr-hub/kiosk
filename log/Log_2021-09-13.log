@@ -1,0 +1,563 @@
+g2021-09-13 10:44:48,311:ERROR:Internal Server Error: /api/jwt
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/renderers.py", line 732, in render
+    template = loader.get_template(self.template)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: rest_framework/api.html
+2021-09-13 10:44:49,687:ERROR:Internal Server Error: /api/jwt
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/renderers.py", line 732, in render
+    template = loader.get_template(self.template)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: rest_framework/api.html
+2021-09-13 10:47:28,454:INFO:checkNumber
+2021-09-13 11:07:15,836:ERROR:Internal Server Error: /api/checkNumber
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/renderers.py", line 732, in render
+    template = loader.get_template(self.template)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: rest_framework/api.html
+2021-09-13 11:08:44,984:INFO:jwt
+2021-09-13 11:08:44,998:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 3, 13, 44, 998924)}
+2021-09-13 11:08:44,999:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MDI4MjR9.4eJpc9Z_m0AawMedKGFfQ5avhBSmGCquxRFDbx7nGtQ
+2021-09-13 11:24:02,775:ERROR:Internal Server Error: /api/jwt
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/renderers.py", line 732, in render
+    template = loader.get_template(self.template)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: rest_framework/api.html
+2021-09-13 11:24:11,669:INFO:jwt
+2021-09-13 11:24:11,675:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 3, 29, 11, 675655)}
+2021-09-13 11:24:11,676:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MDM3NTF9.BJJTp8Gqxu3n91buQldUGHQrGQYz9FtF9Vwim40ABKY
+2021-09-13 11:24:27,064:INFO:jwt
+2021-09-13 11:24:27,071:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 3, 29, 27, 71005)}
+2021-09-13 11:24:27,071:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MDM3Njd9.WZh1c0gR5RHY18HJrum1qyiJ9ZaPbV-_VbLPnZoV6KM
+2021-09-13 11:24:50,733:INFO:jwt
+2021-09-13 11:24:50,739:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 3, 29, 50, 739813)}
+2021-09-13 11:24:50,740:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MDM3OTB9.72Jp4GdOXgbXyyOnIagqCQ8vkJeNjKxZn4G7PU9SdW8
+2021-09-13 13:08:59,923:INFO:jwt
+2021-09-13 13:08:59,936:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1L, 'exp': datetime.datetime(2021, 9, 13, 5, 13, 59, 936440)}
+2021-09-13 13:08:59,936:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTAwMzl9.Mi6Rd-1NqkU8QGpWJZXZpdCE4rR3i9RIJGnX0YRNzow
+2021-09-13 13:20:32,647:INFO:checkNumber
+2021-09-13 13:20:32,656:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:20:32,871:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 13:26:48,108:INFO:checkNumber
+2021-09-13 13:26:48,118:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:26:48,313:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 13:26:48,316:INFO:post
+2021-09-13 13:26:48,318:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:26:48,547:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 13:26:48,550:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 13:27:15,114:INFO:checkNumber
+2021-09-13 13:27:15,120:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:27:15,341:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 13:27:15,344:INFO:post
+2021-09-13 13:27:15,345:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:27:15,588:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 13:27:15,591:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 13:28:55,824:ERROR:Internal Server Error: /api/checkNumber
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 173, in checkNumber
+    register = checkRegister(number)
+  File "/home/user/kiosk/controller/services.py", line 16, in checkRegister
+    clientSocket.connect((serverName, serverPort))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2021-09-13 13:29:22,831:ERROR:Internal Server Error: /api/checkNumber
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 173, in checkNumber
+    register = checkRegister(number)
+  File "/home/user/kiosk/controller/services.py", line 16, in checkRegister
+    clientSocket.connect((serverName, serverPort))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2021-09-13 13:29:40,570:INFO:checkNumber
+2021-09-13 13:29:40,576:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:29:40,780:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 13:29:40,783:INFO:post
+2021-09-13 13:29:40,784:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:29:41,017:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 13:29:41,019:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 13:31:48,240:ERROR:Internal Server Error: /api/checkNumber
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 173, in checkNumber
+    register = checkRegister(number)
+  File "/home/user/kiosk/controller/services.py", line 16, in checkRegister
+    clientSocket.connect((serverName, serverPort))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2021-09-13 13:32:07,397:INFO:jwt
+2021-09-13 13:32:07,406:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 5, 37, 7, 405959)}
+2021-09-13 13:32:07,406:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTE0Mjd9.uLyHfQEbA1TdgI4R-nNCwhZhQPbVgz-PfUvNGS85Ofw
+2021-09-13 13:32:17,794:INFO:checkNumber
+2021-09-13 13:32:17,798:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:32:17,992:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 13:32:17,995:INFO:post
+2021-09-13 13:32:17,997:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:32:18,223:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 13:32:18,225:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 13:34:25,552:ERROR:Internal Server Error: /api/checkNumber
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 173, in checkNumber
+    register = checkRegister(number)
+  File "/home/user/kiosk/controller/services.py", line 16, in checkRegister
+    clientSocket.connect((serverName, serverPort))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2021-09-13 13:56:02,938:INFO:jwt
+2021-09-13 13:56:02,943:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 6, 1, 2, 943873)}
+2021-09-13 13:56:02,944:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTI4NjJ9.PawGpp0smk230uCHTpwEcJJu_NSojg2JgYKjchaYZ6g
+2021-09-13 13:56:12,806:INFO:checkNumber
+2021-09-13 13:56:12,811:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:56:13,032:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 13:56:13,035:INFO:post
+2021-09-13 13:56:13,037:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 13:56:13,551:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 13:56:13,553:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 13:58:20,816:ERROR:Internal Server Error: /api/checkNumber
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 173, in checkNumber
+    register = checkRegister(number)
+  File "/home/user/kiosk/controller/services.py", line 16, in checkRegister
+    clientSocket.connect((serverName, serverPort))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 110] Connection timed out
+2021-09-13 14:04:29,009:INFO:checkNumber
+2021-09-13 14:04:29,013:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:04:29,217:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 14:04:29,219:INFO:post
+2021-09-13 14:04:29,221:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:04:29,507:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 14:04:29,510:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 14:05:55,841:INFO:jwt
+2021-09-13 14:05:55,846:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 6, 10, 55, 846671)}
+2021-09-13 14:05:55,846:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTM0NTV9.s2ACsPYLjkogRzS2rqkl714tNxFCtc1sTgq3eSrp4X8
+2021-09-13 14:07:00,985:INFO:checkNumber
+2021-09-13 14:07:00,990:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:07:01,246:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 14:07:01,249:INFO:post
+2021-09-13 14:07:01,251:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:07:01,517:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 14:07:01,520:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 14:17:34,458:INFO:jwt
+2021-09-13 14:17:34,465:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 6, 22, 34, 465045)}
+2021-09-13 14:17:34,465:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTQxNTR9.9ykqrETJu1ul8TQVvAGCibXtRHt929qaV4JKc53HKQo
+2021-09-13 14:18:50,081:INFO:jwt
+2021-09-13 14:18:50,086:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 6, 23, 50, 86828)}
+2021-09-13 14:18:50,087:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTQyMzB9.R6fWtUrqmhYk9SllNWpj7cp0tLAWhmkOMYICJKDkE3c
+2021-09-13 14:30:34,945:INFO:jwt
+2021-09-13 14:30:34,951:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 6, 35, 34, 951362)}
+2021-09-13 14:30:34,951:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTQ5MzR9.mfsH1cVfN6n5d15-xBFde19xiis3IATMaUyaqDgvBLg
+2021-09-13 14:38:38,101:INFO:checkNumber
+2021-09-13 14:38:38,110:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:38:38,304:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 14:38:38,307:INFO:post
+2021-09-13 14:38:38,309:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:38:38,574:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 14:38:38,577:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 14:46:47,803:INFO:jwt
+2021-09-13 14:46:47,814:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 6, 51, 47, 814077)}
+2021-09-13 14:46:47,814:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTU5MDd9.12Zvr8pxPngtDhbeOqJcPF2GJfDcpCKwq3FCQIrBxN4
+2021-09-13 14:47:01,032:INFO:jwt
+2021-09-13 14:47:01,039:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 6, 52, 1, 39273)}
+2021-09-13 14:47:01,039:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTU5MjF9.AnW0Kb0L6xxo8WKM-KBxOUXO5036QxM7Ts7e_6tmV2o
+2021-09-13 14:53:05,847:INFO:checkNumber
+2021-09-13 14:53:05,858:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:53:06,056:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 14:53:06,059:INFO:post
+2021-09-13 14:53:06,061:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:53:06,291:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 14:53:06,294:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 14:53:33,643:INFO:checkNumber
+2021-09-13 14:53:33,651:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:53:33,858:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 14:53:33,861:INFO:post
+2021-09-13 14:53:33,862:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 14:53:34,092:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 14:53:34,095:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 14:57:49,052:INFO:jwt
+2021-09-13 14:57:49,062:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 7, 2, 49, 61989)}
+2021-09-13 14:57:49,062:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTY1Njl9.yo1_aIVwUJgmhXSUJqPsiIn7BeWxPYfsmoJtf4dV4jw
+2021-09-13 14:58:05,709:INFO:order
+2021-09-13 15:02:19,270:INFO:jwt
+2021-09-13 15:02:19,276:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 7, 7, 19, 276712)}
+2021-09-13 15:02:19,277:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTY4Mzl9.e71jfv5mudgAa_NoG9dhn2esRGNaCf4qxvLiMMcfXcc
+2021-09-13 15:02:26,786:INFO:checkNumber
+2021-09-13 15:02:26,791:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:02:27,034:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 15:02:27,036:INFO:post
+2021-09-13 15:02:27,038:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:02:27,291:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 15:02:27,293:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 15:02:33,475:INFO:order
+2021-09-13 15:07:28,578:INFO:jwt
+2021-09-13 15:07:28,597:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 7, 12, 28, 597026)}
+2021-09-13 15:07:28,597:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTcxNDh9.Cfdo_uQypQ332ft261BAX0lKgWdTJ3C1Ol_qdGsAYqI
+2021-09-13 15:08:05,976:INFO:jwt
+2021-09-13 15:08:05,984:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 7, 13, 5, 984024)}
+2021-09-13 15:08:05,984:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTcxODV9.1PeDIVu2IAqc9vmPub6nV4dMoD87Npo9zwZnKAHUu1Q
+2021-09-13 15:08:20,060:INFO:checkNumber
+2021-09-13 15:08:20,065:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:08:20,250:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 15:08:20,252:INFO:post
+2021-09-13 15:08:20,254:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:08:20,486:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 15:08:20,488:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 6958}
+2021-09-13 15:25:25,907:INFO:jwt
+2021-09-13 15:25:25,913:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 7, 30, 25, 913840)}
+2021-09-13 15:25:25,914:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTgyMjV9.IwwG71LDKg2Waspq5HJrT8_ORU8mlib6aKn0MRs4VF4
+2021-09-13 15:33:17,339:INFO:checkNumber
+2021-09-13 15:33:17,339:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTgyMjV9.IwwG71LDKg2Waspq5HJrT8_ORU8mlib6aKn0MRs4VF4
+2021-09-13 15:33:17,357:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:33:17,561:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 15:33:17,564:INFO:post
+2021-09-13 15:33:17,566:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:33:17,824:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 15:33:17,826:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 15:33:24,029:INFO:order
+2021-09-13 15:36:48,204:INFO:jwt
+2021-09-13 15:36:48,213:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 7, 41, 48, 213817)}
+2021-09-13 15:36:48,214:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTg5MDh9.S6BhR96Xi8J5mrib1cpK_qQOiDZkowQTXDgmy7NvAI0
+2021-09-13 15:37:10,259:INFO:checkNumber
+2021-09-13 15:37:10,259:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTg5MDh9.S6BhR96Xi8J5mrib1cpK_qQOiDZkowQTXDgmy7NvAI0
+2021-09-13 15:37:10,267:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:37:10,475:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 15:37:10,477:INFO:post
+2021-09-13 15:37:10,479:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:37:10,711:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 15:37:10,713:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 15:50:16,515:INFO:checkNumber
+2021-09-13 15:50:16,516:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTg5MDh9.S6BhR96Xi8J5mrib1cpK_qQOiDZkowQTXDgmy7NvAI0
+2021-09-13 15:50:16,521:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:50:16,773:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 15:50:16,776:INFO:post
+2021-09-13 15:50:16,777:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:50:17,019:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 15:50:17,022:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 15:50:59,003:INFO:checkNumber
+2021-09-13 15:50:59,003:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTg5MDh9.S6BhR96Xi8J5mrib1cpK_qQOiDZkowQTXDgmy7NvAI0
+2021-09-13 15:50:59,008:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:50:59,181:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 15:50:59,184:INFO:post
+2021-09-13 15:50:59,185:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:50:59,423:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 15:50:59,427:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 6958}
+2021-09-13 15:51:35,236:INFO:checkNumber
+2021-09-13 15:51:35,236:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MTg5MDh9.S6BhR96Xi8J5mrib1cpK_qQOiDZkowQTXDgmy7NvAI0
+2021-09-13 15:51:35,241:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:51:35,750:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 15:51:35,752:INFO:post
+2021-09-13 15:51:35,754:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 15:51:35,973:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 15:51:35,976:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 6958}
+2021-09-13 16:01:46,510:INFO:jwt
+2021-09-13 16:01:46,536:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 8, 6, 46, 536771)}
+2021-09-13 16:01:46,537:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjA0MDZ9.UZb2SYXIOE6Gv4ckk-_5IUCFhzF8fFB2anFOaMXAh_4
+2021-09-13 16:21:29,171:INFO:jwt
+2021-09-13 16:21:29,184:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 8, 26, 29, 184457)}
+2021-09-13 16:21:29,184:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjE1ODl9.OJoM5R0Z6Hi3ntMoV_JBpOPWeQGnNNUVdpjRXJTzeFA
+2021-09-13 16:21:29,184:INFO:jwt.jwt
+2021-09-13 16:21:29,184:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjA0MDZ9.UZb2SYXIOE6Gv4ckk-_5IUCFhzF8fFB2anFOaMXAh_4
+2021-09-13 16:21:29,186:INFO:jwt.jwt
+2021-09-13 16:21:29,186:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjE1ODl9.OJoM5R0Z6Hi3ntMoV_JBpOPWeQGnNNUVdpjRXJTzeFA
+2021-09-13 16:32:38,301:ERROR:Internal Server Error: /api/jwt
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/middleware/common.py", line 81, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/base.py", line 158, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/base.py", line 27, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/resolvers.py", line 364, in resolve
+    for pattern in self.url_patterns:
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/resolvers.py", line 407, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/resolvers.py", line 400, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/user/kiosk/kiosk/urls.py", line 23, in <module>
+    url(r'^api/jwt', views.jwt),
+AttributeError: 'module' object has no attribute 'jwt'
+2021-09-13 16:33:53,389:ERROR:Internal Server Error: /api/jwt
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/middleware/common.py", line 63, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/middleware/common.py", line 81, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/base.py", line 158, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/base.py", line 27, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/resolvers.py", line 364, in resolve
+    for pattern in self.url_patterns:
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/resolvers.py", line 407, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/urls/resolvers.py", line 400, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/user/kiosk/kiosk/urls.py", line 23, in <module>
+    url(r'^api/jwt', views.jwt),
+AttributeError: 'module' object has no attribute 'jwt'
+2021-09-13 16:36:33,046:INFO:jwt
+2021-09-13 16:36:33,061:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 8, 41, 33, 61112)}
+2021-09-13 16:36:33,061:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI0OTN9.pMmCEMin107j4aBQLaG7NEmJiFVkCBcwGVuL5W4_aN8
+2021-09-13 16:36:33,061:INFO:jwt.jwt
+2021-09-13 16:36:33,061:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjE1ODl9.OJoM5R0Z6Hi3ntMoV_JBpOPWeQGnNNUVdpjRXJTzeFA
+2021-09-13 16:36:33,063:INFO:jwt.jwt
+2021-09-13 16:36:33,063:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI0OTN9.pMmCEMin107j4aBQLaG7NEmJiFVkCBcwGVuL5W4_aN8
+2021-09-13 16:38:03,494:INFO:jwt
+2021-09-13 16:38:03,504:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2021, 9, 13, 8, 43, 3, 504107)}
+2021-09-13 16:38:03,504:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 16:38:03,504:INFO:jwt.jwt
+2021-09-13 16:38:03,504:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI0OTN9.pMmCEMin107j4aBQLaG7NEmJiFVkCBcwGVuL5W4_aN8
+2021-09-13 16:38:03,505:INFO:jwt.jwt
+2021-09-13 16:38:03,505:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 17:03:55,067:INFO:checkNumber
+2021-09-13 17:03:55,067:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 17:03:55,073:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 17:03:55,269:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 17:03:55,272:INFO:post
+2021-09-13 17:03:55,274:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 17:03:55,524:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 17:03:55,527:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 23:10:31,791:INFO:checkNumber
+2021-09-13 23:10:31,792:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:10:31,797:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:10:31,990:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 23:10:31,992:INFO:post
+2021-09-13 23:10:31,994:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:10:32,241:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 23:10:32,244:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 23:10:40,151:INFO:order
+2021-09-13 23:15:19,693:INFO:checkNumber
+2021-09-13 23:15:19,694:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:15:19,704:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:15:19,916:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 23:15:19,919:INFO:post
+2021-09-13 23:15:19,921:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:15:20,173:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 23:15:20,176:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 6643}
+2021-09-13 23:15:25,577:INFO:order
+2021-09-13 23:15:25,587:INFO:order.amjilttai
+2021-09-13 23:16:53,927:INFO:checkNumber
+2021-09-13 23:16:53,927:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:16:53,932:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:16:54,127:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 23:19:04,201:INFO:checkNumber
+2021-09-13 23:19:04,201:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:19:04,207:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:19:04,446:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-09-13 23:19:04,449:INFO:{"action":"check_index","status":0,"errors":"","type":"WCDMA","unit":[{"profile_code":"H-1000","name":"1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"H-2000","name":"2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"2000"},{"profile_code":"H-5000","name":"5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"5000"},{"profile_code":"H-7000","name":"7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"H-10000","name":"10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"10000"},{"profile_code":"H-30000","name":"30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 ","price":"30000"},{"profile_code":"H-6000","name":"50\/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436","price":"6000"},{"profile_code":"H-11000","name":"30\/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436","price":"11000"},{"profile_code":"H-15000","name":"0\/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436","price":"15000"},{"profile_code":"H-20000","name":"0\/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436","price":"20000"},{"profile_code":"H-60000","name":"0\/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436","price":"60000"}],"data":[{"profile_code":"DAT-1000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \u00a01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"1000"},{"profile_code":"UNDAT-3000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"3000"},{"profile_code":"UNDAT-7000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"UNDAT-13000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"13000"},{"profile_code":"DAT-25000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"25000"},{"profile_code":"UNDAT-75000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"75000"},{"profile_code":"DAT-240000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"240000"},{"profile_code":"DAT-100","name":"100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"DAT-500","name":"500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"4000"},{"profile_code":"DAT-7000","name":"1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"DAT-3000","name":"3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"12000"},{"profile_code":"DAT-8000","name":"8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"20000"},{"profile_code":"DAT60-20000","name":"20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"30000"},{"profile_code":"DAT-120000","name":"240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"240000"}]}
+2021-09-13 23:23:33,674:INFO:checkNumber
+2021-09-13 23:23:33,675:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:23:33,680:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:23:33,913:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-09-13 23:23:33,916:INFO:{"action":"check_index","status":0,"errors":"","type":"WCDMA","unit":[{"profile_code":"H-1000","name":"1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"H-2000","name":"2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"2000"},{"profile_code":"H-5000","name":"5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"5000"},{"profile_code":"H-7000","name":"7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"H-10000","name":"10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"10000"},{"profile_code":"H-30000","name":"30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 ","price":"30000"},{"profile_code":"H-6000","name":"50\/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436","price":"6000"},{"profile_code":"H-11000","name":"30\/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436","price":"11000"},{"profile_code":"H-15000","name":"0\/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436","price":"15000"},{"profile_code":"H-20000","name":"0\/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436","price":"20000"},{"profile_code":"H-60000","name":"0\/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436","price":"60000"}],"data":[{"profile_code":"DAT-1000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \u00a01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"1000"},{"profile_code":"UNDAT-3000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"3000"},{"profile_code":"UNDAT-7000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"UNDAT-13000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"13000"},{"profile_code":"DAT-25000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"25000"},{"profile_code":"UNDAT-75000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"75000"},{"profile_code":"DAT-240000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"240000"},{"profile_code":"DAT-100","name":"100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"DAT-500","name":"500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"4000"},{"profile_code":"DAT-7000","name":"1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"DAT-3000","name":"3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"12000"},{"profile_code":"DAT-8000","name":"8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"20000"},{"profile_code":"DAT60-20000","name":"20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"30000"},{"profile_code":"DAT-120000","name":"240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"240000"}]}
+2021-09-13 23:28:20,208:INFO:checkNumber
+2021-09-13 23:28:20,209:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:28:20,220:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:28:20,460:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-09-13 23:28:20,463:INFO:{"action":"check_index","status":0,"errors":"","type":"WCDMA","unit":[{"profile_code":"H-1000","name":"1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"H-2000","name":"2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"2000"},{"profile_code":"H-5000","name":"5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"5000"},{"profile_code":"H-7000","name":"7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"H-10000","name":"10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"10000"},{"profile_code":"H-30000","name":"30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 ","price":"30000"},{"profile_code":"H-6000","name":"50\/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436","price":"6000"},{"profile_code":"H-11000","name":"30\/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436","price":"11000"},{"profile_code":"H-15000","name":"0\/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436","price":"15000"},{"profile_code":"H-20000","name":"0\/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436","price":"20000"},{"profile_code":"H-60000","name":"0\/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436","price":"60000"}],"data":[{"profile_code":"DAT-1000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \u00a01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"1000"},{"profile_code":"UNDAT-3000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"3000"},{"profile_code":"UNDAT-7000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"UNDAT-13000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"13000"},{"profile_code":"DAT-25000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"25000"},{"profile_code":"UNDAT-75000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"75000"},{"profile_code":"DAT-240000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"240000"},{"profile_code":"DAT-100","name":"100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"DAT-500","name":"500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"4000"},{"profile_code":"DAT-7000","name":"1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"DAT-3000","name":"3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"12000"},{"profile_code":"DAT-8000","name":"8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"20000"},{"profile_code":"DAT60-20000","name":"20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"30000"},{"profile_code":"DAT-120000","name":"240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"240000"}]}
+2021-09-13 23:42:21,369:INFO:checkNumber
+2021-09-13 23:42:21,370:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:42:21,377:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:42:21,582:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-13 23:42:21,585:INFO:post
+2021-09-13 23:42:21,586:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:42:21,813:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-13 23:42:21,815:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 9035}
+2021-09-13 23:48:51,438:INFO:checkNumber
+2021-09-13 23:48:51,439:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:48:51,444:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:48:51,686:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-09-13 23:48:51,689:INFO:{"action":"check_index","status":0,"errors":"","type":"WCDMA","unit":[{"profile_code":"H-1000","name":"1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"H-2000","name":"2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"2000"},{"profile_code":"H-5000","name":"5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"5000"},{"profile_code":"H-7000","name":"7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"H-10000","name":"10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"10000"},{"profile_code":"H-30000","name":"30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 ","price":"30000"},{"profile_code":"H-6000","name":"50\/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436","price":"6000"},{"profile_code":"H-11000","name":"30\/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436","price":"11000"},{"profile_code":"H-15000","name":"0\/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436","price":"15000"},{"profile_code":"H-20000","name":"0\/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436","price":"20000"},{"profile_code":"H-60000","name":"0\/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436","price":"60000"}],"data":[{"profile_code":"DAT-1000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \u00a01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"1000"},{"profile_code":"UNDAT-3000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"3000"},{"profile_code":"UNDAT-7000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"UNDAT-13000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"13000"},{"profile_code":"DAT-25000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"25000"},{"profile_code":"UNDAT-75000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"75000"},{"profile_code":"DAT-240000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"240000"},{"profile_code":"DAT-100","name":"100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"DAT-500","name":"500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"4000"},{"profile_code":"DAT-7000","name":"1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"DAT-3000","name":"3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"12000"},{"profile_code":"DAT-8000","name":"8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"20000"},{"profile_code":"DAT60-20000","name":"20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"30000"},{"profile_code":"DAT-120000","name":"240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"240000"}]}
+2021-09-13 23:49:16,984:INFO:checkNumber
+2021-09-13 23:49:16,984:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1MjI1ODN9.tYnASOiDTTAXnz2z8bNZu1CHnyqTiUCfBfFWJ7YZ8-I
+2021-09-13 23:49:16,989:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-13 23:49:17,235:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-09-13 23:49:17,238:INFO:{"action":"check_index","status":0,"errors":"","type":"WCDMA","unit":[{"profile_code":"H-1000","name":"1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"H-2000","name":"2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"2000"},{"profile_code":"H-5000","name":"5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"5000"},{"profile_code":"H-7000","name":"7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"H-10000","name":"10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"10000"},{"profile_code":"H-30000","name":"30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 ","price":"30000"},{"profile_code":"H-6000","name":"50\/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436","price":"6000"},{"profile_code":"H-11000","name":"30\/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436","price":"11000"},{"profile_code":"H-15000","name":"0\/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436","price":"15000"},{"profile_code":"H-20000","name":"0\/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436","price":"20000"},{"profile_code":"H-60000","name":"0\/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436","price":"60000"}],"data":[{"profile_code":"DAT-1000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \u00a01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"1000"},{"profile_code":"UNDAT-3000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"3000"},{"profile_code":"UNDAT-7000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"UNDAT-13000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"13000"},{"profile_code":"DAT-25000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"25000"},{"profile_code":"UNDAT-75000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"75000"},{"profile_code":"DAT-240000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"240000"},{"profile_code":"DAT-100","name":"100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"DAT-500","name":"500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"4000"},{"profile_code":"DAT-7000","name":"1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"DAT-3000","name":"3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"12000"},{"profile_code":"DAT-8000","name":"8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"20000"},{"profile_code":"DAT60-20000","name":"20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"30000"},{"profile_code":"DAT-120000","name":"240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"240000"}]}
+2021-09-13 23:55:50,653:INFO:jwt
+2021-09-14 00:01:26,694:INFO:checkNumber
+2021-09-14 00:01:26,694:ERROR:Internal Server Error: /api/checkNumber
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 67, in checkNumber
+    number = data["number"]
+TypeError: string indices must be integers
+2021-09-14 00:04:54,103:INFO:checkNumber

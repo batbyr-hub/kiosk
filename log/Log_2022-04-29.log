@@ -1,0 +1,249 @@
+2022-04-29 14:33:34,256:INFO:jwt
+2022-04-29 14:33:34,292:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 6, 38, 34, 292826)}
+2022-04-29 14:33:34,293:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMTQzMTR9.RXQBA1xnCdHRfapvpYkPjapo69dwLm1cQIRCkiBpaZc
+2022-04-29 14:33:37,601:INFO:ads
+2022-04-29 15:33:37,521:INFO:jwt
+2022-04-29 15:33:37,526:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 7, 38, 37, 526006)}
+2022-04-29 15:33:37,526:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMTc5MTd9.OF7zoTRXEjsq_9EJyNbqo7uPf52Rhv6lutQoW9NJv_c
+2022-04-29 15:33:40,780:INFO:ads
+2022-04-29 16:20:31,329:INFO:jwt
+2022-04-29 16:20:31,333:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 4, 29, 8, 25, 31, 333909)}
+2022-04-29 16:20:31,334:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTEyMjA3MzF9.8PJpMAXaUkRzzNLGaX8apOPH9SDw_YhBp9MYh-3lT5c
+2022-04-29 16:33:40,702:INFO:jwt
+2022-04-29 16:33:40,707:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 8, 38, 40, 707472)}
+2022-04-29 16:33:40,707:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMjE1MjB9.dMG2xJkpVndmj-gMGZ4PoOe77RW2rSuHL7-GtiXoksU
+2022-04-29 16:33:43,928:INFO:ads
+2022-04-29 17:33:43,909:INFO:jwt
+2022-04-29 17:33:43,914:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 9, 38, 43, 914313)}
+2022-04-29 17:33:43,914:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMjUxMjN9.eVTbvMwa3oh1FhCX7v51zoFBBzK-s9X-VVAeGra5rOY
+2022-04-29 17:33:47,121:INFO:ads
+2022-04-29 18:33:47,060:INFO:jwt
+2022-04-29 18:33:47,064:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 10, 38, 47, 64918)}
+2022-04-29 18:33:47,065:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMjg3Mjd9.0ONfQXgFPLiFXkcs_bS0K0clWMuVMM8Y3sUdtlCt1aM
+2022-04-29 18:33:50,274:INFO:ads
+2022-04-29 19:25:17,078:WARNING:Not Found: /api/userConfirmation
+2022-04-29 19:26:49,534:INFO:userConfirmation
+2022-04-29 19:26:49,542:INFO:kiosk2 ЙЙ12345678 98101075 2022-04-29 19:26:49 yes
+2022-04-29 19:26:49,543:ERROR:Internal Server Error: /api/userConfirmation
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 556, in userConfirmation
+    user_confirmation.save()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 1079, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 106, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 209, in execute
+    res = self._query(query)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 315, in _query
+    db.query(q)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+IntegrityError: (1048, "Column 'date' cannot be null")
+2022-04-29 19:27:56,692:INFO:userConfirmation
+2022-04-29 19:27:56,700:INFO:kiosk2 ЙЙ12345678 98101075 2022-04-29 19:27:56 yes
+2022-04-29 19:33:50,232:INFO:jwt
+2022-04-29 19:33:50,242:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 11, 38, 50, 242282)}
+2022-04-29 19:33:50,242:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMzIzMzB9.ziptvzKqlwxt0yO3nuorPllIdeTAlZkTnYvW-RXrfTE
+2022-04-29 19:33:53,465:INFO:ads
+2022-04-29 19:44:54,583:WARNING:Not Found: /favicon.ico
+2022-04-29 19:48:59,341:WARNING:Not Found: /favicon.ico
+2022-04-29 20:33:53,839:INFO:jwt
+2022-04-29 20:33:53,851:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 12, 38, 53, 851870)}
+2022-04-29 20:33:53,852:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMzU5MzN9.ImmB8aWi4Q3Yr8zKyDuReZXeeeHr2BPIUq-Z7CTN_F0
+2022-04-29 20:33:57,106:INFO:ads
+2022-04-29 21:33:57,059:INFO:jwt
+2022-04-29 21:33:57,064:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 13, 38, 57, 64732)}
+2022-04-29 21:33:57,065:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyMzk1Mzd9.Qg04mf1p7kSniGJ-XQhPimDzNHNCYCC5hgYbaU9Q_G8
+2022-04-29 21:34:02,606:INFO:ads
+2022-04-29 22:34:02,570:INFO:jwt
+2022-04-29 22:34:02,575:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 14, 39, 2, 574980)}
+2022-04-29 22:34:02,575:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNDMxNDJ9.zsrN8TRMHQHOgCyz8qm-tGmL-FYxybHQnV_BFuWSO68
+2022-04-29 22:34:05,836:INFO:ads
+2022-04-29 23:34:05,844:INFO:jwt
+2022-04-29 23:34:05,848:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 15, 39, 5, 848873)}
+2022-04-29 23:34:05,849:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNDY3NDV9.3TuJgBqEgyeN0QsbGq0xjIUOGlf97aArVlyjmdfIEnQ
+2022-04-29 23:34:09,058:INFO:ads
+2022-04-30 00:34:09,319:INFO:jwt
+2022-04-30 00:34:09,324:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 16, 39, 9, 324688)}
+2022-04-30 00:34:09,324:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNTAzNDl9.8OGml_mLZkW1W5i_82d3tuME7B6UfzNA38xQR1MeXXA
+2022-04-30 00:34:12,644:INFO:ads
+2022-04-30 01:34:12,657:INFO:jwt
+2022-04-30 01:34:12,662:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 17, 39, 12, 662917)}
+2022-04-30 01:34:12,663:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNTM5NTJ9.95R1BWQFhOwlJEFIHKtf1IiaJQCnj351Kl9K1M3gmTw
+2022-04-30 01:34:17,926:INFO:ads
+2022-04-30 02:34:17,924:INFO:jwt
+2022-04-30 02:34:17,929:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 18, 39, 17, 929153)}
+2022-04-30 02:34:17,929:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNTc1NTd9.0HvqzcA-plQMHmQzVx0id8Q9kEkjnKoAtsBxLk2wEoA
+2022-04-30 02:34:21,139:INFO:ads
+2022-04-30 03:34:21,113:INFO:jwt
+2022-04-30 03:34:21,118:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 19, 39, 21, 118443)}
+2022-04-30 03:34:21,118:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNjExNjF9.97B_lGGzK6SHiwvZeCZPG9ZFeT6qywXhr29wPHY5eLg
+2022-04-30 03:34:24,310:INFO:ads
+2022-04-30 04:34:24,326:INFO:jwt
+2022-04-30 04:34:24,331:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 20, 39, 24, 331067)}
+2022-04-30 04:34:24,331:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNjQ3NjR9.1i-RE4oudaZdeOARBAwNh9C76uN8tSXbARsI2gEAbtw
+2022-04-30 04:34:27,637:INFO:ads
+2022-04-30 05:34:27,680:INFO:jwt
+2022-04-30 05:34:27,685:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 21, 39, 27, 685909)}
+2022-04-30 05:34:27,686:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNjgzNjd9.HHLlL4dDqPUyxXMSbBZSlV_k-EYGiFxkIWW2ghKE184
+2022-04-30 05:34:30,977:INFO:ads
+2022-04-30 06:34:30,962:INFO:jwt
+2022-04-30 06:34:30,967:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 22, 39, 30, 967555)}
+2022-04-30 06:34:30,967:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNzE5NzB9.UFVoIWo44l2hld5DR5btw1Ew6dW8b9cY8iHpnmTZ4Qw
+2022-04-30 06:34:34,265:INFO:ads
+2022-04-30 07:34:36,011:INFO:jwt
+2022-04-30 07:34:36,015:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 29, 23, 39, 36, 15952)}
+2022-04-30 07:34:36,016:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNzU1NzZ9.XwgXles3jdk5F4BN9vuPtsu21fa4sm2XMMF5WXEDKwc
+2022-04-30 07:34:39,213:INFO:ads
+2022-04-30 08:34:40,134:INFO:jwt
+2022-04-30 08:34:40,139:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 0, 39, 40, 139174)}
+2022-04-30 08:34:40,139:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyNzkxODB9.N_xLSG_siINxaEMPpiKxpCLwToJ8HC6HvdCDpYkwL6s
+2022-04-30 08:34:43,332:INFO:ads
+2022-04-30 09:34:43,380:INFO:jwt
+2022-04-30 09:34:43,384:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 1, 39, 43, 384800)}
+2022-04-30 09:34:43,385:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyODI3ODN9.WO3JHekSvXlmD3fTbghfjNmXttakWnwYPBhcDVpX4Bs
+2022-04-30 09:34:46,666:INFO:ads
+2022-04-30 09:49:25,893:INFO:jwt
+2022-04-30 09:49:25,898:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 4, 30, 1, 54, 25, 898354)}
+2022-04-30 09:49:25,898:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTEyODM2NjV9.3FVoH_-vran7c_si1d8aA4hw3J68O37n2gqw2NMAotI
+2022-04-30 10:34:46,642:INFO:jwt
+2022-04-30 10:34:46,647:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 2, 39, 46, 647926)}
+2022-04-30 10:34:46,648:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyODYzODZ9.zpOzjUw__EMZ8QtTWOO77b_CyXn2sECo_ST6dzhT-1Q
+2022-04-30 10:34:49,875:INFO:ads
+2022-04-30 11:34:49,845:INFO:jwt
+2022-04-30 11:34:49,850:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 3, 39, 49, 850586)}
+2022-04-30 11:34:49,850:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyODk5ODl9.IoPWYhbqJ54p_icmdxr7iDKvvhdV-xH3qpdGTiFjCis
+2022-04-30 11:34:53,112:INFO:ads
+2022-04-30 12:34:53,222:INFO:jwt
+2022-04-30 12:34:53,226:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 4, 39, 53, 226694)}
+2022-04-30 12:34:53,226:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyOTM1OTN9.x3gFnd3a5TDIEtljrh2H4AQ23V6-uf0cNPiZnlVUvOU
+2022-04-30 12:34:56,502:INFO:ads
+2022-04-30 13:34:56,514:INFO:jwt
+2022-04-30 13:34:56,519:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 5, 39, 56, 519652)}
+2022-04-30 13:34:56,519:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEyOTcxOTZ9.U1pO7-YX4L0QjwwzXQLYXRNQ4CeK8y3waAu8m0F7y4w
+2022-04-30 13:35:00,692:INFO:ads
+2022-04-30 14:35:00,562:INFO:jwt
+2022-04-30 14:35:00,567:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 6, 40, 0, 567138)}
+2022-04-30 14:35:00,567:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEzMDA4MDB9.-C96_bl2Ec3keJA0iluGhDQScoUPrlwUhFx_byBR2Ig
+2022-04-30 14:35:04,710:INFO:ads
+2022-04-30 15:35:04,677:INFO:jwt
+2022-04-30 15:35:04,682:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 7, 40, 4, 682195)}
+2022-04-30 15:35:04,682:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEzMDQ0MDR9.xbMjO2aRdHZuB8iXXp7TSXM1OwTntJM36NfS2AD5o9s
+2022-04-30 15:35:07,913:INFO:ads
+2022-04-30 16:35:07,990:INFO:jwt
+2022-04-30 16:35:07,994:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 8, 40, 7, 994775)}
+2022-04-30 16:35:07,995:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEzMDgwMDd9.qpw9t-mNX8EQGeyak0yEnqPPCNgFlUOEaVl5yTPFAnY
+2022-04-30 16:35:11,223:INFO:ads
+2022-04-30 17:08:59,416:INFO:jwt
+2022-04-30 17:08:59,417:INFO:ads
+2022-04-30 17:08:59,424:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 9, 13, 59, 424149)}
+2022-04-30 17:08:59,424:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEzMTAwMzl9.1niatNADwOir-tri6_8MRzrmlW8PFHzAvvWQVi2D8pI
+2022-04-30 18:43:41,595:INFO:ads
+2022-04-30 18:44:14,064:INFO:checkNumber
+2022-04-30 18:44:14,067:INFO:2
+2022-04-30 18:44:14,067:INFO:bankConnection
+2022-04-30 18:44:14,067:INFO:2
+2022-04-30 18:44:14,067:INFO:{'phone_number': u'98121559', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-04-30 18:44:14,150:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-04-30 18:44:14,385:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-04-30 18:44:14,387:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-04-30 18:44:14,407:INFO:datas hyazgaargui
+2022-04-30 18:44:14,407:INFO:[{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}]
+2022-04-30 18:44:14,426:INFO:datas hyazgaartai
+2022-04-30 18:44:14,426:INFO:[{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/data/undsen bagts/100MB.png', u'price': 1000, u'profile_id': u'DAT-100'}, {u'url': u'static/data/undsen bagts/500MB.png', u'price': 4000, u'profile_id': u'DAT-500'}, {u'url': u'static/data/undsen bagts/1GB.png', u'price': 7000, u'profile_id': u'DAT-7000'}, {u'url': u'static/data/undsen bagts/3GB.png', u'price': 12000, u'profile_id': u'DAT-3000'}, {u'url': u'static/data/undsen bagts/8GB.png', u'price': 20000, u'profile_id': u'DAT-8000'}, {u'url': u'static/data/undsen bagts/20GB.png', u'price': 30000, u'profile_id': u'DAT60-20000'}, {u'url': u'static/data/undsen bagts/240GB.png', u'price': 240000, u'profile_id': u'DAT-120000'}]}]
+2022-04-30 18:44:14,426:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/data/hyazgaargui bagts/1 day.png', u'price': 1000, u'profile_id': u'DAT-1000'}, {u'url': u'static/data/hyazgaargui bagts/3 day.png', u'price': 3000, u'profile_id': u'UNDAT-3000'}, {u'url': u'static/data/hyazgaargui bagts/7 day.png', u'price': 7000, u'profile_id': u'UNDAT-7000'}, {u'url': u'static/data/hyazgaargui bagts/14 day.png', u'price': 13000, u'profile_id': u'UNDAT-13000'}, {u'url': u'static/data/hyazgaargui bagts/30 day.png', u'price': 25000, u'profile_id': u'DAT-25000'}, {u'url': u'static/data/hyazgaargui bagts/90 day.png', u'price': 75000, u'profile_id': u'UNDAT-75000'}, {u'url': u'static/data/hyazgaargui bagts/365 day.png', u'price': 240000, u'profile_id': u'DAT-240000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/data/undsen bagts/100MB.png', u'price': 1000, u'profile_id': u'DAT-100'}, {u'url': u'static/data/undsen bagts/500MB.png', u'price': 4000, u'profile_id': u'DAT-500'}, {u'url': u'static/data/undsen bagts/1GB.png', u'price': 7000, u'profile_id': u'DAT-7000'}, {u'url': u'static/data/undsen bagts/3GB.png', u'price': 12000, u'profile_id': u'DAT-3000'}, {u'url': u'static/data/undsen bagts/8GB.png', u'price': 20000, u'profile_id': u'DAT-8000'}, {u'url': u'static/data/undsen bagts/20GB.png', u'price': 30000, u'profile_id': u'DAT60-20000'}, {u'url': u'static/data/undsen bagts/240GB.png', u'price': 240000, u'profile_id': u'DAT-120000'}]}]}
+2022-04-30 18:44:18,426:INFO:ads
+2022-04-30 18:46:15,120:INFO:checkNumber
+2022-04-30 18:46:15,123:INFO:2
+2022-04-30 18:46:15,123:INFO:bankConnection
+2022-04-30 18:46:15,123:INFO:2
+2022-04-30 18:46:15,123:INFO:{'phone_number': u'98121559', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-04-30 18:46:15,125:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-04-30 18:46:15,325:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-04-30 18:46:15,327:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-04-30 18:46:15,360:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-04-30 18:46:21,064:INFO:order
+2022-04-30 18:46:21,064:INFO:H-1000
+2022-04-30 18:46:21,073:INFO:dat
+2022-04-30 18:46:21,073:INFO:{u'order_id': 13072L, u'q_pay': {}}
+2022-04-30 18:46:22,251:INFO:checkNumber
+2022-04-30 18:46:22,254:INFO:2
+2022-04-30 18:46:22,254:INFO:bankConnection
+2022-04-30 18:46:22,254:INFO:2
+2022-04-30 18:46:22,254:INFO:{'phone_number': u'98121559', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-04-30 18:46:22,256:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-04-30 18:46:22,489:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-04-30 18:46:22,491:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-04-30 18:46:22,521:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-04-30 18:46:23,893:INFO:ads
+2022-04-30 18:46:25,411:INFO:ads
+2022-04-30 18:47:58,714:INFO:ads
+2022-04-30 19:04:45,562:INFO:checkNumber
+2022-04-30 19:04:45,565:INFO:2
+2022-04-30 19:04:45,565:INFO:bankConnection
+2022-04-30 19:04:45,565:INFO:2
+2022-04-30 19:04:45,565:INFO:{'phone_number': u'98101552', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-04-30 19:04:45,567:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-04-30 19:04:46,970:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-04-30 19:04:46,972:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-04-30 19:04:46,972:INFO:post
+2022-04-30 19:04:46,972:INFO:bankConnection
+2022-04-30 19:04:46,973:INFO:2
+2022-04-30 19:04:46,973:INFO:{'phone_number': u'98101552', 'serviceName': 'Kiosk'}
+2022-04-30 19:04:46,974:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-04-30 19:04:47,242:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-04-30 19:04:47,244:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -430}
+2022-04-30 19:04:47,292:INFO:checkNumber
+2022-04-30 19:04:47,294:INFO:2
+2022-04-30 19:04:47,294:INFO:bankConnection
+2022-04-30 19:04:47,294:INFO:2
+2022-04-30 19:04:47,294:INFO:{'phone_number': u'98101552', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-04-30 19:04:47,296:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-04-30 19:04:47,511:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-04-30 19:04:47,513:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-04-30 19:04:47,513:INFO:post
+2022-04-30 19:04:47,513:INFO:bankConnection
+2022-04-30 19:04:47,513:INFO:2
+2022-04-30 19:04:47,513:INFO:{'phone_number': u'98101552', 'serviceName': 'Kiosk'}
+2022-04-30 19:04:47,514:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-04-30 19:04:47,781:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-04-30 19:04:47,783:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -430}
+2022-04-30 19:04:52,018:INFO:ads
+2022-04-30 20:04:51,956:INFO:jwt
+2022-04-30 20:04:51,961:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 4, 30, 12, 9, 51, 961026)}
+2022-04-30 20:04:51,961:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTEzMjA1OTF9.OgCrY8H0OPB1g7nxdEwbQ9BtdfsKaNmTNwNLkAkohvk
+2022-04-30 20:04:55,242:INFO:ads

@@ -1,0 +1,1139 @@
+2022-07-27 00:12:10,880:INFO:jwt
+2022-07-27 00:12:10,907:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 26, 16, 17, 10, 907145)}
+2022-07-27 00:12:10,907:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg4NTIyMzB9.7UtXyUCufPPwKAak4yACdZWw55Mg4DTTSU8_KTDX5H8
+2022-07-27 00:12:14,188:INFO:ads
+2022-07-27 01:10:36,986:INFO:ads
+2022-07-27 10:42:13,133:INFO:ads
+2022-07-27 10:52:17,546:INFO:jwt
+2022-07-27 10:52:17,551:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 27, 2, 57, 17, 551968)}
+2022-07-27 10:52:17,552:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg4OTA2Mzd9.qpHJocE_4lmMwc_b7d0eDj79I1vDofucyunl5VkxS9A
+2022-07-27 10:53:18,043:INFO:ads
+2022-07-27 12:36:01,610:INFO:jwt
+2022-07-27 12:36:01,616:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 27, 4, 41, 1, 616510)}
+2022-07-27 12:36:01,616:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg4OTY4NjF9.a70OqGyBnlTt3PtzpeL--PkduW_xjRNMYm5N6rCDtAM
+2022-07-27 12:38:32,473:INFO:ads
+2022-07-27 13:38:51,292:INFO:jwt
+2022-07-27 13:38:51,299:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 27, 5, 43, 51, 299116)}
+2022-07-27 13:38:51,299:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg5MDA2MzF9.Wd9_mAJgeTDkXHJBwonU0Mh96wRwUtcIDD6h51gMEmo
+2022-07-27 13:38:57,280:INFO:prefix
+2022-07-27 13:40:03,889:INFO:searchNumber
+2022-07-27 13:40:03,891:INFO:985151**
+2022-07-27 13:40:03,891:INFO:985151**
+2022-07-27 13:40:03,891:INFO:engiin
+2022-07-27 13:40:03,894:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-27 13:40:03,895:INFO:ELSE
+2022-07-27 13:40:03,895:INFO:9851
+2022-07-27 13:40:03,895:INFO:51**
+2022-07-27 13:40:11,161:INFO:98515104:6|98515119:6|98515123:6|98515127:6|98515135:6
+2022-07-27 13:40:11,161:INFO:numbers
+2022-07-27 13:40:11,161:INFO:['98515104', '98515119', '98515123', '98515127', '98515135']
+2022-07-27 13:40:11,168:INFO:tmp
+2022-07-27 13:40:11,168:INFO:['98515104', '98515119', '98515123', '98515127', '98515135']
+2022-07-27 13:40:11,168:INFO:[{'prefix': '98515104'}, {'prefix': '98515119'}, {'prefix': '98515123'}, {'prefix': '98515127'}, {'prefix': '98515135'}]
+2022-07-27 13:40:19,604:INFO:blockUnblock
+2022-07-27 13:40:19,604:INFO:block
+2022-07-27 13:40:19,605:INFO:1
+2022-07-27 13:40:19,605:INFO:user_ip: 192.168.16.196
+2022-07-27 13:40:19,673:INFO:Success
+2022-07-27 13:40:19,679:INFO:5000
+2022-07-27 13:40:19,679:INFO:{u'negj': u'3000', u'honog': u'30', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'0', u'price': 5000}
+2022-07-27 13:40:24,570:INFO:blockUnblock
+2022-07-27 13:40:24,571:INFO:unblock
+2022-07-27 13:40:24,571:INFO:1
+2022-07-27 13:40:24,571:INFO:user_ip: 192.168.16.196
+2022-07-27 13:40:24,644:INFO:Success
+2022-07-27 13:40:24,645:INFO:unblock
+2022-07-27 13:40:24,645:INFO:Unblocked
+2022-07-27 13:40:30,623:INFO:ads
+2022-07-27 13:40:30,755:INFO:ads
+2022-07-27 17:34:53,054:INFO:ads
+2022-07-27 17:35:18,592:INFO:checkNumber
+2022-07-27 17:35:18,595:INFO:2
+2022-07-27 17:35:18,596:INFO:bankConnection
+2022-07-27 17:35:18,596:INFO:2
+2022-07-27 17:35:18,596:INFO:{'phone_number': u'98880770', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 17:35:18,613:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:35:19,140:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-27 17:35:19,143:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-27 17:35:19,143:INFO:post
+2022-07-27 17:35:19,143:INFO:bankConnection
+2022-07-27 17:35:19,143:INFO:2
+2022-07-27 17:35:19,143:INFO:{'phone_number': u'98880770', 'serviceName': 'Kiosk'}
+2022-07-27 17:35:19,144:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:35:19,519:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-27 17:35:19,522:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 102435}
+2022-07-27 17:35:40,931:INFO:ads
+2022-07-27 17:36:01,843:INFO:checkNumber
+2022-07-27 17:36:01,847:INFO:2
+2022-07-27 17:36:01,847:INFO:bankConnection
+2022-07-27 17:36:01,847:INFO:2
+2022-07-27 17:36:01,847:INFO:{'phone_number': u'98880770', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 17:36:01,849:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:36:02,050:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-27 17:36:02,052:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-27 17:36:02,052:INFO:post
+2022-07-27 17:36:02,052:INFO:bankConnection
+2022-07-27 17:36:02,053:INFO:2
+2022-07-27 17:36:02,053:INFO:{'phone_number': u'98880770', 'serviceName': 'Kiosk'}
+2022-07-27 17:36:02,054:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:36:02,343:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-27 17:36:02,345:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 102435}
+2022-07-27 17:37:04,743:INFO:userConfirmation
+2022-07-27 17:37:04,747:INFO:kiosk2|ХГ72030274|98880770|post|yes|2022-07-27 17:37:04
+2022-07-27 17:37:17,353:INFO:checkNumber
+2022-07-27 17:37:17,357:INFO:2
+2022-07-27 17:37:17,357:INFO:bankConnection
+2022-07-27 17:37:17,357:INFO:2
+2022-07-27 17:37:17,358:INFO:{'phone_number': u'98880770', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 17:37:17,361:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:37:17,668:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-27 17:37:17,671:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-27 17:37:17,671:INFO:post
+2022-07-27 17:37:17,671:INFO:bankConnection
+2022-07-27 17:37:17,671:INFO:2
+2022-07-27 17:37:17,671:INFO:{'phone_number': u'98880770', 'serviceName': 'Kiosk'}
+2022-07-27 17:37:17,672:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:37:17,984:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-27 17:37:17,987:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 102435}
+2022-07-27 17:37:21,585:INFO:userConfirmation
+2022-07-27 17:37:21,588:INFO:kiosk2|ХГ72030274|98880770|post|yes|2022-07-27 17:37:21
+2022-07-27 17:38:26,441:INFO:ads
+2022-07-27 17:38:51,107:INFO:checkNumber
+2022-07-27 17:38:51,110:INFO:2
+2022-07-27 17:38:51,110:INFO:bankConnection
+2022-07-27 17:38:51,110:INFO:2
+2022-07-27 17:38:51,111:INFO:{'phone_number': u'93003170', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 17:38:51,112:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:38:51,335:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-27 17:38:51,338:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-27 17:38:51,338:INFO:post
+2022-07-27 17:38:51,338:INFO:bankConnection
+2022-07-27 17:38:51,338:INFO:2
+2022-07-27 17:38:51,338:INFO:{'phone_number': u'93003170', 'serviceName': 'Kiosk'}
+2022-07-27 17:38:51,340:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 17:38:51,633:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-27 17:38:51,636:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 48086}
+2022-07-27 17:38:55,521:INFO:userConfirmation
+2022-07-27 17:38:55,525:INFO:kiosk2|ХГ72030274|93003170|post|yes|2022-07-27 17:38:55
+2022-07-27 17:39:03,441:INFO:hur
+2022-07-27 17:39:03,455:INFO:
+2022-07-27 17:39:03,455:INFO:
+2022-07-27 17:39:03,457:INFO:huruuniiHee
+2022-07-27 17:39:03,460:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-07-27 17:39:03,647:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 401
+2022-07-27 17:39:03,648:INFO:hariu
+2022-07-27 17:39:03,649:INFO:{u'return': {u'resultCode': u'302', u'request': {u'regnum': u'\u0425\u041372030274', u'auth': {u'operator': {u'regnum': u'\u0425\u041372030274', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0425\u041372030274', u'signature': u'', u'fingerprint': u''}}}, u'resultMessage': u'[citizen] \u0445\u0443\u0440\u0443\u0443 \u0445\u044d\u044d \u0442\u0430\u0430\u0440\u0430\u0445\u0433\u04af\u0439 \u0431\u0430\u0439\u043d\u0430'}}
+2022-07-27 17:39:03,649:ERROR:Хуруу хээ таарахгүй байна. Line-465
+2022-07-27 17:39:10,611:INFO:userConfirmation
+2022-07-27 17:39:10,614:INFO:kiosk2|ХГ72030274|93003170|post|yes|2022-07-27 17:39:10
+2022-07-27 17:39:17,370:INFO:hur
+2022-07-27 17:39:17,382:INFO:
+2022-07-27 17:39:17,382:INFO:
+2022-07-27 17:39:17,384:INFO:huruuniiHee
+2022-07-27 17:39:17,387:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-07-27 17:39:17,847:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1579
+2022-07-27 17:39:17,848:INFO:hariu
+2022-07-27 17:39:17,848:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0425\u041372030274', u'auth': {u'operator': {u'regnum': u'\u0425\u041372030274', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0425\u041372030274', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'f1af8f51-4a03-4473-807e-d05b4f658a23', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0434\u043e\u043d\u0433\u043e\u0440\u043e\u0433\u0442\u0430\u0439\u0436', u'addressDetail': u'20', u'firstname': u'\u0410\u0440\u0438\u0443\u043d\u0431\u043e\u043b\u0434', u'lastname': u'\u0411\u0430\u0434\u0430\u043c\u0434\u043e\u0440\u0436', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0425\u0430\u043d-\u0423\u0443\u043b 11-\u0440 \u0445\u043e\u0440\u043e\u043e,  \u044d\u043d\u0445\u0436\u0438\u043d \u0445\u043e\u0442\u0445\u043e\u043d \u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436 \u0433\u0443\u0434\u0430\u043c\u0436 \u0430\u043e\u0441-\u0440 \u0431\u0430\u0439\u0440 20  \u0442\u043e\u043e\u0442', u'regnum': u'\u0445\u043372030274', u'addressTownName': u'\u044d\u043d\u0445\u0436\u0438\u043d \u0445\u043e\u0442\u0445\u043e\u043d', u'soumDistrictName': u'\u0425\u0430\u043d-\u0423\u0443\u043b', u'addressStreetName': u'\u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'71', u'addressApartmentName': u'\u0430\u043e\u0441', u'bagKhorooName': u'11-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'22'}}}
+2022-07-27 17:39:44,662:INFO:order
+2022-07-27 17:39:44,662:INFO:Y-49000
+2022-07-27 17:39:44,670:INFO:dat
+2022-07-27 17:39:44,670:INFO:{u'order_id': 13172L, u'q_pay': {}}
+2022-07-27 17:40:35,148:INFO:ads
+2022-07-27 18:40:35,493:INFO:jwt
+2022-07-27 18:40:35,498:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 10, 45, 35, 498940)}
+2022-07-27 18:40:35,499:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5MTg3MzV9.PlSVIz0Fql7fgHcJB_cnbLJtVJ-vvlz1qMbhd4MYBdw
+2022-07-27 18:40:38,833:INFO:ads
+2022-07-27 19:40:38,927:INFO:jwt
+2022-07-27 19:40:38,932:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 11, 45, 38, 932464)}
+2022-07-27 19:40:38,932:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5MjIzMzh9.-bv7uyJeVHTAccNLI4vWh_TWJRlKvmHih5zLvRAuk34
+2022-07-27 19:40:42,277:INFO:ads
+2022-07-27 20:29:47,183:INFO:checkNumber
+2022-07-27 20:29:47,186:INFO:2
+2022-07-27 20:29:47,187:INFO:bankConnection
+2022-07-27 20:29:47,187:INFO:2
+2022-07-27 20:29:47,187:INFO:{'phone_number': u'93311333', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 20:29:47,189:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 20:29:47,381:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 2381
+2022-07-27 20:29:47,383:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-07-27 20:29:47,412:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-07-27 20:30:01,487:INFO:order
+2022-07-27 20:30:01,487:INFO:H-2000
+2022-07-27 20:30:01,496:INFO:dat
+2022-07-27 20:30:01,497:INFO:{u'order_id': 13173L, u'q_pay': {}}
+2022-07-27 20:31:33,099:INFO:ads
+2022-07-27 20:31:52,743:INFO:checkNumber
+2022-07-27 20:31:52,747:INFO:2
+2022-07-27 20:31:52,747:INFO:bankConnection
+2022-07-27 20:31:52,747:INFO:2
+2022-07-27 20:31:52,747:INFO:{'phone_number': u'93311333', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 20:31:52,749:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 20:31:52,936:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 2381
+2022-07-27 20:31:52,938:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-07-27 20:31:52,968:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-07-27 20:31:59,539:INFO:order
+2022-07-27 20:31:59,539:INFO:H-2000
+2022-07-27 20:31:59,548:INFO:dat
+2022-07-27 20:31:59,548:INFO:{u'order_id': 13174L, u'q_pay': {}}
+2022-07-27 20:32:07,684:INFO:checkNumber
+2022-07-27 20:32:07,687:INFO:2
+2022-07-27 20:32:07,687:INFO:bankConnection
+2022-07-27 20:32:07,687:INFO:2
+2022-07-27 20:32:07,688:INFO:{'phone_number': u'93311333', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 20:32:07,689:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 20:32:08,009:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 2381
+2022-07-27 20:32:08,012:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-07-27 20:32:08,041:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-07-27 20:35:16,559:INFO:ads
+2022-07-27 20:35:34,530:INFO:checkNumber
+2022-07-27 20:35:34,535:INFO:2
+2022-07-27 20:35:34,535:INFO:bankConnection
+2022-07-27 20:35:34,535:INFO:2
+2022-07-27 20:35:34,535:INFO:{'phone_number': u'93311333', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-27 20:35:34,539:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 20:35:34,884:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 2381
+2022-07-27 20:35:34,886:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-07-27 20:35:34,915:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-07-27 20:35:38,976:INFO:order
+2022-07-27 20:35:38,976:INFO:H-2000
+2022-07-27 20:35:38,984:INFO:dat
+2022-07-27 20:35:38,984:INFO:{u'order_id': 13175L, u'q_pay': {}}
+2022-07-27 20:36:10,465:INFO:charge
+2022-07-27 20:36:10,465:INFO:2000
+2022-07-27 20:36:10,465:INFO:13175
+2022-07-27 20:36:10,470:INFO:Хүлээж авсан мөнгө: 2000=2000
+2022-07-27 20:36:10,479:INFO:Нийт бэлэн мөнгө=2000
+2022-07-27 20:36:10,479:INFO:bankConnection
+2022-07-27 20:36:10,479:INFO:2
+2022-07-27 20:36:10,479:INFO:{'phone_number': u'93311333', 'amount': '2000', 'serviceName': 'Kiosk', 'trans_id': u'13175', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a2_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'H-2000'}
+2022-07-27 20:36:10,481:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-27 20:36:16,252:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPrePaidCharge/response HTTP/1.1" 200 108
+2022-07-27 20:36:16,254:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-07-27 20:36:24,900:INFO:ebarimt
+2022-07-27 20:36:24,900:INFO:
+2022-07-27 20:36:24,900:INFO:1
+2022-07-27 20:36:25,996:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'VQ 16090497', u'billId': u'000005055873003220727338639074176', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'2000.00', u'vat': u'181.82', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD437333250856A4CC0D0B40B924963905A25A9', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-07-27 20:36:16', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'2000.00', u'qty': u'1.00', u'unitPrice': u'2000.00', u'vat': u'181.82'}], u'billType': u'1', u'success': True, u'amount': u'2000.00', u'branchNo': u'', u'qrData': u'4541778942679644357233937729920246845921694456737721058952680026461710286799590538413642174072308247831148339936521838294797281050197777141669599277030525678366587240058113657959774506598576372947369210916137647218136557752659635274474332049046838069201262822914092702067678139868749041796990255556860514309888440870'}
+2022-07-27 20:36:25,996:INFO:ADDLOTTERY
+2022-07-27 20:36:26,178:INFO:static/ebarimt/kiosk2/bill.bmp
+2022-07-27 20:36:35,481:INFO:ads
+2022-07-27 21:36:35,914:INFO:jwt
+2022-07-27 21:36:35,920:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 13, 41, 35, 920456)}
+2022-07-27 21:36:35,920:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5MjkyOTV9.yOVomwtG1cXtSnJXEIQql8sEMRBAFRm8dOwea51s_dw
+2022-07-27 21:36:39,274:INFO:ads
+2022-07-27 22:36:44,070:INFO:jwt
+2022-07-27 22:36:44,127:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 14, 41, 44, 127130)}
+2022-07-27 22:36:44,127:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5MzI5MDR9.aQsz5n0NcMzfP2XSovnMbDUSVTwx7rjeAjECkL4VGpE
+2022-07-27 22:36:47,371:INFO:ads
+2022-07-27 23:36:47,435:INFO:jwt
+2022-07-27 23:36:47,440:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 15, 41, 47, 440747)}
+2022-07-27 23:36:47,441:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5MzY1MDd9.sHYyaaMtz3H6G8jLf5qOWqLBKJhJTPntRIhodO-wt4g
+2022-07-27 23:36:50,649:INFO:ads
+2022-07-28 00:36:50,725:INFO:jwt
+2022-07-28 00:36:50,730:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 16, 41, 50, 730416)}
+2022-07-28 00:36:50,730:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NDAxMTB9.cKakOYj0ixRvxAM0gjVloBlcxzkSDzO4fGlgsa9lSSk
+2022-07-28 00:36:53,934:INFO:ads
+2022-07-28 01:36:54,050:INFO:jwt
+2022-07-28 01:36:54,055:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 17, 41, 54, 55540)}
+2022-07-28 01:36:54,055:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NDM3MTR9.uULmEc2iqM-jpEGQPEMe5JUtWFs1n6Oa6NyesOfSl4w
+2022-07-28 01:36:57,248:INFO:ads
+2022-07-28 01:40:14,410:INFO:jwt
+2022-07-28 01:40:14,416:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 17, 45, 14, 416256)}
+2022-07-28 01:40:14,416:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NDM5MTR9.Ty4sKvKcuW9M_RlLTjHgiELPh3OJ1ERwfC0OpyeKvu0
+2022-07-28 02:36:57,335:INFO:jwt
+2022-07-28 02:36:57,341:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 18, 41, 57, 341323)}
+2022-07-28 02:36:57,341:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NDczMTd9.Hmmca-0QSNMquER-aBqsQE1UZy5Wg7kgBtbMRBLJcKQ
+2022-07-28 02:37:00,561:INFO:ads
+2022-07-28 03:37:00,650:INFO:jwt
+2022-07-28 03:37:00,655:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 19, 42, 0, 655410)}
+2022-07-28 03:37:00,655:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NTA5MjB9.u-WOurbbM6b9IpE3sx5jMw3wbyGaQW-jDBha5kEgr3U
+2022-07-28 03:37:03,868:INFO:ads
+2022-07-28 04:37:03,961:INFO:jwt
+2022-07-28 04:37:03,966:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 20, 42, 3, 966574)}
+2022-07-28 04:37:03,966:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NTQ1MjN9.JOV4uQ0XES92buLJ8S5IuNJJIMm53Ev3px9VH2kzSi8
+2022-07-28 04:37:07,181:INFO:ads
+2022-07-28 05:37:07,048:INFO:jwt
+2022-07-28 05:37:07,054:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 21, 42, 7, 54068)}
+2022-07-28 05:37:07,054:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NTgxMjd9.tK2K0f_1B0GB93-ERg6Mr1axwEfYg9o0jTXN9zPvBS0
+2022-07-28 05:37:10,298:INFO:ads
+2022-07-28 06:37:10,556:INFO:jwt
+2022-07-28 06:37:10,563:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 22, 42, 10, 563112)}
+2022-07-28 06:37:10,563:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NjE3MzB9.nyr6vqvl-5oY7tEgEZOsOYxmK4auzclvPmlDwfv8WWA
+2022-07-28 06:37:13,744:INFO:ads
+2022-07-28 07:37:13,620:INFO:jwt
+2022-07-28 07:37:13,625:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 27, 23, 42, 13, 625730)}
+2022-07-28 07:37:13,626:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NjUzMzN9.Z1Nurtd0-SMXew8INqlGDj32FM0IwqlE3RZFu_OBTuM
+2022-07-28 07:37:16,867:INFO:ads
+2022-07-28 08:37:16,776:INFO:jwt
+2022-07-28 08:37:16,782:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 0, 42, 16, 781996)}
+2022-07-28 08:37:16,782:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5Njg5MzZ9.f6O9LsuBJ6X-SviuKsPiVR6UGLtyYPDYkDgVO-jl52A
+2022-07-28 08:37:19,936:INFO:ads
+2022-07-28 09:37:19,740:INFO:jwt
+2022-07-28 09:37:19,745:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 1, 42, 19, 745401)}
+2022-07-28 09:37:19,745:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NzI1Mzl9.GQ1be0I2fs38rkSsCSZmGN3AixDjtYmr_7S-qRyLvIQ
+2022-07-28 09:37:22,985:INFO:ads
+2022-07-28 10:14:47,514:INFO:jwt
+2022-07-28 10:14:47,519:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 28, 2, 19, 47, 519706)}
+2022-07-28 10:14:47,520:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTg5NzQ3ODd9.fIq0F5w_CPuPZWbkkWmoq-YnlweE4Ictz4mX6jynzds
+2022-07-28 10:37:22,970:INFO:jwt
+2022-07-28 10:37:22,975:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 2, 42, 22, 975816)}
+2022-07-28 10:37:22,976:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5NzYxNDJ9.gso2rBZTNXlJwk5-Xyo-CxtZwg24BN6IUWqfnipAn3c
+2022-07-28 10:37:26,212:INFO:ads
+2022-07-28 11:19:43,401:INFO:jwt
+2022-07-28 11:19:43,407:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 28, 3, 24, 43, 407732)}
+2022-07-28 11:19:43,408:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTg5Nzg2ODN9.MJkDVrAmWtdtAYCsgT3OM-pBxiKCgXJwHyvzwXB0Jq4
+2022-07-28 11:37:26,184:INFO:jwt
+2022-07-28 11:37:26,190:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 3, 42, 26, 190167)}
+2022-07-28 11:37:26,190:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5Nzk3NDZ9.Q6CT4EeoaUMby67HtQXR0PzbK-Di3STPm-e8lNXv45E
+2022-07-28 11:37:29,396:INFO:ads
+2022-07-28 12:09:18,604:INFO:searchNumber
+2022-07-28 12:09:18,607:INFO:9811****
+2022-07-28 12:09:18,607:INFO:9811****
+2022-07-28 12:09:18,607:INFO:engiin
+2022-07-28 12:09:18,609:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:09:18,610:INFO:ELSE
+2022-07-28 12:09:18,610:INFO:9811
+2022-07-28 12:09:18,610:INFO:****
+2022-07-28 12:09:27,442:INFO:98110942:6|98111744:6|98111773:6|98113851:6|98114416:6|98114655:6|98114973:6|98115456:6|98116441:6|98116630:6|98116798:6|98116890:6|98117950:6|98119332:6
+2022-07-28 12:09:27,442:INFO:numbers
+2022-07-28 12:09:27,443:INFO:['98110942', '98111744', '98111773', '98113851', '98114416', '98114655', '98114973', '98115456', '98116441', '98116630', '98116798', '98116890', '98117950', '98119332']
+2022-07-28 12:09:27,460:INFO:tmp
+2022-07-28 12:09:27,460:INFO:[]
+2022-07-28 12:09:27,460:INFO:[]
+2022-07-28 12:16:11,857:INFO:searchNumber
+2022-07-28 12:16:11,860:INFO:9811****
+2022-07-28 12:16:11,860:INFO:9811****
+2022-07-28 12:16:11,860:INFO:engiin
+2022-07-28 12:16:11,862:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:16:11,862:INFO:ELSE
+2022-07-28 12:16:11,862:INFO:9811
+2022-07-28 12:16:11,862:INFO:****
+2022-07-28 12:16:14,974:INFO:searchNumber
+2022-07-28 12:16:14,977:INFO:9811****
+2022-07-28 12:16:14,977:INFO:9811****
+2022-07-28 12:16:14,977:INFO:engiin
+2022-07-28 12:16:14,979:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:16:14,979:INFO:ELSE
+2022-07-28 12:16:14,979:INFO:9811
+2022-07-28 12:16:14,979:INFO:****
+2022-07-28 12:16:16,224:INFO:searchNumber
+2022-07-28 12:16:16,228:INFO:9811****
+2022-07-28 12:16:16,228:INFO:9811****
+2022-07-28 12:16:16,228:INFO:engiin
+2022-07-28 12:16:16,230:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:16:16,230:INFO:ELSE
+2022-07-28 12:16:16,230:INFO:9811
+2022-07-28 12:16:16,230:INFO:****
+2022-07-28 12:16:20,300:INFO:98110942:6|98111744:6|98111773:6|98113851:6|98114416:6|98114655:6|98114973:6|98115456:6|98116441:6|98116630:6|98116798:6|98116890:6|98117950:6|98119332:6
+2022-07-28 12:16:20,300:INFO:numbers
+2022-07-28 12:16:20,300:INFO:['98110942', '98111744', '98111773', '98113851', '98114416', '98114655', '98114973', '98115456', '98116441', '98116630', '98116798', '98116890', '98117950', '98119332']
+2022-07-28 12:16:20,317:INFO:tmp
+2022-07-28 12:16:20,317:INFO:[]
+2022-07-28 12:16:20,317:INFO:[]
+2022-07-28 12:16:22,840:INFO:98110942:6|98111744:6|98111773:6|98113851:6|98114416:6|98114655:6|98114973:6|98115456:6|98116441:6|98116630:6|98116798:6|98116890:6|98117950:6|98119332:6
+2022-07-28 12:16:22,840:INFO:numbers
+2022-07-28 12:16:22,840:INFO:['98110942', '98111744', '98111773', '98113851', '98114416', '98114655', '98114973', '98115456', '98116441', '98116630', '98116798', '98116890', '98117950', '98119332']
+2022-07-28 12:16:22,857:INFO:tmp
+2022-07-28 12:16:22,857:INFO:[]
+2022-07-28 12:16:22,858:INFO:[]
+2022-07-28 12:16:22,877:INFO:98110942:6|98111744:6|98111773:6|98113851:6|98114416:6|98114655:6|98114973:6|98115456:6|98116441:6|98116630:6|98116798:6|98116890:6|98117950:6|98119332:6
+2022-07-28 12:16:22,878:INFO:numbers
+2022-07-28 12:16:22,878:INFO:['98110942', '98111744', '98111773', '98113851', '98114416', '98114655', '98114973', '98115456', '98116441', '98116630', '98116798', '98116890', '98117950', '98119332']
+2022-07-28 12:16:22,901:INFO:tmp
+2022-07-28 12:16:22,902:INFO:[]
+2022-07-28 12:16:22,902:INFO:[]
+2022-07-28 12:17:13,138:INFO:searchNumber
+2022-07-28 12:17:13,142:INFO:DExx000B
+2022-07-28 12:17:13,142:INFO:DExx000B
+2022-07-28 12:17:13,142:INFO:hurel1
+2022-07-28 12:17:13,145:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:17:13,230:INFO:83006000:9
+2022-07-28 12:17:13,298:INFO:83013000:9|83014000:9|83015000:9|83016000:9|83017000:9|83019000:9
+2022-07-28 12:17:13,373:INFO:83020007:9|83020238:9|83022038:9|83023000:9|83024000:9|83025000:9|83026000:9|83027000:9|83028000:9|83029000:9
+2022-07-28 12:17:13,452:INFO:83034000:9|83036000:9|83037000:9
+2022-07-28 12:17:13,542:INFO:83040002:9|83040003:9|83040005:9|83040007:9|83040438:9|83041000:9|83043000:9|83044038:9|83046000:9|83047000:9|83048000:9|83049000:9
+2022-07-28 12:17:13,625:INFO:83050001:9|83050002:9|83050538:9|83051000:9|83052000:9|83053000:9|83054000:9|83055038:9|83056000:9|83057000:9|83058000:9|83059000:9
+2022-07-28 12:17:13,705:INFO:83060638:9|83061000:9|83062000:9|83063000:9|83064000:9|83065000:9|83066038:9|83067000:9|83068000:9|83069000:9
+2022-07-28 12:17:13,792:INFO:83070738:9|83071000:9|83072000:9|83073000:9|83074000:9|83075000:9|83076000:9|83077038:9|83078000:9|83079000:9
+2022-07-28 12:17:13,873:INFO:83080006:9|83085000:9|83087000:9
+2022-07-28 12:17:13,975:INFO:83090002:9|83090003:9|83090006:9|83093000:9|83094000:9|83096000:9|83099038:9
+2022-07-28 12:17:14,097:INFO:83107000:9
+2022-07-28 12:17:14,205:INFO:83110009:9
+2022-07-28 12:17:14,260:INFO:-1
+2022-07-28 12:17:14,333:INFO:-1
+2022-07-28 12:17:14,399:INFO:83140003:9|83140006:9|83141438:9
+2022-07-28 12:17:14,471:INFO:83150002:9
+2022-07-28 12:17:14,542:INFO:83164000:9
+2022-07-28 12:17:14,671:INFO:83170004:9|83178000:9
+2022-07-28 12:17:14,748:INFO:83180005:9
+2022-07-28 12:17:14,818:INFO:-1
+2022-07-28 12:17:14,894:INFO:-1
+2022-07-28 12:17:15,014:INFO:-1
+2022-07-28 12:17:15,175:INFO:93021000:9
+2022-07-28 12:17:15,246:INFO:93030005:9|93032000:9
+2022-07-28 12:17:15,401:INFO:93042000:9|93044039:9|93047000:9
+2022-07-28 12:17:15,478:INFO:93050002:9|93050539:9|93055039:9|93058000:9
+2022-07-28 12:17:15,558:INFO:93060002:9|93060004:9|93060007:9|93062000:9|93063000:9|93064000:9|93065000:9|93066039:9
+2022-07-28 12:17:15,640:INFO:93070003:9|93070006:9|93070739:9|93075000:9|93077039:9|93079000:9
+2022-07-28 12:17:15,795:INFO:93080004:9|93080006:9|93082000:9|93086000:9|93087000:9|93088039:9
+2022-07-28 12:17:15,874:INFO:93094000:9|93097000:9
+2022-07-28 12:17:15,959:INFO:-1
+2022-07-28 12:17:16,096:INFO:-1
+2022-07-28 12:17:16,247:INFO:-1
+2022-07-28 12:17:16,326:INFO:97010006:9|97013000:9|97018000:9|97019000:9
+2022-07-28 12:17:16,410:INFO:97020004:9|97020006:9|97020279:9|97022079:9|97028000:9
+2022-07-28 12:17:16,492:INFO:97030002:9|97030004:9|97030006:9|97030379:9|97033079:9|97034000:9
+2022-07-28 12:17:16,576:INFO:97043000:9|97044079:9|97048000:9
+2022-07-28 12:17:16,576:INFO:numbers
+2022-07-28 12:17:16,576:INFO:['83006000', '83013000', '83014000', '83015000', '83016000', '83017000', '83019000', '83020007', '83020238', '83022038', '83023000', '83024000', '83025000', '83026000', '83027000', '83028000', '83029000', '83034000', '83036000', '83037000', '83040002', '83040003', '83040005', '83040007', '83040438', '83041000', '83043000', '83044038', '83046000', '83047000', '83048000', '83049000', '83050001', '83050002', '83050538', '83051000', '83052000', '83053000', '83054000', '83055038', '83056000', '83057000', '83058000', '83059000', '83060638', '83061000', '83062000', '83063000', '83064000', '83065000', '83066038', '83067000', '83068000', '83069000', '83070738', '83071000', '83072000', '83073000', '83074000', '83075000', '83076000', '83077038', '83078000', '83079000', '83080006', '83085000', '83087000', '83090002', '83090003', '83090006', '83093000', '83094000', '83096000', '83099038', '83107000', '83110009', '83140003', '83140006', '83141438', '83150002', '83164000', '83170004', '83178000', '83180005', '93021000', '93030005', '93032000', '93042000', '93044039', '93047000', '93050002', '93050539', '93055039', '93058000', '93060002', '93060004', '93060007', '93062000', '93063000', '93064000', '93065000', '93066039', '93070003', '93070006', '93070739', '93075000', '93077039', '93079000', '93080004', '93080006', '93082000', '93086000', '93087000', '93088039', '93094000', '93097000', '97010006', '97013000', '97018000', '97019000', '97020004', '97020006', '97020279', '97022079', '97028000', '97030002', '97030004', '97030006', '97030379', '97033079', '97034000', '97043000', '97044079', '97048000']
+2022-07-28 12:17:16,724:INFO:tmp
+2022-07-28 12:17:16,724:INFO:['83006000', '83013000', '83014000', '83015000', '83016000', '83017000', '83019000', '83020007', '83020238', '83022038', '83023000', '83024000', '83025000', '83026000', '83027000', '83028000', '83029000', '83034000', '83036000', '83037000', '83040002', '83040003', '83040005', '83040007', '83040438', '83041000', '83043000', '83044038', '83046000', '83047000', '83048000', '83049000', '83050001', '83050002', '83050538', '83051000', '83052000', '83053000', '83054000', '83055038', '83056000', '83057000', '83058000', '83059000', '83060638', '83061000', '83062000', '83063000', '83064000', '83065000', '83066038', '83067000', '83068000', '83069000', '83070738', '83071000', '83072000', '83073000', '83074000', '83075000', '83076000', '83077038', '83078000', '83079000', '83080006', '83085000', '83087000', '83090002', '83090003', '83090006', '83093000', '83094000', '83096000', '83099038', '83107000', '83110009', '83140003', '83140006', '83141438', '83150002', '83164000', '83170004', '83178000', '83180005', '93021000', '93030005', '93032000', '93042000', '93044039', '93047000', '93050002', '93050539', '93055039', '93058000', '93060002', '93060004', '93060007', '93062000', '93063000', '93064000', '93065000', '93066039', '93070003', '93070006', '93070739', '93075000', '93077039', '93079000', '93080004', '93080006', '93082000', '93086000', '93087000', '93088039', '93094000', '93097000', '97010006', '97013000', '97018000', '97019000', '97020004', '97020006', '97020279', '97022079', '97028000', '97030002', '97030004', '97030006', '97030379', '97033079', '97034000', '97043000', '97044079', '97048000']
+2022-07-28 12:17:16,725:INFO:[{'prefix': '83020007'}, {'prefix': '83040002'}, {'prefix': '83040003'}, {'prefix': '83040005'}, {'prefix': '83040007'}, {'prefix': '83050001'}, {'prefix': '83050002'}, {'prefix': '83080006'}, {'prefix': '83090002'}, {'prefix': '83090003'}, {'prefix': '83090006'}, {'prefix': '83110009'}, {'prefix': '83140003'}, {'prefix': '83140006'}, {'prefix': '83150002'}, {'prefix': '83170004'}, {'prefix': '83180005'}, {'prefix': '93030005'}, {'prefix': '93050002'}, {'prefix': '93060002'}, {'prefix': '93060004'}, {'prefix': '93060007'}, {'prefix': '93070003'}, {'prefix': '93070006'}, {'prefix': '93080004'}, {'prefix': '93080006'}, {'prefix': '97010006'}, {'prefix': '97020004'}, {'prefix': '97020006'}, {'prefix': '97030002'}, {'prefix': '97030004'}, {'prefix': '97030006'}]
+2022-07-28 12:18:20,904:INFO:searchNumber
+2022-07-28 12:18:20,906:INFO:DEBBAAAA
+2022-07-28 12:18:20,906:INFO:DEBBAAAA
+2022-07-28 12:18:20,906:INFO:alt5
+2022-07-28 12:18:20,909:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:18:20,998:INFO:-1
+2022-07-28 12:18:21,109:INFO:-1
+2022-07-28 12:18:21,218:INFO:-1
+2022-07-28 12:18:21,302:INFO:-1
+2022-07-28 12:18:21,399:INFO:-1
+2022-07-28 12:18:21,589:INFO:-1
+2022-07-28 12:18:21,676:INFO:-1
+2022-07-28 12:18:21,770:INFO:-1
+2022-07-28 12:18:22,065:INFO:-1
+2022-07-28 12:18:22,309:INFO:-1
+2022-07-28 12:18:22,522:INFO:-1
+2022-07-28 12:18:22,598:INFO:-1
+2022-07-28 12:18:22,662:INFO:-1
+2022-07-28 12:18:22,908:INFO:-1
+2022-07-28 12:18:22,982:INFO:83145555:5
+2022-07-28 12:18:23,092:INFO:-1
+2022-07-28 12:18:23,218:INFO:83165555:5
+2022-07-28 12:18:23,293:INFO:83175555:5
+2022-07-28 12:18:23,420:INFO:-1
+2022-07-28 12:18:23,508:INFO:-1
+2022-07-28 12:18:23,703:INFO:-1
+2022-07-28 12:18:23,770:INFO:-1
+2022-07-28 12:18:23,836:INFO:-1
+2022-07-28 12:18:23,903:INFO:-1
+2022-07-28 12:18:23,993:INFO:-1
+2022-07-28 12:18:24,101:INFO:-1
+2022-07-28 12:18:24,200:INFO:-1
+2022-07-28 12:18:24,388:INFO:-1
+2022-07-28 12:18:24,498:INFO:-1
+2022-07-28 12:18:24,565:INFO:-1
+2022-07-28 12:18:24,650:INFO:-1
+2022-07-28 12:18:24,721:INFO:-1
+2022-07-28 12:18:24,799:INFO:-1
+2022-07-28 12:18:24,881:INFO:-1
+2022-07-28 12:18:25,084:INFO:-1
+2022-07-28 12:18:25,216:INFO:-1
+2022-07-28 12:18:25,577:INFO:-1
+2022-07-28 12:18:25,652:INFO:-1
+2022-07-28 12:18:25,733:INFO:-1
+2022-07-28 12:18:25,816:INFO:-1
+2022-07-28 12:18:26,095:INFO:-1
+2022-07-28 12:18:26,197:INFO:-1
+2022-07-28 12:18:26,269:INFO:-1
+2022-07-28 12:18:26,403:INFO:-1
+2022-07-28 12:18:26,470:INFO:-1
+2022-07-28 12:18:26,571:INFO:-1
+2022-07-28 12:18:26,637:INFO:-1
+2022-07-28 12:18:26,706:INFO:-1
+2022-07-28 12:18:26,793:INFO:-1
+2022-07-28 12:18:26,882:INFO:-1
+2022-07-28 12:18:26,969:INFO:-1
+2022-07-28 12:18:27,052:INFO:-1
+2022-07-28 12:18:27,137:INFO:-1
+2022-07-28 12:18:27,222:INFO:-1
+2022-07-28 12:18:27,313:INFO:-1
+2022-07-28 12:18:27,336:INFO:-1
+2022-07-28 12:18:27,336:INFO:numbers
+2022-07-28 12:18:27,337:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:18:27,341:INFO:tmp
+2022-07-28 12:18:27,341:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:18:27,341:INFO:[]
+2022-07-28 12:19:15,820:INFO:searchNumber
+2022-07-28 12:19:15,822:INFO:DEBBAAAA
+2022-07-28 12:19:15,823:INFO:DEBBAAAA
+2022-07-28 12:19:15,823:INFO:alt5
+2022-07-28 12:19:15,825:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:19:15,900:INFO:-1
+2022-07-28 12:19:15,970:INFO:-1
+2022-07-28 12:19:16,090:INFO:-1
+2022-07-28 12:19:16,158:INFO:searchNumber
+2022-07-28 12:19:16,160:INFO:DEBBAAAA
+2022-07-28 12:19:16,160:INFO:DEBBAAAA
+2022-07-28 12:19:16,160:INFO:alt5
+2022-07-28 12:19:16,163:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:19:16,226:INFO:-1
+2022-07-28 12:19:16,255:INFO:-1
+2022-07-28 12:19:16,289:INFO:-1
+2022-07-28 12:19:16,360:INFO:-1
+2022-07-28 12:19:16,363:INFO:-1
+2022-07-28 12:19:16,448:INFO:-1
+2022-07-28 12:19:16,521:INFO:-1
+2022-07-28 12:19:16,542:INFO:-1
+2022-07-28 12:19:16,601:INFO:-1
+2022-07-28 12:19:16,639:INFO:-1
+2022-07-28 12:19:16,685:INFO:-1
+2022-07-28 12:19:16,730:INFO:-1
+2022-07-28 12:19:16,783:INFO:-1
+2022-07-28 12:19:16,866:INFO:searchNumber
+2022-07-28 12:19:16,868:INFO:DEBBAAAA
+2022-07-28 12:19:16,868:INFO:DEBBAAAA
+2022-07-28 12:19:16,868:INFO:alt5
+2022-07-28 12:19:16,870:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:19:16,874:INFO:-1
+2022-07-28 12:19:16,933:INFO:-1
+2022-07-28 12:19:16,941:INFO:-1
+2022-07-28 12:19:16,987:INFO:-1
+2022-07-28 12:19:17,014:INFO:-1
+2022-07-28 12:19:17,078:INFO:-1
+2022-07-28 12:19:17,078:INFO:-1
+2022-07-28 12:19:17,102:INFO:-1
+2022-07-28 12:19:17,165:INFO:-1
+2022-07-28 12:19:17,179:INFO:-1
+2022-07-28 12:19:17,223:INFO:-1
+2022-07-28 12:19:17,290:INFO:-1
+2022-07-28 12:19:17,334:INFO:-1
+2022-07-28 12:19:17,388:INFO:-1
+2022-07-28 12:19:17,406:INFO:83145555:5
+2022-07-28 12:19:17,452:INFO:-1
+2022-07-28 12:19:17,464:INFO:-1
+2022-07-28 12:19:17,485:INFO:-1
+2022-07-28 12:19:17,493:INFO:searchNumber
+2022-07-28 12:19:17,495:INFO:DEBBAAAA
+2022-07-28 12:19:17,495:INFO:DEBBAAAA
+2022-07-28 12:19:17,495:INFO:alt5
+2022-07-28 12:19:17,498:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:19:17,520:INFO:-1
+2022-07-28 12:19:17,559:INFO:-1
+2022-07-28 12:19:17,577:INFO:-1
+2022-07-28 12:19:17,596:INFO:83165555:5
+2022-07-28 12:19:17,651:INFO:-1
+2022-07-28 12:19:17,656:INFO:-1
+2022-07-28 12:19:17,666:INFO:83175555:5
+2022-07-28 12:19:17,723:INFO:-1
+2022-07-28 12:19:17,734:INFO:83145555:5
+2022-07-28 12:19:17,736:INFO:-1
+2022-07-28 12:19:17,753:INFO:-1
+2022-07-28 12:19:17,782:INFO:-1
+2022-07-28 12:19:17,802:INFO:-1
+2022-07-28 12:19:17,819:INFO:-1
+2022-07-28 12:19:17,843:INFO:-1
+2022-07-28 12:19:17,848:INFO:-1
+2022-07-28 12:19:17,903:INFO:83165555:5
+2022-07-28 12:19:17,911:INFO:-1
+2022-07-28 12:19:17,917:INFO:-1
+2022-07-28 12:19:17,931:INFO:-1
+2022-07-28 12:19:17,978:INFO:-1
+2022-07-28 12:19:17,981:INFO:83175555:5
+2022-07-28 12:19:18,009:INFO:-1
+2022-07-28 12:19:18,070:INFO:-1
+2022-07-28 12:19:18,084:INFO:-1
+2022-07-28 12:19:18,085:INFO:-1
+2022-07-28 12:19:18,146:INFO:-1
+2022-07-28 12:19:18,163:INFO:-1
+2022-07-28 12:19:18,192:INFO:-1
+2022-07-28 12:19:18,213:INFO:-1
+2022-07-28 12:19:18,223:INFO:-1
+2022-07-28 12:19:18,237:INFO:-1
+2022-07-28 12:19:18,269:INFO:-1
+2022-07-28 12:19:18,288:INFO:-1
+2022-07-28 12:19:18,289:INFO:-1
+2022-07-28 12:19:18,291:INFO:-1
+2022-07-28 12:19:18,327:INFO:-1
+2022-07-28 12:19:18,358:INFO:-1
+2022-07-28 12:19:18,381:INFO:-1
+2022-07-28 12:19:18,385:INFO:-1
+2022-07-28 12:19:18,443:INFO:-1
+2022-07-28 12:19:18,455:INFO:-1
+2022-07-28 12:19:18,456:INFO:83145555:5
+2022-07-28 12:19:18,462:INFO:-1
+2022-07-28 12:19:18,503:INFO:-1
+2022-07-28 12:19:18,519:INFO:-1
+2022-07-28 12:19:18,533:INFO:-1
+2022-07-28 12:19:18,554:INFO:-1
+2022-07-28 12:19:18,564:INFO:-1
+2022-07-28 12:19:18,576:INFO:-1
+2022-07-28 12:19:18,627:INFO:-1
+2022-07-28 12:19:18,644:INFO:-1
+2022-07-28 12:19:18,655:INFO:83165555:5
+2022-07-28 12:19:18,701:INFO:-1
+2022-07-28 12:19:18,716:INFO:-1
+2022-07-28 12:19:18,730:INFO:83175555:5
+2022-07-28 12:19:18,756:INFO:-1
+2022-07-28 12:19:18,768:INFO:-1
+2022-07-28 12:19:18,797:INFO:-1
+2022-07-28 12:19:18,806:INFO:-1
+2022-07-28 12:19:18,820:INFO:-1
+2022-07-28 12:19:18,863:INFO:-1
+2022-07-28 12:19:18,868:INFO:-1
+2022-07-28 12:19:18,868:INFO:-1
+2022-07-28 12:19:18,917:INFO:-1
+2022-07-28 12:19:18,922:INFO:-1
+2022-07-28 12:19:18,944:INFO:-1
+2022-07-28 12:19:18,967:INFO:-1
+2022-07-28 12:19:18,967:INFO:-1
+2022-07-28 12:19:18,969:INFO:-1
+2022-07-28 12:19:19,012:INFO:-1
+2022-07-28 12:19:19,069:INFO:-1
+2022-07-28 12:19:19,072:INFO:-1
+2022-07-28 12:19:19,079:INFO:-1
+2022-07-28 12:19:19,083:INFO:-1
+2022-07-28 12:19:19,167:INFO:-1
+2022-07-28 12:19:19,177:INFO:-1
+2022-07-28 12:19:19,199:INFO:-1
+2022-07-28 12:19:19,227:INFO:-1
+2022-07-28 12:19:19,228:INFO:-1
+2022-07-28 12:19:19,256:INFO:83145555:5
+2022-07-28 12:19:19,333:INFO:-1
+2022-07-28 12:19:19,369:INFO:-1
+2022-07-28 12:19:19,390:INFO:-1
+2022-07-28 12:19:19,392:INFO:-1
+2022-07-28 12:19:19,438:INFO:-1
+2022-07-28 12:19:19,457:INFO:83165555:5
+2022-07-28 12:19:19,461:INFO:-1
+2022-07-28 12:19:19,479:INFO:-1
+2022-07-28 12:19:19,503:INFO:-1
+2022-07-28 12:19:19,532:INFO:83175555:5
+2022-07-28 12:19:19,558:INFO:-1
+2022-07-28 12:19:19,627:INFO:-1
+2022-07-28 12:19:19,667:INFO:-1
+2022-07-28 12:19:19,688:INFO:-1
+2022-07-28 12:19:19,690:INFO:-1
+2022-07-28 12:19:19,742:INFO:-1
+2022-07-28 12:19:19,750:INFO:-1
+2022-07-28 12:19:19,791:INFO:-1
+2022-07-28 12:19:19,800:INFO:-1
+2022-07-28 12:19:19,813:INFO:-1
+2022-07-28 12:19:19,869:INFO:-1
+2022-07-28 12:19:19,897:INFO:-1
+2022-07-28 12:19:19,916:INFO:-1
+2022-07-28 12:19:19,961:INFO:-1
+2022-07-28 12:19:19,984:INFO:-1
+2022-07-28 12:19:20,000:INFO:-1
+2022-07-28 12:19:20,027:INFO:-1
+2022-07-28 12:19:20,039:INFO:-1
+2022-07-28 12:19:20,090:INFO:-1
+2022-07-28 12:19:20,094:INFO:-1
+2022-07-28 12:19:20,127:INFO:-1
+2022-07-28 12:19:20,163:INFO:-1
+2022-07-28 12:19:20,186:INFO:-1
+2022-07-28 12:19:20,192:INFO:-1
+2022-07-28 12:19:20,198:INFO:-1
+2022-07-28 12:19:20,218:INFO:-1
+2022-07-28 12:19:20,253:INFO:-1
+2022-07-28 12:19:20,254:INFO:-1
+2022-07-28 12:19:20,275:INFO:-1
+2022-07-28 12:19:20,311:INFO:-1
+2022-07-28 12:19:20,345:INFO:-1
+2022-07-28 12:19:20,374:INFO:-1
+2022-07-28 12:19:20,403:INFO:-1
+2022-07-28 12:19:20,428:INFO:-1
+2022-07-28 12:19:20,461:INFO:-1
+2022-07-28 12:19:20,462:INFO:-1
+2022-07-28 12:19:20,507:INFO:-1
+2022-07-28 12:19:20,524:INFO:-1
+2022-07-28 12:19:20,583:INFO:-1
+2022-07-28 12:19:20,589:INFO:-1
+2022-07-28 12:19:20,623:INFO:-1
+2022-07-28 12:19:20,660:INFO:-1
+2022-07-28 12:19:20,690:INFO:-1
+2022-07-28 12:19:20,708:INFO:-1
+2022-07-28 12:19:20,722:INFO:-1
+2022-07-28 12:19:20,758:INFO:-1
+2022-07-28 12:19:20,765:INFO:-1
+2022-07-28 12:19:20,789:INFO:-1
+2022-07-28 12:19:20,815:INFO:-1
+2022-07-28 12:19:20,824:INFO:-1
+2022-07-28 12:19:20,824:INFO:numbers
+2022-07-28 12:19:20,824:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:20,824:INFO:-1
+2022-07-28 12:19:20,829:INFO:tmp
+2022-07-28 12:19:20,829:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:20,829:INFO:[]
+2022-07-28 12:19:20,832:INFO:-1
+2022-07-28 12:19:20,851:INFO:-1
+2022-07-28 12:19:20,903:INFO:-1
+2022-07-28 12:19:20,909:INFO:-1
+2022-07-28 12:19:20,915:INFO:-1
+2022-07-28 12:19:20,958:INFO:searchNumber
+2022-07-28 12:19:20,962:INFO:DEAAAADE
+2022-07-28 12:19:20,962:INFO:DEAAAADE
+2022-07-28 12:19:20,962:INFO:alt2
+2022-07-28 12:19:20,965:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:19:20,976:INFO:-1
+2022-07-28 12:19:20,990:INFO:-1
+2022-07-28 12:19:21,033:INFO:-1
+2022-07-28 12:19:21,071:INFO:-1
+2022-07-28 12:19:21,080:INFO:-1
+2022-07-28 12:19:21,097:INFO:-1
+2022-07-28 12:19:21,103:INFO:-1
+2022-07-28 12:19:21,161:INFO:-1
+2022-07-28 12:19:21,173:INFO:-1
+2022-07-28 12:19:21,173:INFO:numbers
+2022-07-28 12:19:21,173:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:21,177:INFO:tmp
+2022-07-28 12:19:21,177:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:21,177:INFO:[]
+2022-07-28 12:19:21,197:INFO:-1
+2022-07-28 12:19:21,199:INFO:-1
+2022-07-28 12:19:21,221:INFO:-1
+2022-07-28 12:19:21,258:INFO:-1
+2022-07-28 12:19:21,261:INFO:-1
+2022-07-28 12:19:21,315:INFO:-1
+2022-07-28 12:19:21,333:INFO:-1
+2022-07-28 12:19:21,364:INFO:-1
+2022-07-28 12:19:21,407:INFO:-1
+2022-07-28 12:19:21,415:INFO:-1
+2022-07-28 12:19:21,418:INFO:-1
+2022-07-28 12:19:21,472:INFO:-1
+2022-07-28 12:19:21,572:INFO:-1
+2022-07-28 12:19:21,579:INFO:-1
+2022-07-28 12:19:21,627:INFO:-1
+2022-07-28 12:19:21,634:INFO:-1
+2022-07-28 12:19:21,693:INFO:-1
+2022-07-28 12:19:21,695:INFO:-1
+2022-07-28 12:19:21,697:INFO:-1
+2022-07-28 12:19:21,762:INFO:-1
+2022-07-28 12:19:21,779:INFO:-1
+2022-07-28 12:19:21,781:INFO:-1
+2022-07-28 12:19:21,822:INFO:-1
+2022-07-28 12:19:21,872:INFO:-1
+2022-07-28 12:19:21,875:INFO:-1
+2022-07-28 12:19:21,929:INFO:-1
+2022-07-28 12:19:21,948:INFO:-1
+2022-07-28 12:19:21,993:INFO:-1
+2022-07-28 12:19:22,022:INFO:-1
+2022-07-28 12:19:22,034:INFO:-1
+2022-07-28 12:19:22,090:INFO:-1
+2022-07-28 12:19:22,117:INFO:-1
+2022-07-28 12:19:22,127:INFO:-1
+2022-07-28 12:19:22,183:INFO:-1
+2022-07-28 12:19:22,184:INFO:-1
+2022-07-28 12:19:22,217:INFO:-1
+2022-07-28 12:19:22,238:INFO:-1
+2022-07-28 12:19:22,251:INFO:-1
+2022-07-28 12:19:22,302:INFO:-1
+2022-07-28 12:19:22,313:INFO:-1
+2022-07-28 12:19:22,313:INFO:numbers
+2022-07-28 12:19:22,313:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:22,317:INFO:tmp
+2022-07-28 12:19:22,317:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:22,317:INFO:[]
+2022-07-28 12:19:22,356:INFO:-1
+2022-07-28 12:19:22,369:INFO:-1
+2022-07-28 12:19:22,420:INFO:83145555:5
+2022-07-28 12:19:22,438:INFO:-1
+2022-07-28 12:19:22,480:INFO:-1
+2022-07-28 12:19:22,508:INFO:-1
+2022-07-28 12:19:22,685:INFO:83165555:5
+2022-07-28 12:19:22,747:INFO:-1
+2022-07-28 12:19:22,749:INFO:83175555:5
+2022-07-28 12:19:22,810:INFO:-1
+2022-07-28 12:19:22,814:INFO:-1
+2022-07-28 12:19:22,867:INFO:-1
+2022-07-28 12:19:22,873:INFO:-1
+2022-07-28 12:19:22,879:INFO:-1
+2022-07-28 12:19:22,879:INFO:numbers
+2022-07-28 12:19:22,880:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:22,884:INFO:tmp
+2022-07-28 12:19:22,884:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:22,884:INFO:[]
+2022-07-28 12:19:23,031:INFO:-1
+2022-07-28 12:19:23,122:INFO:-1
+2022-07-28 12:19:23,212:INFO:-1
+2022-07-28 12:19:23,271:INFO:-1
+2022-07-28 12:19:23,353:INFO:-1
+2022-07-28 12:19:23,418:INFO:-1
+2022-07-28 12:19:23,480:INFO:-1
+2022-07-28 12:19:23,648:INFO:-1
+2022-07-28 12:19:23,730:INFO:-1
+2022-07-28 12:19:23,807:INFO:-1
+2022-07-28 12:19:23,884:INFO:-1
+2022-07-28 12:19:23,951:INFO:-1
+2022-07-28 12:19:24,082:INFO:-1
+2022-07-28 12:19:24,158:INFO:-1
+2022-07-28 12:19:24,269:INFO:-1
+2022-07-28 12:19:24,425:INFO:-1
+2022-07-28 12:19:24,497:INFO:-1
+2022-07-28 12:19:24,562:INFO:-1
+2022-07-28 12:19:24,762:INFO:-1
+2022-07-28 12:19:24,824:INFO:-1
+2022-07-28 12:19:24,894:INFO:-1
+2022-07-28 12:19:24,957:INFO:-1
+2022-07-28 12:19:25,102:INFO:-1
+2022-07-28 12:19:25,189:INFO:-1
+2022-07-28 12:19:25,339:INFO:-1
+2022-07-28 12:19:25,390:INFO:-1
+2022-07-28 12:19:25,450:INFO:-1
+2022-07-28 12:19:25,507:INFO:-1
+2022-07-28 12:19:25,570:INFO:-1
+2022-07-28 12:19:25,634:INFO:-1
+2022-07-28 12:19:25,709:INFO:-1
+2022-07-28 12:19:25,773:INFO:-1
+2022-07-28 12:19:25,847:INFO:-1
+2022-07-28 12:19:25,925:INFO:-1
+2022-07-28 12:19:26,057:INFO:-1
+2022-07-28 12:19:26,087:INFO:-1
+2022-07-28 12:19:26,088:INFO:numbers
+2022-07-28 12:19:26,088:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:26,092:INFO:tmp
+2022-07-28 12:19:26,092:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:26,092:INFO:[]
+2022-07-28 12:19:43,460:INFO:searchNumber
+2022-07-28 12:19:43,463:INFO:DEAAAADE
+2022-07-28 12:19:43,463:INFO:DEAAAADE
+2022-07-28 12:19:43,463:INFO:alt2
+2022-07-28 12:19:43,466:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:19:43,487:INFO:-1
+2022-07-28 12:19:43,505:INFO:-1
+2022-07-28 12:19:43,527:INFO:-1
+2022-07-28 12:19:43,549:INFO:-1
+2022-07-28 12:19:43,571:INFO:-1
+2022-07-28 12:19:43,593:INFO:-1
+2022-07-28 12:19:43,614:INFO:-1
+2022-07-28 12:19:43,635:INFO:-1
+2022-07-28 12:19:43,656:INFO:-1
+2022-07-28 12:19:43,677:INFO:-1
+2022-07-28 12:19:43,698:INFO:-1
+2022-07-28 12:19:43,722:INFO:-1
+2022-07-28 12:19:43,741:INFO:-1
+2022-07-28 12:19:43,758:INFO:-1
+2022-07-28 12:19:43,777:INFO:83145555:5
+2022-07-28 12:19:43,794:INFO:-1
+2022-07-28 12:19:43,814:INFO:83165555:5
+2022-07-28 12:19:43,833:INFO:83175555:5
+2022-07-28 12:19:43,852:INFO:-1
+2022-07-28 12:19:43,871:INFO:-1
+2022-07-28 12:19:43,892:INFO:-1
+2022-07-28 12:19:43,911:INFO:-1
+2022-07-28 12:19:43,932:INFO:-1
+2022-07-28 12:19:43,950:INFO:-1
+2022-07-28 12:19:43,973:INFO:-1
+2022-07-28 12:19:43,992:INFO:-1
+2022-07-28 12:19:44,010:INFO:-1
+2022-07-28 12:19:44,029:INFO:-1
+2022-07-28 12:19:44,048:INFO:-1
+2022-07-28 12:19:44,068:INFO:-1
+2022-07-28 12:19:44,088:INFO:-1
+2022-07-28 12:19:44,108:INFO:-1
+2022-07-28 12:19:44,126:INFO:-1
+2022-07-28 12:19:44,146:INFO:-1
+2022-07-28 12:19:44,166:INFO:-1
+2022-07-28 12:19:44,186:INFO:-1
+2022-07-28 12:19:44,207:INFO:-1
+2022-07-28 12:19:44,228:INFO:-1
+2022-07-28 12:19:44,249:INFO:-1
+2022-07-28 12:19:44,270:INFO:-1
+2022-07-28 12:19:44,291:INFO:-1
+2022-07-28 12:19:44,311:INFO:-1
+2022-07-28 12:19:44,332:INFO:-1
+2022-07-28 12:19:44,351:INFO:-1
+2022-07-28 12:19:44,369:INFO:-1
+2022-07-28 12:19:44,387:INFO:-1
+2022-07-28 12:19:44,409:INFO:-1
+2022-07-28 12:19:44,428:INFO:-1
+2022-07-28 12:19:44,447:INFO:-1
+2022-07-28 12:19:44,466:INFO:-1
+2022-07-28 12:19:44,487:INFO:-1
+2022-07-28 12:19:44,508:INFO:-1
+2022-07-28 12:19:44,527:INFO:-1
+2022-07-28 12:19:44,551:INFO:-1
+2022-07-28 12:19:44,567:INFO:-1
+2022-07-28 12:19:44,575:INFO:-1
+2022-07-28 12:19:44,575:INFO:numbers
+2022-07-28 12:19:44,576:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:44,580:INFO:tmp
+2022-07-28 12:19:44,580:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:44,580:INFO:[]
+2022-07-28 12:19:46,987:INFO:searchNumber
+2022-07-28 12:19:46,990:INFO:DEAAAADE
+2022-07-28 12:19:46,990:INFO:DEAAAADE
+2022-07-28 12:19:46,990:INFO:alt2
+2022-07-28 12:19:46,992:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:19:47,023:INFO:-1
+2022-07-28 12:19:47,055:INFO:-1
+2022-07-28 12:19:47,087:INFO:-1
+2022-07-28 12:19:47,120:INFO:-1
+2022-07-28 12:19:47,152:INFO:-1
+2022-07-28 12:19:47,184:INFO:-1
+2022-07-28 12:19:47,215:INFO:-1
+2022-07-28 12:19:47,247:INFO:-1
+2022-07-28 12:19:47,278:INFO:-1
+2022-07-28 12:19:47,321:INFO:-1
+2022-07-28 12:19:47,355:INFO:-1
+2022-07-28 12:19:47,387:INFO:-1
+2022-07-28 12:19:47,414:INFO:-1
+2022-07-28 12:19:47,440:INFO:-1
+2022-07-28 12:19:47,473:INFO:83145555:5
+2022-07-28 12:19:47,504:INFO:-1
+2022-07-28 12:19:47,535:INFO:83165555:5
+2022-07-28 12:19:47,565:INFO:83175555:5
+2022-07-28 12:19:47,592:INFO:-1
+2022-07-28 12:19:47,621:INFO:-1
+2022-07-28 12:19:47,649:INFO:-1
+2022-07-28 12:19:47,677:INFO:-1
+2022-07-28 12:19:47,705:INFO:-1
+2022-07-28 12:19:47,732:INFO:-1
+2022-07-28 12:19:47,763:INFO:-1
+2022-07-28 12:19:47,820:INFO:-1
+2022-07-28 12:19:47,854:INFO:-1
+2022-07-28 12:19:47,881:INFO:-1
+2022-07-28 12:19:47,908:INFO:-1
+2022-07-28 12:19:47,935:INFO:-1
+2022-07-28 12:19:47,955:INFO:-1
+2022-07-28 12:19:47,975:INFO:-1
+2022-07-28 12:19:47,999:INFO:-1
+2022-07-28 12:19:48,017:INFO:-1
+2022-07-28 12:19:48,039:INFO:-1
+2022-07-28 12:19:48,063:INFO:-1
+2022-07-28 12:19:48,086:INFO:-1
+2022-07-28 12:19:48,105:INFO:-1
+2022-07-28 12:19:48,125:INFO:-1
+2022-07-28 12:19:48,142:INFO:-1
+2022-07-28 12:19:48,164:INFO:-1
+2022-07-28 12:19:48,183:INFO:-1
+2022-07-28 12:19:48,206:INFO:-1
+2022-07-28 12:19:48,227:INFO:-1
+2022-07-28 12:19:48,243:INFO:-1
+2022-07-28 12:19:48,259:INFO:-1
+2022-07-28 12:19:48,276:INFO:-1
+2022-07-28 12:19:48,293:INFO:-1
+2022-07-28 12:19:48,310:INFO:-1
+2022-07-28 12:19:48,328:INFO:-1
+2022-07-28 12:19:48,350:INFO:-1
+2022-07-28 12:19:48,377:INFO:-1
+2022-07-28 12:19:48,398:INFO:-1
+2022-07-28 12:19:48,419:INFO:-1
+2022-07-28 12:19:48,438:INFO:-1
+2022-07-28 12:19:48,449:INFO:-1
+2022-07-28 12:19:48,449:INFO:numbers
+2022-07-28 12:19:48,449:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:48,454:INFO:tmp
+2022-07-28 12:19:48,454:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:19:48,454:INFO:[]
+2022-07-28 12:20:16,566:INFO:searchNumber
+2022-07-28 12:20:16,568:INFO:DEAAAADE
+2022-07-28 12:20:16,568:INFO:DEAAAADE
+2022-07-28 12:20:16,568:INFO:alt2
+2022-07-28 12:20:16,571:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:20:16,643:INFO:-1
+2022-07-28 12:20:16,716:INFO:-1
+2022-07-28 12:20:16,793:INFO:-1
+2022-07-28 12:20:16,866:INFO:-1
+2022-07-28 12:20:16,955:INFO:-1
+2022-07-28 12:20:17,113:INFO:-1
+2022-07-28 12:20:17,236:INFO:-1
+2022-07-28 12:20:17,339:INFO:-1
+2022-07-28 12:20:17,414:INFO:-1
+2022-07-28 12:20:17,492:INFO:-1
+2022-07-28 12:20:17,583:INFO:-1
+2022-07-28 12:20:17,657:INFO:-1
+2022-07-28 12:20:17,721:INFO:-1
+2022-07-28 12:20:18,001:INFO:-1
+2022-07-28 12:20:18,073:INFO:83145555:5
+2022-07-28 12:20:18,143:INFO:-1
+2022-07-28 12:20:18,220:INFO:83165555:5
+2022-07-28 12:20:18,294:INFO:83175555:5
+2022-07-28 12:20:18,363:INFO:-1
+2022-07-28 12:20:18,433:INFO:-1
+2022-07-28 12:20:18,508:INFO:-1
+2022-07-28 12:20:18,572:INFO:-1
+2022-07-28 12:20:18,629:INFO:-1
+2022-07-28 12:20:18,687:INFO:-1
+2022-07-28 12:20:18,746:INFO:-1
+2022-07-28 12:20:18,928:INFO:-1
+2022-07-28 12:20:18,990:INFO:-1
+2022-07-28 12:20:19,092:INFO:-1
+2022-07-28 12:20:19,204:INFO:-1
+2022-07-28 12:20:19,263:INFO:-1
+2022-07-28 12:20:19,770:INFO:-1
+2022-07-28 12:20:19,814:INFO:-1
+2022-07-28 12:20:19,871:INFO:-1
+2022-07-28 12:20:19,926:INFO:-1
+2022-07-28 12:20:20,001:INFO:-1
+2022-07-28 12:20:20,091:INFO:-1
+2022-07-28 12:20:20,176:INFO:searchNumber
+2022-07-28 12:20:20,178:INFO:DEAAAAAA
+2022-07-28 12:20:20,179:INFO:DEAAAAAA
+2022-07-28 12:20:20,179:INFO:brilliant
+2022-07-28 12:20:20,182:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:20:20,194:INFO:-1
+2022-07-28 12:20:20,251:INFO:-1
+2022-07-28 12:20:20,256:INFO:-1
+2022-07-28 12:20:20,395:INFO:-1
+2022-07-28 12:20:20,403:INFO:-1
+2022-07-28 12:20:20,473:INFO:-1
+2022-07-28 12:20:20,502:INFO:-1
+2022-07-28 12:20:20,552:INFO:-1
+2022-07-28 12:20:20,584:INFO:-1
+2022-07-28 12:20:20,624:INFO:-1
+2022-07-28 12:20:20,674:INFO:-1
+2022-07-28 12:20:20,688:INFO:-1
+2022-07-28 12:20:20,751:INFO:-1
+2022-07-28 12:20:20,766:INFO:-1
+2022-07-28 12:20:20,799:INFO:-1
+2022-07-28 12:20:20,850:INFO:-1
+2022-07-28 12:20:20,862:INFO:-1
+2022-07-28 12:20:20,915:INFO:-1
+2022-07-28 12:20:20,946:INFO:-1
+2022-07-28 12:20:20,977:INFO:-1
+2022-07-28 12:20:21,079:INFO:-1
+2022-07-28 12:20:21,093:INFO:-1
+2022-07-28 12:20:21,200:INFO:-1
+2022-07-28 12:20:21,205:INFO:-1
+2022-07-28 12:20:21,266:INFO:-1
+2022-07-28 12:20:21,290:INFO:-1
+2022-07-28 12:20:21,329:INFO:-1
+2022-07-28 12:20:21,499:INFO:-1
+2022-07-28 12:20:21,522:INFO:-1
+2022-07-28 12:20:21,562:INFO:-1
+2022-07-28 12:20:21,585:INFO:-1
+2022-07-28 12:20:21,613:INFO:-1
+2022-07-28 12:20:21,622:INFO:-1
+2022-07-28 12:20:21,622:INFO:numbers
+2022-07-28 12:20:21,622:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:20:21,626:INFO:tmp
+2022-07-28 12:20:21,626:INFO:['83145555', '83165555', '83175555']
+2022-07-28 12:20:21,626:INFO:[]
+2022-07-28 12:20:21,640:INFO:-1
+2022-07-28 12:20:21,862:INFO:-1
+2022-07-28 12:20:21,933:INFO:-1
+2022-07-28 12:20:22,010:INFO:-1
+2022-07-28 12:20:22,136:INFO:-1
+2022-07-28 12:20:22,203:INFO:-1
+2022-07-28 12:20:22,341:INFO:-1
+2022-07-28 12:20:22,414:INFO:-1
+2022-07-28 12:20:22,478:INFO:-1
+2022-07-28 12:20:22,543:INFO:-1
+2022-07-28 12:20:22,608:INFO:-1
+2022-07-28 12:20:22,674:INFO:-1
+2022-07-28 12:20:22,887:INFO:-1
+2022-07-28 12:20:22,954:INFO:-1
+2022-07-28 12:20:23,026:INFO:-1
+2022-07-28 12:20:23,127:INFO:-1
+2022-07-28 12:20:23,234:INFO:-1
+2022-07-28 12:20:23,409:INFO:-1
+2022-07-28 12:20:23,485:INFO:-1
+2022-07-28 12:20:23,563:INFO:-1
+2022-07-28 12:20:23,940:INFO:-1
+2022-07-28 12:20:24,034:INFO:-1
+2022-07-28 12:20:24,193:INFO:-1
+2022-07-28 12:20:24,324:INFO:-1
+2022-07-28 12:20:24,468:INFO:-1
+2022-07-28 12:20:24,548:INFO:-1
+2022-07-28 12:20:24,702:INFO:-1
+2022-07-28 12:20:24,791:INFO:-1
+2022-07-28 12:20:24,872:INFO:-1
+2022-07-28 12:20:24,994:INFO:-1
+2022-07-28 12:20:25,088:INFO:-1
+2022-07-28 12:20:25,187:INFO:-1
+2022-07-28 12:20:25,250:INFO:-1
+2022-07-28 12:20:25,382:INFO:-1
+2022-07-28 12:20:25,459:INFO:-1
+2022-07-28 12:20:25,544:INFO:-1
+2022-07-28 12:20:25,741:INFO:-1
+2022-07-28 12:20:25,926:INFO:-1
+2022-07-28 12:20:26,012:INFO:-1
+2022-07-28 12:20:26,090:INFO:-1
+2022-07-28 12:20:26,253:INFO:-1
+2022-07-28 12:20:26,352:INFO:-1
+2022-07-28 12:20:26,378:INFO:-1
+2022-07-28 12:20:26,378:INFO:numbers
+2022-07-28 12:20:26,378:INFO:[]
+2022-07-28 12:20:26,378:INFO:tmp
+2022-07-28 12:20:26,378:INFO:[]
+2022-07-28 12:20:26,378:INFO:[]
+2022-07-28 12:20:30,148:INFO:searchNumber
+2022-07-28 12:20:30,150:INFO:DEAAAAAA
+2022-07-28 12:20:30,150:INFO:DEAAAAAA
+2022-07-28 12:20:30,150:INFO:brilliant
+2022-07-28 12:20:30,153:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-28 12:20:30,225:INFO:-1
+2022-07-28 12:20:30,296:INFO:-1
+2022-07-28 12:20:30,377:INFO:-1
+2022-07-28 12:20:30,457:INFO:-1
+2022-07-28 12:20:30,552:INFO:-1
+2022-07-28 12:20:30,643:INFO:-1
+2022-07-28 12:20:30,735:INFO:-1
+2022-07-28 12:20:30,831:INFO:-1
+2022-07-28 12:20:30,916:INFO:-1
+2022-07-28 12:20:30,998:INFO:-1
+2022-07-28 12:20:31,081:INFO:-1
+2022-07-28 12:20:31,154:INFO:-1
+2022-07-28 12:20:31,213:INFO:-1
+2022-07-28 12:20:31,268:INFO:-1
+2022-07-28 12:20:31,340:INFO:-1
+2022-07-28 12:20:31,404:INFO:-1
+2022-07-28 12:20:31,480:INFO:-1
+2022-07-28 12:20:31,555:INFO:-1
+2022-07-28 12:20:31,629:INFO:-1
+2022-07-28 12:20:31,708:INFO:-1
+2022-07-28 12:20:31,789:INFO:-1
+2022-07-28 12:20:31,877:INFO:-1
+2022-07-28 12:20:31,953:INFO:-1
+2022-07-28 12:20:32,017:INFO:-1
+2022-07-28 12:20:32,096:INFO:-1
+2022-07-28 12:20:32,170:INFO:-1
+2022-07-28 12:20:32,245:INFO:-1
+2022-07-28 12:20:32,325:INFO:-1
+2022-07-28 12:20:32,396:INFO:-1
+2022-07-28 12:20:32,456:INFO:-1
+2022-07-28 12:20:32,530:INFO:-1
+2022-07-28 12:20:32,599:INFO:-1
+2022-07-28 12:20:32,669:INFO:-1
+2022-07-28 12:20:32,732:INFO:-1
+2022-07-28 12:20:32,822:INFO:-1
+2022-07-28 12:20:32,908:INFO:-1
+2022-07-28 12:20:33,032:INFO:-1
+2022-07-28 12:20:33,107:INFO:-1
+2022-07-28 12:20:33,181:INFO:-1
+2022-07-28 12:20:33,244:INFO:-1
+2022-07-28 12:20:33,308:INFO:-1
+2022-07-28 12:20:33,369:INFO:-1
+2022-07-28 12:20:33,433:INFO:-1
+2022-07-28 12:20:33,479:INFO:-1
+2022-07-28 12:20:33,516:INFO:-1
+2022-07-28 12:20:33,572:INFO:-1
+2022-07-28 12:20:33,631:INFO:-1
+2022-07-28 12:20:33,712:INFO:-1
+2022-07-28 12:20:33,774:INFO:-1
+2022-07-28 12:20:33,846:INFO:-1
+2022-07-28 12:20:33,899:INFO:-1
+2022-07-28 12:20:33,972:INFO:-1
+2022-07-28 12:20:34,038:INFO:-1
+2022-07-28 12:20:34,107:INFO:-1
+2022-07-28 12:20:34,158:INFO:-1
+2022-07-28 12:20:34,169:INFO:-1
+2022-07-28 12:20:34,169:INFO:numbers
+2022-07-28 12:20:34,169:INFO:[]
+2022-07-28 12:20:34,169:INFO:tmp
+2022-07-28 12:20:34,169:INFO:[]
+2022-07-28 12:20:34,169:INFO:[]
+2022-07-28 12:37:29,305:INFO:jwt
+2022-07-28 12:37:29,311:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 4, 42, 29, 311322)}
+2022-07-28 12:37:29,311:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5ODMzNDl9.11YkUGKhRH8ttR6a7dxsxbeyxqvg69TLcWk7tzNsnwQ
+2022-07-28 12:37:32,607:INFO:ads
+2022-07-28 13:37:32,497:INFO:jwt
+2022-07-28 13:37:32,503:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 5, 42, 32, 503123)}
+2022-07-28 13:37:32,503:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5ODY5NTJ9.zpRDYGEenU9Bq5tYJN9WMDqECBPYEUgH2DrkI3serc8
+2022-07-28 13:37:35,764:INFO:ads
+2022-07-28 14:37:36,210:INFO:jwt
+2022-07-28 14:37:36,215:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 6, 42, 36, 215460)}
+2022-07-28 14:37:36,215:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5OTA1NTZ9.jgi8nPSya8rhQ-pWtKzdwwpEd19lvU7E5-oz6Q89Ix0
+2022-07-28 14:37:39,507:INFO:ads
+2022-07-28 15:37:39,394:INFO:jwt
+2022-07-28 15:37:39,399:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 7, 42, 39, 399828)}
+2022-07-28 15:37:39,400:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5OTQxNTl9._5Xvpn4_-hobIkSydLvKvXqLjdNeFD0OjhlTTVlfdw8
+2022-07-28 15:37:42,651:INFO:ads
+2022-07-28 16:37:42,927:INFO:jwt
+2022-07-28 16:37:42,934:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 8, 42, 42, 934935)}
+2022-07-28 16:37:42,935:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg5OTc3NjJ9.zNDUVDMLGzd-klwkt2MGQK5DPdn61p_ErdSoIVC430U
+2022-07-28 16:37:46,198:INFO:ads
+2022-07-28 17:37:46,203:INFO:jwt
+2022-07-28 17:37:46,208:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 9, 42, 46, 208517)}
+2022-07-28 17:37:46,208:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMDEzNjZ9.aVMspLC5Z5E2zEBVy9mpZ3bo7DoYWHRAzXoaN_nTE1Y
+2022-07-28 17:37:49,460:INFO:ads

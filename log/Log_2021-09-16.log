@@ -1,0 +1,260 @@
+2021-09-16 16:15:31,003:INFO:checkNumber
+2021-09-16 16:15:31,012:INFO:True
+2021-09-16 16:15:31,015:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 16:15:31,244:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-16 16:15:41,828:INFO:checkNumber
+2021-09-16 16:15:41,833:INFO:True
+2021-09-16 16:15:41,835:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 16:15:42,059:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-09-16 16:15:42,062:INFO:{"action":"check_index","status":0,"errors":"","type":"WCDMA","unit":[{"profile_code":"H-1000","name":"1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"H-2000","name":"2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"2000"},{"profile_code":"H-5000","name":"5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"5000"},{"profile_code":"H-7000","name":"7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"H-10000","name":"10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442","price":"10000"},{"profile_code":"H-30000","name":"30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 ","price":"30000"},{"profile_code":"H-6000","name":"50\/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436","price":"6000"},{"profile_code":"H-11000","name":"30\/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436","price":"11000"},{"profile_code":"H-15000","name":"0\/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436","price":"15000"},{"profile_code":"H-20000","name":"0\/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436","price":"20000"},{"profile_code":"H-60000","name":"0\/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436","price":"60000"}],"data":[{"profile_code":"DAT-1000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \u00a01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"1000"},{"profile_code":"UNDAT-3000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"3000"},{"profile_code":"UNDAT-7000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"UNDAT-13000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"13000"},{"profile_code":"DAT-25000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"25000"},{"profile_code":"UNDAT-75000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"75000"},{"profile_code":"DAT-240000","name":"\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"240000"},{"profile_code":"DAT-100","name":"100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"1000"},{"profile_code":"DAT-500","name":"500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"4000"},{"profile_code":"DAT-7000","name":"1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"7000"},{"profile_code":"DAT-3000","name":"3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"12000"},{"profile_code":"DAT-8000","name":"8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"20000"},{"profile_code":"DAT60-20000","name":"20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442","price":"30000"},{"profile_code":"DAT-120000","name":"240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u00a0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 ","price":"240000"}]}
+2021-09-16 16:52:12,363:INFO:checkNumber
+2021-09-16 16:52:12,366:INFO:True
+2021-09-16 16:52:12,369:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 16:52:12,593:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-16 16:52:12,596:INFO:post
+2021-09-16 16:52:12,598:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 16:52:13,239:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-09-16 16:52:13,242:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 7035}
+2021-09-16 16:52:21,922:INFO:hur
+2021-09-16 16:52:21,928:INFO:
+2021-09-16 16:52:21,931:INFO:huruuniiHee
+2021-09-16 16:52:21,934:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2021-09-16 16:52:22,225:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1340
+2021-09-16 16:52:22,227:INFO:hariu
+2021-09-16 16:52:22,227:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041c89101771', u'auth': {u'operator': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'428fa1ae-28a5-41b3-95c0-f4a56ef8971b', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0430\u0432\u0437\u0430\u0433\u0430\u0442\u0430\u0439\u0436', u'addressDetail': u'6', u'firstname': u'\u0431\u0430\u0442\u0431\u0430\u044f\u0440', u'lastname': u'\u0430\u043b\u0442\u0430\u043d\u0431\u0430\u0433\u0430\u043d\u0430', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439 17-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1 \u0433\u0443\u0434\u0430\u043c\u0436  6  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043c89101771', u'soumDistrictName': u'\u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439', u'addressStreetName': u'\u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'83', u'bagKhorooName': u'17-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'25'}}}
+2021-09-16 16:52:26,193:INFO:order
+2021-09-16 16:52:26,199:INFO:order.amjilttai
+2021-09-16 16:52:26,200:INFO:11732
+2021-09-16 16:52:49,529:INFO:charge
+2021-09-16 16:52:49,529:INFO:500
+2021-09-16 16:52:49,529:INFO:11732
+2021-09-16 16:52:49,588:INFO:Хүлээж авсан мөнгө: 500=500
+2021-09-16 16:52:49,593:ERROR:Internal Server Error: /api/charge/
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 313, in charge
+    addcashlog(kiosk.id, order.paid, order.product_name, payment, "1", order_id, "0")
+  File "/home/user/kiosk/controller/updateTables.py", line 79, in addcashlog
+    cash.save()
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 1079, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 209, in execute
+    res = self._query(query)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 315, in _query
+    db.query(q)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`kiosk`.`cashlog`, CONSTRAINT `cashlog_ibfk_3` FOREIGN KEY (`order_id`) REFERENCES `orders_failed` (`id`))')
+2021-09-16 17:22:24,659:INFO:charge
+2021-09-16 17:22:24,659:INFO:500
+2021-09-16 17:22:24,659:INFO:11732
+2021-09-16 17:22:24,673:INFO:Хүлээж авсан мөнгө: 500=1000
+2021-09-16 17:22:24,680:INFO:Нийт бэлэн мөнгө=1000
+2021-09-16 17:22:24,682:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 17:22:27,601:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2021-09-16 17:22:27,604:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2021-09-16 17:22:27,647:INFO:{u'macAddress': u'005056848B11', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'HR 42398519', u'billId': u'000005055873003210916338639062593', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'1000.00', u'vat': u'90.91', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBCA34333754866A440868F1A94B6AFC45DA38B8', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2021-09-16 17:23:13', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'1000.00', u'qty': u'1.00', u'unitPrice': u'1000.00', u'vat': u'90.91'}], u'billType': u'1', u'success': True, u'amount': u'1000.00', u'branchNo': u'', u'qrData': u'7126644829839278198000395510737201382580750657917457257505370026461334564229252823677244817331064411591211139604110863442550380608163869937225150343039695353770117873048393488202498682701232793909166477507921996284386405642632606431390224653820627387385873724512483583899306098566315701152287744485287124682570412470'}
+2021-09-16 17:22:27,647:INFO:ADDLOTTERY
+2021-09-16 17:22:27,730:ERROR:Internal Server Error: /api/charge
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 346, in charge
+    bill(bill_id, kiosk.name, tipo, number, int(order.paid), lott, qr_data, vat)
+  File "/home/user/kiosk/controller/updateTables.py", line 94, in bill
+    kiosk = Status.objects.get(id=kiosk_id)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 371, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 787, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 805, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1210, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1104, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+UnicodeEncodeError: 'decimal' codec can't encode characters in position 0-4: invalid decimal Unicode string
+2021-09-16 17:25:39,465:INFO:charge
+2021-09-16 17:25:39,466:INFO:0
+2021-09-16 17:25:39,466:INFO:11729
+2021-09-16 17:25:39,495:ERROR:Internal Server Error: /api/charge
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 352, in charge
+    bill("1", kiosk.id, "s", number, int(order.paid), "2", "3", "4")
+  File "/home/user/kiosk/controller/updateTables.py", line 155, in bill
+    text = kiosk_name
+NameError: global name 'kiosk_name' is not defined
+2021-09-16 17:26:23,433:INFO:charge
+2021-09-16 17:26:23,433:INFO:0
+2021-09-16 17:26:23,433:INFO:11729
+2021-09-16 17:26:23,479:ERROR:Internal Server Error: /api/charge
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 352, in charge
+    bill("1", kiosk.id, "s", number, int(order.paid), "2", "3", "4")
+  File "/home/user/kiosk/controller/updateTables.py", line 238, in bill
+    img.save("./static/ebarimt/kiosk{0}/bill.bmp".format(kiosk.id))
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/PIL/Image.py", line 2081, in save
+    fp = builtins.open(filename, "w+b")
+IOError: [Errno 2] No such file or directory: './static/ebarimt/kiosk2/bill.bmp'
+2021-09-16 17:30:41,683:INFO:charge
+2021-09-16 17:30:41,683:INFO:0
+2021-09-16 17:30:41,683:INFO:11729
+2021-09-16 17:30:41,731:ERROR:Internal Server Error: /api/charge
+Traceback (most recent call last):
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/user/kiosk/controller/views.py", line 352, in charge
+    bill("1", kiosk.id, "s", number, int(order.paid), "2", "3", "4")
+  File "/home/user/kiosk/controller/updateTables.py", line 238, in bill
+    img.save("/home/user/kiosk/static/ebarimt/kiosk{0}/bill.bmp".format(kiosk.id))
+  File "/home/user/kiosk/kioskenv/lib/python2.7/site-packages/PIL/Image.py", line 2081, in save
+    fp = builtins.open(filename, "w+b")
+IOError: [Errno 13] Permission denied: '/home/user/kiosk/static/ebarimt/kiosk2/bill.bmp'
+2021-09-16 17:36:51,437:INFO:charge
+2021-09-16 17:36:51,437:INFO:0
+2021-09-16 17:36:51,438:INFO:11729
+2021-09-16 17:42:42,325:INFO:checkNumber
+2021-09-16 17:42:42,328:INFO:True
+2021-09-16 17:42:42,333:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 17:42:42,538:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-09-16 17:42:42,541:INFO:post
+2021-09-16 17:42:42,543:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 17:42:42,786:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 115
+2021-09-16 17:42:42,789:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 6035}
+2021-09-16 17:42:58,201:INFO:hur
+2021-09-16 17:42:58,204:INFO:
+2021-09-16 17:42:58,207:INFO:huruuniiHee
+2021-09-16 17:42:58,209:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2021-09-16 17:42:58,519:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1340
+2021-09-16 17:42:58,520:INFO:hariu
+2021-09-16 17:42:58,521:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041c89101771', u'auth': {u'operator': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'5886aaa8-6159-43b8-8b0c-cc0e4526e913', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0430\u0432\u0437\u0430\u0433\u0430\u0442\u0430\u0439\u0436', u'addressDetail': u'6', u'firstname': u'\u0431\u0430\u0442\u0431\u0430\u044f\u0440', u'lastname': u'\u0430\u043b\u0442\u0430\u043d\u0431\u0430\u0433\u0430\u043d\u0430', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439 17-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1 \u0433\u0443\u0434\u0430\u043c\u0436  6  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043c89101771', u'soumDistrictName': u'\u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439', u'addressStreetName': u'\u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'83', u'bagKhorooName': u'17-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'25'}}}
+2021-09-16 17:43:10,964:INFO:order
+2021-09-16 17:43:10,969:INFO:order.amjilttai
+2021-09-16 17:43:10,969:INFO:11733
+2021-09-16 17:43:33,336:INFO:charge
+2021-09-16 17:43:33,337:INFO:500
+2021-09-16 17:43:33,337:INFO:11733
+2021-09-16 17:43:33,344:INFO:Хүлээж авсан мөнгө: 500=500
+2021-09-16 17:43:33,351:INFO:Нийт бэлэн мөнгө=1500
+2021-09-16 17:43:33,353:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-09-16 17:43:35,715:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2021-09-16 17:43:35,718:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2021-09-16 17:43:35,759:INFO:{u'macAddress': u'005056848B11', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'HR 42399857', u'billId': u'000005055873003210916338639063861', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'500.00', u'vat': u'45.45', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBCA34333754866A45FDB6102B8E5D70F7E89E', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2021-09-16 17:44:21', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'500.00', u'qty': u'1.00', u'unitPrice': u'500.00', u'vat': u'45.45'}], u'billType': u'1', u'success': True, u'amount': u'500.00', u'branchNo': u'', u'qrData': u'11744394224264121273487291566540332666399883577259875135465400264614141660669493138392555335978969360388689771561921305296616723981724041033576990334614128357087454958860312809875023495823574820604063536790831456605490732139918284057986414439246876361570025366747833216896559400870570921004281989422609502982283562818'}
+2021-09-16 17:43:35,759:INFO:ADDLOTTERY

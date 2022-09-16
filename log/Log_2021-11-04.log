@@ -1,0 +1,133 @@
+2021-11-04 16:54:01,208:INFO:jwt
+2021-11-04 16:54:01,277:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 11, 4, 8, 59, 1, 277921)}
+2021-11-04 16:54:01,278:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTYzNDF9.FGK4tbuYi1eRAVYSNhp3LPsZvag80vWXv4Fy1ZtdDkw
+2021-11-04 16:54:01,278:INFO:jwt.jwt
+2021-11-04 16:54:01,278:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzU5MzY0NTl9.U1g1I50P78Lie9isV-Zs_oelvgJPNY8GMncGZ1hROE8
+2021-11-04 16:54:01,283:INFO:jwt.jwt
+2021-11-04 16:54:01,283:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTYzNDF9.FGK4tbuYi1eRAVYSNhp3LPsZvag80vWXv4Fy1ZtdDkw
+2021-11-04 16:54:15,875:INFO:checkNumber
+2021-11-04 16:54:15,882:INFO:3
+2021-11-04 16:54:15,882:INFO:bankConnection
+2021-11-04 16:54:15,882:INFO:3
+2021-11-04 16:54:15,883:INFO:{'phone_number': u'83108302', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-11-04 16:54:15,912:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 16:54:16,079:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-11-04 16:54:16,081:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2021-11-04 16:54:16,081:INFO:post
+2021-11-04 16:54:16,081:INFO:bankConnection
+2021-11-04 16:54:16,082:INFO:3
+2021-11-04 16:54:16,082:INFO:{'phone_number': u'83108302', 'serviceName': 'Kiosk_3'}
+2021-11-04 16:54:16,083:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 16:54:16,279:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-11-04 16:54:16,282:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 2748}
+2021-11-04 16:54:20,088:INFO:order
+2021-11-04 16:54:20,089:INFO:Y-500
+2021-11-04 16:54:20,111:INFO:dat
+2021-11-04 16:54:20,111:INFO:{u'order_id': 12288L, u'q_pay': {}}
+2021-11-04 16:54:52,305:INFO:charge
+2021-11-04 16:54:52,305:INFO:500
+2021-11-04 16:54:52,305:INFO:12288
+2021-11-04 16:54:52,312:INFO:Хүлээж авсан мөнгө: 500=500
+2021-11-04 16:54:52,320:INFO:Нийт бэлэн мөнгө=950552
+2021-11-04 16:54:52,320:INFO:bankConnection
+2021-11-04 16:54:52,320:INFO:3
+2021-11-04 16:54:52,321:INFO:{'phone_number': u'83108302', 'amount': '500', 'serviceName': 'Kiosk_3', 'trans_id': u'12288', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u043a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-500'}
+2021-11-04 16:54:52,322:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 16:54:54,695:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2021-11-04 16:54:54,698:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2021-11-04 16:55:05,813:INFO:ebarimt
+2021-11-04 16:55:05,813:INFO:
+2021-11-04 16:55:05,813:INFO:1
+2021-11-04 16:55:05,860:INFO:{u'macAddress': u'005056848B11', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'NU 22047154', u'billId': u'000005055873003211104338639060969', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'500.00', u'vat': u'45.45', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBCC3333315485674B587B909A5B3E008785E8', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2021-11-04 16:56:09', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'500.00', u'qty': u'1.00', u'unitPrice': u'500.00', u'vat': u'45.45'}], u'billType': u'1', u'success': True, u'amount': u'500.00', u'branchNo': u'', u'qrData': u'1026955570917281565579271178253194111611202388008591914100270026461039736967041458036862690201465764502245371014352595795447968458730753728502313226956178245164251222397392543015587449575672914774029381418242640800969648461909204241296849844482243156752632900053115434424862755172364612542290370966248911981409989798'}
+2021-11-04 16:55:05,861:INFO:ADDLOTTERY
+2021-11-04 16:56:12,034:INFO:jwt
+2021-11-04 16:56:12,040:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 11, 4, 9, 1, 12, 40357)}
+2021-11-04 16:56:12,040:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTY0NzJ9.l56OpHGGt5k0qZcW5-2101fA2-Q0-MWUuP78sP8GVco
+2021-11-04 16:56:12,040:INFO:jwt.jwt
+2021-11-04 16:56:12,040:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTYzNDF9.FGK4tbuYi1eRAVYSNhp3LPsZvag80vWXv4Fy1ZtdDkw
+2021-11-04 16:56:12,041:INFO:jwt.jwt
+2021-11-04 16:56:12,042:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTY0NzJ9.l56OpHGGt5k0qZcW5-2101fA2-Q0-MWUuP78sP8GVco
+2021-11-04 16:56:23,877:INFO:checkNumber
+2021-11-04 16:56:23,881:INFO:3
+2021-11-04 16:56:23,881:INFO:bankConnection
+2021-11-04 16:56:23,882:INFO:3
+2021-11-04 16:56:23,882:INFO:{'phone_number': u'98101296', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-11-04 16:56:23,884:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 16:56:24,059:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-11-04 16:56:24,062:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2021-11-04 16:56:24,062:INFO:post
+2021-11-04 16:56:24,062:INFO:bankConnection
+2021-11-04 16:56:24,062:INFO:3
+2021-11-04 16:56:24,062:INFO:{'phone_number': u'98101296', 'serviceName': 'Kiosk_3'}
+2021-11-04 16:56:24,064:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 16:56:24,251:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-11-04 16:56:24,254:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 0}
+2021-11-04 16:56:28,871:INFO:order
+2021-11-04 16:56:28,871:INFO:Y-500
+2021-11-04 16:56:28,878:INFO:dat
+2021-11-04 16:56:28,878:INFO:{u'order_id': 12289L, u'q_pay': {}}
+2021-11-04 16:57:49,351:INFO:charge
+2021-11-04 16:57:49,352:INFO:500
+2021-11-04 16:57:49,352:INFO:12289
+2021-11-04 16:57:49,359:INFO:Хүлээж авсан мөнгө: 500=500
+2021-11-04 16:57:49,365:INFO:Нийт бэлэн мөнгө=951052
+2021-11-04 16:57:49,365:INFO:bankConnection
+2021-11-04 16:57:49,365:INFO:3
+2021-11-04 16:57:49,365:INFO:{'phone_number': u'98101296', 'amount': '500', 'serviceName': 'Kiosk_3', 'trans_id': u'12289', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u043a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-500'}
+2021-11-04 16:57:49,367:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 16:57:52,247:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2021-11-04 16:57:52,250:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2021-11-04 16:57:54,961:INFO:ebarimt
+2021-11-04 16:57:54,961:INFO:
+2021-11-04 16:57:54,961:INFO:1
+2021-11-04 16:57:55,001:INFO:{u'macAddress': u'005056848B11', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'NU 22040801', u'billId': u'000005055873003211104338639061138', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'500.00', u'vat': u'45.45', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBCC3333315485674C3999E55F779478B073F2', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2021-11-04 16:58:58', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'500.00', u'qty': u'1.00', u'unitPrice': u'500.00', u'vat': u'45.45'}], u'billType': u'1', u'success': True, u'amount': u'500.00', u'branchNo': u'', u'qrData': u'11601009004422343648248101851943116269478666901143204853161300264612142095228404342308877719902361295954380282351108989380303871125406845557661247894508429534862239733985252773141645782057866024204763331332487975137789659404799625071646454414828649540039593067431162169779588279534835151456348855917430806600691292067'}
+2021-11-04 16:57:55,001:INFO:ADDLOTTERY
+2021-11-04 17:02:08,646:INFO:jwt
+2021-11-04 17:02:08,653:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 11, 4, 9, 7, 8, 653264)}
+2021-11-04 17:02:08,653:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTY4Mjh9.62zAWCJdPXW4nOQ-HIbI8EzvAS798eK01Ql5rTFNWLw
+2021-11-04 17:02:08,653:INFO:jwt.jwt
+2021-11-04 17:02:08,653:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTY0NzJ9.l56OpHGGt5k0qZcW5-2101fA2-Q0-MWUuP78sP8GVco
+2021-11-04 17:02:08,654:INFO:jwt.jwt
+2021-11-04 17:02:08,654:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTY4Mjh9.62zAWCJdPXW4nOQ-HIbI8EzvAS798eK01Ql5rTFNWLw
+2021-11-04 17:02:15,721:INFO:checkNumber
+2021-11-04 17:02:15,725:INFO:3
+2021-11-04 17:02:15,725:INFO:bankConnection
+2021-11-04 17:02:15,725:INFO:3
+2021-11-04 17:02:15,726:INFO:{'phone_number': u'83108302', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-11-04 17:02:15,727:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 17:02:15,924:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-11-04 17:02:15,926:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2021-11-04 17:02:15,926:INFO:post
+2021-11-04 17:02:15,927:INFO:bankConnection
+2021-11-04 17:02:15,927:INFO:3
+2021-11-04 17:02:15,927:INFO:{'phone_number': u'83108302', 'serviceName': 'Kiosk_3'}
+2021-11-04 17:02:15,928:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 17:02:16,187:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2021-11-04 17:02:16,189:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 2248}
+2021-11-04 17:02:20,228:INFO:order
+2021-11-04 17:02:20,228:INFO:Y-500
+2021-11-04 17:02:20,240:INFO:dat
+2021-11-04 17:02:20,240:INFO:{u'order_id': 12290L, u'q_pay': {}}
+2021-11-04 17:03:31,767:INFO:charge
+2021-11-04 17:03:31,768:INFO:500
+2021-11-04 17:03:31,768:INFO:12290
+2021-11-04 17:03:31,775:INFO:Хүлээж авсан мөнгө: 500=500
+2021-11-04 17:03:31,781:INFO:Нийт бэлэн мөнгө=951552
+2021-11-04 17:03:31,781:INFO:bankConnection
+2021-11-04 17:03:31,781:INFO:3
+2021-11-04 17:03:31,781:INFO:{'phone_number': u'83108302', 'amount': '500', 'serviceName': 'Kiosk_3', 'trans_id': u'12290', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u043a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-500'}
+2021-11-04 17:03:31,783:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-11-04 17:03:34,116:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2021-11-04 17:03:34,119:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2021-11-04 17:03:36,522:INFO:ebarimt
+2021-11-04 17:03:36,522:INFO:
+2021-11-04 17:03:36,522:INFO:1
+2021-11-04 17:03:36,578:INFO:{u'macAddress': u'005056848B11', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'NU 22047049', u'billId': u'000005055873003211104338639061480', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'500.00', u'vat': u'45.45', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBCC3333315485674B597A9D9A5B3E0087583E', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2021-11-04 17:04:40', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'500.00', u'qty': u'1.00', u'unitPrice': u'500.00', u'vat': u'45.45'}], u'billType': u'1', u'success': True, u'amount': u'500.00', u'branchNo': u'', u'qrData': u'6475092045389593328389871149321233400623632094536633673274110026460911159606126526215819277078845224569992533835202736414026042850873524001879539450889701123677662134506160692012720341474629035920167603483597262622934660514806449553592378280412191083220579727169212461606518421487026708169030504043968888771526693337'}
+2021-11-04 17:03:36,578:INFO:ADDLOTTERY
+2021-11-04 17:55:19,839:INFO:jwt
+2021-11-04 17:55:19,847:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 11, 4, 10, 0, 19, 847381)}
+2021-11-04 17:55:19,847:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMjAwMTl9.1CzXWh_g10D6haaUo19m5wmCUnJUPVhPTgmbHePpFHU
+2021-11-04 17:55:19,847:INFO:jwt.jwt
+2021-11-04 17:55:19,847:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMTY4Mjh9.62zAWCJdPXW4nOQ-HIbI8EzvAS798eK01Ql5rTFNWLw
+2021-11-04 17:55:19,849:INFO:jwt.jwt
+2021-11-04 17:55:19,849:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2MzYwMjAwMTl9.1CzXWh_g10D6haaUo19m5wmCUnJUPVhPTgmbHePpFHU

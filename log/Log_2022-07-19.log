@@ -1,0 +1,799 @@
+2022-07-19 17:47:30,492:INFO:jwt
+2022-07-19 17:47:30,513:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 9, 52, 30, 513713)}
+2022-07-19 17:47:30,514:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyMjQzNTB9.u-Upwa1NdEd9jEg7WBrY0HG9_gONb8gkZmVHMPHz1gY
+2022-07-19 17:47:33,855:INFO:ads
+2022-07-19 18:47:33,761:INFO:jwt
+2022-07-19 18:47:33,766:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 10, 52, 33, 766840)}
+2022-07-19 18:47:33,767:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyMjc5NTN9.QuKJ5M5cUjZWWdXO9gFSDlG9Srj26PgCEcTk0rS3xkw
+2022-07-19 18:47:37,039:INFO:ads
+2022-07-19 19:47:37,134:INFO:jwt
+2022-07-19 19:47:37,139:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 11, 52, 37, 139833)}
+2022-07-19 19:47:37,140:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyMzE1NTd9.3L1ie8Yv2caP0kWCPruU_hbO0SJGtxch7nMB4fVudG8
+2022-07-19 19:47:40,552:INFO:ads
+2022-07-19 22:01:23,898:INFO:jwt
+2022-07-19 22:01:23,898:INFO:jwt
+2022-07-19 22:01:23,943:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 14, 6, 23, 943545)}
+2022-07-19 22:01:23,944:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyMzk1ODN9.XBAoawwIZCkhn0OWqQdttW2I_ZaUp_AY092Hyv-n950
+2022-07-19 22:01:23,946:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 14, 6, 23, 946748)}
+2022-07-19 22:01:23,946:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyMzk1ODN9.XBAoawwIZCkhn0OWqQdttW2I_ZaUp_AY092Hyv-n950
+2022-07-19 22:01:27,770:INFO:ads
+2022-07-19 22:03:24,665:INFO:checkNumber
+2022-07-19 22:03:24,668:INFO:2
+2022-07-19 22:03:24,668:INFO:bankConnection
+2022-07-19 22:03:24,668:INFO:2
+2022-07-19 22:03:24,668:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-19 22:03:24,721:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-19 22:03:25,187:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-19 22:03:25,190:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-19 22:03:29,972:INFO:ads
+2022-07-19 22:03:38,923:INFO:checkNumber
+2022-07-19 22:03:38,926:INFO:2
+2022-07-19 22:03:38,926:INFO:bankConnection
+2022-07-19 22:03:38,926:INFO:2
+2022-07-19 22:03:38,926:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-19 22:03:38,928:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-19 22:03:39,242:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-19 22:03:39,244:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-19 22:03:39,244:INFO:post
+2022-07-19 22:03:39,244:INFO:bankConnection
+2022-07-19 22:03:39,244:INFO:2
+2022-07-19 22:03:39,245:INFO:{'phone_number': u'98101075', 'serviceName': 'Kiosk'}
+2022-07-19 22:03:39,246:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-19 22:03:39,611:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-07-19 22:03:39,612:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 3661}
+2022-07-19 22:03:45,385:INFO:ads
+2022-07-19 22:20:22,504:INFO:jwt
+2022-07-19 22:20:22,510:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 14, 25, 22, 510410)}
+2022-07-19 22:20:22,510:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNDA3MjJ9.B2Vnrr9VAXzg0v5BDQYHLaDI39eTAXzvC-8M5L0PlQQ
+2022-07-19 22:20:26,810:INFO:ads
+2022-07-19 22:25:17,989:INFO:ads
+2022-07-19 23:20:28,690:INFO:jwt
+2022-07-19 23:20:28,696:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 15, 25, 28, 696793)}
+2022-07-19 23:20:28,697:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNDQzMjh9.tfQmhDy7xF6H9quFvbNGQR3BchTIydsWu5OIZkXblRk
+2022-07-19 23:20:32,018:INFO:ads
+2022-07-20 00:20:31,831:INFO:jwt
+2022-07-20 00:20:31,837:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 16, 25, 31, 837271)}
+2022-07-20 00:20:31,837:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNDc5MzF9.cIg6lqiK_JEHL7zDNsa7NHx9n3Gy6D4m_R1QQjGgXEQ
+2022-07-20 00:20:34,993:INFO:ads
+2022-07-20 01:20:35,396:INFO:jwt
+2022-07-20 01:20:35,401:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 17, 25, 35, 401762)}
+2022-07-20 01:20:35,402:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNTE1MzV9.Uwhbv5RrXMa8MeqB0mNTqsJVX8bxRLQFTC-Ugegz_nY
+2022-07-20 01:20:38,727:INFO:ads
+2022-07-20 02:20:38,601:INFO:jwt
+2022-07-20 02:20:38,607:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 18, 25, 38, 607067)}
+2022-07-20 02:20:38,607:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNTUxMzh9.zWsRQkl9ItL91QEzsnShFS2unK7vKP4HC6C853dRc_A
+2022-07-20 02:20:41,843:INFO:ads
+2022-07-20 03:20:41,757:INFO:jwt
+2022-07-20 03:20:41,762:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 19, 25, 41, 762728)}
+2022-07-20 03:20:41,763:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNTg3NDF9.5ycLLjA1XiaSJdpXc8CxSMRPZLv229aikd-l8oP2fXU
+2022-07-20 03:20:45,184:INFO:ads
+2022-07-20 04:20:45,122:INFO:jwt
+2022-07-20 04:20:45,127:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 20, 25, 45, 127958)}
+2022-07-20 04:20:45,128:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNjIzNDV9.Amkmln09_QMDug_erToHGkulNpRK04npw2PCWpXsbt0
+2022-07-20 04:20:48,406:INFO:ads
+2022-07-20 05:20:48,359:INFO:jwt
+2022-07-20 05:20:48,364:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 21, 25, 48, 364973)}
+2022-07-20 05:20:48,365:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNjU5NDh9.Ix7Qpve0vUwsZzUZdHdkJtGbqcIUpI31uq-E_AYp4mI
+2022-07-20 05:20:51,601:INFO:ads
+2022-07-20 05:25:15,097:INFO:jwt
+2022-07-20 05:25:15,102:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 21, 30, 15, 102210)}
+2022-07-20 05:25:15,102:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNjYyMTV9.8AxrpmjuyRKP6CrF8Wae7cRBoYgwVacKiON0lOidONI
+2022-07-20 06:20:51,951:INFO:jwt
+2022-07-20 06:20:51,956:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 22, 25, 51, 956311)}
+2022-07-20 06:20:51,956:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNjk1NTF9._iwecBvsPNRdZzFIm5XVJodvU7XpK8jBAXrCh2f8q0E
+2022-07-20 06:20:55,226:INFO:ads
+2022-07-20 07:20:55,102:INFO:jwt
+2022-07-20 07:20:55,107:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 19, 23, 25, 55, 107755)}
+2022-07-20 07:20:55,108:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNzMxNTV9.H0Z_3ncT0UoU6gJwBlG9STMXslOljstRj1yvBXJirdQ
+2022-07-20 07:20:58,350:INFO:ads
+2022-07-20 08:20:58,538:INFO:jwt
+2022-07-20 08:20:58,543:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 20, 0, 25, 58, 543516)}
+2022-07-20 08:20:58,543:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyNzY3NTh9.eEXkco2DCZCyZ1Y5MrlYM8g1ZqIkQxzguKd_8ZNPDBM
+2022-07-20 08:21:01,786:INFO:ads
+2022-07-20 09:21:01,801:INFO:jwt
+2022-07-20 09:21:01,807:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 20, 1, 26, 1, 807020)}
+2022-07-20 09:21:01,807:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyODAzNjF9.lVYYY7n3qT2umYdw54Q4_5dSKRYCJmz_s8sa_EDUEeg
+2022-07-20 09:21:05,070:INFO:ads
+2022-07-20 09:52:01,190:INFO:jwt
+2022-07-20 09:52:01,195:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 20, 1, 57, 1, 195880)}
+2022-07-20 09:52:01,196:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTgyODIyMjF9.iqubR6Fc5dscEKfbUWg7muudSIC2Uidde2tTUcuZlOY
+2022-07-20 10:21:04,979:INFO:jwt
+2022-07-20 10:21:04,984:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 20, 2, 26, 4, 984406)}
+2022-07-20 10:21:04,984:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyODM5NjR9.ZYg_X_3VLofopRmV8bXZeObqE1ia0no3Yh6Xz7RBhVQ
+2022-07-20 10:21:08,216:INFO:ads
+2022-07-20 11:21:08,101:INFO:jwt
+2022-07-20 11:21:08,106:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 20, 3, 26, 8, 106649)}
+2022-07-20 11:21:08,106:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyODc1Njh9.UKDl7XB95Klza6vQ3eHDKZ8iuFU4gjwT-qvFwNmJox4
+2022-07-20 11:21:11,358:INFO:ads
+2022-07-20 12:17:33,842:INFO:checkNumber
+2022-07-20 12:17:33,846:INFO:1
+2022-07-20 12:17:33,846:INFO:bankConnection
+2022-07-20 12:17:33,846:INFO:1
+2022-07-20 12:17:33,846:INFO:{'phone_number': u'********', 'amount': '', 'serviceName': 'Kiosk_2', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-20 12:17:33,848:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-20 12:17:33,989:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2022-07-20 12:17:33,991:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-20 12:21:11,285:INFO:jwt
+2022-07-20 12:21:11,290:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 20, 4, 26, 11, 290526)}
+2022-07-20 12:21:11,290:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyOTExNzF9.-RWeyvUSX-CC1-2sVS_z2Beb1A4TTE868f38j6OwXhE
+2022-07-20 12:21:14,752:INFO:ads
+2022-07-20 12:26:29,673:INFO:searchNumber
+2022-07-20 12:26:29,675:INFO:DE
+2022-07-20 12:26:29,675:INFO:DE
+2022-07-20 12:26:29,675:INFO:engiin
+2022-07-20 12:26:29,677:INFO:[]
+2022-07-20 12:26:29,816:INFO:searchNumber
+2022-07-20 12:26:29,819:INFO:DE
+2022-07-20 12:26:29,819:INFO:DE
+2022-07-20 12:26:29,819:INFO:engiin
+2022-07-20 12:26:29,821:INFO:[]
+2022-07-20 12:26:29,678:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:29,932:INFO:searchNumber
+2022-07-20 12:26:29,821:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:30,033:INFO:DE
+2022-07-20 12:26:30,033:INFO:DE
+2022-07-20 12:26:30,033:INFO:engiin
+2022-07-20 12:26:30,035:INFO:[]
+2022-07-20 12:26:30,035:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:30,168:INFO:searchNumber
+2022-07-20 12:26:30,171:INFO:DE
+2022-07-20 12:26:30,171:INFO:DE
+2022-07-20 12:26:30,171:INFO:engiin
+2022-07-20 12:26:30,173:INFO:[]
+2022-07-20 12:26:30,173:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:30,382:INFO:searchNumber
+2022-07-20 12:26:30,384:INFO:DE
+2022-07-20 12:26:30,384:INFO:DE
+2022-07-20 12:26:30,384:INFO:engiin
+2022-07-20 12:26:30,386:INFO:[]
+2022-07-20 12:26:30,386:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:30,490:INFO:searchNumber
+2022-07-20 12:26:30,492:INFO:DE
+2022-07-20 12:26:30,492:INFO:DE
+2022-07-20 12:26:30,492:INFO:engiin
+2022-07-20 12:26:30,494:INFO:[]
+2022-07-20 12:26:30,494:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:30,734:INFO:searchNumber
+2022-07-20 12:26:30,736:INFO:DE
+2022-07-20 12:26:30,736:INFO:DE
+2022-07-20 12:26:30,736:INFO:engiin
+2022-07-20 12:26:30,738:INFO:[]
+2022-07-20 12:26:30,738:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:32,117:INFO:searchNumber
+2022-07-20 12:26:32,119:INFO:DE
+2022-07-20 12:26:32,119:INFO:DE
+2022-07-20 12:26:32,119:INFO:engiin
+2022-07-20 12:26:32,121:INFO:[]
+2022-07-20 12:26:32,121:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:32,322:INFO:searchNumber
+2022-07-20 12:26:32,324:INFO:DE
+2022-07-20 12:26:32,324:INFO:DE
+2022-07-20 12:26:32,324:INFO:engiin
+2022-07-20 12:26:32,326:INFO:[]
+2022-07-20 12:26:32,326:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:32,582:INFO:searchNumber
+2022-07-20 12:26:32,584:INFO:DE
+2022-07-20 12:26:32,584:INFO:DE
+2022-07-20 12:26:32,584:INFO:engiin
+2022-07-20 12:26:32,586:INFO:[]
+2022-07-20 12:26:32,586:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:26:32,750:INFO:searchNumber
+2022-07-20 12:26:32,753:INFO:DE
+2022-07-20 12:26:32,753:INFO:DE
+2022-07-20 12:26:32,753:INFO:engiin
+2022-07-20 12:26:32,755:INFO:[]
+2022-07-20 12:26:32,755:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 437, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-20 12:35:38,610:INFO:searchNumber
+2022-07-20 12:35:38,612:INFO:97111704
+2022-07-20 12:35:38,612:INFO:97111704
+2022-07-20 12:35:38,613:INFO:engiin
+2022-07-20 12:35:38,615:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-20 12:35:38,615:INFO:ELSE
+2022-07-20 12:35:38,615:INFO:9711
+2022-07-20 12:35:38,615:INFO:1704
+2022-07-20 12:35:43,407:INFO:97111704:6
+2022-07-20 12:35:43,407:INFO:numbers
+2022-07-20 12:35:43,407:INFO:['97111704']
+2022-07-20 12:35:43,409:INFO:tmp
+2022-07-20 12:35:43,409:INFO:['97111704']
+2022-07-20 12:35:43,409:INFO:[{'prefix': '97111704'}]
+2022-07-20 13:21:14,605:INFO:jwt
+2022-07-20 13:21:14,611:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 20, 5, 26, 14, 611079)}
+2022-07-20 13:21:14,611:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyOTQ3NzR9.BsXpz2FB7MD3xAXXWVE4EC7FtAk3AjYVWbe0i7RtvV4
+2022-07-20 13:21:17,919:INFO:ads
+2022-07-20 14:20:19,052:INFO:searchNumber
+2022-07-20 14:20:19,054:INFO:83012249
+2022-07-20 14:20:19,055:INFO:83012249
+2022-07-20 14:20:19,055:INFO:engiin
+2022-07-20 14:20:19,057:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-20 14:20:19,057:INFO:ELSE
+2022-07-20 14:20:19,057:INFO:8301
+2022-07-20 14:20:19,057:INFO:2249
+2022-07-20 14:20:25,233:INFO:83012249:6
+2022-07-20 14:20:25,233:INFO:numbers
+2022-07-20 14:20:25,233:INFO:['83012249']
+2022-07-20 14:20:25,235:INFO:tmp
+2022-07-20 14:20:25,235:INFO:['83012249']
+2022-07-20 14:20:25,235:INFO:[{'prefix': '83012249'}]
+2022-07-20 14:20:58,595:INFO:searchNumber
+2022-07-20 14:20:58,598:INFO:93012249
+2022-07-20 14:20:58,598:INFO:93012249
+2022-07-20 14:20:58,598:INFO:engiin
+2022-07-20 14:20:58,600:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-20 14:20:58,600:INFO:ELSE
+2022-07-20 14:20:58,600:INFO:9301
+2022-07-20 14:20:58,600:INFO:2249
+2022-07-20 14:20:59,102:INFO:searchNumber
+2022-07-20 14:20:59,104:INFO:93012249
+2022-07-20 14:20:59,104:INFO:93012249
+2022-07-20 14:20:59,104:INFO:engiin
+2022-07-20 14:20:59,106:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-20 14:20:59,106:INFO:ELSE
+2022-07-20 14:20:59,106:INFO:9301
+2022-07-20 14:20:59,106:INFO:2249
+2022-07-20 14:20:59,529:INFO:93012249:6
+2022-07-20 14:20:59,530:INFO:numbers
+2022-07-20 14:20:59,530:INFO:['93012249']
+2022-07-20 14:20:59,531:INFO:tmp
+2022-07-20 14:20:59,532:INFO:['93012249']
+2022-07-20 14:20:59,532:INFO:[{'prefix': '93012249'}]
+2022-07-20 14:21:00,038:INFO:93012249:6
+2022-07-20 14:21:00,038:INFO:numbers
+2022-07-20 14:21:00,038:INFO:['93012249']
+2022-07-20 14:21:00,041:INFO:tmp
+2022-07-20 14:21:00,041:INFO:['93012249']
+2022-07-20 14:21:00,041:INFO:[{'prefix': '93012249'}]
+2022-07-20 14:21:17,852:INFO:jwt
+2022-07-20 14:21:17,857:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 20, 6, 26, 17, 857445)}
+2022-07-20 14:21:17,857:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgyOTgzNzd9.IkwE_kvO1uvC9EOULv490HiczlAH6lq4FGJFMiiWddI
+2022-07-20 14:21:21,089:INFO:ads
+2022-07-20 14:51:01,344:INFO:ads
+2022-07-20 15:30:29,242:INFO:checkNumber
+2022-07-20 15:30:29,245:INFO:2
+2022-07-20 15:30:29,246:INFO:bankConnection
+2022-07-20 15:30:29,246:INFO:2
+2022-07-20 15:30:29,246:INFO:{'phone_number': u'********', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-20 15:30:29,248:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-20 15:30:29,414:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2022-07-20 15:30:29,416:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-20 15:30:31,298:INFO:ads
+2022-07-21 09:54:13,822:INFO:jwt
+2022-07-21 09:54:13,827:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 21, 1, 59, 13, 827878)}
+2022-07-21 09:54:13,828:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTgzNjg3NTN9.huDa9fXbi28tq3oUm2V80BXemOWk9ENAMvvNzUI5Fj8
+2022-07-21 14:59:08,789:INFO:jwt
+2022-07-21 14:59:08,794:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 21, 7, 4, 8, 794972)}
+2022-07-21 14:59:08,795:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTgzODcwNDh9.S_RBaS3s3jqa04g3yxrxpL2gzqI4Eg-OwJWi9NaOgRc
+2022-07-21 16:21:46,513:INFO:jwt
+2022-07-21 16:21:46,521:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 21, 8, 26, 46, 521319)}
+2022-07-21 16:21:46,521:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTgzOTIwMDZ9.IYdvjdMnyJoJtlH_HRxirW9p9o1VNy65Av1qeSeccSM
+2022-07-21 16:21:50,207:INFO:ads
+2022-07-21 18:52:01,983:INFO:ads
+2022-07-21 18:52:24,656:INFO:checkNumber
+2022-07-21 18:52:24,659:INFO:2
+2022-07-21 18:52:24,659:INFO:bankConnection
+2022-07-21 18:52:24,659:INFO:2
+2022-07-21 18:52:24,660:INFO:{'phone_number': u'98199095', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-21 18:52:24,662:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 18:52:24,868:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3450
+2022-07-21 18:52:24,871:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-07-21 18:52:24,897:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-07-21 18:52:34,466:INFO:order
+2022-07-21 18:52:34,466:INFO:H-10000
+2022-07-21 18:52:34,475:INFO:dat
+2022-07-21 18:52:34,475:INFO:{u'order_id': 13161L, u'q_pay': {}}
+2022-07-21 18:52:54,927:INFO:ads
+2022-07-21 19:52:54,810:INFO:jwt
+2022-07-21 19:52:54,815:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 21, 11, 57, 54, 815080)}
+2022-07-21 19:52:54,815:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0MDQ2NzR9.lmTypdS7IW27417uP6_V2NXSrcsF9ht2XpkIsoDaVNM
+2022-07-21 19:52:58,155:INFO:ads
+2022-07-21 20:52:58,071:INFO:jwt
+2022-07-21 20:52:58,077:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 21, 12, 57, 58, 77333)}
+2022-07-21 20:52:58,077:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0MDgyNzh9._HvGwXKSJ0zX3WJfF_Zd3h0Odgkb9vk7tndaPVuwZ9U
+2022-07-21 20:53:01,274:INFO:ads
+2022-07-21 20:58:35,174:INFO:checkNumber
+2022-07-21 20:58:35,177:INFO:2
+2022-07-21 20:58:35,177:INFO:bankConnection
+2022-07-21 20:58:35,178:INFO:2
+2022-07-21 20:58:35,178:INFO:{'phone_number': u'98111859', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-21 20:58:35,179:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 20:58:35,371:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-21 20:58:35,374:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-21 20:58:35,374:INFO:post
+2022-07-21 20:58:35,374:INFO:bankConnection
+2022-07-21 20:58:35,374:INFO:2
+2022-07-21 20:58:35,374:INFO:{'phone_number': u'98111859', 'serviceName': 'Kiosk'}
+2022-07-21 20:58:35,376:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 20:58:35,633:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-21 20:58:35,635:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 32252}
+2022-07-21 20:58:41,570:INFO:userConfirmation
+2022-07-21 20:58:41,573:INFO:kiosk2|ЧН70051909|98111859|post|yes|2022-07-21 20:58:41
+2022-07-21 20:59:02,177:INFO:hur
+2022-07-21 20:59:02,188:INFO:
+2022-07-21 20:59:02,189:INFO:
+2022-07-21 20:59:02,191:INFO:huruuniiHee
+2022-07-21 20:59:02,194:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-07-21 20:59:02,761:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1445
+2022-07-21 20:59:02,762:INFO:hariu
+2022-07-21 20:59:02,762:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0427\u041d70051909', u'auth': {u'operator': {u'regnum': u'\u0427\u041d70051909', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0427\u041d70051909', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'349fb037-7f7e-4295-8ff2-05c35a68ac35', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0426\u043e\u0433\u0442\u0447\u0430\u043d\u0434\u043c\u0430\u043d\u044c', u'addressDetail': u'302', u'firstname': u'\u041b\u04af\u043d\u0434\u044d\u0433\u043c\u0430\u0430', u'lastname': u'\u0413\u043e\u0442\u043e\u0432', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0425\u0430\u043d-\u0423\u0443\u043b 11-\u0440 \u0445\u043e\u0440\u043e\u043e, 2 \u0445\u044d\u0441\u044d\u0433  \u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436 \u0433\u0443\u0434\u0430\u043c\u0436 52-\u0440 \u0431\u0430\u0439\u0440 302  \u0442\u043e\u043e\u0442', u'regnum': u'\u0447\u043d70051909', u'soumDistrictName': u'\u0425\u0430\u043d-\u0423\u0443\u043b', u'addressRegionName': u'2 \u0445\u044d\u0441\u044d\u0433', u'addressStreetName': u'\u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'71', u'addressApartmentName': u'52', u'bagKhorooName': u'11-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'22'}}}
+2022-07-21 20:59:11,227:INFO:order
+2022-07-21 20:59:11,227:INFO:Y-32252
+2022-07-21 20:59:11,236:INFO:dat
+2022-07-21 20:59:11,236:INFO:{u'order_id': 13162L, u'q_pay': {}}
+2022-07-21 20:59:27,140:INFO:ads
+2022-07-21 20:59:35,724:INFO:checkNumber
+2022-07-21 20:59:35,727:INFO:2
+2022-07-21 20:59:35,727:INFO:bankConnection
+2022-07-21 20:59:35,727:INFO:2
+2022-07-21 20:59:35,727:INFO:{'phone_number': u'98111859', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-21 20:59:35,729:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 20:59:35,900:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-21 20:59:35,902:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-21 20:59:35,902:INFO:post
+2022-07-21 20:59:35,903:INFO:bankConnection
+2022-07-21 20:59:35,903:INFO:2
+2022-07-21 20:59:35,903:INFO:{'phone_number': u'98111859', 'serviceName': 'Kiosk'}
+2022-07-21 20:59:35,904:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 20:59:36,135:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-21 20:59:36,138:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 32252}
+2022-07-21 20:59:39,942:INFO:userConfirmation
+2022-07-21 20:59:39,945:INFO:kiosk2|ЧН70051909|98111859|post|yes|2022-07-21 20:59:39
+2022-07-21 20:59:47,935:INFO:hur
+2022-07-21 20:59:47,946:INFO:
+2022-07-21 20:59:47,947:INFO:
+2022-07-21 20:59:47,948:INFO:huruuniiHee
+2022-07-21 20:59:47,951:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-07-21 20:59:48,531:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1445
+2022-07-21 20:59:48,532:INFO:hariu
+2022-07-21 20:59:48,533:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0427\u041d70051909', u'auth': {u'operator': {u'regnum': u'\u0427\u041d70051909', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0427\u041d70051909', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'4b7c6ff0-88ac-48b0-add8-35b9eee49589', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0426\u043e\u0433\u0442\u0447\u0430\u043d\u0434\u043c\u0430\u043d\u044c', u'addressDetail': u'302', u'firstname': u'\u041b\u04af\u043d\u0434\u044d\u0433\u043c\u0430\u0430', u'lastname': u'\u0413\u043e\u0442\u043e\u0432', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0425\u0430\u043d-\u0423\u0443\u043b 11-\u0440 \u0445\u043e\u0440\u043e\u043e, 2 \u0445\u044d\u0441\u044d\u0433  \u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436 \u0433\u0443\u0434\u0430\u043c\u0436 52-\u0440 \u0431\u0430\u0439\u0440 302  \u0442\u043e\u043e\u0442', u'regnum': u'\u0447\u043d70051909', u'soumDistrictName': u'\u0425\u0430\u043d-\u0423\u0443\u043b', u'addressRegionName': u'2 \u0445\u044d\u0441\u044d\u0433', u'addressStreetName': u'\u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'71', u'addressApartmentName': u'52', u'bagKhorooName': u'11-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'22'}}}
+2022-07-21 20:59:52,707:INFO:order
+2022-07-21 20:59:52,707:INFO:Y-32252
+2022-07-21 20:59:52,714:INFO:dat
+2022-07-21 20:59:52,714:INFO:{u'order_id': 13163L, u'q_pay': {}}
+2022-07-21 21:00:06,891:INFO:ads
+2022-07-21 21:00:14,017:INFO:checkNumber
+2022-07-21 21:00:14,020:INFO:2
+2022-07-21 21:00:14,020:INFO:bankConnection
+2022-07-21 21:00:14,020:INFO:2
+2022-07-21 21:00:14,020:INFO:{'phone_number': u'98111859', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-21 21:00:14,022:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 21:00:14,345:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-21 21:00:14,348:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-21 21:00:14,348:INFO:post
+2022-07-21 21:00:14,348:INFO:bankConnection
+2022-07-21 21:00:14,348:INFO:2
+2022-07-21 21:00:14,348:INFO:{'phone_number': u'98111859', 'serviceName': 'Kiosk'}
+2022-07-21 21:00:14,349:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 21:00:14,794:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-21 21:00:14,797:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 32252}
+2022-07-21 21:00:25,298:INFO:userConfirmation
+2022-07-21 21:00:25,302:INFO:kiosk2|ЧН70051909|98111859|post|yes|2022-07-21 21:00:25
+2022-07-21 21:00:58,084:INFO:hur
+2022-07-21 21:00:58,097:INFO:
+2022-07-21 21:00:58,097:INFO:
+2022-07-21 21:00:58,099:INFO:huruuniiHee
+2022-07-21 21:00:58,102:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-07-21 21:00:58,659:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1445
+2022-07-21 21:00:58,660:INFO:hariu
+2022-07-21 21:00:58,660:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0427\u041d70051909', u'auth': {u'operator': {u'regnum': u'\u0427\u041d70051909', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0427\u041d70051909', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'737c5ef1-7375-456f-bce9-4b7508ea4e61', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0426\u043e\u0433\u0442\u0447\u0430\u043d\u0434\u043c\u0430\u043d\u044c', u'addressDetail': u'302', u'firstname': u'\u041b\u04af\u043d\u0434\u044d\u0433\u043c\u0430\u0430', u'lastname': u'\u0413\u043e\u0442\u043e\u0432', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0425\u0430\u043d-\u0423\u0443\u043b 11-\u0440 \u0445\u043e\u0440\u043e\u043e, 2 \u0445\u044d\u0441\u044d\u0433  \u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436 \u0433\u0443\u0434\u0430\u043c\u0436 52-\u0440 \u0431\u0430\u0439\u0440 302  \u0442\u043e\u043e\u0442', u'regnum': u'\u0447\u043d70051909', u'soumDistrictName': u'\u0425\u0430\u043d-\u0423\u0443\u043b', u'addressRegionName': u'2 \u0445\u044d\u0441\u044d\u0433', u'addressStreetName': u'\u0437\u0430\u0439\u0441\u0430\u043d \u0433\u0443\u0434\u0430\u043c\u0436', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'71', u'addressApartmentName': u'52', u'bagKhorooName': u'11-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'22'}}}
+2022-07-21 21:01:00,902:INFO:order
+2022-07-21 21:01:00,903:INFO:Y-32252
+2022-07-21 21:01:00,910:INFO:dat
+2022-07-21 21:01:00,910:INFO:{u'order_id': 13164L, u'q_pay': {}}
+2022-07-21 21:01:22,178:INFO:charge
+2022-07-21 21:01:22,178:INFO:32252
+2022-07-21 21:01:22,178:INFO:13164
+2022-07-21 21:01:22,183:INFO:Хүлээж авсан мөнгө: 32252=32252
+2022-07-21 21:01:22,191:INFO:Нийт бэлэн мөнгө=32252
+2022-07-21 21:01:22,191:INFO:bankConnection
+2022-07-21 21:01:22,191:INFO:2
+2022-07-21 21:01:22,191:INFO:{'phone_number': u'98111859', 'amount': '32252', 'serviceName': 'Kiosk', 'trans_id': u'13164', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a2_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-32252'}
+2022-07-21 21:01:22,193:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-21 21:01:24,504:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2022-07-21 21:01:24,506:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-07-21 21:01:33,758:INFO:ebarimt
+2022-07-21 21:01:33,758:INFO:
+2022-07-21 21:01:33,758:INFO:1
+2022-07-21 21:01:36,767:INFO:{u'errorCode': 316, u'message': u'\u0411\u0430\u0430\u0437\u0442\u0430\u0439 \u0445\u0430\u0440\u044c\u0446\u0430\u0445\u0430\u0434 \u0430\u043b\u0434\u0430\u0430 \u0433\u0430\u0440\u043b\u0430\u0430!!! "UNIQUE constraint failed: BILL_DATA.ID Unable to fetch row"', u'success': False}
+2022-07-21 21:01:36,767:ERROR:Цэнэглэлт амжилттай, И-баримттай холбогдоход алдаа гарлаа. Line-459
+2022-07-21 21:01:36,768:INFO:Баазтай харьцахад алдаа гарлаа!!! "UNIQUE constraint failed: BILL_DATA.ID Unable to fetch row"
+2022-07-22 08:05:52,297:INFO:jwt
+2022-07-22 08:05:52,302:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 0, 10, 52, 302907)}
+2022-07-22 08:05:52,303:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0NDg2NTJ9.K8_oFIZ3TO1bzQEbqGs-jV6zd0TjKo6zHG192MdGW1A
+2022-07-22 08:05:56,740:INFO:ads
+2022-07-22 09:32:29,665:INFO:ads
+2022-07-22 09:32:54,518:INFO:jwt
+2022-07-22 09:32:54,524:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 1, 37, 54, 524286)}
+2022-07-22 09:32:54,524:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0NTM4NzR9.fQXUduaFpxtOhDf4VEO7vAZ2FPKX__oadAfpPPZgwvY
+2022-07-22 09:32:58,218:INFO:ads
+2022-07-22 09:34:11,882:INFO:jwt
+2022-07-22 09:34:11,887:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 1, 39, 11, 887500)}
+2022-07-22 09:34:11,887:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0NTM5NTF9.5YkxcpWdJBWCCt1XuOMdThfgZC67OWXdwDO4Fu_XcPA
+2022-07-22 09:34:15,207:INFO:ads
+2022-07-22 09:43:57,987:INFO:jwt
+2022-07-22 09:43:57,992:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 1, 48, 57, 992331)}
+2022-07-22 09:43:57,992:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0NTQ1Mzd9.6PmkO0UTPz8AXSx97eWg7Pf9vtWvnp0wcozdmg6e8dA
+2022-07-22 09:44:02,147:INFO:ads
+2022-07-22 09:52:46,984:INFO:jwt
+2022-07-22 09:52:46,990:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 22, 1, 57, 46, 989994)}
+2022-07-22 09:52:46,990:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTg0NTUwNjZ9.S_LNeIPb2qwuQ7Mv2g4mdtvMV-CwhjnRnQ5kdYP9uYE
+2022-07-22 10:44:03,165:INFO:jwt
+2022-07-22 10:44:03,170:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 2, 49, 3, 170761)}
+2022-07-22 10:44:03,171:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0NTgxNDN9.ekKVd3sJQdyEs34SA0BjOENqZ4qdqPFsOeYmFRHRpbA
+2022-07-22 10:44:06,443:INFO:ads
+2022-07-22 11:07:17,824:INFO:ads
+2022-07-22 11:07:28,001:INFO:jwt
+2022-07-22 11:07:28,007:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 3, 12, 28, 7083)}
+2022-07-22 11:07:28,007:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NTk1NDh9.8Ee_-5CO31qz8n5mVPChIQTOzfcS3ic1vtlUrAEr9rI
+2022-07-22 11:07:37,663:INFO:checkNumber
+2022-07-22 11:07:37,666:INFO:3
+2022-07-22 11:07:37,667:INFO:bankConnection
+2022-07-22 11:07:37,667:INFO:3
+2022-07-22 11:07:37,667:INFO:{'phone_number': u'95116445', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-22 11:07:37,669:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-22 11:07:37,882:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2022-07-22 11:07:37,885:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-22 11:07:42,304:INFO:ads
+2022-07-22 11:07:47,556:INFO:jwt
+2022-07-22 11:07:47,560:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 3, 12, 47, 560962)}
+2022-07-22 11:07:47,561:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NTk1Njd9.wI_cFwwGI_N9eBBEV64MMzGUVsbl22T5GmoWAKQuW5w
+2022-07-22 11:07:55,142:INFO:checkNumber
+2022-07-22 11:07:55,145:INFO:3
+2022-07-22 11:07:55,145:INFO:bankConnection
+2022-07-22 11:07:55,145:INFO:3
+2022-07-22 11:07:55,145:INFO:{'phone_number': u'95116445', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-22 11:07:55,147:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-22 11:07:55,256:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2022-07-22 11:07:55,258:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-22 11:08:02,588:INFO:ads
+2022-07-22 11:08:08,040:INFO:jwt
+2022-07-22 11:08:08,045:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 3, 13, 8, 45261)}
+2022-07-22 11:08:08,045:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NTk1ODh9.Ec5ijv4fpeiYOraA7AMLaKOwPaXX0HTUOMTd--S8GNI
+2022-07-22 11:08:14,899:INFO:checkNumber
+2022-07-22 11:08:14,902:INFO:3
+2022-07-22 11:08:14,903:INFO:bankConnection
+2022-07-22 11:08:14,903:INFO:3
+2022-07-22 11:08:14,903:INFO:{'phone_number': u'95116445', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-22 11:08:14,904:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-22 11:08:15,016:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2022-07-22 11:08:15,018:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-22 11:08:18,545:INFO:ads
+2022-07-22 11:44:06,297:INFO:jwt
+2022-07-22 11:44:06,302:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 3, 49, 6, 302946)}
+2022-07-22 11:44:06,303:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0NjE3NDZ9.kGAqHY09STE3z33amiYlk8bgnJNQRHMgYprLfO1SuGg
+2022-07-22 11:44:09,497:INFO:ads
+2022-07-22 11:54:46,080:INFO:jwt
+2022-07-22 11:54:46,086:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 3, 59, 46, 86015)}
+2022-07-22 11:54:46,086:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NjIzODZ9.wrxzxXCykwgMUpPQ452zwuqTZRdJ_rhy8N3jR_MMYhE
+2022-07-22 11:54:51,955:INFO:ads
+2022-07-22 11:54:55,832:INFO:jwt
+2022-07-22 11:54:55,837:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 3, 59, 55, 837777)}
+2022-07-22 11:54:55,838:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NjIzOTV9.VGqKD-u8wDflmjCuGmfHvRxefewMXEzH-oKnkd3ESBo
+2022-07-22 11:54:59,335:INFO:ads
+2022-07-22 12:07:19,143:INFO:jwt
+2022-07-22 12:07:19,149:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 4, 12, 19, 149332)}
+2022-07-22 12:07:19,149:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NjMxMzl9.cxawa9NZNCUkKuqwb9Tq0yfxUlAKvDUF4hieD2dJHXI
+2022-07-22 12:09:49,705:INFO:ads
+2022-07-22 12:44:09,856:INFO:jwt
+2022-07-22 12:44:09,862:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 4, 49, 9, 862373)}
+2022-07-22 12:44:09,862:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0NjUzNDl9.GfxVSnJcwqs35uAnY0tE695AIJtTkTRi1KgasKN8bqE
+2022-07-22 12:44:13,068:INFO:ads
+2022-07-22 13:44:13,028:INFO:jwt
+2022-07-22 13:44:13,034:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 22, 5, 49, 13, 34110)}
+2022-07-22 13:44:13,034:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTg0Njg5NTN9.9exLtOSLoGO8_tMLrr1vdTkc0S5v72gT8LHFmxNjUfA
+2022-07-22 13:44:16,352:INFO:ads
+2022-07-22 14:12:15,519:INFO:jwt
+2022-07-22 14:12:15,525:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 6, 17, 15, 525225)}
+2022-07-22 14:12:15,525:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NzA2MzV9.hO_3xEtHoYa9XzBx8uDg3Ywx4Au2UJ9C6fj4_sKDkNs
+2022-07-22 14:12:24,352:INFO:checkNumber
+2022-07-22 14:12:24,356:INFO:3
+2022-07-22 14:12:24,356:INFO:bankConnection
+2022-07-22 14:12:24,356:INFO:3
+2022-07-22 14:12:24,356:INFO:{'phone_number': u'98083377', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-22 14:12:24,358:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-22 14:12:24,546:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-22 14:12:24,548:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-22 14:12:24,548:INFO:post
+2022-07-22 14:12:24,548:INFO:bankConnection
+2022-07-22 14:12:24,548:INFO:3
+2022-07-22 14:12:24,548:INFO:{'phone_number': u'98083377', 'serviceName': 'Kiosk_3'}
+2022-07-22 14:12:24,550:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-22 14:12:24,890:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-22 14:12:24,893:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -9532}
+2022-07-22 14:12:47,874:INFO:userConfirmation
+2022-07-22 14:12:47,878:INFO:kiosk3|ЧК79030716|98083377|newnumber|yes|2022-07-22 14:12:47
+2022-07-22 14:13:00,978:INFO:hur
+2022-07-22 14:13:01,004:INFO:
+2022-07-22 14:13:01,004:INFO:
+2022-07-22 14:13:01,006:INFO:huruuniiHee
+2022-07-22 14:13:01,008:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-07-22 14:13:01,358:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1376
+2022-07-22 14:13:01,359:INFO:hariu
+2022-07-22 14:13:01,360:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0427\u041a79030716', u'auth': {u'operator': {u'regnum': u'\u0427\u041a79030716', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0427\u041a79030716', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'8d4069f4-7887-4116-8cec-8426317e1957', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0427\u043e\u043d\u043e', u'addressDetail': u'1', u'firstname': u'\u0411\u0443\u044f\u043d\u0442\u043e\u0433\u0442\u043e\u0445', u'lastname': u'\u041d\u04af\u04af\u0434\u044d\u043b', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0421\u043e\u043d\u0433\u0438\u043d\u043e\u0445\u0430\u0439\u0440\u0445\u0430\u043d 21-\u0440 \u0445\u043e\u0440\u043e\u043e,   361-\u0440 \u0433\u0430\u0440\u0430\u043c \u0431\u0443\u043b\u0433\u0438\u0439\u043d 1 \u0433\u0443\u0434\u0430\u043c\u0436  1  \u0442\u043e\u043e\u0442', u'regnum': u'\u0447\u043a79030716', u'soumDistrictName': u'\u0421\u043e\u043d\u0433\u0438\u043d\u043e\u0445\u0430\u0439\u0440\u0445\u0430\u043d', u'addressStreetName': u'361-\u0440 \u0433\u0430\u0440\u0430\u043c \u0431\u0443\u043b\u0433\u0438\u0439\u043d 1', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'91', u'bagKhorooName': u'21-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'16'}}}
+2022-07-22 14:13:18,234:INFO:ads
+2022-07-22 14:13:22,539:INFO:jwt
+2022-07-22 14:13:22,544:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 6, 18, 22, 544630)}
+2022-07-22 14:13:22,544:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NzA3MDJ9.UC8xVAfnlgdIhyHJ4Z8qkN-8iciBZZvqNNLWwoguE-c
+2022-07-22 14:13:36,624:INFO:checkNumber
+2022-07-22 14:13:36,627:INFO:3
+2022-07-22 14:13:36,627:INFO:bankConnection
+2022-07-22 14:13:36,627:INFO:3
+2022-07-22 14:13:36,628:INFO:{'phone_number': u'98093377', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-22 14:13:36,630:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-22 14:13:36,836:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-22 14:13:36,838:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-22 14:13:36,838:INFO:post
+2022-07-22 14:13:36,838:INFO:bankConnection
+2022-07-22 14:13:36,838:INFO:3
+2022-07-22 14:13:36,838:INFO:{'phone_number': u'98093377', 'serviceName': 'Kiosk_3'}
+2022-07-22 14:13:36,840:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-22 14:13:37,085:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-22 14:13:37,087:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 42629}
+2022-07-22 14:14:02,674:INFO:ads
+2022-07-22 14:14:08,554:INFO:jwt
+2022-07-22 14:14:08,559:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 7, 22, 6, 19, 8, 559129)}
+2022-07-22 14:14:08,559:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NTg0NzA3NDh9.xSvJ319SyT7HNAq9EiGottkHXrjD8vwmlH88zG1XGqQ
+2022-07-22 14:14:13,953:INFO:ads

@@ -1,0 +1,31 @@
+2022-07-05 09:53:35,269:INFO:jwt
+2022-07-05 09:53:35,290:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 5, 1, 58, 35, 290136)}
+2022-07-05 09:53:35,290:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTY5ODYzMTV9.w3OoG6Zj1jsWbXIk2Gr2OJts5WdFElLLUKCTk60cLmk
+2022-07-05 13:50:56,944:INFO:checkNumber
+2022-07-05 13:50:56,949:INFO:1
+2022-07-05 13:50:56,949:INFO:bankConnection
+2022-07-05 13:50:56,949:INFO:1
+2022-07-05 13:50:56,949:INFO:{'phone_number': u'98101690', 'amount': '', 'serviceName': 'Kiosk_2', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-07-05 13:50:57,030:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-05 13:50:57,291:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-07-05 13:50:57,293:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-07-05 13:50:57,293:INFO:post
+2022-07-05 13:50:57,293:INFO:bankConnection
+2022-07-05 13:50:57,293:INFO:1
+2022-07-05 13:50:57,293:INFO:{'phone_number': u'98101690', 'serviceName': 'Kiosk_2'}
+2022-07-05 13:50:57,295:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-07-05 13:50:57,514:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-07-05 13:50:57,516:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 10104}
+2022-07-05 13:51:02,148:INFO:order
+2022-07-05 13:51:02,149:INFO:Y-0
+2022-07-05 13:51:02,158:DEBUG:Starting new HTTPS connection (1): merchant.qpay.mn:443
+2022-07-05 13:51:02,450:DEBUG:https://merchant.qpay.mn:443 "POST /v2/auth/token HTTP/1.1" 200 736
+2022-07-05 13:51:02,453:DEBUG:Starting new HTTPS connection (1): merchant.qpay.mn:443
+2022-07-05 13:51:02,495:DEBUG:https://merchant.qpay.mn:443 "POST /v2/invoice HTTP/1.1" 400 155
+2022-07-05 13:51:02,496:INFO:invoice_response
+2022-07-05 13:51:02,497:INFO:{u'message': {u'amount': {u'message': u'Number min value [10]!', u'type': u'MIN_NUMBER'}}, u'error': {u'amount': {u'message': u'Number min value [10]!', u'type': u'MIN_NUMBER'}}}
+2022-07-05 13:51:02,497:INFO:dat
+2022-07-05 13:51:02,497:INFO:{u'order_id': 13152L, u'q_pay': {}}
+2022-07-05 14:10:21,705:INFO:jwt
+2022-07-05 14:10:21,710:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 5, 6, 15, 21, 710648)}
+2022-07-05 14:10:21,710:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTcwMDE3MjF9.EWie_ygt3qDoLKRn3_jaKPiGtYdEpKPO41DlzOe9iKU

@@ -1,0 +1,219 @@
+2021-12-20 15:57:43,729:INFO:ads
+2021-12-20 15:57:43,731:INFO:ads
+2021-12-20 15:57:43,748:INFO:createNumber
+2021-12-20 15:57:43,748:ERROR:Internal Server Error: /api/createNumber
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 670, in createNumber
+    sim_id = data['sim_id']
+KeyError: u'sim_id'
+2021-12-20 15:58:46,974:INFO:createNumber
+2021-12-20 15:58:46,975:INFO:
+2021-12-20 15:58:46,984:ERROR:Internal Server Error: /api/createNumber
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 677, in createNumber
+    price_plan_id = PricePlan.objects.get(bagts_id=bagts).id
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: PricePlan matching query does not exist.
+2021-12-20 15:59:29,822:INFO:createNumber
+2021-12-20 15:59:29,823:INFO:1
+2021-12-20 15:59:29,836:INFO:Serial=89976060899011158794
+2021-12-20 15:59:29,860:INFO:Total sim=39
+2021-12-20 15:59:29,872:INFO:Failed
+2021-12-20 15:59:29,873:INFO:Failed
+2021-12-20 15:59:29,883:ERROR:Internal Server Error: /api/createNumber
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 715, in createNumber
+    h = simSergeehOrNewNumber(turul, sold_sim.id, price_plan_id, sold_sim.user_id, kiosk.id, numbertype.types_id, sold_sim.tipo)
+  File "/home/ezen/kiosk/controller/services.py", line 346, in simSergeehOrNewNumber
+    "Customer_Name": str(user.last_name) + " " + str(user.first_name),
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-5: ordinal not in range(128)
+2021-12-20 16:01:47,339:INFO:createNumber
+2021-12-20 16:01:47,340:INFO:1
+2021-12-20 16:01:47,361:INFO:Serial=89976060899011158794
+2021-12-20 16:01:47,384:INFO:Total sim=38
+2021-12-20 16:01:47,395:INFO:Failed
+2021-12-20 16:01:47,396:INFO:Failed
+2021-12-20 16:01:47,405:ERROR:Internal Server Error: /api/createNumber
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 715, in createNumber
+    h = simSergeehOrNewNumber(turul, sold_sim.id, price_plan_id, sold_sim.user_id, kiosk.id, numbertype.types_id, sold_sim.tipo)
+  File "/home/ezen/kiosk/controller/services.py", line 346, in simSergeehOrNewNumber
+    "Customer_Name": str(user.last_name) + str(user.first_name),
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-5: ordinal not in range(128)
+2021-12-20 16:03:41,881:INFO:createNumber
+2021-12-20 16:03:41,881:INFO:1
+2021-12-20 16:03:41,902:INFO:Serial=89976060899011158794
+2021-12-20 16:03:41,926:INFO:Total sim=37
+2021-12-20 16:03:41,937:INFO:Failed
+2021-12-20 16:03:41,938:INFO:Failed
+2021-12-20 16:03:41,947:INFO:{'Zone': '', 'Invoice_Type': '\xd3\xa8\xd3\xa9\xd1\x80\xd1\x82 \xd0\xbd\xd1\x8c \xd3\xa9\xd0\xb3\xd3\xa9\xd1\x85', 'JobName': '', 'KioskID': u'2218', 'Email': 'mail', 'Profile': [{'City': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', 'Gender': u'\u042d\u043c', 'Birthday': u'1999/07/28', 'Address': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445 28-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0445\u0443\u0436\u0438\u0440\u0431\u0443\u043b\u0430\u043d 2 \u0445\u044d\u0441\u044d\u0433 \u0433\u0443\u0434\u0430\u043c\u0436  15-845  \u0442\u043e\u043e\u0442', 'Soum': u'\u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445', 'Cert_Number': u'\u041b\u042e99072821', 'Cert_type': '\xd0\xa0\xd0\xb5\xd0\xb3\xd0\xb8\xd1\x81\xd1\x82\xd0\xb5\xd1\x80', 'Customer_Name': u'\u0431\u0430\u0434\u0430\u0440\u0447 \u0437\u043e\u043b\u0447\u0438\u043c\u044d\u0433'}], 'Parameters': '', 'Price': u'5000', 'Sales_User': 'Kiosk', 'Sales_Name': u'\u041a\u0438\u043e\u0441\u043a3', 'OfficePhone': 'phone_num', 'KioskLocationID': u'34', 'Package': u'D70', 'Sales_Branch': u'3-\u0440 \u0441\u0430\u043b\u0431\u0430\u0440', 'PhoneNumber': u'97122003', 'Action': 'NewConnection', 'CustomerType': '%\xd0\xa5\xd1\x83\xd0\xb2\xd1\x8c \xd1\x85\xd2\xaf\xd0\xbd', 'Enjoy_Invite': '', 'Sector': '', 'Credit_Limit': '', 'JobTitle': '', 'Pre_to_Post': '', 'ProdType': '3', 'Customer_Type': 'Individual', 'ParentID': '', 'ICCID': u'89976060899011158794', 'RUIMType': u'724', 'HomePhone': 'home_phone'}
+2021-12-20 16:03:41,972:DEBUG:Starting new HTTP connection (1): 192.168.18.232:80
+2021-12-20 16:03:45,706:DEBUG:http://192.168.18.232:80 "POST /SalesOnlineShiwelt/GAgentPrepaid.asmx/GAgentPrePaidServiceMothod HTTP/1.1" 200 106
+2021-12-20 16:03:45,707:INFO:{
+  "_status": "Successful",
+  "Message": "Prepaid шивэлт амжилттай хийгдлээ."
+}
+2021-12-20 16:03:45,708:INFO:Dugaar uusgelt: Success
+2021-12-20 16:05:20,070:INFO:ebarimt
+2021-12-20 16:05:20,071:INFO:
+2021-12-20 16:05:20,071:INFO:1
+2021-12-20 16:05:20,170:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'FU 46258458', u'billId': u'000005055873003211220338639058002', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'5000.00', u'vat': u'454.55', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBC4333337508766442EFA33B8EAE66ED386FC77', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2021-12-20 16:06:42', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0443\u0433\u0430\u0430\u0440\u044b\u043d \u04af\u043d\u044d', u'name': u'\u0414\u0443\u0433\u0430\u0430\u0440\u044b\u043d \u04af\u043d\u044d', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'5000.00', u'qty': u'1.00', u'unitPrice': u'5000.00', u'vat': u'454.55'}], u'billType': u'1', u'success': True, u'amount': u'5000.00', u'branchNo': u'', u'qrData': u'12648825049057603514213917761278118831041788795800286642009400264611239847351899926353385623126923099162858860856757476332571451390855093048343148826102037942727668372353472379245215570770083765393794618309586073667776065906607043221629275615090829208364789459667188022176679166186538880860990943337865351816167971989'}
+2021-12-20 16:05:20,170:INFO:ADDLOTTERY
+2021-12-20 17:23:31,826:INFO:jwt
+2021-12-20 17:23:31,854:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 12, 20, 9, 28, 31, 854824)}
+2021-12-20 17:23:31,855:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2Mzk5OTI1MTF9.LknFDdannYSbJ9w4DrvTbOxHGh5TKHIJr0lbmgkQj94
+2021-12-20 17:23:41,381:INFO:prefix
+2021-12-20 17:24:04,218:INFO:searchNumber
+2021-12-20 17:24:08,292:INFO:-1
+2021-12-20 17:24:08,293:INFO:[]
+2021-12-20 17:24:11,489:INFO:searchNumber
+2021-12-20 17:24:12,587:INFO:-1
+2021-12-20 17:24:12,588:INFO:[]
+2021-12-20 17:24:13,921:INFO:searchNumber
+2021-12-20 17:24:14,706:INFO:97020718:6
+2021-12-20 17:24:14,710:INFO:[]
+2021-12-20 17:24:16,069:INFO:searchNumber
+2021-12-20 17:24:16,641:INFO:83020718:6
+2021-12-20 17:24:16,645:INFO:[]
+2021-12-20 17:24:18,662:INFO:ads
+2021-12-20 17:24:18,754:INFO:ads
+2021-12-20 17:24:26,673:INFO:jwt
+2021-12-20 17:24:26,683:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 12, 20, 9, 29, 26, 683430)}
+2021-12-20 17:24:26,683:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2Mzk5OTI1NjZ9.sw1XVs3CvZFuwOP4Lfs6g_xuCQbiS6baOWC17ojn5RM
+2021-12-20 17:24:28,979:INFO:prefix
+2021-12-20 17:24:34,819:INFO:searchNumber
+2021-12-20 17:24:35,864:INFO:98000367:6|98000374:6|98000392:6|98000418:6|98000431:6|98000443:6|98000453:6|98000463:6|98000465:6|98000467:6|98000472:6|98000473:6|98000475:6|98000478:6|98000479:6|98000481:6|98000483:6|98000487:6|98000492:6|98000493:6|98000529:6|98000532:6|98000536:6|98000537:6|98000541:6|98000542:6|98000543:6|98000546:6|98000549:6|98000561:6|98000563:6|98000564:6|98000571:6|98000572:6|98000573:6|98000581:6|98000582:6|98000583:6|98000584:6|98000587:6|98000591:6|98000592:6|98000593:6|98000594:6|98000597:6|98000621:6|98000625:6|98000632:6|98000634:6|98000635:6|98000637:6|98000638:6|98000639:6|98000641:6|98000642:6|98000643:6|98000645:6|98000647:6|98000649:6|98000657:6|98000659:6|98000662:6|98000672:6|98000674:6|98000675:6|98000682:6|98000694:6|98000732:6|98000735:6|98000736:6|98000739:6|98000745:6|98000746:6|98000748:6|98000749:6|98000753:6|98000756:6|98000758:6|98000759:6|98000761:6|98000762:6|98000763:6|98000764:6|98000765:6|98000768:6|98000783:6|98000784:6|98000791:6|98000792:6|98000794:6|98000795:6|98000832:6|98000834:6|98000837:6|98000841:6|98000842:6|98000846:6|98000851:6|98000853:6|98000854:6
+2021-12-20 17:24:36,118:INFO:[]
+2021-12-20 17:24:46,054:INFO:ads
+2021-12-20 17:24:46,142:INFO:ads
+2021-12-20 18:09:08,436:INFO:jwt
+2021-12-20 18:09:08,447:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 12, 20, 10, 14, 8, 447745)}
+2021-12-20 18:09:08,448:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2Mzk5OTUyNDh9.CaMyYbGd51Kq26Rs681BHxC-8hd8YSiVUKlo7DQg494
+2021-12-20 18:09:27,680:INFO:checkNumber
+2021-12-20 18:09:27,687:INFO:3
+2021-12-20 18:09:27,687:INFO:bankConnection
+2021-12-20 18:09:27,687:INFO:3
+2021-12-20 18:09:27,688:INFO:{'phone_number': u'98109515', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-12-20 18:09:27,693:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-20 18:09:27,875:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-12-20 18:09:27,880:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2021-12-20 18:09:27,880:INFO:post
+2021-12-20 18:09:27,880:INFO:bankConnection
+2021-12-20 18:09:27,880:INFO:3
+2021-12-20 18:09:27,880:INFO:{'phone_number': u'98109515', 'serviceName': 'Kiosk_3'}
+2021-12-20 18:09:27,883:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-20 18:09:28,144:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2021-12-20 18:09:28,148:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 28004}
+2021-12-20 18:09:34,775:INFO:hur
+2021-12-20 18:09:34,798:INFO:
+2021-12-20 18:09:34,798:INFO:
+2021-12-20 18:09:34,802:INFO:huruuniiHee
+2021-12-20 18:09:34,806:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2021-12-20 18:09:35,035:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 401
+2021-12-20 18:09:35,037:INFO:hariu
+2021-12-20 18:09:35,037:INFO:{u'return': {u'resultCode': u'302', u'request': {u'regnum': u'\u0425\u041168103102', u'auth': {u'operator': {u'regnum': u'\u0425\u041168103102', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0425\u041168103102', u'signature': u'', u'fingerprint': u''}}}, u'resultMessage': u'[citizen] \u0445\u0443\u0440\u0443\u0443 \u0445\u044d\u044d \u0442\u0430\u0430\u0440\u0430\u0445\u0433\u04af\u0439 \u0431\u0430\u0439\u043d\u0430'}}
+2021-12-20 18:09:35,037:ERROR:Хуруу хээ таарахгүй байна. Line-465
+2021-12-20 18:09:40,781:INFO:checkNumber
+2021-12-20 18:09:40,788:INFO:3
+2021-12-20 18:09:40,789:INFO:bankConnection
+2021-12-20 18:09:40,789:INFO:3
+2021-12-20 18:09:40,789:INFO:{'phone_number': u'98109515', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-12-20 18:09:40,793:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-20 18:09:40,973:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2021-12-20 18:09:40,977:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2021-12-20 18:09:40,978:INFO:post
+2021-12-20 18:09:40,978:INFO:bankConnection
+2021-12-20 18:09:40,978:INFO:3
+2021-12-20 18:09:40,978:INFO:{'phone_number': u'98109515', 'serviceName': 'Kiosk_3'}
+2021-12-20 18:09:40,981:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-20 18:09:41,200:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2021-12-20 18:09:41,204:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 28004}
+2021-12-20 18:09:46,076:INFO:hur
+2021-12-20 18:09:46,086:INFO:
+2021-12-20 18:09:46,086:INFO:
+2021-12-20 18:09:46,091:INFO:huruuniiHee
+2021-12-20 18:09:46,095:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2021-12-20 18:09:46,408:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1465
+2021-12-20 18:09:46,410:INFO:hariu
+2021-12-20 18:09:46,411:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0425\u041168103102', u'auth': {u'operator': {u'regnum': u'\u0425\u041168103102', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0425\u041168103102', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'f89e5a51-1dcb-43dd-9680-d7dee3e02afc', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0431\u043e\u0440\u0436\u0438\u0433\u0438\u043d', u'addressDetail': u'307', u'firstname': u'\u043c\u04e9\u043d\u0445\u0446\u044d\u0446\u044d\u0433', u'lastname': u'\u0434\u0430\u043d\u0437\u0430\u043d\u0434\u043e\u0440\u0436', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445 25-\u0440 \u0445\u043e\u0440\u043e\u043e, 13 \u0445\u043e\u0440\u043e\u043e\u043b\u043e\u043b  \u043d\u0430\u0440\u043d\u044b \u0437\u0430\u043c \u0433\u0443\u0434\u0430\u043c\u0436 101-\u0440 \u0431\u0430\u0439\u0440 307  \u0442\u043e\u043e\u0442', u'regnum': u'\u0445\u043168103102', u'soumDistrictName': u'\u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445', u'addressRegionName': u'13 \u0445\u043e\u0440\u043e\u043e\u043b\u043e\u043b', u'addressStreetName': u'\u043d\u0430\u0440\u043d\u044b \u0437\u0430\u043c', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'99', u'addressApartmentName': u'101', u'bagKhorooName': u'25-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'10'}}}
+2021-12-20 18:09:54,344:INFO:order
+2021-12-20 18:09:54,344:INFO:Y-28004
+2021-12-20 18:09:54,361:INFO:dat
+2021-12-20 18:09:54,361:INFO:{u'order_id': 12482L, u'q_pay': {}}
+2021-12-20 18:13:15,374:INFO:ads
+2021-12-20 18:13:15,631:INFO:ads

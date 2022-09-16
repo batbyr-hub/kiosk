@@ -1,0 +1,265 @@
+2022-01-16 09:51:43,638:INFO:jwt
+2022-01-16 09:51:43,668:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 1, 16, 1, 56, 43, 668013)}
+2022-01-16 09:51:43,668:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NDIyOTgyMDN9.sPhx6yJ-xtX94lALuHDQEeeImiU8UhBxhLh3D6TUsF8
+2022-01-17 08:41:18,557:INFO:ads
+2022-01-17 09:55:12,070:INFO:jwt
+2022-01-17 09:55:12,081:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 2, 0, 12, 81195)}
+2022-01-17 09:55:12,081:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDIzODQ4MTJ9.vf0jMxARMbx15WFQN06s9az2EOJxPtRX47VRUE7H3Yo
+2022-01-17 09:55:16,167:INFO:prefix
+2022-01-17 09:55:40,991:INFO:searchNumber
+2022-01-17 09:55:41,878:INFO:98980218:6|98980290:6|98980612:6|98980862:6|98980961:6|98981325:6|98981559:6|98982120:6|98982159:6|98982210:6|98982604:6|98982613:6|98982630:6|98982670:6|98982752:6|98982760:6|98983162:6|98983278:6|98983463:6|98983464:6|98983475:6|98983476:6|98983506:6|98983567:6|98983681:6|98983739:6|98983821:6|98983934:6|98983950:6|98983966:6|98984023:6|98984166:6|98984264:6|98984274:6|98984301:6|98984366:6|98984397:6|98984431:6|98984471:6|98984532:6|98984572:6|98984596:6|98984681:6|98984720:6|98984734:6|98984866:6|98984953:6|98985201:6|98985287:6|98985302:6|98985314:6|98985366:6|98985448:6|98985537:6|98985571:6|98985608:6|98985629:6|98985711:6|98985739:6|98985742:6|98985772:6|98985814:6|98985830:6|98985864:6|98985867:6|98985901:6|98985935:6|98986102:6|98986136:6|98986194:6|98986306:6|98986322:6|98986348:6|98986437:6|98986458:6|98986461:6|98986471:6|98986479:6|98986503:6|98986516:6|98986517:6|98986534:6|98986537:6|98986540:6|98986561:6|98986614:6|98986649:6|98986702:6|98986719:6|98986731:6|98986736:6|98986739:6|98986740:6|98986743:6|98986745:6|98986759:6|98986792:6|98986796:6|98986805:6|98986814:6
+2022-01-17 09:55:42,119:INFO:[{'prefix': '98980218'}, {'prefix': '98980290'}, {'prefix': '98980612'}, {'prefix': '98980862'}, {'prefix': '98980961'}, {'prefix': '98981325'}, {'prefix': '98981559'}, {'prefix': '98982120'}, {'prefix': '98982159'}, {'prefix': '98982210'}, {'prefix': '98982604'}, {'prefix': '98982613'}, {'prefix': '98982630'}, {'prefix': '98982670'}, {'prefix': '98982752'}, {'prefix': '98982760'}, {'prefix': '98983162'}, {'prefix': '98983278'}, {'prefix': '98983463'}, {'prefix': '98983464'}, {'prefix': '98983475'}, {'prefix': '98983476'}, {'prefix': '98983506'}, {'prefix': '98983567'}, {'prefix': '98983681'}, {'prefix': '98983739'}, {'prefix': '98983821'}, {'prefix': '98983934'}, {'prefix': '98983950'}, {'prefix': '98983966'}, {'prefix': '98984023'}, {'prefix': '98984166'}, {'prefix': '98984264'}, {'prefix': '98984274'}, {'prefix': '98984301'}, {'prefix': '98984366'}, {'prefix': '98984397'}, {'prefix': '98984431'}, {'prefix': '98984471'}, {'prefix': '98984532'}, {'prefix': '98984572'}, {'prefix': '98984596'}, {'prefix': '98984681'}, {'prefix': '98984720'}, {'prefix': '98984734'}, {'prefix': '98984866'}, {'prefix': '98984953'}, {'prefix': '98985201'}, {'prefix': '98985287'}, {'prefix': '98985302'}, {'prefix': '98985314'}, {'prefix': '98985366'}, {'prefix': '98985448'}, {'prefix': '98985537'}, {'prefix': '98985571'}, {'prefix': '98985608'}, {'prefix': '98985629'}, {'prefix': '98985711'}, {'prefix': '98985739'}, {'prefix': '98985742'}, {'prefix': '98985772'}, {'prefix': '98985814'}, {'prefix': '98985830'}, {'prefix': '98985864'}, {'prefix': '98985867'}, {'prefix': '98985901'}, {'prefix': '98985935'}, {'prefix': '98986102'}, {'prefix': '98986136'}, {'prefix': '98986194'}, {'prefix': '98986306'}, {'prefix': '98986322'}, {'prefix': '98986348'}, {'prefix': '98986437'}, {'prefix': '98986458'}, {'prefix': '98986461'}, {'prefix': '98986471'}, {'prefix': '98986479'}, {'prefix': '98986503'}, {'prefix': '98986516'}, {'prefix': '98986517'}, {'prefix': '98986534'}, {'prefix': '98986537'}, {'prefix': '98986540'}, {'prefix': '98986561'}, {'prefix': '98986614'}, {'prefix': '98986649'}, {'prefix': '98986702'}, {'prefix': '98986719'}, {'prefix': '98986731'}, {'prefix': '98986736'}, {'prefix': '98986739'}, {'prefix': '98986740'}, {'prefix': '98986743'}, {'prefix': '98986745'}, {'prefix': '98986759'}, {'prefix': '98986792'}, {'prefix': '98986796'}, {'prefix': '98986805'}, {'prefix': '98986814'}]
+2022-01-17 10:00:41,136:INFO:ads
+2022-01-17 10:00:41,237:INFO:ads
+2022-01-17 10:09:11,483:INFO:jwt
+2022-01-17 10:09:11,493:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 2, 14, 11, 493921)}
+2022-01-17 10:09:11,494:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDIzODU2NTF9.QcXl3ORSR2YKGpfbUI8u18RfZkjmJ8AOlda-q_OvctQ
+2022-01-17 10:09:20,567:INFO:checkNumber
+2022-01-17 10:09:20,573:INFO:3
+2022-01-17 10:09:20,573:INFO:bankConnection
+2022-01-17 10:09:20,573:INFO:3
+2022-01-17 10:09:20,574:INFO:{'phone_number': u'93117667', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-01-17 10:09:20,682:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:09:20,937:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-01-17 10:09:20,942:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-01-17 10:09:20,942:INFO:post
+2022-01-17 10:09:20,942:INFO:bankConnection
+2022-01-17 10:09:20,942:INFO:3
+2022-01-17 10:09:20,942:INFO:{'phone_number': u'93117667', 'serviceName': 'Kiosk_3'}
+2022-01-17 10:09:20,946:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:09:21,258:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-01-17 10:09:21,262:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -8894}
+2022-01-17 10:09:40,409:INFO:hur
+2022-01-17 10:09:40,452:INFO:
+2022-01-17 10:09:40,452:INFO:
+2022-01-17 10:09:40,457:INFO:huruuniiHee
+2022-01-17 10:09:40,461:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-01-17 10:09:40,915:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1490
+2022-01-17 10:09:40,918:INFO:hariu
+2022-01-17 10:09:40,918:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u041a\u042e86011103', u'auth': {u'operator': {u'regnum': u'\u041a\u042e86011103', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u041a\u042e86011103', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'5587d66d-47ff-4211-970a-83e895732362', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0431\u043e\u0440\u0436\u0438\u043d', u'addressDetail': u'1708', u'firstname': u'\u044d\u043d\u0445\u0441\u0430\u0440\u0443\u0443\u043b', u'lastname': u'\u0431\u0430\u0442\u0431\u0430\u044f\u0440', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445 26-\u0440 \u0445\u043e\u0440\u043e\u043e,  \u044d\u043c\u0435\u0440\u0430\u043b\u0438\u0434 \u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442 \u0445\u04af\u043d\u043d\u04af \u0433\u0443\u0434\u0430\u043c\u0436 501-\u0440 \u0431\u0430\u0439\u0440 1708  \u0442\u043e\u043e\u0442', u'regnum': u'\u043a\u044e86011103', u'addressTownName': u'\u044d\u043c\u0435\u0440\u0430\u043b\u0438\u0434 \u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442', u'soumDistrictName': u'\u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445', u'addressStreetName': u'\u0445\u04af\u043d\u043d\u04af', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'101', u'addressApartmentName': u'501', u'bagKhorooName': u'26-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'10'}}}
+2022-01-17 10:10:01,980:INFO:order
+2022-01-17 10:10:01,980:INFO:Y-10000
+2022-01-17 10:10:01,998:INFO:dat
+2022-01-17 10:10:01,999:INFO:{u'order_id': 12680L, u'q_pay': {}}
+2022-01-17 10:10:21,124:WARNING:Not Found: /api/kartInfo
+2022-01-17 10:10:21,153:INFO:charge
+2022-01-17 10:10:21,153:INFO:10000
+2022-01-17 10:10:21,153:INFO:12680
+2022-01-17 10:10:21,167:INFO:Хүлээж авсан мөнгө: 10000=10000
+2022-01-17 10:10:21,184:INFO:Нийт бэлэн мөнгө=10000
+2022-01-17 10:10:21,185:INFO:bankConnection
+2022-01-17 10:10:21,185:INFO:3
+2022-01-17 10:10:21,185:INFO:{'phone_number': u'93117667', 'amount': '10000', 'serviceName': 'Kiosk_3', 'trans_id': u'12680', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-10000'}
+2022-01-17 10:10:21,189:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:10:22,951:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2022-01-17 10:10:22,955:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-01-17 10:10:28,101:INFO:ebarimt
+2022-01-17 10:10:28,101:INFO:
+2022-01-17 10:10:28,101:INFO:1
+2022-01-17 10:10:28,160:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'WG 38319533', u'billId': u'000005055873003220117338639036684', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'10000.00', u'vat': u'909.09', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD52133305E86624518CD55E02CA8E0575F373C71', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-01-17 10:11:24', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'10000.00', u'qty': u'1.00', u'unitPrice': u'10000.00', u'vat': u'909.09'}], u'billType': u'1', u'success': True, u'amount': u'10000.00', u'branchNo': u'', u'qrData': u'9974969824148517899079702980554314396540697969439966924900610026461381347282299558819519296253529096223898756064207401724745490470492673434875555252020570489220749625384563738925164690873687686092173746403769821064508775681823142975361767933055732026753970231807174028448787068942956306100584838005728140165005833746'}
+2022-01-17 10:10:28,161:INFO:ADDLOTTERY
+2022-01-17 10:10:33,949:INFO:ads
+2022-01-17 10:10:34,037:INFO:ads
+2022-01-17 10:10:40,751:INFO:jwt
+2022-01-17 10:10:40,761:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 2, 15, 40, 761581)}
+2022-01-17 10:10:40,762:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDIzODU3NDB9.X2LJDEEb6IT-dx-vTXrWJ0wNQbdCsmjyiVgZ7A96EC4
+2022-01-17 10:10:47,753:INFO:checkNumber
+2022-01-17 10:10:47,760:INFO:3
+2022-01-17 10:10:47,760:INFO:bankConnection
+2022-01-17 10:10:47,760:INFO:3
+2022-01-17 10:10:47,760:INFO:{'phone_number': u'93111186', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-01-17 10:10:47,764:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:10:47,997:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-01-17 10:10:48,004:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-01-17 10:10:48,004:INFO:post
+2022-01-17 10:10:48,004:INFO:bankConnection
+2022-01-17 10:10:48,004:INFO:3
+2022-01-17 10:10:48,005:INFO:{'phone_number': u'93111186', 'serviceName': 'Kiosk_3'}
+2022-01-17 10:10:48,010:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:10:48,307:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-01-17 10:10:48,310:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 3237}
+2022-01-17 10:10:53,963:INFO:hur
+2022-01-17 10:10:53,980:INFO:
+2022-01-17 10:10:53,980:INFO:
+2022-01-17 10:10:53,984:INFO:huruuniiHee
+2022-01-17 10:10:53,988:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-01-17 10:10:54,342:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1490
+2022-01-17 10:10:54,344:INFO:hariu
+2022-01-17 10:10:54,345:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u041a\u042e86011103', u'auth': {u'operator': {u'regnum': u'\u041a\u042e86011103', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u041a\u042e86011103', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'b10de3d7-d75b-4c85-ba01-86b7e59063c8', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0431\u043e\u0440\u0436\u0438\u043d', u'addressDetail': u'1708', u'firstname': u'\u044d\u043d\u0445\u0441\u0430\u0440\u0443\u0443\u043b', u'lastname': u'\u0431\u0430\u0442\u0431\u0430\u044f\u0440', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445 26-\u0440 \u0445\u043e\u0440\u043e\u043e,  \u044d\u043c\u0435\u0440\u0430\u043b\u0438\u0434 \u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442 \u0445\u04af\u043d\u043d\u04af \u0433\u0443\u0434\u0430\u043c\u0436 501-\u0440 \u0431\u0430\u0439\u0440 1708  \u0442\u043e\u043e\u0442', u'regnum': u'\u043a\u044e86011103', u'addressTownName': u'\u044d\u043c\u0435\u0440\u0430\u043b\u0438\u0434 \u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442', u'soumDistrictName': u'\u0411\u0430\u044f\u043d\u0437\u04af\u0440\u0445', u'addressStreetName': u'\u0445\u04af\u043d\u043d\u04af', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'101', u'addressApartmentName': u'501', u'bagKhorooName': u'26-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'10'}}}
+2022-01-17 10:11:05,273:INFO:order
+2022-01-17 10:11:05,274:INFO:Y-3237
+2022-01-17 10:11:05,289:INFO:dat
+2022-01-17 10:11:05,289:INFO:{u'order_id': 12681L, u'q_pay': {}}
+2022-01-17 10:11:17,956:WARNING:Not Found: /api/kartInfo
+2022-01-17 10:11:17,987:INFO:charge
+2022-01-17 10:11:17,987:INFO:3237
+2022-01-17 10:11:17,987:INFO:12681
+2022-01-17 10:11:18,001:INFO:Хүлээж авсан мөнгө: 3237=3237
+2022-01-17 10:11:18,017:INFO:Нийт бэлэн мөнгө=13237
+2022-01-17 10:11:18,017:INFO:bankConnection
+2022-01-17 10:11:18,017:INFO:3
+2022-01-17 10:11:18,018:INFO:{'phone_number': u'93111186', 'amount': '3237', 'serviceName': 'Kiosk_3', 'trans_id': u'12681', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-3237'}
+2022-01-17 10:11:18,021:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:11:19,624:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2022-01-17 10:11:19,629:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-01-17 10:11:20,880:INFO:ebarimt
+2022-01-17 10:11:20,880:INFO:
+2022-01-17 10:11:20,881:INFO:1
+2022-01-17 10:11:21,030:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'WG 38313499', u'billId': u'000005055873003220117338639036737', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'3237.00', u'vat': u'294.27', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD52133305E86624F365521F5292D27EFF07F46', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-01-17 10:12:17', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'3237.00', u'qty': u'1.00', u'unitPrice': u'3237.00', u'vat': u'294.27'}], u'billType': u'1', u'success': True, u'amount': u'3237.00', u'branchNo': u'', u'qrData': u'1618217997931892023064370515773616578030684566162554883397080026461625403431205052144044651015222351590850033831812715793514906656434356402272395208971501158016981645280793244770676963989571431511711416970493851533116725598299933988242958078467445813819826989774939659584465119998976124732512557919517148658337594547'}
+2022-01-17 10:11:21,030:INFO:ADDLOTTERY
+2022-01-17 10:11:26,935:INFO:ads
+2022-01-17 10:11:27,016:INFO:ads
+2022-01-17 10:11:30,351:INFO:jwt
+2022-01-17 10:11:30,363:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 2, 16, 30, 363010)}
+2022-01-17 10:11:30,363:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDIzODU3OTB9.C9G4RaAhROUlD9ZtVLdyH-3_WAI600UhYucui1tSxWU
+2022-01-17 10:11:36,778:INFO:checkNumber
+2022-01-17 10:11:36,784:INFO:3
+2022-01-17 10:11:36,784:INFO:bankConnection
+2022-01-17 10:11:36,784:INFO:3
+2022-01-17 10:11:36,785:INFO:{'phone_number': u'93119998', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-01-17 10:11:36,788:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:11:37,024:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-01-17 10:11:37,028:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-01-17 10:11:37,028:INFO:post
+2022-01-17 10:11:37,028:INFO:bankConnection
+2022-01-17 10:11:37,029:INFO:3
+2022-01-17 10:11:37,029:INFO:{'phone_number': u'93119998', 'serviceName': 'Kiosk_3'}
+2022-01-17 10:11:37,032:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:11:37,315:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-01-17 10:11:37,319:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 11997}
+2022-01-17 10:11:56,461:INFO:checkNumber
+2022-01-17 10:11:56,467:INFO:3
+2022-01-17 10:11:56,467:INFO:bankConnection
+2022-01-17 10:11:56,467:INFO:3
+2022-01-17 10:11:56,468:INFO:{'phone_number': u'93119998', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-01-17 10:11:56,471:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:11:56,765:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-01-17 10:11:56,769:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-01-17 10:11:56,769:INFO:post
+2022-01-17 10:11:56,770:INFO:bankConnection
+2022-01-17 10:11:56,770:INFO:3
+2022-01-17 10:11:56,770:INFO:{'phone_number': u'93119998', 'serviceName': 'Kiosk_3'}
+2022-01-17 10:11:56,773:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:11:57,114:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-01-17 10:11:57,118:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 11997}
+2022-01-17 10:12:15,741:INFO:order
+2022-01-17 10:12:15,742:INFO:Y-12000
+2022-01-17 10:12:15,757:INFO:dat
+2022-01-17 10:12:15,757:INFO:{u'order_id': 12682L, u'q_pay': {}}
+2022-01-17 10:12:28,994:WARNING:Not Found: /api/kartInfo
+2022-01-17 10:12:29,033:INFO:charge
+2022-01-17 10:12:29,033:INFO:12000
+2022-01-17 10:12:29,033:INFO:12682
+2022-01-17 10:12:29,048:INFO:Хүлээж авсан мөнгө: 12000=12000
+2022-01-17 10:12:29,065:INFO:Нийт бэлэн мөнгө=25237
+2022-01-17 10:12:29,065:INFO:bankConnection
+2022-01-17 10:12:29,065:INFO:3
+2022-01-17 10:12:29,066:INFO:{'phone_number': u'93119998', 'amount': '12000', 'serviceName': 'Kiosk_3', 'trans_id': u'12682', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a3_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-12000'}
+2022-01-17 10:12:29,069:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 10:12:30,681:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2022-01-17 10:12:30,686:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-01-17 10:12:32,247:INFO:ebarimt
+2022-01-17 10:12:32,247:INFO:
+2022-01-17 10:12:32,247:INFO:1
+2022-01-17 10:12:32,303:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'WG 38313091', u'billId': u'000005055873003220117338639036808', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'12000.00', u'vat': u'1090.91', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD52133305E86624F325529F52B2D24E820592CC8', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-01-17 10:13:28', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'12000.00', u'qty': u'1.00', u'unitPrice': u'12000.00', u'vat': u'1090.91'}], u'billType': u'1', u'success': True, u'amount': u'12000.00', u'branchNo': u'', u'qrData': u'3774536162808502372573519773004317330822959354824211039411750026461837602994955709562536058263740469354743589256863243541014433400305197829989527194990160611611852225770519507932127153999222070229425097874634421800810320606935187635573873239146590669806757300837024822817077971640745659711038940068587842750339657084'}
+2022-01-17 10:12:32,304:INFO:ADDLOTTERY
+2022-01-17 10:12:38,171:INFO:ads
+2022-01-17 10:12:38,258:INFO:ads
+2022-01-17 11:09:37,380:INFO:jwt
+2022-01-17 11:09:37,391:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 3, 14, 37, 391694)}
+2022-01-17 11:09:37,392:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDIzODkyNzd9.BqVQkIABr8pBGRvS1P4JhPX6CcJv0TtmrfheksaMwac
+2022-01-17 11:09:40,114:INFO:prefix
+2022-01-17 11:09:49,356:INFO:searchNumber
+2022-01-17 11:09:50,161:INFO:97155550:6
+2022-01-17 11:09:50,165:INFO:[{'prefix': '97155550'}]
+2022-01-17 11:09:59,010:INFO:blockUnblock
+2022-01-17 11:09:59,010:INFO:block
+2022-01-17 11:09:59,010:INFO:1
+2022-01-17 11:09:59,026:INFO:Success
+2022-01-17 11:09:59,032:INFO:5000
+2022-01-17 11:09:59,033:INFO:{u'negj': u'3000', u'honog': u'30', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'0', u'price': 5000}
+2022-01-17 11:10:19,430:INFO:hur
+2022-01-17 11:10:19,453:INFO:2
+2022-01-17 11:10:19,453:INFO:1
+2022-01-17 11:10:19,457:INFO:huruuniiHee
+2022-01-17 11:10:19,462:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-01-17 11:10:19,845:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1400
+2022-01-17 11:10:19,847:INFO:hariu
+2022-01-17 11:10:19,848:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041f95040130', u'auth': {u'operator': {u'regnum': u'\u0423\u041f95040130', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041f95040130', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'd0aa6af4-128e-4f15-babd-bfbba6ff9bf5', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0431\u043e\u0440\u0436\u0438\u0433\u043e\u043d', u'addressDetail': u'24', u'firstname': u'\u0441\u043e\u0434\u0431\u0438\u043b\u044d\u0433', u'lastname': u'\u043e\u0447\u0438\u0440\u0431\u0438\u043b\u044d\u0433', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0421\u043e\u043d\u0433\u0438\u043d\u043e\u0445\u0430\u0439\u0440\u0445\u0430\u043d 9-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0431\u0430\u0440\u0443\u0443\u043d \u0431\u0430\u044f\u043d \u0443\u0443\u043b 12 \u0433\u0443\u0434\u0430\u043c\u0436  24  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043f95040130', u'soumDistrictName': u'\u0421\u043e\u043d\u0433\u0438\u043d\u043e\u0445\u0430\u0439\u0440\u0445\u0430\u043d', u'addressStreetName': u'\u0431\u0430\u0440\u0443\u0443\u043d \u0431\u0430\u044f\u043d \u0443\u0443\u043b 12', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'67', u'bagKhorooName': u'9-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'16'}}}
+2022-01-17 11:10:19,854:INFO:0
+2022-01-17 11:10:19,854:INFO:0
+2022-01-17 11:10:51,298:WARNING:Not Found: /api/kartInfo
+2022-01-17 11:10:52,988:INFO:createNumber
+2022-01-17 11:10:52,988:INFO:1
+2022-01-17 11:10:52,999:INFO:Serial=89976060899011158547
+2022-01-17 11:10:53,023:INFO:Total sim=24
+2022-01-17 11:10:53,036:INFO:Success
+2022-01-17 11:10:53,036:INFO:Success
+2022-01-17 11:10:53,048:INFO:{'Zone': '', 'Invoice_Type': '\xd3\xa8\xd3\xa9\xd1\x80\xd1\x82 \xd0\xbd\xd1\x8c \xd3\xa9\xd0\xb3\xd3\xa9\xd1\x85', 'JobName': '', 'KioskID': u'2218', 'Email': 'mail', 'Profile': [{'City': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', 'Gender': u'\u042d\u0440', 'Birthday': u'1995/04/01', 'Address': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0421\u043e\u043d\u0433\u0438\u043d\u043e\u0445\u0430\u0439\u0440\u0445\u0430\u043d 9-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0431\u0430\u0440\u0443\u0443\u043d \u0431\u0430\u044f\u043d \u0443\u0443\u043b 12 \u0433\u0443\u0434\u0430\u043c\u0436  24  \u0442\u043e\u043e\u0442', 'Soum': u'\u0421\u043e\u043d\u0433\u0438\u043d\u043e\u0445\u0430\u0439\u0440\u0445\u0430\u043d', 'Cert_Number': u'\u0423\u041f95040130', 'Cert_type': '\xd0\xa0\xd0\xb5\xd0\xb3\xd0\xb8\xd1\x81\xd1\x82\xd0\xb5\xd1\x80', 'Customer_Name': u'\u043e\u0447\u0438\u0440\u0431\u0438\u043b\u044d\u0433 \u0441\u043e\u0434\u0431\u0438\u043b\u044d\u0433'}], 'Parameters': '', 'Price': u'5000', 'Sales_User': 'Kiosk', 'Sales_Name': u'\u041a\u0438\u043e\u0441\u043a3', 'OfficePhone': 'phone_num', 'KioskLocationID': u'34', 'Package': u'D70', 'Sales_Branch': u'3-\u0440 \u0441\u0430\u043b\u0431\u0430\u0440', 'PhoneNumber': u'97155550', 'Action': 'NewConnection', 'CustomerType': '%\xd0\xa5\xd1\x83\xd0\xb2\xd1\x8c \xd1\x85\xd2\xaf\xd0\xbd', 'Enjoy_Invite': '', 'Sector': '', 'Credit_Limit': '0', 'JobTitle': '', 'Pre_to_Post': '', 'ProdType': '3', 'Customer_Type': 'Individual', 'ParentID': '', 'ICCID': u'89976060899011158547', 'RUIMType': u'724', 'HomePhone': 'home_phone'}
+2022-01-17 11:10:53,289:DEBUG:Starting new HTTP connection (1): 192.168.18.232:80
+2022-01-17 11:10:57,078:DEBUG:http://192.168.18.232:80 "POST /SalesOnlineShiwelt/GAgentPrepaid.asmx/GAgentPrePaidServiceMothod HTTP/1.1" 200 106
+2022-01-17 11:10:57,079:INFO:{
+  "_status": "Successful",
+  "Message": "Prepaid шивэлт амжилттай хийгдлээ."
+}
+2022-01-17 11:10:57,080:INFO:Dugaar uusgelt: Success
+2022-01-17 11:11:01,297:INFO:ebarimt
+2022-01-17 11:11:01,297:INFO:
+2022-01-17 11:11:01,297:INFO:1
+2022-01-17 11:11:01,350:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'WG 38316512', u'billId': u'000005055873003220117338639040317', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'5000.00', u'vat': u'454.55', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD52133305E86624A66CB34F1442AF1EB2B6801', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-01-17 11:11:57', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0443\u0433\u0430\u0430\u0440\u044b\u043d \u04af\u043d\u044d', u'name': u'\u0414\u0443\u0433\u0430\u0430\u0440\u044b\u043d \u04af\u043d\u044d', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'5000.00', u'qty': u'1.00', u'unitPrice': u'5000.00', u'vat': u'454.55'}], u'billType': u'1', u'success': True, u'amount': u'5000.00', u'branchNo': u'', u'qrData': u'6024293460867006657301777324446338862163816438964085337030480026461746406390658994539645766490829690266465961228490192498386626034394098655346214214574423991326744797634373717803738957375267844896597976107162727195990531292103400240574993396929196754140141960153526728656675126728650782011756259488459510376145400155'}
+2022-01-17 11:11:01,350:INFO:ADDLOTTERY
+2022-01-17 11:11:07,337:INFO:ads
+2022-01-17 11:11:07,421:INFO:ads
+2022-01-17 13:22:35,071:INFO:jwt
+2022-01-17 13:22:35,082:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 5, 27, 35, 82821)}
+2022-01-17 13:22:35,083:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDIzOTcyNTV9.3EQ4q0TeYP94IL8VyxfBKXqcx9dCmK-Skrq49sDwhAY
+2022-01-17 13:22:47,556:INFO:prefix
+2022-01-17 13:23:02,253:INFO:ads
+2022-01-17 13:23:02,336:INFO:ads
+2022-01-17 13:23:08,934:INFO:jwt
+2022-01-17 13:23:08,944:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 5, 28, 8, 944300)}
+2022-01-17 13:23:08,944:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDIzOTcyODh9.vD5OlQq6wfvDKHcCmY4u6ai88IjXqHY9NVKNrsd8QNk
+2022-01-17 13:23:11,244:INFO:prefix
+2022-01-17 13:23:18,975:INFO:searchNumber
+2022-01-17 13:23:19,934:INFO:98122348:6|98122349:6
+2022-01-17 13:23:19,940:INFO:[{'prefix': '98122348'}, {'prefix': '98122349'}]
+2022-01-17 13:28:19,154:INFO:ads
+2022-01-17 13:28:19,235:INFO:ads
+2022-01-17 14:28:25,717:INFO:jwt
+2022-01-17 14:28:25,727:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 6, 33, 25, 727608)}
+2022-01-17 14:28:25,728:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDI0MDEyMDV9.DqWbRTEIN6oW6IlM9E2seQ3BtR-QKfJDRKn6hVQ-G5E
+2022-01-17 14:28:38,210:INFO:checkNumber
+2022-01-17 14:28:38,217:INFO:3
+2022-01-17 14:28:38,217:INFO:bankConnection
+2022-01-17 14:28:38,217:INFO:3
+2022-01-17 14:28:38,218:INFO:{'phone_number': u'98010982', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-01-17 14:28:38,221:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 14:28:38,466:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-01-17 14:28:38,471:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-01-17 14:28:38,471:INFO:post
+2022-01-17 14:28:38,471:INFO:bankConnection
+2022-01-17 14:28:38,471:INFO:3
+2022-01-17 14:28:38,471:INFO:{'phone_number': u'98010982', 'serviceName': 'Kiosk_3'}
+2022-01-17 14:28:38,474:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-01-17 14:28:38,865:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-01-17 14:28:38,869:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 34297}
+2022-01-17 14:28:47,672:INFO:hur
+2022-01-17 14:28:47,700:INFO:
+2022-01-17 14:28:47,700:INFO:
+2022-01-17 14:28:47,705:INFO:huruuniiHee
+2022-01-17 14:28:47,709:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-01-17 14:28:48,029:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1647
+2022-01-17 14:28:48,031:INFO:hariu
+2022-01-17 14:28:48,031:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0418\u041580032078', u'auth': {u'operator': {u'regnum': u'\u0418\u041580032078', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0418\u041580032078', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'9a21163b-2d0c-4e9c-aea1-9b71cc220a99', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0448\u0430\u0440\u0433\u0430\u043c\u043e\u0440\u044c\u0442', u'addressDetail': u'11\u0431', u'firstname': u'\u043d\u0430\u0440\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'lastname': u'\u043f\u04af\u0440\u044d\u0432\u0447\u0438\u043c\u044d\u0434', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0411\u0430\u044f\u043d\u0433\u043e\u043b 2-\u0440 \u0445\u043e\u0440\u043e\u043e, 2-\u0440 \u0445\u043e\u0440\u043e\u043e\u043b\u043e\u043b  \u044d\u043d\u0445\u0442\u0430\u0439\u0432\u0430\u043d\u044b \u04e9\u0440\u0433\u04e9\u043d \u0447\u04e9\u043b\u04e9\u04e9 \u0433\u0443\u0434\u0430\u043c\u0436 67/3-\u0440 \u0431\u0430\u0439\u0440 11\u0431  \u0442\u043e\u043e\u0442', u'regnum': u'\u0438\u043580032078', u'soumDistrictName': u'\u0411\u0430\u044f\u043d\u0433\u043e\u043b', u'addressRegionName': u'2-\u0440 \u0445\u043e\u0440\u043e\u043e\u043b\u043e\u043b', u'addressStreetName': u'\u044d\u043d\u0445\u0442\u0430\u0439\u0432\u0430\u043d\u044b \u04e9\u0440\u0433\u04e9\u043d \u0447\u04e9\u043b\u04e9\u04e9', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'53', u'addressApartmentName': u'67/3', u'bagKhorooName': u'2-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'07'}}}
+2022-01-17 14:28:57,930:INFO:order
+2022-01-17 14:28:57,931:INFO:Y-34297
+2022-01-17 14:28:57,946:INFO:dat
+2022-01-17 14:28:57,946:INFO:{u'order_id': 12683L, u'q_pay': {}}
+2022-01-17 14:30:02,814:INFO:ads
+2022-01-17 14:30:02,902:INFO:ads
+2022-01-17 17:21:37,773:INFO:jwt
+2022-01-17 17:21:37,784:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 1, 17, 9, 26, 37, 784554)}
+2022-01-17 17:21:37,785:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NDI0MTE1OTd9.DjrWSS72oCrPgs0_EpYKK-XG_Tqt6PKgblNbXEw3Q1Q
+2022-01-17 17:21:44,940:INFO:prefix
+2022-01-17 17:27:08,142:INFO:ads
+2022-01-17 17:27:08,225:INFO:ads

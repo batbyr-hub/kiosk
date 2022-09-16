@@ -1,0 +1,940 @@
+2021-12-13 17:20:59,687:INFO:checkNumber
+2021-12-13 17:20:59,698:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 17:30:38,893:INFO:checkNumber
+2021-12-13 17:30:38,899:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 17:52:07,092:INFO:checkNumber
+2021-12-13 17:52:07,101:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 18:01:08,117:INFO:checkNumber
+2021-12-13 18:01:08,130:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 18:08:07,136:INFO:checkNumber
+2021-12-13 18:08:07,146:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 18:10:29,576:INFO:checkNumber
+2021-12-13 18:10:29,585:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 18:54:58,896:INFO:checkNumber
+2021-12-13 18:54:58,905:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 19:19:10,154:INFO:checkNumber
+2021-12-13 19:19:10,167:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 19:20:09,912:INFO:checkNumber
+2021-12-13 19:20:09,921:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 20:30:27,499:INFO:checkNumber
+2021-12-13 20:30:27,507:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 20:31:25,449:INFO:checkNumber
+2021-12-13 20:31:25,458:ERROR:Internal Server Error: /api/checkNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 97, in checkNumber
+    if Jwt.objects.filter(jwt=jwtNew).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 876, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 441, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on 'kiosk.gmobile.mn:3306' (111)")
+2021-12-13 20:32:16,374:INFO:checkNumber
+2021-12-13 20:32:32,643:INFO:jwt
+2021-12-13 20:32:32,666:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2021, 12, 13, 12, 37, 32, 666341)}
+2021-12-13 20:32:32,667:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2MzkzOTkwNTJ9.TsVgQRU-hty0Jw0MA79wKNohjHYo2bWxRU2G93g9YO8
+2021-12-13 20:32:43,770:INFO:checkNumber
+2021-12-13 20:32:43,777:INFO:2
+2021-12-13 20:32:43,777:INFO:bankConnection
+2021-12-13 20:32:43,777:INFO:2
+2021-12-13 20:32:43,777:INFO:{'phone_number': u'97191620', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-12-13 20:32:43,782:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-13 20:32:43,987:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-12-13 20:32:43,993:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2021-12-13 20:32:52,775:INFO:checkNumber
+2021-12-13 20:32:52,781:INFO:2
+2021-12-13 20:32:52,782:INFO:bankConnection
+2021-12-13 20:32:52,782:INFO:2
+2021-12-13 20:32:52,782:INFO:{'phone_number': u'97191620', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-12-13 20:32:52,786:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-13 20:32:53,008:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2021-12-13 20:32:53,013:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2021-12-13 20:32:53,081:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2021-12-13 20:33:34,221:INFO:order
+2021-12-13 20:33:34,221:INFO:Y-1000
+2021-12-13 20:33:34,245:DEBUG:Starting new HTTPS connection (1): merchant.qpay.mn:443
+2021-12-13 20:33:37,019:DEBUG:https://merchant.qpay.mn:443 "POST /v2/auth/token HTTP/1.1" 200 736
+2021-12-13 20:33:37,027:DEBUG:Starting new HTTPS connection (1): merchant.qpay.mn:443
+2021-12-13 20:33:37,160:DEBUG:https://merchant.qpay.mn:443 "POST /v2/invoice HTTP/1.1" 200 13552
+2021-12-13 20:33:37,164:INFO:invoice_response
+2021-12-13 20:33:37,164:INFO:{u'qPay_shortUrl': u'https://s.qpay.mn/5p3dEBJXV', u'invoice_id': u'bf9e3660-ea12-4b7d-90f7-0aa911a8ae05', u'qr_image': u'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', u'urls': [{u'logo': u'https://qpay.mn/q/logo/khanbank.png', u'link': u'khanbank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'Khan bank', u'description': u'\u0425\u0430\u0430\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/statebank.png', u'link': u'statebank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'State bank', u'description': u'\u0422\u04e9\u0440\u0438\u0439\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/xacbank.png', u'link': u'xacbank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'Xac bank', u'description': u'\u0425\u0430\u0441 \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/tdbbank.png', u'link': u'tdbbank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'Trade and Development bank', u'description': u'TDB online'}, {u'logo': u'https://qpay.mn/q/logo/most.png', u'link': u'most://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'Most money', u'description': u'\u041c\u041e\u0421\u0422 \u043c\u043e\u043d\u0438'}, {u'logo': u'https://qpay.mn/q/logo/nibank.jpeg', u'link': u'nibank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'National investment bank', u'description': u'\u04ae\u043d\u0434\u044d\u0441\u043d\u0438\u0439 \u0445\u04e9\u0440\u04e9\u043d\u0433\u04e9 \u043e\u0440\u0443\u0443\u043b\u0430\u043b\u0442\u044b\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/ckbank.png', u'link': u'ckbank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'Chinggis khaan bank', u'description': u'\u0427\u0438\u043d\u0433\u0438\u0441 \u0425\u0430\u0430\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/capitronbank.png', u'link': u'capitronbank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'Capitron bank', u'description': u'\u041a\u0430\u043f\u0438\u0442\u0440\u043e\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/bogdbank.png', u'link': u'bogdbank://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'Bogd bank', u'description': u'\u0411\u043e\u0433\u0434 \u0431\u0430\u043d\u043a'}, {u'logo': u'https://s3.qpay.mn/p/e9bbdc69-3544-4c2f-aff0-4c292bc094f6/launcher-icon-ios.jpg', u'link': u'qpaywallet://q?qPay_QRcode=00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99', u'name': u'qPay wallet', u'description': u'qPay \u0445\u044d\u0442\u044d\u0432\u0447'}], u'qr_text': u'00020101021215312794049627940496000211100750138520448145303496540410005802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105124760521Daraatulburtiintulult0721npfukBV2Ie5euWea3aDyi63048D99'}
+2021-12-13 20:33:37,165:INFO:invoice_id
+2021-12-13 20:33:37,165:INFO:bf9e3660-ea12-4b7d-90f7-0aa911a8ae05
+2021-12-13 20:33:37,165:INFO:dat
+2021-12-13 20:33:37,165:INFO:{u'order_id': 12476L, u'q_pay': {u'invoice_id': u'bf9e3660-ea12-4b7d-90f7-0aa911a8ae05', u'qr_image': u'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'}}
+2021-12-14 09:21:59,080:WARNING:Not Found: /favicon.ico
+2021-12-14 10:35:58,391:INFO:ads
+2021-12-14 10:37:19,657:INFO:ads
+2021-12-14 10:37:40,145:INFO:jwt
+2021-12-14 10:37:40,156:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 12, 14, 2, 42, 40, 156084)}
+2021-12-14 10:37:40,156:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2Mzk0NDk3NjB9.6qZIqRqukk1tiPbExld7oISVUfXVg3V7_iGeljwwVHs
+2021-12-14 10:37:46,908:INFO:checkNumber
+2021-12-14 10:37:46,915:INFO:3
+2021-12-14 10:37:46,915:INFO:bankConnection
+2021-12-14 10:37:46,916:INFO:3
+2021-12-14 10:37:46,916:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-12-14 10:37:46,920:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-14 10:37:47,007:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2021-12-14 10:37:47,011:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2021-12-14 10:37:54,428:INFO:ads
+2021-12-14 10:37:55,897:INFO:jwt
+2021-12-14 10:37:55,907:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2021, 12, 14, 2, 42, 55, 907912)}
+2021-12-14 10:37:55,908:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2Mzk0NDk3NzV9.QGkwRtk0K7T3Flczs1Wy9dSAoFdAMSuDGkmxwM_eQxQ
+2021-12-14 10:38:03,239:INFO:checkNumber
+2021-12-14 10:38:03,246:INFO:3
+2021-12-14 10:38:03,246:INFO:bankConnection
+2021-12-14 10:38:03,246:INFO:3
+2021-12-14 10:38:03,246:INFO:{'phone_number': u'98145832', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2021-12-14 10:38:03,250:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2021-12-14 10:38:03,333:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2021-12-14 10:38:03,337:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2021-12-14 10:38:06,063:INFO:ads

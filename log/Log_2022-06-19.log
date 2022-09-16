@@ -1,0 +1,305 @@
+2022-06-19 17:21:52,247:INFO:jwt
+2022-06-19 17:21:52,261:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 9, 26, 52, 261492)}
+2022-06-19 17:21:52,261:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2MzA4MTJ9.aoF4CLA51PvpHEcWlmnO-VFjjyTzzM4JDyV0jHSBnk0
+2022-06-19 17:21:56,287:INFO:ads
+2022-06-19 17:22:04,270:INFO:checkNumber
+2022-06-19 17:22:04,273:INFO:2
+2022-06-19 17:22:04,273:INFO:bankConnection
+2022-06-19 17:22:04,273:INFO:2
+2022-06-19 17:22:04,321:INFO:{'phone_number': u'98101075', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-19 17:22:04,401:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-19 17:22:04,697:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-06-19 17:22:04,699:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-19 17:22:04,699:INFO:post
+2022-06-19 17:22:04,699:INFO:bankConnection
+2022-06-19 17:22:04,699:INFO:2
+2022-06-19 17:22:04,699:INFO:{'phone_number': u'98101075', 'serviceName': 'Kiosk'}
+2022-06-19 17:22:04,701:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-19 17:22:05,008:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-06-19 17:22:05,009:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 1107}
+2022-06-19 17:22:09,218:INFO:userConfirmation
+2022-06-19 17:22:09,221:INFO:kiosk2|УМ89101771|98101075|post|yes|2022-06-19 17:22:09
+2022-06-19 17:22:21,147:INFO:hur
+2022-06-19 17:22:21,158:INFO:
+2022-06-19 17:22:21,158:INFO:
+2022-06-19 17:22:21,160:INFO:huruuniiHee
+2022-06-19 17:22:21,162:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-06-19 17:22:21,571:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1340
+2022-06-19 17:22:21,572:INFO:hariu
+2022-06-19 17:22:21,572:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u0423\u041c89101771', u'auth': {u'operator': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u0423\u041c89101771', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'bfaf8e84-5547-4157-bdf0-b242ada9f6bd', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0430\u0432\u0437\u0430\u0433\u0430\u0442\u0430\u0439\u0436', u'addressDetail': u'6', u'firstname': u'\u0411\u0430\u0442\u0431\u0430\u044f\u0440', u'lastname': u'\u0410\u043b\u0442\u0430\u043d\u0431\u0430\u0433\u0430\u043d\u0430', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439 17-\u0440 \u0445\u043e\u0440\u043e\u043e,   \u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1 \u0433\u0443\u0434\u0430\u043c\u0436  6  \u0442\u043e\u043e\u0442', u'regnum': u'\u0443\u043c89101771', u'soumDistrictName': u'\u0427\u0438\u043d\u0433\u044d\u043b\u0442\u044d\u0439', u'addressStreetName': u'\u0431\u0430\u044f\u043d\u0445\u0430\u0439\u0440\u0445\u0430\u043d\u044b 1', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'83', u'bagKhorooName': u'17-\u0440 \u0445\u043e\u0440\u043e\u043e', u'soumDistrictCode': u'25'}}}
+2022-06-19 17:22:24,087:INFO:ads
+2022-06-19 18:22:24,067:INFO:jwt
+2022-06-19 18:22:24,072:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 10, 27, 24, 72140)}
+2022-06-19 18:22:24,072:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2MzQ0NDR9.hnrsYxVpBjLsRF5J31eyh2QwizUHwJAoR3FDctrEr0g
+2022-06-19 18:22:27,423:INFO:ads
+2022-06-19 18:56:41,931:INFO:checkNumber
+2022-06-19 18:56:41,934:INFO:2
+2022-06-19 18:56:41,934:INFO:bankConnection
+2022-06-19 18:56:41,934:INFO:2
+2022-06-19 18:56:41,935:INFO:{'phone_number': u'58963248', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-19 18:56:41,936:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-19 18:56:42,040:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2022-06-19 18:56:42,042:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-19 18:58:42,363:INFO:ads
+2022-06-19 19:58:42,661:INFO:jwt
+2022-06-19 19:58:42,666:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 12, 3, 42, 666752)}
+2022-06-19 19:58:42,667:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NDAyMjJ9.b-TfxPcI4ozwPIJZZRHlHHcPbdUSWLkA4wCKhzQdEnQ
+2022-06-19 19:58:45,910:INFO:ads
+2022-06-19 20:58:45,908:INFO:jwt
+2022-06-19 20:58:45,913:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 13, 3, 45, 913056)}
+2022-06-19 20:58:45,913:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NDM4MjV9.HLcdcR54a2LLBcjYvSO_Y7umqBydadr3PDtzeCmRdko
+2022-06-19 20:58:49,095:INFO:ads
+2022-06-19 21:58:49,051:INFO:jwt
+2022-06-19 21:58:49,056:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 14, 3, 49, 56219)}
+2022-06-19 21:58:49,056:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NDc0Mjl9.Vb2_TTFznDS2v1v1kK11IG4JyH9Hsbjwo5IsTtnmI6U
+2022-06-19 21:58:52,286:INFO:ads
+2022-06-19 22:58:52,432:INFO:jwt
+2022-06-19 22:58:52,437:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 15, 3, 52, 437115)}
+2022-06-19 22:58:52,437:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NTEwMzJ9.cMjBnkTXLwhUu_d7lG8wf9ghIYinnTONkMqFJkc13sY
+2022-06-19 22:58:55,735:INFO:ads
+2022-06-19 23:58:56,143:INFO:jwt
+2022-06-19 23:58:56,148:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 16, 3, 56, 148597)}
+2022-06-19 23:58:56,148:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NTQ2MzZ9.ixOyyp1efXhQAydnTc9kY_d5yMLD5VF_vXKy0rJKxmE
+2022-06-19 23:58:59,385:INFO:ads
+2022-06-20 00:58:59,754:INFO:jwt
+2022-06-20 00:58:59,759:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 17, 3, 59, 759363)}
+2022-06-20 00:58:59,759:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NTgyMzl9.eU7qddjKdDJnPGsM5i1LAcPwXvFFNTkJxlE4GlRqROE
+2022-06-20 00:59:02,969:INFO:ads
+2022-06-20 01:59:03,354:INFO:jwt
+2022-06-20 01:59:03,359:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 18, 4, 3, 359248)}
+2022-06-20 01:59:03,359:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NjE4NDN9.5Ak_bR0MtrK_JfPlNnWLEft2i1_tgv9viqQ8wmrSnhc
+2022-06-20 01:59:06,541:INFO:ads
+2022-06-20 02:01:47,733:INFO:jwt
+2022-06-20 02:01:47,738:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 18, 6, 47, 738243)}
+2022-06-20 02:01:47,738:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NjIwMDd9._zumZUY8PNpRloKftjFnvZQ4sEp5I89mQO_OhPqSJ-Y
+2022-06-20 02:59:06,735:INFO:jwt
+2022-06-20 02:59:06,740:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 19, 4, 6, 740415)}
+2022-06-20 02:59:06,740:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NjU0NDZ9.ru-aqrsoNS_e_w2VNtN7z5ufYQVDxqu3lBrrWcXI2w8
+2022-06-20 02:59:09,934:INFO:ads
+2022-06-20 03:59:10,083:INFO:jwt
+2022-06-20 03:59:10,088:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 20, 4, 10, 88006)}
+2022-06-20 03:59:10,088:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NjkwNTB9.g_4Um0vMbLYjJscjnHMmWBfDMu18OC9i3dzaFm0Kpyg
+2022-06-20 03:59:13,275:INFO:ads
+2022-06-20 04:59:13,273:INFO:jwt
+2022-06-20 04:59:13,278:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 21, 4, 13, 278247)}
+2022-06-20 04:59:13,278:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NzI2NTN9.PgyyQBwmFKyN82BK-_8yskZvJUJ1TpOCwnHrBq9udHI
+2022-06-20 04:59:16,486:INFO:ads
+2022-06-20 05:59:16,671:INFO:jwt
+2022-06-20 05:59:16,676:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 22, 4, 16, 676068)}
+2022-06-20 05:59:16,676:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2NzYyNTZ9.dd3hcu6Nkr826uLAPIEE7-yXQgSsZbdCZCXF1rMX0AQ
+2022-06-20 05:59:19,942:INFO:ads
+2022-06-20 06:59:19,982:INFO:jwt
+2022-06-20 06:59:19,986:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 19, 23, 4, 19, 986957)}
+2022-06-20 06:59:19,987:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2Nzk4NTl9.3cWRBQqugfYTh2SDeKdp1U7JVf28Ecb7agas165Wfwc
+2022-06-20 06:59:23,171:INFO:ads
+2022-06-20 07:59:23,105:INFO:jwt
+2022-06-20 07:59:23,110:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 0, 4, 23, 110072)}
+2022-06-20 07:59:23,110:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2ODM0NjN9.cl67gYlDU6BKWWmo5OLkrs0VBWzf184j4uZcZvm66HA
+2022-06-20 07:59:26,303:INFO:ads
+2022-06-20 09:03:15,172:INFO:ads
+2022-06-20 09:44:03,789:INFO:checkNumber
+2022-06-20 09:44:03,792:INFO:2
+2022-06-20 09:44:03,792:INFO:bankConnection
+2022-06-20 09:44:03,792:INFO:2
+2022-06-20 09:44:03,792:INFO:{'phone_number': u'98115921', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-20 09:44:03,794:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 09:44:04,065:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-06-20 09:44:04,068:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-20 09:44:04,068:INFO:post
+2022-06-20 09:44:04,068:INFO:bankConnection
+2022-06-20 09:44:04,068:INFO:2
+2022-06-20 09:44:04,068:INFO:{'phone_number': u'98115921', 'serviceName': 'Kiosk'}
+2022-06-20 09:44:04,069:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 09:44:04,397:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-06-20 09:44:04,399:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 58082}
+2022-06-20 09:44:14,266:INFO:userConfirmation
+2022-06-20 09:44:14,269:INFO:kiosk2|НЮ75010818|98115921|post|yes|2022-06-20 09:44:14
+2022-06-20 09:44:47,760:INFO:hur
+2022-06-20 09:44:47,774:INFO:
+2022-06-20 09:44:47,774:INFO:
+2022-06-20 09:44:47,776:INFO:huruuniiHee
+2022-06-20 09:44:47,778:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-06-20 09:44:48,129:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 401
+2022-06-20 09:44:48,130:INFO:hariu
+2022-06-20 09:44:48,130:INFO:{u'return': {u'resultCode': u'302', u'request': {u'regnum': u'\u041d\u042e75010818', u'auth': {u'operator': {u'regnum': u'\u041d\u042e75010818', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u041d\u042e75010818', u'signature': u'', u'fingerprint': u''}}}, u'resultMessage': u'[citizen] \u0445\u0443\u0440\u0443\u0443 \u0445\u044d\u044d \u0442\u0430\u0430\u0440\u0430\u0445\u0433\u04af\u0439 \u0431\u0430\u0439\u043d\u0430'}}
+2022-06-20 09:44:48,131:ERROR:Хуруу хээ таарахгүй байна. Line-465
+2022-06-20 09:44:53,187:INFO:userConfirmation
+2022-06-20 09:44:53,190:INFO:kiosk2|НЮ75010818|98115921|post|yes|2022-06-20 09:44:53
+2022-06-20 09:45:02,960:INFO:hur
+2022-06-20 09:45:02,973:INFO:
+2022-06-20 09:45:02,973:INFO:
+2022-06-20 09:45:02,975:INFO:huruuniiHee
+2022-06-20 09:45:02,977:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-06-20 09:45:03,353:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 1392
+2022-06-20 09:45:03,354:INFO:hariu
+2022-06-20 09:45:03,354:INFO:{u'return': {u'resultCode': u'0', u'resultMessage': u'\u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439', u'request': {u'regnum': u'\u041d\u042e75010818', u'auth': {u'operator': {u'regnum': u'\u041d\u042e75010818', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u041d\u042e75010818', u'signature': u'', u'fingerprint': u''}}}, u'requestId': u'1680c84a-1db8-4888-8e9d-532ab0d2c667', u'response': {u'aimagCityCode': u'11', u'surname': u'\u0413\u04af\u0436\u0438\u0440', u'addressDetail': u'109', u'firstname': u'\u0413\u0430\u043d\u0445\u0443\u044f\u0433', u'lastname': u'\u0426\u044d\u0433\u043c\u0438\u0434', u'fullAddress': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0425\u0430\u043d-\u0423\u0443\u043b 11-\u0440 \u0445\u043e\u0440\u043e\u043e, 1 \u0445\u044d\u0441\u044d\u0433 \u0437\u0430\u0439\u0441\u0430\u043d \u0446\u043e\u0433\u0446\u043e\u043b\u0431\u043e\u0440  5-\u0440 \u0431\u0430\u0439\u0440 109  \u0442\u043e\u043e\u0442', u'regnum': u'\u043d\u044e75010818', u'addressTownName': u'\u0437\u0430\u0439\u0441\u0430\u043d \u0446\u043e\u0433\u0446\u043e\u043b\u0431\u043e\u0440', u'soumDistrictName': u'\u0425\u0430\u043d-\u0423\u0443\u043b', u'addressRegionName': u'1 \u0445\u044d\u0441\u044d\u0433', u'soumDistrictCode': u'22', u'aimagCityName': u'\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440', u'bagKhorooCode': u'71', u'addressApartmentName': u'5', u'bagKhorooName': u'11-\u0440 \u0445\u043e\u0440\u043e\u043e'}}}
+2022-06-20 09:45:18,154:INFO:order
+2022-06-20 09:45:18,154:INFO:Y-52100
+2022-06-20 09:45:18,163:INFO:dat
+2022-06-20 09:45:18,163:INFO:{u'order_id': 13134L, u'q_pay': {}}
+2022-06-20 09:46:02,660:INFO:charge
+2022-06-20 09:46:02,660:INFO:52100
+2022-06-20 09:46:02,661:INFO:13134
+2022-06-20 09:46:02,664:INFO:Хүлээж авсан мөнгө: 52100=52100
+2022-06-20 09:46:02,673:INFO:Нийт бэлэн мөнгө=52100
+2022-06-20 09:46:02,673:INFO:bankConnection
+2022-06-20 09:46:02,673:INFO:2
+2022-06-20 09:46:02,673:INFO:{'phone_number': u'98115921', 'amount': '52100', 'serviceName': 'Kiosk', 'trans_id': u'13134', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a2_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'Y-52100'}
+2022-06-20 09:46:02,675:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 09:46:05,659:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPostPaidCharge/response HTTP/1.1" 200 108
+2022-06-20 09:46:05,661:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-06-20 09:46:14,955:INFO:ebarimt
+2022-06-20 09:46:14,955:INFO:
+2022-06-20 09:46:14,955:INFO:1
+2022-06-20 09:46:15,020:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'LN 30513113', u'billId': u'000005055873003220620338639035222', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'52100.00', u'vat': u'4736.36', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBCE2833305680624F8205FC3A4AAAB646730A5C06', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-06-20 09:47:02', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'name': u'\u0414\u0430\u0440\u0430\u0430 \u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u0438\u0439\u043d \u0442\u04e9\u043b\u04e9\u043b\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'52100.00', u'qty': u'1.00', u'unitPrice': u'52100.00', u'vat': u'4736.36'}], u'billType': u'1', u'success': True, u'amount': u'52100.00', u'branchNo': u'', u'qrData': u'6681165462615737518083804778155436332545043375126599249455330026461248728176390345910611078066810153347955596201230219050406698836742123700590218335525748911630528802668037592719970271834332995272615203446591674418446981895341118849940545613475974367123259610101891667962991196848451637084420652034172068245412245671'}
+2022-06-20 09:46:15,020:INFO:ADDLOTTERY
+2022-06-20 09:46:15,352:INFO:static/ebarimt/kiosk2/bill.bmp
+2022-06-20 09:46:26,385:INFO:ads
+2022-06-20 10:09:24,676:INFO:checkNumber
+2022-06-20 10:09:24,679:INFO:2
+2022-06-20 10:09:24,679:INFO:bankConnection
+2022-06-20 10:09:24,679:INFO:2
+2022-06-20 10:09:24,679:INFO:{'phone_number': u'98880698', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-20 10:09:24,681:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 10:09:24,862:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-06-20 10:09:24,864:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-20 10:09:24,864:INFO:post
+2022-06-20 10:09:24,864:INFO:bankConnection
+2022-06-20 10:09:24,864:INFO:2
+2022-06-20 10:09:24,864:INFO:{'phone_number': u'98880698', 'serviceName': 'Kiosk'}
+2022-06-20 10:09:24,865:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 10:09:25,067:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-06-20 10:09:25,068:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 33450}
+2022-06-20 10:09:35,051:INFO:userConfirmation
+2022-06-20 10:09:35,054:INFO:kiosk2|КЮ80011078|98880698|post|yes|2022-06-20 10:09:35
+2022-06-20 10:09:42,746:INFO:hur
+2022-06-20 10:09:42,757:INFO:
+2022-06-20 10:09:42,757:INFO:
+2022-06-20 10:09:42,759:INFO:huruuniiHee
+2022-06-20 10:09:42,761:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-06-20 10:09:42,959:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 401
+2022-06-20 10:09:42,960:INFO:hariu
+2022-06-20 10:09:42,960:INFO:{u'return': {u'resultCode': u'302', u'request': {u'regnum': u'\u041a\u042e80011078', u'auth': {u'operator': {u'regnum': u'\u041a\u042e80011078', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u041a\u042e80011078', u'signature': u'', u'fingerprint': u''}}}, u'resultMessage': u'[citizen] \u0445\u0443\u0440\u0443\u0443 \u0445\u044d\u044d \u0442\u0430\u0430\u0440\u0430\u0445\u0433\u04af\u0439 \u0431\u0430\u0439\u043d\u0430'}}
+2022-06-20 10:09:42,960:ERROR:Хуруу хээ таарахгүй байна. Line-465
+2022-06-20 10:09:49,724:INFO:ads
+2022-06-20 10:10:02,670:INFO:checkNumber
+2022-06-20 10:10:02,672:INFO:2
+2022-06-20 10:10:02,673:INFO:bankConnection
+2022-06-20 10:10:02,673:INFO:2
+2022-06-20 10:10:02,673:INFO:{'phone_number': u'98880698', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-20 10:10:02,674:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 10:10:02,883:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-06-20 10:10:02,885:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-20 10:10:02,885:INFO:post
+2022-06-20 10:10:02,885:INFO:bankConnection
+2022-06-20 10:10:02,885:INFO:2
+2022-06-20 10:10:02,886:INFO:{'phone_number': u'98880698', 'serviceName': 'Kiosk'}
+2022-06-20 10:10:02,887:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 10:10:03,183:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-06-20 10:10:03,184:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 33450}
+2022-06-20 10:10:07,655:INFO:userConfirmation
+2022-06-20 10:10:07,658:INFO:kiosk2|КЮ80011078|98880698|post|yes|2022-06-20 10:10:07
+2022-06-20 10:10:14,631:INFO:hur
+2022-06-20 10:10:14,642:INFO:
+2022-06-20 10:10:14,642:INFO:
+2022-06-20 10:10:14,644:INFO:huruuniiHee
+2022-06-20 10:10:14,646:DEBUG:Starting new HTTP connection (1): 192.168.18.47:80
+2022-06-20 10:10:14,845:DEBUG:http://192.168.18.47:80 "POST /service.php/service_api/webserver/1/post_json/xyp/citizen/response HTTP/1.1" 200 401
+2022-06-20 10:10:14,846:INFO:hariu
+2022-06-20 10:10:14,846:INFO:{u'return': {u'resultCode': u'302', u'request': {u'regnum': u'\u041a\u042e80011078', u'auth': {u'operator': {u'regnum': u'\u041a\u042e80011078', u'signature': u'', u'fingerprint': u''}, u'citizen': {u'regnum': u'\u041a\u042e80011078', u'signature': u'', u'fingerprint': u''}}}, u'resultMessage': u'[citizen] \u0445\u0443\u0440\u0443\u0443 \u0445\u044d\u044d \u0442\u0430\u0430\u0440\u0430\u0445\u0433\u04af\u0439 \u0431\u0430\u0439\u043d\u0430'}}
+2022-06-20 10:10:14,846:ERROR:Хуруу хээ таарахгүй байна. Line-465
+2022-06-20 10:11:44,046:INFO:ads
+2022-06-20 10:12:15,093:INFO:ads
+2022-06-20 11:12:15,264:INFO:jwt
+2022-06-20 11:12:15,268:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 3, 17, 15, 268814)}
+2022-06-20 11:12:15,269:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU2OTUwMzV9.cXe_E6A7LQyw2fi5g2qzY9V8zYjxy2XqF9vwVC9pl2c
+2022-06-20 11:12:18,469:INFO:ads
+2022-06-20 11:32:55,461:INFO:checkNumber
+2022-06-20 11:32:55,464:INFO:2
+2022-06-20 11:32:55,464:INFO:bankConnection
+2022-06-20 11:32:55,464:INFO:2
+2022-06-20 11:32:55,465:INFO:{'phone_number': u'98888883', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-20 11:32:55,466:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 11:32:55,643:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-06-20 11:32:55,645:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-20 11:32:55,645:INFO:post
+2022-06-20 11:32:55,645:INFO:bankConnection
+2022-06-20 11:32:55,645:INFO:2
+2022-06-20 11:32:55,645:INFO:{'phone_number': u'98888883', 'serviceName': 'Kiosk'}
+2022-06-20 11:32:55,646:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 11:32:55,857:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-06-20 11:32:55,859:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 44198}
+2022-06-20 11:33:36,228:INFO:checkNumber
+2022-06-20 11:33:36,231:INFO:2
+2022-06-20 11:33:36,231:INFO:bankConnection
+2022-06-20 11:33:36,231:INFO:2
+2022-06-20 11:33:36,232:INFO:{'phone_number': u'98888883', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-20 11:33:36,233:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 11:33:36,390:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-06-20 11:33:36,392:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-20 11:33:36,392:INFO:post
+2022-06-20 11:33:36,392:INFO:bankConnection
+2022-06-20 11:33:36,392:INFO:2
+2022-06-20 11:33:36,392:INFO:{'phone_number': u'98888883', 'serviceName': 'Kiosk'}
+2022-06-20 11:33:36,393:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 11:33:36,645:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-06-20 11:33:36,647:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 44198}
+2022-06-20 11:34:30,426:INFO:checkNumber
+2022-06-20 11:34:30,429:INFO:2
+2022-06-20 11:34:30,429:INFO:bankConnection
+2022-06-20 11:34:30,429:INFO:2
+2022-06-20 11:34:30,429:INFO:{'phone_number': u'98888883', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-06-20 11:34:30,431:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 11:34:30,597:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-06-20 11:34:30,599:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-06-20 11:34:30,599:INFO:post
+2022-06-20 11:34:30,599:INFO:bankConnection
+2022-06-20 11:34:30,599:INFO:2
+2022-06-20 11:34:30,599:INFO:{'phone_number': u'98888883', 'serviceName': 'Kiosk'}
+2022-06-20 11:34:30,601:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-06-20 11:34:30,801:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 128
+2022-06-20 11:34:30,803:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': 44198}
+2022-06-20 11:36:00,607:INFO:order
+2022-06-20 11:36:00,607:INFO:Y-44198
+2022-06-20 11:36:00,616:DEBUG:Starting new HTTPS connection (1): merchant.qpay.mn:443
+2022-06-20 11:36:01,866:DEBUG:https://merchant.qpay.mn:443 "POST /v2/auth/token HTTP/1.1" 200 736
+2022-06-20 11:36:01,869:DEBUG:Starting new HTTPS connection (1): merchant.qpay.mn:443
+2022-06-20 11:36:01,990:DEBUG:https://merchant.qpay.mn:443 "POST /v2/invoice HTTP/1.1" 200 15967
+2022-06-20 11:36:01,992:INFO:invoice_response
+2022-06-20 11:36:01,992:INFO:{u'qPay_shortUrl': u'https://s.qpay.mn/hiWM0ReGKS', u'invoice_id': u'3fbff458-b593-4ed4-a127-6daa1a713ab2', u'qr_image': u'iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAABmJLR0QA/wD/AP+gvaeTAAAf4UlEQVR4nO3deXyVxbkH8N8Ji7LKakmQRariAhZLwQqKNUjBDVsrin76QW2L1B21Fqne3vYKdStXrWIF22Jra9GqtepVibjhUgWjuKBUAUkkbG5lSUIISe4ftDQ5OWfOvPM+z7xnkt/38+EPcs47M2fJk5l5n5lJNTQ0NICIKAAFSTeAiMgWAxYRBYMBi4iCwYBFRMFgwCKiYDBgEVEwGLCIKBgMWEQUDAYsIgoGAxYRBYMBi4iCwYBFRMFgwCKiYDBgEVEw2sa5OJVKSbUjo/SdbxrXF+WxbM/LVY6Ptmm8h647BpnaEqVM18/CxLYcrd2SbN8b0/dL4/2NU45rHRJc28keFhEFgwGLiIKRirPjqEZXXGLY51pfuijDN9v2aAyDXNuSXk4+D/tMZdoOu6LUEaV+U/kSQ0nXtkRpm+/fNQ4JiajFY8AiomAwYBFRMGKlNZi4pgfYPtd1Dsd1riDqcyW43lqWem9MtG/X+0j/iPJdsK3ftUyp76yP76jG77Yt9rCIKBgMWEQUDLUhoQaNIZLpuT7SAyRu5Ue5TqMcqffJ9Ta/61BSapWDtjgrJ1raOcnsYRFRMBiwiCgYDFhEFIyg5rBMbG/1Rlm64Xs3Ade5tijtMl3ne9mQxpxkrjIl0iNcy3Cds3N9LE5b8xV7WEQUDAYsIgqG2pBQ+3aqVNfXNYs4ym1+jWFmtrolabxeiY0OpXYW0NgIT2rIbVtOEis1kkyVYA+LiILBgEVEwWDAIqJgiM1h5dPt0yQOgXBdVmI7vyVVpo/DM3zvumCi8b75LlOqLek00m20sYdFRMFgwCKiYMQaEia5al1q+JTrWpfHpOprzMehGxoHIfjIrJe6Lp+GPrZyvT7Xzf7ydZcH9rCIKBgMWEQUDAYsIgqGl90aNDbm93G73HX+Q2rXR9+vKdfupBJ1mCS5kwIg872MwvfBGqEeTtIYe1hEFAwGLCIKRqpBqH/r4zw2U/kaGdtSw06JTetMZUbhOmQw1e9j6Oh7ZwWpOmxJfQ81Vnkk/Tk1xh4WEQWDAYuIgsGARUTBEEtrSHoeQftA0jh1mMpwnc/TWGnv4+BY7XlArbQG2zrizDe5tCXOPKvGgSDac33sYRFRMBiwiCgYsYaErsMSjeGjVOpA0rfPbes2ZdZHKcdEYpigcRafVDs1VktIDQF9bCxpqt/UlsbP9fF73xh7WEQUDAYsIgoGAxYRBSPW0hzXOSWN5SA+0hp8H9jpunQiSjs15gVdl2VpL9lKf1xjbjXpFA/f30sfy30aYw+LiILBgEVEwUg8091UjuuGclJDhihtk3j9PrKUpTZ4cz2QQ2PorrEbRj6lt7i+97nK0TjUReOzaIw9LCIKBgMWEQWDAYuIgiE2h+Vjd1Cp+m3bFqUcWxq3geMs69BYNmRbn8Z1UdI4ND57H3Ob2vNEUcr1vWsre1hEFAwGLCIKBgMWEQUj75bmJJ3jIlGmax0+TunxcapKknNBcV6va/0aS6g05nmj8L2EyhZ7WEQUDAYsIgqG2pCwManb1/k6fInCxwEVPm572/LRbo1DOKSWMGm3JQ7f330J7GERUTAYsIgoGAxYRBSMWHNYIg1wTHlIYlzvSvs1xZmLkLhFrrEtjo9TZNJp7MApIc5r971rbLbnRSnfhD0sIgoGAxYRBUNtSOjjAAXb66R2gJAYokmROuRD41a+9tBK6vWaaGTa+9jFNOlUIFscEhJRi8eARUTBYMAiomAksjQnX28fS9WhsQujjxN18mk5hsZuCenlSC2xkdiNw3d6QK46XNNttNvKHhYRBYMBi4iCITYk1NgIz8eGdlL1a+yQoHGAgakO3weJ5PMuE+m0h8taQynfn4X2lA57WEQUDAYsIgoGAxYRBUNsaY6PZQe2ZSYxH+D79rXUUiSJg0Si0Dh0w8T3Z5Hrubb1ae8qoUV7ro89LCIKBgMWEQWjrY9KfJ8ZGKXLnk+Z4KZ2J72ZYdJDFNfb7FrPzUYqQ16K71QgU93MdCeiVoUBi4iCwYBFRMGINYclcUtcauW7rTjzFKb6bcf8GvN5JrneX+0lVUnvYmriewdQH+3UmDeK8h3RTp1gD4uIgsGARUTB8LKBnwatTPd8upXvSupQBqnDO5KsLwofu2Nkqy+J1BSNNA6Nw2AaYw+LiILBgEVEwWDAIqJgxEprkDhAQWquwnbsLJXWIHWdxDyGxo6QWvWbSCwHifN90qhT4yDVKOXYlqsxZ8ilOUTUqjFgEVEwvGS6u+6e4JoeECezXnszNh8r311vH7t22V1vbbuKsxuH7fDNVI5rGRrDvlzDWo2NFk1s28a0BiJq8RiwiCgYDFhEFIzE0xpcyzRdF2XsnPQBkrZ1+JiLikJjp45sz8v1XBMfS3ySPIAkTttMNA7PYFoDEbUqDFhEFAyxQyiibFwmlXmercw42dyuwzfXTPsot6hdxDnvTmPzN+2UBx87N2hs0BilfpfnAX7aLZG6YMIeFhEFw8sxX9TyjBgxAsOHD8eQIUMwePBg9OnTB0VFRejSpYvxugsuuACvv/46SktLPbWUWhK1o+qT3MQuiSGhbZmm5/pYRJwv5+ZVVlaiU6dOWev3PZRMp73Xfa4y83mjQ1sa3x+xHUelPmDt5S9RdhzV4ONL6yMFQJvGARFSdST9fZb6g2QikZpiKtMV57AoL7Vv3z7pJlAeYsCivLRy5UqceeaZSTeD8oyXOSwf2c4+usm2bdMYovkYIoVCayM8iWGYj3nApFdgaGTB2+JdQopty9bt+OKfW/HZZ5+jdlcdPv18K+rr69Cxw97osU9ntGvfHr17dUfv3j3RpoCdenLHgEWR/XPLNqx470O88dZKPPHccjz1/ia7CxuAH33rCBw14jAcPuQg7D+wHwMYRcIhIYeEVmp37cLyt97Ho0++iFkPvCZS5riDeuEHZ4/DN44ZgX1797S+rrCwEBs3bsz4GIeETbW0IaFaWoPUUhnTc7NdpxEE05/r+nqj0F7mYKO2thYvvlKKm+98CE+9v1mnkgZgzrSxOPO08ehb9KWcT1+zZg2Ki4tRVla2+3LHIKWxs0I6ie9lnD+OGnl+2cpPp/FHlgGLASurN996H9fNuRd/XV7hp8L6Bvz2x9/CpNMmoEvnjsanVlRUYPTo0SgrK2PAMrSNAStLgxiwWk7A2ra9CvMX/AU/uvtZb3U2NmZgd9w2axqGHX6I8Xlr1qzB6NGjsWHDBuuyGbBkMWAxYKmWmcvasnW4aMav8MR7lhPpiu65+js4+4wT0a5t9ntDy5Ytw4gRI6zLZMCSFWzAcuVjYt1EI6fHNUD7uAFgsqz0HZxy4W3YVF3r1A4N154xEjMuPw+dO2UfIi5cuBBnnXVWxsekbo5ITDRrBCypcqQCj/YfWd5TJgDACy8tw8jzfplXwQoAZj2wFFdecyu2ba/M+pzJkydj6tSpHltFSWEPiz0svPLqGxg99TZAfsQg5vziwZgze3rWnlZlZSWGDRuGVatWNfk5e1jsYWXU0NDQ5J+tVCrV5J+pjGzPi/PGRCknva2N/5meZ6ov2/PSn+v62NNPP218Te+s+ACjz8/vYAUA85/9B268ZQFqd+3K+HinTp0wb9484/ub6w+CxvfJx3fW9XvSmOv7FOX3wLZ8Yzt9TLpH4foXSYr2azLVZ7pOqkfZ2MbNn+KEs/8LyzdXxS7Ll9/P/A6mnDXR+vmu3yGNHnzSN3FMbUtn+93T+J0w4RxWK1W7axdm3fTboIIVAJxz/UNY/vbKpJtBCWHAaqWeWLQEc0veS7oZTqb/9C5s2x5WoCUZYgErylyUxDyV6xxSrna7lmP7mqK8T1o2f/IZzrz2Xt1KFF/PC2u+wF/+uijr4+Xl5Wjbtm2s75DGfJPps/fxvXB9vVHmXbVxt4ZW6J4/PYaaunqx8k7/6n6YNPEYHDJ4EHr17I7u3bqioKAAlVU7sGXrVqwtq8Cry97FdfcuQVWdzC/g9296BOOPH4W+hc3XHvbv3x+nnnoqHn74YZG6KH+opTVITNq53s6NMmEq9VfCdSLS9X1y/dg+rtiA/idc7XRtuktPGIqp55yKQw8+AAUFuV/zlq3bUPLMy7j8podQUbkzdv1zzh+LKy6ekvGxkpISjB8/PlZKgDQfn2+U+l3rk/idcb6JESdgNSnIwxdBIm8knVRQdK3PVpQv9L+77Zncftd9uPTO7MMpGwM6t8eCG36AY48eaRWo0n3y6ee48ZbfY85jy2O1Aw3Apmdvwb69e2R8uLCwsNk6Q4nvkO874q5lpvMdMDXK5KR7C5Tty79123Zce7c5LyuXowd0w5L7f47jxhzpFKwAoHevHrj+Z5fgruknx2oLUrsz9LM5/fTT45VPeYcBqxUpfeNdbK11n7sa1a8rFs77Cfr3K4rdlnbt2mLqeafj15edFKuc39z3NOrqM7+mk0+OGRAp7zBgtSKLX3jd/eL6Bsyfc5nVBnu2ClIpfH/KabjilK84l1Hyj0+wdu26jI+NGTPGuVzKT14CVpw0A5e0/yi3aE1cb21L3RI3lZnpdY8cOTLr9VVV1bjhoezDp1zumXkaDjv4AOfrs2nXri1mTD8X++7tfsP67RUfZPx5hw4dmv1MI13AtFTGNt1FSpTUBdPvjKltLqk+Uu83e1gtyPDhw7M+Vla+HvWO35nhfTrjO6d+07FVue3buwduv3qS8/WvlYaZAEvRMWC1IEOGDMn62OqPPnYu98qpJ6Jzji2L4/rm2FHYy3ES/6a/LfeaeEvJ8bJbQ5RsY9sMedehnWkoGTUdQqJ+03th+9i/DR48OGsb1pS578s++qivOl9rq9s+XfFf3z3a6dqGujps/vRz4RZlF+X7Yxp2aU9N5Gq37e+a1JSOxBCYPawWpE+fPlkfKyvPfCxWLsUH9ES/voWuTYpk1Mihztd+/sUWwZZQvmLAakGKirKnG7zwltuQcOyoQ+FrydiA/u7pEtWVXAzdGjBgtSBdunTJ+ljpyk+cyjxwUF/X5kTW1dD+XLZV7hBsCeUrtcXPGusFbZ8XdRmLNtNyENvXYXNdu3btMpZT39AA7OX2t8nnZHaXLp2ABjTZ/fSHxx+M444+osnzamrrMGX2A01+tr2q2qoO2++i1PfSdfmL6++Piek1xSlH+7rGuFtDK5AC4JzT4FFdXV2zrZqPPnIozjhtQpOffbFlO5AWsCRzmSh/cUjYgtTWZj7xJpVKAQVtnMrcXuVvqLVly7ZmP+vUce9mP6vZ0bxNPbq5DycpHGo9LNdhkER3M1NKgG35tu3W2i0iju3bt6N79+4ZH5vyjS/jDy+tjlzmW++uidssa9326YKX756ONR+tw5vvrMJt//c2emfYiSFTYG7XNnNA3rJlC7p167bn/7ZDrSjDN9ehlW35pu+hTba5y2MSv78avV72sFqQiorsuVb9i3o5lfnrRe+iqtpPL6tDh70x6sgj8N3Jp2DO7Mux843fIpUqwKtLl+PjdRtQW7v7xJzNn3zW7NrevTJvMRPlGHvKf5zDakE2btyYNdv94AP7AXgtcpm19Q14d8UHGPm1w2O2LrqCggI8+fQrmPXA7na3L0hh6rhDUVmdtvlfA9C9+z4Zy9i0aZN2M8kj9rBakA8+yLwIGAAGDnBPT3jgkWecr7X1zooPcNOtC7Di/Q9R/6/tYiorqzBr4X+C7M76BsxdtAL3LPmwybUnDe2DLp07ZSx35UqesNOSeNlxNJ3r/I/r+Nj11rKJxhyH5rzJuoqN6HfCjJzPy+adhddiyKEHOl9vUldfj8t+/EvMLVkBAPj2sL6YNuVE7KzdhYkzFuS8fu7FE3Dh+WdZ1SUx3ySVpiPxfY7StijluJZpKl/ivWcPq5XoW9QHxx/oNo8FALPm/AE7auLvw57JkheX7glWAPDX5RWYcMXdVsEKAIZ95WCVdlH+YcBqJVIpYPKpo52vv39ZOe68eyHqhfO5ysorcM7Vv7F67sAu7fGLc45p8rMUgMMO0en5Uf5R263B9C/K5nsuq9Sj7BwhtYq8MdddF1xX8Ns65qgjcj/J4Mr5z+BP9z8mGrQeefw5fFzZNE3h0B7NN94DgJ9ecCJmXvkDfPLcrXho1ndR/OUe+NnZo7BP184Zn19SUtLsZxK7HrjuPhLle2nbTqnfnyi/B7a7PER5zBZ7WK3IAQcMxOQR/WOVMeX6h3DrnfeKDQ8vnDq5Sa+pf+f2KPnz/+C1312JMQP/kz/VpiCFkyccCwDo1bM7Tps4Dk89cDMunjY5a9mPP/64SBspfzBgtUDZ/oIVpFI4/5z4BzNcOf8ZnHPBdXj3vQ9zPznNuoqNeGP5Cny4ugzA7i2Sr7rsXPzi3N37ry+89SL0LdwXI792OB7742zMmToWAPCHn0xqlmvVrl1b9MiSzgAADz74YOT2UX4Tu0sYqVKBTHepbHnXu4ZRFrmaaLz9Tz31FCZMmJDxsZqanTjprKvxzKrmyZcurjhlGM789lgMOewgdOzQfBkNAFTvqMF7K1fhsSeX4Od/fnXPz++4+ARcOHUyUilgV10d3np7JYYfcViz60vfXIFDBn8ZHTMs08lm8eLFGDdunPfF7ekk6pdaUO1ajlT9Eryc/Gy6Tmr5i23A0ApmtkEq6dcE7D7L7xsX3hHpmlzaFqRw4fjDMPTQQejaefccVM3OXVj+7mrMf/JtbN+V+Siup2+bhuOPG2Us+9kXXsVrr6/AD78/Cd27dbVqz6RJk/Dggw86f94av/i2dce5Lp1EcNN4D10xYBm01IC1q64Ol151M369+P1I12no3r4N3nj4OgzsnzmxdW1ZBY6c9FNs3rELI4u64H9/9j2M/rp5y+by8nIMGjQIdXV1DFgtLGBxDqsVatumDWZMn4JObZL/+L/YWYdrrpuHygz7WX32+T9x0YzbsHnH7jWES9dvw9Hn34bHnnzeWOaNN964e6saanG8HEJhYrotG4XplqxtSkWuW8S2otz2ligzXSqVwl577YWPPvoo63MG9C/C/Teca12/pvteK8P8Bc0nyEueeRlPvNd0LeDJQ/rguDHZz18EgLlz58ZOCZBKPzHVJ8GUxhCnhyORVqEh+T+xpGLnzp2YOXOm8TknjBuD68891lOLzK6YtxjPv7i0yc/OOG0CfnXR+D3/H9ilPe644VJ07qR75BjlL7E5rDhzQ41Jjd2zlal1B892Xi5K27TnAQGgqnoHrrzmVtyVB/NZhR3a4rWHZqPffv85/aeurh7zF/wFF/7qCSy75yp87avZz16MyvdcVNJ32zTqCPYuIQNWmAELALZu247LZ96C3y1ZlfO52qaMHoS7brkaHfbea8/P6uvr8eHqMgw+cH/RuhiwWnHAMnG9uxb3F9GG7w/Rde7C9a6Vra3btmPGf9+RFz2t2y8aj4unna1ej9Rn4frHw8cfbok/elFoB2HOYREAoGuXzpgze3pezGldMncRXvp7adLNoDzEgEV7dOywN348/Tw8fvP3Ek95OPeqeVi/cXPO55WWMrC1JomkNdimINiWEeV2sVTqgmudpvqi3J421Z3tfSksLMSaNeZDJQoKUjhp/LFY8ehsXHD8IRbvhI7VW2tw7ax5qDEssl67di0mTpzoXEeulADbz8KUDmH7WPo/29SbXK+pMdO1UdITbH9fpFIsGmMPqxXZuHEjiouLjYdV/NuAfkW4/ear8PydF2PsAT09tK65BUtW4Z4/PpLxsYqKChQXF2P9+vWeW0VJUrtLqDHZqDHJ7/ryXSfWpW4kxEk8HDBgAJ599lkMGjTI6vk1NTvx96XLcdc9j+H+ZeXO9WbSs30bjP1KXzxgKPeV31yOo0YO2/P/tWvXori4eE9irPadqSik7gT6uDljW07SdzcbY8BqhQELAPr06YNHH30UI0aMsL6mvqEBq1aX4aW/v4k//+0lLP7gU6e6C1LAzNNHonjMcIwcfjg6deqINWs/xvNLluKaO5/EpuqmG/oN6dUBixfOxpf27YnS0lJMnDixSc+KAUu+zBYZsIwFK9wyNXENGOkkbjWbyvTxXjRmqq9Dhw6oqqpyLnf9hs1YW16BtWUV+MeqdShf/yl+v2Q1sHPX7qi0sx5fP2xfjBraD/v374P9B/TFoP33w4B+RejYMfOuolXVO7Cs9B0sfPiZJikWU48bjDEjB+D8qVObtVn7PczFNW1FIt3FVGY6H++TdjBjwErTmgJWpscl64z72so+Xo/nlizFjXc/hZWfVwNfrAbWvez9PcyFAStz/QxYBgxYmSURsKRV76hBx/2GAZ0LgbLnGLAsy0zX6gOWxC+i67yN6wcj9QusMU/loy2ma/MpeJWXl2PmzJm47777Il0nNQ+oMZ8o9dm7BkVTORrvm0bA4lH1lJcOOugg1NTUJN0MyjPMw6K8sHjx4ib/Z7CiTBiwyEphYSEuueQSLFq0CNXVzXcHjaq6uholJSW49NJLUVRUhHHjxgm0klo6sUl3H3lJPuZbJObJ0knMt7nmwsSZRzC9F0cddRSGDx+OoUOHYtq0aVnL2LJlCzZs2IBNmzZh5cqVxudmqzu9fqk5St/zl65837RKryOJ38NsGLDSMGBlblvSNxIYsGTLjFJHPgUsDgmJKBgMWEQUjFhpDa75JxL5L65DhjiSbLdr1ztO3pnre6qxjtSVRn5RlDKlhrIu9aWXk0+/h66fNXtYRBQMBiwiCoZYprvUXSRXrt1P1ztFPpZZJH03KEo52R7TGDKYXkOc90xjWkHjLnC25+V6ronUENT2MVfsYRFRMBiwiCgYDFhEFAwvB6mm0xjbumbmarwGqSx42zLj3LqXmEeJ055sbfOxfZDvz15qCyapPbc0toLRzpBnD4uIgsGARUTBUNvAz7br7XshaS6u7U4yY9y1LVHbY1uHicbCWY3XG+U62zKlhnLZnhe1TonPQmNXURP2sIgoGAxYRBQMBiwiCoba0hzTYz52JXAlcQJKlOtM8wiuyx6ipHFIlWNbpm0ZUnObEu9hlHKkloj53rlDYy5KY86ZPSwiCgYDFhEFI9aQUCrj1/Y6W3GysjWy4jWuk0q/cB2S2j7Pxy4EGvWb+EhpsS0/Co2UGt/7vbOHRUTBYMAiomAwYBFRMPJuaY7E7pxSBw9I3Xa3vc5Ea07H9jGpOiREee0+lilJfE+k5pdcuaY8cGkOEVEWDFhEFAwv5xJGuU4jrSFK11ti0zoft701Dkww1ZFOe0WA1kEerp+Fxs4GJq6rBUxDYtfhW9KrWBpjD4uIgsGARUTBYMAiomCoLc1pzHXsrHEIZxTat2gBmXnAOO30MRfWmO/X6+OwENu2Jf299JEaY1uGK/awiCgYDFhEFAyxTHfT8M3Hjgi2pA4X0Ojea5wNF4dG1197mB3ntUvsPqKxkiHfdmtIEntYRBQMBiwiCgYDFhEFQ2xpjustU6l5Gx+7B2gsc3DdgUKqPon5RI20lSjXaXDdDVVj3lEq/UJjmZTvnRzYwyKiYDBgEVEw1NIaGpNKa9AYMiSdzS4xlI3TLdd4vzWGmaZ2+fi8JTak9LEbh4+0CtfMfomhM3tYRBQMBiwiCgYDFhEFQ2wOy3V5htTOkq71udbhe+W769In1/qi1B/lOlta3yeJObson6dECkYSB5BIpC5opJ+wh0VEwWDAIqJgqJ1LKDG0ipLdLXW+oPZGbUmfS2gSZdhpW18+7xAQpQ6Noa3GkMlHiodryoPE62UPi4iCwYBFRMFgwCKiYIgdQqGx64LGPI2PHU41Dqx0rT9XmRrzERK7zfreBSBTubb1u7ZFe6fSXHVoLJFjWgMR0b8wYBFRMMQ28JPiOmQwyadM6CgkVsXHof16JYYdUUlsfJh0qoKPTfpcn2ubCuOKPSwiCgYDFhEFgwGLiIKRahAaaGps2i+1k4PGWFqqPu1b6UmnALiWqbG8yAeNAzm0ltu4Lp8zlcFDKIiI/oUBi4iCwYBFRMFQ217G96GYGvNbGmNwH9uU5NP8T5T3XmK+J079Gjl4GtutaOyg61qG65wZT80hohaPAYuIgpHIIRS21+XzcDHpoaTEjghR2uZ7GY3UoRtR2qPxXvjYkcG1HFOZEgdNcMdRImrVGLCIKBgMWEQUDLE5LKn5JoldEH0sZXAdn0sdwilxAGuUctJpLxtyXc6Vi+t3SGOJj+1uoFLXpZM4acr30if2sIgoGAxYRBSMxNMatMpxpb3jqMZwVWulv++uv+swt7E4uxVI7PCqcZvfx+eisctDnDqyYQ+LiILBgEVEwWDAIqJg5N2pOY1FWeYgkVaQi2nuwPWWuO18k9bhrBJtS3puRuN9c6WxZCvOrp6uv6MapwRxDouIWhUGLCIKRt6lNUgMJ+LUZ9v99b17gcbBFunPlbqVn087d0Rpi8TOCukkyonz2Wsf3KKxI4MJe1hEFAwGLCIKBgMWEQUj1kGqGrsXaNzajlK/qUzfS2VcSe3yKUFqxw3f76EUic8iiZ0rbGnPkaVjD4uIgsGARUTBUDuXUINtprnpulyPSXRxXbvwSQ9r8+1MPZsy0stxHYJGfa50/RKbNUYl8Vn4XknAHhYRBYMBi4iCwYBFRMEIag4rn5ZuRKnf904OJhqpGlHao/GY1GdoorHLp0SZceaQXFMnJJZzuWIPi4iCwYBFRMFQGxJq3950HaL42FVCarcGH0MG100JXVNM8mlIFkWSWfhxypQ4vzLOBoK2j9liD4uIgsGARUTBYMAiomCIzWH5XkEvleLg+lyNVequS2xMj0U5hEJjmYVUuonrHGU+3ZL3ceipxvxaEnOG2bCHRUTBYMAiomDE2sCPiMgn9rCIKBgMWEQUDAYsIgoGAxYRBYMBi4iCwYBFRMFgwCKiYDBgEVEwGLCIKBgMWEQUDAYsIgoGAxYRBYMBi4iC8f+In/NaMD9RmQAAAABJRU5ErkJggg==', u'urls': [{u'logo': u'https://qpay.mn/q/logo/khanbank.png', u'link': u'khanbank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Khan bank', u'description': u'\u0425\u0430\u0430\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/statebank.png', u'link': u'statebank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'State bank', u'description': u'\u0422\u04e9\u0440\u0438\u0439\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/xacbank.png', u'link': u'xacbank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Xac bank', u'description': u'\u0425\u0430\u0441 \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/tdbbank.png', u'link': u'tdbbank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Trade and Development bank', u'description': u'TDB online'}, {u'logo': u'https://qpay.mn/q/logo/most.png', u'link': u'most://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Most money', u'description': u'\u041c\u041e\u0421\u0422 \u043c\u043e\u043d\u0438'}, {u'logo': u'https://qpay.mn/q/logo/nibank.jpeg', u'link': u'nibank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'National investment bank', u'description': u'\u04ae\u043d\u0434\u044d\u0441\u043d\u0438\u0439 \u0445\u04e9\u0440\u04e9\u043d\u0433\u04e9 \u043e\u0440\u0443\u0443\u043b\u0430\u043b\u0442\u044b\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/ckbank.png', u'link': u'ckbank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Chinggis khaan bank', u'description': u'\u0427\u0438\u043d\u0433\u0438\u0441 \u0425\u0430\u0430\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/capitronbank.png', u'link': u'capitronbank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Capitron bank', u'description': u'\u041a\u0430\u043f\u0438\u0442\u0440\u043e\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/bogdbank.png', u'link': u'bogdbank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Bogd bank', u'description': u'\u0411\u043e\u0433\u0434 \u0431\u0430\u043d\u043a'}, {u'logo': u'https://qpay.mn/q/logo/transbank.png', u'link': u'transbank://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'Trans bank', u'description': u'\u0422\u044d\u044d\u0432\u044d\u0440 \u0445\u04e9\u0433\u0436\u043b\u0438\u0439\u043d \u0431\u0430\u043d\u043a'}, {u'logo': u'https://s3.qpay.mn/p/e9bbdc69-3544-4c2f-aff0-4c292bc094f6/launcher-icon-ios.jpg', u'link': u'qpaywallet://q?qPay_QRcode=0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3', u'name': u'qPay wallet', u'description': u'qPay \u0445\u044d\u0442\u044d\u0432\u0447'}], u'qr_text': u'0002010102121531279404962794049600022610088090427300014A00000084300010108AGMOMNUB5204481453034965405441985802MN5913JIMOBAILKHKHK6011Ulaanbaatar62590105131350521Daraatulburtiintulult0721irjBXMddSoQdn7rINLuX378363fbff458-b593-4ed4-a127-6daa1a713ab279022280020163042EB3'}
+2022-06-20 11:36:01,992:INFO:invoice_id
+2022-06-20 11:36:01,992:INFO:3fbff458-b593-4ed4-a127-6daa1a713ab2
+2022-06-20 11:36:01,992:INFO:dat
+2022-06-20 11:36:01,992:INFO:{u'order_id': 13135L, u'q_pay': {u'invoice_id': u'3fbff458-b593-4ed4-a127-6daa1a713ab2', u'qr_image': u'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'}}
+2022-06-20 11:36:08,116:INFO:ads
+2022-06-20 12:36:08,205:INFO:jwt
+2022-06-20 12:36:08,210:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 4, 41, 8, 210457)}
+2022-06-20 12:36:08,210:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MDAwNjh9.eoDkTdIxvohcwmQtpbgP_dfmD6vuSvOVoPYa15M22ck
+2022-06-20 12:36:12,446:INFO:ads
+2022-06-20 13:36:12,463:INFO:jwt
+2022-06-20 13:36:12,468:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 5, 41, 12, 468902)}
+2022-06-20 13:36:12,469:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MDM2NzJ9.pUwYe8KyWV6zATHaCmd-ouqAvzthRVo87oNVJhXem58
+2022-06-20 13:36:15,728:INFO:ads
+2022-06-20 14:36:15,688:INFO:jwt
+2022-06-20 14:36:15,693:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 6, 41, 15, 693280)}
+2022-06-20 14:36:15,693:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MDcyNzV9.qSi1WiV1sN_IKFhyEjbjenoR2YlIp4tQZ0aRuErWMHc
+2022-06-20 14:36:18,868:INFO:ads
+2022-06-20 15:36:18,834:INFO:jwt
+2022-06-20 15:36:18,839:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 7, 41, 18, 839535)}
+2022-06-20 15:36:18,839:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MTA4Nzh9.KicbSM-F-DV-BnOchigQtqi1QdtOZn5y4FVOlfWbaJE
+2022-06-20 15:36:22,073:INFO:ads
+2022-06-20 16:36:22,057:INFO:jwt
+2022-06-20 16:36:22,061:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 8, 41, 22, 61955)}
+2022-06-20 16:36:22,062:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MTQ0ODJ9.Yg_MVGpsrfd6QQEnxsp-lMVXK3LS71TeKz_3MGO8HTs
+2022-06-20 16:36:25,346:INFO:ads
+2022-06-20 17:36:26,350:INFO:jwt
+2022-06-20 17:36:26,355:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 9, 41, 26, 355393)}
+2022-06-20 17:36:26,355:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MTgwODZ9.0F08qpaWIbclhbBage3lam9ezUlj46Hdgwrg1sP74us
+2022-06-20 17:36:31,661:INFO:ads
+2022-06-20 18:36:31,614:INFO:jwt
+2022-06-20 18:36:31,619:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 10, 41, 31, 619697)}
+2022-06-20 18:36:31,619:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MjE2OTF9.LmHH9ahPl3iKbnGUcJYkFY7Lmx99kTv8gYXcq-x6dhY
+2022-06-20 18:36:34,833:INFO:ads
+2022-06-20 18:36:40,660:INFO:jwt
+2022-06-20 18:36:40,665:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 6, 20, 10, 41, 40, 665434)}
+2022-06-20 18:36:40,665:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTU3MjE3MDB9._gE6f-xGxVTAmUekGiqT69wV_oTWdAQ5IbEZ82Sm9K4

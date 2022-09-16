@@ -1,0 +1,525 @@
+2022-08-29 09:50:12,519:INFO:jwt
+2022-08-29 09:50:12,519:INFO:jwt
+2022-08-29 09:50:12,570:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 1, 55, 12, 570259)}
+2022-08-29 09:50:12,570:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 1, 55, 12, 570751)}
+2022-08-29 09:50:12,571:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3MzgxMTJ9.ux-PTI1zF63uLCZqdqohn2gO-lTlTCbstbGlzdXEXc0
+2022-08-29 09:50:12,571:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3MzgxMTJ9.ux-PTI1zF63uLCZqdqohn2gO-lTlTCbstbGlzdXEXc0
+2022-08-29 09:50:15,469:INFO:ads
+2022-08-29 10:22:30,972:INFO:checkNumber
+2022-08-29 10:22:30,976:INFO:2
+2022-08-29 10:22:30,976:INFO:bankConnection
+2022-08-29 10:22:30,976:INFO:2
+2022-08-29 10:22:30,976:INFO:{'phone_number': u'98124456', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-29 10:22:31,066:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 10:22:31,483:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-08-29 10:22:31,485:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-08-29 10:22:31,517:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-08-29 10:22:38,136:INFO:order
+2022-08-29 10:22:38,136:INFO:H-1000
+2022-08-29 10:22:38,145:INFO:dat
+2022-08-29 10:22:38,145:INFO:{u'order_id': 13213L, u'q_pay': {}}
+2022-08-29 10:23:13,498:INFO:charge
+2022-08-29 10:23:13,498:INFO:1000
+2022-08-29 10:23:13,498:INFO:13213
+2022-08-29 10:23:13,502:INFO:Хүлээж авсан мөнгө: 1000=1000
+2022-08-29 10:23:13,510:INFO:Нийт бэлэн мөнгө=1000
+2022-08-29 10:23:13,510:INFO:bankConnection
+2022-08-29 10:23:13,510:INFO:2
+2022-08-29 10:23:13,510:INFO:{'phone_number': u'98124456', 'amount': '1000', 'serviceName': 'Kiosk', 'trans_id': u'13213', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a2_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'H-1000'}
+2022-08-29 10:23:13,512:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 10:23:17,180:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPrePaidCharge/response HTTP/1.1" 200 108
+2022-08-29 10:23:17,182:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-08-29 10:23:24,921:INFO:ebarimt
+2022-08-29 10:23:24,921:INFO:
+2022-08-29 10:23:24,922:INFO:1
+2022-08-29 10:23:24,926:INFO:data
+2022-08-29 10:23:24,926:INFO:{"districtCode": "35", "invoiceId": "", "posNo": "", "customerNo": "", "cityTax": "0.00", "bankTransactions": [], "returnBillId": "", "cashAmount": "0.00", "billType": "1", "stocks": [{"measureUnit": "1", "code": "1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442", "name": "1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442", "totalAmount": "1000.00", "cityTax": "0.00", "unitPrice": "1000.00", "barCode": "8422", "vat": "90.91", "qty": "1.00"}], "reportMonth": "", "nonCashAmount": "1000.00", "amount": "1000.00", "branchNo": "", "vat": "90.91"}
+2022-08-29 10:23:25,057:INFO:datas
+2022-08-29 10:23:25,057:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'RI 44835907', u'billId': u'000005055873003220829338639037366', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'1000.00', u'vat': u'90.91', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD02F3337528D60492869FBED90F96F10B1DE1B', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-08-29 10:22:46', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'1000.00', u'qty': u'1.00', u'unitPrice': u'1000.00', u'vat': u'90.91'}], u'billType': u'1', u'success': True, u'amount': u'1000.00', u'branchNo': u'', u'qrData': u'7486297873566181816205229891861607235725050310981213663873160026461074431630157235486735297494169332414457031449026866315949184317660013818549713151057309512087963713461671474170061459063207576971750372062810492611002505838815356076187455891559273131979868596866378807378131530364738409007644422449281911351015395551'}
+2022-08-29 10:23:25,057:INFO:ADDLOTTERY
+2022-08-29 10:23:25,506:INFO:static/ebarimt/kiosk2/bill.bmp
+2022-08-29 10:23:38,384:INFO:ads
+2022-08-29 10:23:45,257:INFO:checkNumber
+2022-08-29 10:23:45,260:INFO:2
+2022-08-29 10:23:45,260:INFO:bankConnection
+2022-08-29 10:23:45,260:INFO:2
+2022-08-29 10:23:45,260:INFO:{'phone_number': u'98124456', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-29 10:23:45,262:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 10:23:45,517:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 3578
+2022-08-29 10:23:45,519:INFO:{u'status': 0, u'errors': u'', u'data': [{u'price': u'1000', u'profile_code': u'DAT-1000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 \xa01 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}, {u'price': u'3000', u'profile_code': u'UNDAT-3000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  3 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'UNDAT-7000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  7 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'13000', u'profile_code': u'UNDAT-13000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  14 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'25000', u'profile_code': u'DAT-25000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'75000', u'profile_code': u'UNDAT-75000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  90 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-240000', u'name': u'\u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439  365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'1000', u'profile_code': u'DAT-100', u'name': u'100mb 3 x\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'4000', u'profile_code': u'DAT-500', u'name': u'500mb 8 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'DAT-7000', u'name': u'1GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'12000', u'profile_code': u'DAT-3000', u'name': u'3GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'20000', u'profile_code': u'DAT-8000', u'name': u'8GB  30 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'DAT60-20000', u'name': u'20GB  60 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442'}, {u'price': u'240000', u'profile_code': u'DAT-120000', u'name': u'240gb 365 \u0445\u043e\u043d\u043e\u0433\u0442\u043e\u0439 \xa0\u0434\u0430\u0442\u0430 \u043a\u0430\u0440\u0442 '}], u'action': u'check_index', u'type': u'WCDMA', u'unit': [{u'price': u'1000', u'profile_code': u'H-1000', u'name': u'1000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'2000', u'profile_code': u'H-2000', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'5000', u'profile_code': u'H-5000', u'name': u'5000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'7000', u'profile_code': u'H-7000', u'name': u'7000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'10000', u'profile_code': u'H-10000', u'name': u'10000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442'}, {u'price': u'30000', u'profile_code': u'H-30000', u'name': u'30000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442 '}, {u'price': u'6000', u'profile_code': u'H-6000', u'name': u'50/50 60 \u0445\u043e\u043d\u043e\u0433, 6000 \u043d\u044d\u0433\u0436'}, {u'price': u'11000', u'profile_code': u'H-11000', u'name': u'30/30 30 \u0445\u043e\u043d\u043e\u0433, 11000 \u043d\u044d\u0433\u0436'}, {u'price': u'15000', u'profile_code': u'H-15000', u'name': u'0/50  30 \u0445\u043e\u043d\u043e\u0433, 1GB \u0434\u0430\u0442\u0430, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'20000', u'profile_code': u'H-20000', u'name': u'0/30 30 \u0445\u043e\u043d\u043e\u0433, 5000 \u043d\u044d\u0433\u0436'}, {u'price': u'60000', u'profile_code': u'H-60000', u'name': u'0/50 180 \u0445\u043e\u043d\u043e\u0433, 12000 \u043d\u044d\u0433\u0436'}]}
+2022-08-29 10:23:45,551:INFO:{u'products': [{u'name': u'hyazgaargui', u'day': [{u'url': u'static/unit/1000.png', u'price': 1000, u'profile_id': u'H-1000'}, {u'url': u'static/unit/2000.png', u'price': 2000, u'profile_id': u'H-2000'}, {u'url': u'static/unit/5000.png', u'price': 5000, u'profile_id': u'H-5000'}, {u'url': u'static/unit/7000.png', u'price': 7000, u'profile_id': u'H-7000'}, {u'url': u'static/unit/10000.png', u'price': 10000, u'profile_id': u'H-10000'}, {u'url': u'static/unit/30000.png', u'price': 30000, u'profile_id': u'H-30000'}]}, {u'name': u'hyazgaartai', u'day': [{u'url': u'static/unit/6000.png', u'price': 6000, u'profile_id': u'H-6000'}, {u'url': u'static/unit/11000.png', u'price': 11000, u'profile_id': u'H-11000'}, {u'url': u'static/unit/15000.png', u'price': 15000, u'profile_id': u'H-15000'}, {u'url': u'static/unit/20000.png', u'price': 20000, u'profile_id': u'H-20000'}, {u'url': u'static/unit/60000.png', u'price': 60000, u'profile_id': u'H-60000'}]}]}
+2022-08-29 10:23:49,106:INFO:order
+2022-08-29 10:23:49,107:INFO:H-2000
+2022-08-29 10:23:49,115:INFO:dat
+2022-08-29 10:23:49,115:INFO:{u'order_id': 13214L, u'q_pay': {}}
+2022-08-29 10:24:14,895:INFO:charge
+2022-08-29 10:24:14,895:INFO:2000
+2022-08-29 10:24:14,895:INFO:13214
+2022-08-29 10:24:14,899:INFO:Хүлээж авсан мөнгө: 2000=2000
+2022-08-29 10:24:14,907:INFO:Нийт бэлэн мөнгө=3000
+2022-08-29 10:24:14,907:INFO:bankConnection
+2022-08-29 10:24:14,907:INFO:2
+2022-08-29 10:24:14,907:INFO:{'phone_number': u'98124456', 'amount': '2000', 'serviceName': 'Kiosk', 'trans_id': u'13214', 'cashOrCard': u'\u041a\u0438\u043e\u0441\u043a2_\u041a\u0430\u0440\u0442\u0430\u0430\u0440', 'card': u'H-2000'}
+2022-08-29 10:24:14,909:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 10:24:20,685:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/setPrePaidCharge/response HTTP/1.1" 200 108
+2022-08-29 10:24:20,687:INFO:{"action":"charge_index","status":"Success","errors":"0"}
+2022-08-29 10:24:29,645:INFO:ebarimt
+2022-08-29 10:24:29,645:INFO:
+2022-08-29 10:24:29,645:INFO:1
+2022-08-29 10:24:29,649:INFO:data
+2022-08-29 10:24:29,649:INFO:{"districtCode": "35", "invoiceId": "", "posNo": "", "customerNo": "", "cityTax": "0.00", "bankTransactions": [], "returnBillId": "", "cashAmount": "0.00", "billType": "1", "stocks": [{"measureUnit": "1", "code": "2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442", "name": "2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442", "totalAmount": "2000.00", "cityTax": "0.00", "unitPrice": "2000.00", "barCode": "8422", "vat": "181.82", "qty": "1.00"}], "reportMonth": "", "nonCashAmount": "2000.00", "amount": "2000.00", "branchNo": "", "vat": "181.82"}
+2022-08-29 10:24:29,721:INFO:datas
+2022-08-29 10:24:29,722:INFO:{u'macAddress': u'00505684E2CD', u'customerNo': u'', u'cityTax': u'0.00', u'bankTransactions': [], u'merchantId': u'5055873', u'lottery': u'RI 44830355', u'billId': u'000005055873003220829338639037431', u'reportMonth': u'', u'taxType': u'1', u'nonCashAmount': u'2000.00', u'vat': u'181.82', u'districtCode': u'35', u'invoiceId': u'', u'internalCode': u'5F410C3F245561DBD02F3337528D604CBB806667CD59BED502E129', u'posNo': u'', u'cashAmount': u'0.00', u'registerNo': u'5055873', u'date': u'2022-08-29 10:23:51', u'returnBillId': u'', u'stocks': [{u'measureUnit': u'1', u'code': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442', u'name': u'2000 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u043a\u0430\u0440\u0442', u'barCode': u'8422', u'cityTax': u'0.00', u'totalAmount': u'2000.00', u'qty': u'1.00', u'unitPrice': u'2000.00', u'vat': u'181.82'}], u'billType': u'1', u'success': True, u'amount': u'2000.00', u'branchNo': u'', u'qrData': u'12136621627031182818908743793872093086373393013353251037941100264612389533965085102952573553721355268267242868138943387581764730458224105345773479768022816818118133680908843973523438605619315170968597716592864348952435274456316185791627231898502659631046644645033826890151645398192925444512120441718930340279971589066'}
+2022-08-29 10:24:29,722:INFO:ADDLOTTERY
+2022-08-29 10:24:29,794:INFO:static/ebarimt/kiosk2/bill.bmp
+2022-08-29 10:24:40,262:INFO:ads
+2022-08-29 10:26:43,427:INFO:ads
+2022-08-29 10:27:02,855:INFO:searchNumber
+2022-08-29 10:27:02,857:INFO:9888****
+2022-08-29 10:27:02,857:INFO:9888****
+2022-08-29 10:27:02,857:INFO:engiin
+2022-08-29 10:27:02,861:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-08-29 10:27:02,861:INFO:ELSE
+2022-08-29 10:27:02,861:INFO:9888
+2022-08-29 10:27:02,861:INFO:****
+2022-08-29 10:27:07,633:INFO:98880163:6|98880194:6|98880232:6|98880351:6|98880459:6|98880492:6|98880494:6|98880519:6|98880546:6|98880549:6|98880611:6|98880621:6|98880630:6|98880641:6|98880656:6|98880659:6|98880674:6|98880732:6|98880734:6|98880741:6|98880746:6|98880749:6|98880765:6|98880793:6|98880799:6|98880852:6|98880926:6|98880931:6|98880935:6|98880961:6|98880970:6|98881147:6|98881157:6|98881236:6|98881263:6|98881268:6|98881279:6|98881281:6|98881294:6|98881305:6|98881325:6|98881329:6|98881345:6|98881346:6|98881351:6|98881352:6|98881365:6|98881371:6|98881374:6|98881407:6|98881425:6|98881427:6|98881433:6|98881468:6|98881469:6|98881476:6|98881481:6|98881540:6|98881570:6|98881603:6|98881625:6|98881644:6|98881647:6|98881656:6|98881657:6|98881671:6|98881674:6|98881675:6|98881684:6|98881685:6|98881686:6|98881693:6|98881695:6|98881712:6|98881713:6|98881721:6|98881724:6|98881730:6|98881749:6|98881751:6|98881752:6|98881753:6|98881758:6|98881762:6|98881763:6|98881766:6|98881886:6|98881907:6|98881942:6|98881964:6|98881976:6|98881983:6|98881986:6|98881987:6|98881993:6|98882036:6|98882038:6|98882041:6|98882052:6|98882053:6
+2022-08-29 10:27:07,633:INFO:numbers
+2022-08-29 10:27:07,633:INFO:['98880163', '98880194', '98880232', '98880351', '98880459', '98880492', '98880494', '98880519', '98880546', '98880549', '98880611', '98880621', '98880630', '98880641', '98880656', '98880659', '98880674', '98880732', '98880734', '98880741', '98880746', '98880749', '98880765', '98880793', '98880799', '98880852', '98880926', '98880931', '98880935', '98880961', '98880970', '98881147', '98881157', '98881236', '98881263', '98881268', '98881279', '98881281', '98881294', '98881305', '98881325', '98881329', '98881345', '98881346', '98881351', '98881352', '98881365', '98881371', '98881374', '98881407', '98881425', '98881427', '98881433', '98881468', '98881469', '98881476', '98881481', '98881540', '98881570', '98881603', '98881625', '98881644', '98881647', '98881656', '98881657', '98881671', '98881674', '98881675', '98881684', '98881685', '98881686', '98881693', '98881695', '98881712', '98881713', '98881721', '98881724', '98881730', '98881749', '98881751', '98881752', '98881753', '98881758', '98881762', '98881763', '98881766', '98881886', '98881907', '98881942', '98881964', '98881976', '98881983', '98881986', '98881987', '98881993', '98882036', '98882038', '98882041', '98882052', '98882053']
+2022-08-29 10:27:07,749:INFO:tmp
+2022-08-29 10:27:07,749:INFO:['98880163', '98880194', '98880232', '98880351', '98880459', '98880492', '98880494', '98880519', '98880546', '98880549', '98880611', '98880621', '98880630', '98880641', '98880656', '98880659', '98880674', '98880732', '98880734', '98880741', '98880746', '98880749', '98880765', '98880793', '98880799', '98880852', '98880926', '98880931', '98880935', '98880961', '98880970', '98881147', '98881157', '98881236', '98881263', '98881268', '98881279', '98881281', '98881294', '98881305', '98881325', '98881329', '98881345', '98881346', '98881351', '98881352', '98881365', '98881371', '98881374', '98881407', '98881425', '98881427', '98881433', '98881468', '98881469', '98881476', '98881481', '98881540', '98881570', '98881603', '98881625', '98881644', '98881647', '98881656', '98881657', '98881671', '98881674', '98881675', '98881684', '98881685', '98881686', '98881693', '98881695', '98881712', '98881713', '98881721', '98881724', '98881730', '98881749', '98881751', '98881752', '98881753', '98881758', '98881762', '98881763', '98881766', '98881886', '98881907', '98881942', '98881964', '98881976', '98881983', '98881986', '98881987', '98881993', '98882036', '98882038', '98882041', '98882052', '98882053']
+2022-08-29 10:27:07,750:INFO:[{'prefix': '98880163'}, {'prefix': '98880194'}, {'prefix': '98880232'}, {'prefix': '98880351'}, {'prefix': '98880459'}, {'prefix': '98880492'}, {'prefix': '98880494'}, {'prefix': '98880519'}, {'prefix': '98880546'}, {'prefix': '98880549'}, {'prefix': '98880611'}, {'prefix': '98880621'}, {'prefix': '98880630'}, {'prefix': '98880641'}, {'prefix': '98880656'}, {'prefix': '98880659'}, {'prefix': '98880674'}, {'prefix': '98880732'}, {'prefix': '98880734'}, {'prefix': '98880741'}, {'prefix': '98880746'}, {'prefix': '98880749'}, {'prefix': '98880765'}, {'prefix': '98880793'}, {'prefix': '98880799'}, {'prefix': '98880852'}, {'prefix': '98880926'}, {'prefix': '98880931'}, {'prefix': '98880935'}, {'prefix': '98880961'}, {'prefix': '98880970'}, {'prefix': '98881147'}, {'prefix': '98881157'}, {'prefix': '98881236'}, {'prefix': '98881263'}, {'prefix': '98881268'}, {'prefix': '98881279'}, {'prefix': '98881281'}, {'prefix': '98881294'}, {'prefix': '98881305'}, {'prefix': '98881325'}, {'prefix': '98881329'}, {'prefix': '98881345'}, {'prefix': '98881346'}, {'prefix': '98881351'}, {'prefix': '98881352'}, {'prefix': '98881365'}, {'prefix': '98881371'}, {'prefix': '98881374'}, {'prefix': '98881407'}, {'prefix': '98881425'}, {'prefix': '98881427'}, {'prefix': '98881433'}, {'prefix': '98881468'}, {'prefix': '98881469'}, {'prefix': '98881476'}, {'prefix': '98881481'}, {'prefix': '98881540'}, {'prefix': '98881570'}, {'prefix': '98881603'}, {'prefix': '98881625'}, {'prefix': '98881644'}, {'prefix': '98881647'}, {'prefix': '98881656'}, {'prefix': '98881657'}, {'prefix': '98881671'}, {'prefix': '98881674'}, {'prefix': '98881675'}, {'prefix': '98881684'}, {'prefix': '98881685'}, {'prefix': '98881686'}, {'prefix': '98881693'}, {'prefix': '98881695'}, {'prefix': '98881712'}, {'prefix': '98881713'}, {'prefix': '98881721'}, {'prefix': '98881724'}, {'prefix': '98881730'}, {'prefix': '98881749'}, {'prefix': '98881751'}, {'prefix': '98881752'}, {'prefix': '98881753'}, {'prefix': '98881758'}, {'prefix': '98881762'}, {'prefix': '98881763'}, {'prefix': '98881766'}, {'prefix': '98881886'}, {'prefix': '98881907'}, {'prefix': '98881942'}, {'prefix': '98881964'}, {'prefix': '98881976'}, {'prefix': '98881983'}, {'prefix': '98881986'}, {'prefix': '98881987'}, {'prefix': '98881993'}, {'prefix': '98882036'}, {'prefix': '98882038'}, {'prefix': '98882041'}, {'prefix': '98882052'}, {'prefix': '98882053'}]
+2022-08-29 10:27:39,050:INFO:blockUnblock
+2022-08-29 10:27:39,050:INFO:block
+2022-08-29 10:27:39,050:INFO:1
+2022-08-29 10:27:39,050:INFO:user_ip: 203.91.114.244
+2022-08-29 10:27:39,107:INFO:Success
+2022-08-29 10:27:39,125:INFO:5000
+2022-08-29 10:27:39,125:INFO:{u'negj': u'3000', u'honog': u'30', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'0', u'price': 5000}
+2022-08-29 10:28:04,612:INFO:userConfirmation
+2022-08-29 10:28:04,615:INFO:kiosk2|ШУ88051417|98880519|newnumber|yes|2022-08-29 10:28:04
+2022-08-29 10:28:15,192:INFO:jwt
+2022-08-29 10:28:15,197:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 2, 33, 15, 197475)}
+2022-08-29 10:28:15,197:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NDAzOTV9.TzxpCZrhZ8rGJf0oB1MIjHtSL8-6ln6C1siDO8tF_zs
+2022-08-29 10:28:18,430:INFO:ads
+2022-08-29 10:31:45,697:INFO:ads
+2022-08-29 10:49:41,600:INFO:jwt
+2022-08-29 10:49:41,606:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 2, 54, 41, 605991)}
+2022-08-29 10:49:41,606:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NDE2ODF9.DAPvfJLS2q6qCzIgWYaORuR4i-CeqcSN-M0oPQvyTsM
+2022-08-29 10:50:01,089:INFO:ads
+2022-08-29 11:28:18,304:INFO:jwt
+2022-08-29 11:28:18,309:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 3, 33, 18, 309759)}
+2022-08-29 11:28:18,310:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NDM5OTh9.ebRi8jGOF8RpmZgnAR0ZkJ8o6jhh0IjuDQNuI78mEBY
+2022-08-29 11:28:21,577:INFO:ads
+2022-08-29 12:28:21,551:INFO:jwt
+2022-08-29 12:28:21,556:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 4, 33, 21, 556529)}
+2022-08-29 12:28:21,556:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NDc2MDF9.6W48iYq8MQMQsf7a0Odr529jRyMr2fgJfJnTnV494wQ
+2022-08-29 12:28:24,718:INFO:ads
+2022-08-29 13:28:24,601:INFO:jwt
+2022-08-29 13:28:24,607:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 5, 33, 24, 607162)}
+2022-08-29 13:28:24,607:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NTEyMDR9.mdUW65Ed-2tv0I53Axz7UliuQNPKNwpex2WC94LsIMQ
+2022-08-29 13:28:27,828:INFO:ads
+2022-08-29 14:01:29,157:INFO:jwt
+2022-08-29 14:01:29,163:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 6, 6, 29, 163832)}
+2022-08-29 14:01:29,164:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTMxODl9.ytmWnIONl7WjwUETSVNGXnNi5t6v8Cg1FuVh4QbnjoU
+2022-08-29 14:03:59,774:INFO:ads
+2022-08-29 14:14:51,144:INFO:jwt
+2022-08-29 14:14:51,151:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 6, 19, 51, 151493)}
+2022-08-29 14:14:51,151:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTM5OTF9.XVy1mw780JDM4WRQRFWI-1Go1ZLwQ2FOPncC23mGpWc
+2022-08-29 14:17:21,567:INFO:ads
+2022-08-29 14:28:28,009:INFO:jwt
+2022-08-29 14:28:28,014:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 6, 33, 28, 14624)}
+2022-08-29 14:28:28,014:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NTQ4MDh9.HPPtVbSPjWCCxMZk3KRSPxlSLJ21LJH0My_9UrlHpLM
+2022-08-29 14:28:31,257:INFO:ads
+2022-08-29 14:45:37,242:INFO:jwt
+2022-08-29 14:45:37,249:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 6, 50, 37, 248988)}
+2022-08-29 14:45:37,249:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTU4Mzd9.dMOJqStIKnhpuWAmt8KAH_OfIVJy4tqX2WeYfoi2fVI
+2022-08-29 14:45:46,291:INFO:ads
+2022-08-29 14:54:59,223:INFO:jwt
+2022-08-29 14:54:59,230:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 6, 59, 59, 230010)}
+2022-08-29 14:54:59,230:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTYzOTl9.qIKRpKi_ksD9OlIFQclIpKjWK_lsPGJnuxtzwLWSoVs
+2022-08-29 14:57:29,840:INFO:ads
+2022-08-29 15:11:57,800:INFO:jwt
+2022-08-29 15:11:57,806:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 7, 16, 57, 806870)}
+2022-08-29 15:11:57,807:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTc0MTd9.r6i6Hryf_8z6h6R2H5mxNz150YNb0dVeaMrUDF3gh_8
+2022-08-29 15:12:06,776:INFO:checkNumber
+2022-08-29 15:12:06,779:INFO:3
+2022-08-29 15:12:06,779:INFO:bankConnection
+2022-08-29 15:12:06,779:INFO:3
+2022-08-29 15:12:06,780:INFO:{'phone_number': u'98883535', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-29 15:12:06,782:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:12:07,283:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-08-29 15:12:07,285:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-08-29 15:12:13,324:INFO:ads
+2022-08-29 15:12:20,568:INFO:jwt
+2022-08-29 15:12:20,573:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 7, 17, 20, 573680)}
+2022-08-29 15:12:20,573:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTc0NDB9.VNlu_Ax8oHRWabh41yPw-g5cQxihVyHlb9v9h2HNGro
+2022-08-29 15:12:29,576:INFO:ads
+2022-08-29 15:28:31,363:INFO:jwt
+2022-08-29 15:28:31,370:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 7, 33, 31, 370435)}
+2022-08-29 15:28:31,370:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NTg0MTF9.sZDB4_F6A6fBg5GlVLmsSrLimwO1ry1qEqSp8Nnp8TY
+2022-08-29 15:28:34,705:INFO:ads
+2022-08-29 15:29:14,032:INFO:jwt
+2022-08-29 15:29:14,038:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 7, 34, 14, 38462)}
+2022-08-29 15:29:14,038:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTg0NTR9.ugIYIPicPd5MkxI32oq5zC0YkG3VIIAIHuCTBEZX5Rg
+2022-08-29 15:29:21,104:INFO:checkNumber
+2022-08-29 15:29:21,108:INFO:3
+2022-08-29 15:29:21,108:INFO:bankConnection
+2022-08-29 15:29:21,108:INFO:3
+2022-08-29 15:29:21,108:INFO:{'phone_number': u'98882852', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-29 15:29:21,110:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:29:21,406:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-08-29 15:29:21,409:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-08-29 15:29:21,409:INFO:post
+2022-08-29 15:29:21,409:INFO:bankConnection
+2022-08-29 15:29:21,409:INFO:3
+2022-08-29 15:29:21,409:INFO:{'phone_number': u'98882852', 'serviceName': 'Kiosk_3'}
+2022-08-29 15:29:21,411:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:29:21,787:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-08-29 15:29:21,790:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -36}
+2022-08-29 15:29:32,341:INFO:userConfirmation
+2022-08-29 15:29:32,345:INFO:kiosk3|ШЗ80080615|98882852|newnumber|yes|2022-08-29 15:29:32
+2022-08-29 15:29:59,239:INFO:checkNumber
+2022-08-29 15:29:59,242:INFO:3
+2022-08-29 15:29:59,243:INFO:bankConnection
+2022-08-29 15:29:59,243:INFO:3
+2022-08-29 15:29:59,243:INFO:{'phone_number': u'98882852', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-29 15:29:59,244:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:29:59,514:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-08-29 15:29:59,517:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-08-29 15:29:59,517:INFO:post
+2022-08-29 15:29:59,517:INFO:bankConnection
+2022-08-29 15:29:59,517:INFO:3
+2022-08-29 15:29:59,517:INFO:{'phone_number': u'98882852', 'serviceName': 'Kiosk_3'}
+2022-08-29 15:29:59,519:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:29:59,836:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-08-29 15:29:59,838:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -36}
+2022-08-29 15:30:08,934:INFO:userConfirmation
+2022-08-29 15:30:08,938:INFO:kiosk3|ШЗ80080615|98882852|newnumber|yes|2022-08-29 15:30:08
+2022-08-29 15:30:31,827:INFO:checkNumber
+2022-08-29 15:30:31,831:INFO:3
+2022-08-29 15:30:31,831:INFO:bankConnection
+2022-08-29 15:30:31,831:INFO:3
+2022-08-29 15:30:31,831:INFO:{'phone_number': u'98882852', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-29 15:30:31,832:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:30:32,059:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-08-29 15:30:32,061:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-08-29 15:30:32,061:INFO:post
+2022-08-29 15:30:32,061:INFO:bankConnection
+2022-08-29 15:30:32,061:INFO:3
+2022-08-29 15:30:32,061:INFO:{'phone_number': u'98882852', 'serviceName': 'Kiosk_3'}
+2022-08-29 15:30:32,063:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:30:32,346:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-08-29 15:30:32,349:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -36}
+2022-08-29 15:30:36,487:INFO:userConfirmation
+2022-08-29 15:30:36,490:INFO:kiosk3|ШЗ80080615|98882852|newnumber|yes|2022-08-29 15:30:36
+2022-08-29 15:31:09,875:INFO:checkNumber
+2022-08-29 15:31:09,878:INFO:3
+2022-08-29 15:31:09,878:INFO:bankConnection
+2022-08-29 15:31:09,878:INFO:3
+2022-08-29 15:31:09,879:INFO:{'phone_number': u'98882852', 'amount': '', 'serviceName': 'Kiosk_3', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-29 15:31:09,880:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:31:10,210:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 136
+2022-08-29 15:31:10,213:INFO:{u'status': 1, u'errors': None, u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-08-29 15:31:10,213:INFO:post
+2022-08-29 15:31:10,213:INFO:bankConnection
+2022-08-29 15:31:10,213:INFO:3
+2022-08-29 15:31:10,213:INFO:{'phone_number': u'98882852', 'serviceName': 'Kiosk_3'}
+2022-08-29 15:31:10,215:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-29 15:31:10,625:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/invoice/response HTTP/1.1" 200 116
+2022-08-29 15:31:10,627:INFO:{u'action': u'invoice_index', u'status': u'Success', u'errors': u'0', u'value': -36}
+2022-08-29 15:31:14,534:INFO:userConfirmation
+2022-08-29 15:31:14,537:INFO:kiosk3|ШЗ80080615|98882852|newnumber|yes|2022-08-29 15:31:14
+2022-08-29 15:31:28,252:INFO:ads
+2022-08-29 15:45:35,770:INFO:jwt
+2022-08-29 15:45:35,776:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 7, 50, 35, 776860)}
+2022-08-29 15:45:35,777:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTk0MzV9.038eO4Y3WGp1ndWaJzBgGi_Ia3aqWuVBifSo6SuH3ZQ
+2022-08-29 15:45:43,558:INFO:prefix
+2022-08-29 15:50:58,125:INFO:ads
+2022-08-29 15:50:58,250:INFO:ads
+2022-08-29 15:53:33,951:INFO:jwt
+2022-08-29 15:53:33,957:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a3', 'user_id': 3, 'exp': datetime.datetime(2022, 8, 29, 7, 58, 33, 957495)}
+2022-08-29 15:53:33,957:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTMiLCJ1c2VyX2lkIjozLCJleHAiOjE2NjE3NTk5MTN9.Z4_Zy5GJUxpckigSIaaVocvfquDc0pD2eJcN49cLyxQ
+2022-08-29 15:53:36,756:INFO:prefix
+2022-08-29 15:54:04,995:INFO:searchNumber
+2022-08-29 15:54:04,997:INFO:83******
+2022-08-29 15:54:04,997:INFO:83******
+2022-08-29 15:54:04,997:INFO:engiin
+2022-08-29 15:54:05,000:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-08-29 15:54:05,000:INFO:ELSE
+2022-08-29 15:54:05,000:INFO:8312
+2022-08-29 15:54:05,000:INFO:****
+2022-08-29 15:54:06,039:INFO:83120035:6|83120036:6|83120114:6|83120140:6|83120148:6|83120162:6|83120171:6|83120187:6|83120193:6|83120194:6|83120242:6|83120252:6|83120267:6|83120269:6|83120282:6|83120284:6|83120286:6|83120292:6|83120298:6|83120315:6|83120320:6|83120335:6|83120339:6|83120340:6|83120347:6|83120352:6|83120356:6|83120357:6|83120364:6|83120372:6|83120375:6|83120382:6|83120386:6|83120387:6|83120389:6|83120390:6|83120394:6|83120397:6|83120398:6|83120417:6|83120418:6|83120419:6|83120427:6|83120428:6|83120430:6|83120431:6|83120434:6|83120436:6|83120437:6|83120445:6|83120446:6|83120447:6|83120449:6|83120450:6|83120452:6|83120453:6|83120456:6|83120457:6|83120458:6|83120459:6|83120463:6|83120465:6|83120467:6|83120468:6|83120474:6|83120475:6|83120476:6|83120480:6|83120481:6|83120483:6|83120485:6|83120486:6|83120494:6|83120497:6|83120498:6|83120508:6|83120514:6|83120516:6|83120518:6|83120523:6|83120524:6|83120526:6|83120527:6|83120529:6|83120532:6|83120533:6|83120534:6|83120535:6|83120536:6|83120537:6|83120538:6|83120539:6|83120540:6|83120541:6|83120542:6|83120543:6|83120544:6|83120546:6|83120548:6|83120549:6
+2022-08-29 15:54:06,039:INFO:numbers
+2022-08-29 15:54:06,040:INFO:['83120035', '83120036', '83120114', '83120140', '83120148', '83120162', '83120171', '83120187', '83120193', '83120194', '83120242', '83120252', '83120267', '83120269', '83120282', '83120284', '83120286', '83120292', '83120298', '83120315', '83120320', '83120335', '83120339', '83120340', '83120347', '83120352', '83120356', '83120357', '83120364', '83120372', '83120375', '83120382', '83120386', '83120387', '83120389', '83120390', '83120394', '83120397', '83120398', '83120417', '83120418', '83120419', '83120427', '83120428', '83120430', '83120431', '83120434', '83120436', '83120437', '83120445', '83120446', '83120447', '83120449', '83120450', '83120452', '83120453', '83120456', '83120457', '83120458', '83120459', '83120463', '83120465', '83120467', '83120468', '83120474', '83120475', '83120476', '83120480', '83120481', '83120483', '83120485', '83120486', '83120494', '83120497', '83120498', '83120508', '83120514', '83120516', '83120518', '83120523', '83120524', '83120526', '83120527', '83120529', '83120532', '83120533', '83120534', '83120535', '83120536', '83120537', '83120538', '83120539', '83120540', '83120541', '83120542', '83120543', '83120544', '83120546', '83120548', '83120549']
+2022-08-29 15:54:06,163:INFO:tmp
+2022-08-29 15:54:06,163:INFO:['83120035', '83120036', '83120114', '83120140', '83120148', '83120162', '83120171', '83120187', '83120193', '83120194', '83120242', '83120252', '83120267', '83120269', '83120282', '83120284', '83120286', '83120292', '83120298', '83120315', '83120320', '83120335', '83120339', '83120340', '83120347', '83120352', '83120356', '83120357', '83120364', '83120372', '83120375', '83120382', '83120386', '83120387', '83120389', '83120390', '83120394', '83120397', '83120398', '83120417', '83120418', '83120419', '83120427', '83120428', '83120430', '83120431', '83120434', '83120436', '83120437', '83120445', '83120446', '83120447', '83120449', '83120450', '83120452', '83120453', '83120456', '83120457', '83120458', '83120459', '83120463', '83120465', '83120467', '83120468', '83120474', '83120475', '83120476', '83120480', '83120481', '83120483', '83120485', '83120486', '83120494', '83120497', '83120498', '83120508', '83120514', '83120516', '83120518', '83120523', '83120524', '83120526', '83120527', '83120529', '83120532', '83120533', '83120534', '83120535', '83120536', '83120537', '83120538', '83120539', '83120540', '83120541', '83120542', '83120543', '83120544', '83120546', '83120548', '83120549']
+2022-08-29 15:54:06,164:INFO:[{'prefix': '83120035'}, {'prefix': '83120036'}, {'prefix': '83120114'}, {'prefix': '83120140'}, {'prefix': '83120148'}, {'prefix': '83120162'}, {'prefix': '83120171'}, {'prefix': '83120187'}, {'prefix': '83120193'}, {'prefix': '83120194'}, {'prefix': '83120242'}, {'prefix': '83120252'}, {'prefix': '83120267'}, {'prefix': '83120269'}, {'prefix': '83120282'}, {'prefix': '83120284'}, {'prefix': '83120286'}, {'prefix': '83120292'}, {'prefix': '83120298'}, {'prefix': '83120315'}, {'prefix': '83120320'}, {'prefix': '83120335'}, {'prefix': '83120339'}, {'prefix': '83120340'}, {'prefix': '83120347'}, {'prefix': '83120352'}, {'prefix': '83120356'}, {'prefix': '83120357'}, {'prefix': '83120364'}, {'prefix': '83120372'}, {'prefix': '83120375'}, {'prefix': '83120382'}, {'prefix': '83120386'}, {'prefix': '83120387'}, {'prefix': '83120389'}, {'prefix': '83120390'}, {'prefix': '83120394'}, {'prefix': '83120397'}, {'prefix': '83120398'}, {'prefix': '83120417'}, {'prefix': '83120418'}, {'prefix': '83120419'}, {'prefix': '83120427'}, {'prefix': '83120428'}, {'prefix': '83120430'}, {'prefix': '83120431'}, {'prefix': '83120434'}, {'prefix': '83120436'}, {'prefix': '83120437'}, {'prefix': '83120445'}, {'prefix': '83120446'}, {'prefix': '83120447'}, {'prefix': '83120449'}, {'prefix': '83120450'}, {'prefix': '83120452'}, {'prefix': '83120453'}, {'prefix': '83120456'}, {'prefix': '83120457'}, {'prefix': '83120458'}, {'prefix': '83120459'}, {'prefix': '83120463'}, {'prefix': '83120465'}, {'prefix': '83120467'}, {'prefix': '83120468'}, {'prefix': '83120474'}, {'prefix': '83120475'}, {'prefix': '83120476'}, {'prefix': '83120480'}, {'prefix': '83120481'}, {'prefix': '83120483'}, {'prefix': '83120485'}, {'prefix': '83120486'}, {'prefix': '83120494'}, {'prefix': '83120497'}, {'prefix': '83120498'}, {'prefix': '83120508'}, {'prefix': '83120514'}, {'prefix': '83120516'}, {'prefix': '83120518'}, {'prefix': '83120523'}, {'prefix': '83120524'}, {'prefix': '83120526'}, {'prefix': '83120527'}, {'prefix': '83120529'}, {'prefix': '83120532'}, {'prefix': '83120533'}, {'prefix': '83120534'}, {'prefix': '83120535'}, {'prefix': '83120536'}, {'prefix': '83120537'}, {'prefix': '83120538'}, {'prefix': '83120539'}, {'prefix': '83120540'}, {'prefix': '83120541'}, {'prefix': '83120542'}, {'prefix': '83120543'}, {'prefix': '83120544'}, {'prefix': '83120546'}, {'prefix': '83120548'}, {'prefix': '83120549'}]
+2022-08-29 15:54:16,399:INFO:searchNumber
+2022-08-29 15:54:16,401:INFO:97******
+2022-08-29 15:54:16,401:INFO:97******
+2022-08-29 15:54:16,401:INFO:engiin
+2022-08-29 15:54:16,403:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-08-29 15:54:16,404:INFO:ELSE
+2022-08-29 15:54:16,404:INFO:9712
+2022-08-29 15:54:16,404:INFO:****
+2022-08-29 15:54:18,545:INFO:97120134:6|97120416:6|97120605:6|97120715:6|97121077:6|97121180:6|97121980:6|97121981:6|97121982:6|97121983:6|97121984:6|97121985:6|97121986:6|97121987:6|97121988:6|97121990:6|97121992:6|97121994:6|97121995:6|97121996:6|97121997:6|97121998:6|97122001:6|97122003:6|97122004:6|97122005:6|97122006:6|97122007:6|97122009:6|97122011:6|97122014:6|97122016:6|97122018:6|97122019:6|97122023:6|97122024:6|97122027:6|97122028:6|97122031:6|97122032:6|97122034:6|97122035:6|97122037:6|97122038:6|97122039:6|97122040:6|97122041:6|97122042:6|97122043:6|97122044:6|97122045:6|97122046:6|97122047:6|97122048:6|97122049:6|97122051:6|97122052:6|97122053:6|97122054:6|97122056:6|97122057:6|97122058:6|97122059:6|97122061:6|97122062:6|97122063:6|97122064:6|97122065:6|97122066:6|97122067:6|97122068:6|97122069:6|97122070:6|97122071:6|97122072:6|97122073:6|97122074:6|97122075:6|97122076:6|97122077:6|97122078:6|97122081:6|97122082:6|97122083:6|97122084:6|97122085:6|97122086:6|97122087:6|97122088:6|97122089:6|97122090:6|97122091:6|97122092:6|97122093:6|97122094:6|97122095:6|97122096:6|97122097:6|97122103:6|97122104:6
+2022-08-29 15:54:18,546:INFO:numbers
+2022-08-29 15:54:18,546:INFO:['97120134', '97120416', '97120605', '97120715', '97121077', '97121180', '97121980', '97121981', '97121982', '97121983', '97121984', '97121985', '97121986', '97121987', '97121988', '97121990', '97121992', '97121994', '97121995', '97121996', '97121997', '97121998', '97122001', '97122003', '97122004', '97122005', '97122006', '97122007', '97122009', '97122011', '97122014', '97122016', '97122018', '97122019', '97122023', '97122024', '97122027', '97122028', '97122031', '97122032', '97122034', '97122035', '97122037', '97122038', '97122039', '97122040', '97122041', '97122042', '97122043', '97122044', '97122045', '97122046', '97122047', '97122048', '97122049', '97122051', '97122052', '97122053', '97122054', '97122056', '97122057', '97122058', '97122059', '97122061', '97122062', '97122063', '97122064', '97122065', '97122066', '97122067', '97122068', '97122069', '97122070', '97122071', '97122072', '97122073', '97122074', '97122075', '97122076', '97122077', '97122078', '97122081', '97122082', '97122083', '97122084', '97122085', '97122086', '97122087', '97122088', '97122089', '97122090', '97122091', '97122092', '97122093', '97122094', '97122095', '97122096', '97122097', '97122103', '97122104']
+2022-08-29 15:54:18,665:INFO:tmp
+2022-08-29 15:54:18,665:INFO:['97120134', '97120416', '97120605', '97120715', '97121077', '97121180', '97121980', '97121981', '97121982', '97121983', '97121984', '97121985', '97121986', '97121987', '97121988', '97121990', '97121992', '97121994', '97121995', '97121996', '97121997', '97121998', '97122001', '97122003', '97122004', '97122005', '97122006', '97122007', '97122009', '97122011', '97122014', '97122016', '97122018', '97122019', '97122023', '97122024', '97122027', '97122028', '97122031', '97122032', '97122034', '97122035', '97122037', '97122038', '97122039', '97122040', '97122041', '97122042', '97122043', '97122044', '97122045', '97122046', '97122047', '97122048', '97122049', '97122051', '97122052', '97122053', '97122054', '97122056', '97122057', '97122058', '97122059', '97122061', '97122062', '97122063', '97122064', '97122065', '97122066', '97122067', '97122068', '97122069', '97122070', '97122071', '97122072', '97122073', '97122074', '97122075', '97122076', '97122077', '97122078', '97122081', '97122082', '97122083', '97122084', '97122085', '97122086', '97122087', '97122088', '97122089', '97122090', '97122091', '97122092', '97122093', '97122094', '97122095', '97122096', '97122097', '97122103', '97122104']
+2022-08-29 15:54:18,665:INFO:[{'prefix': '97120134'}, {'prefix': '97120416'}, {'prefix': '97120605'}, {'prefix': '97120715'}, {'prefix': '97121077'}, {'prefix': '97121180'}, {'prefix': '97121980'}, {'prefix': '97121981'}, {'prefix': '97121982'}, {'prefix': '97121983'}, {'prefix': '97121984'}, {'prefix': '97121985'}, {'prefix': '97121986'}, {'prefix': '97121987'}, {'prefix': '97121988'}, {'prefix': '97121990'}, {'prefix': '97121992'}, {'prefix': '97121994'}, {'prefix': '97121995'}, {'prefix': '97121996'}, {'prefix': '97121997'}, {'prefix': '97121998'}, {'prefix': '97122001'}, {'prefix': '97122003'}, {'prefix': '97122004'}, {'prefix': '97122005'}, {'prefix': '97122006'}, {'prefix': '97122007'}, {'prefix': '97122009'}, {'prefix': '97122011'}, {'prefix': '97122014'}, {'prefix': '97122016'}, {'prefix': '97122018'}, {'prefix': '97122019'}, {'prefix': '97122023'}, {'prefix': '97122024'}, {'prefix': '97122027'}, {'prefix': '97122028'}, {'prefix': '97122031'}, {'prefix': '97122032'}, {'prefix': '97122034'}, {'prefix': '97122035'}, {'prefix': '97122037'}, {'prefix': '97122038'}, {'prefix': '97122039'}, {'prefix': '97122040'}, {'prefix': '97122041'}, {'prefix': '97122042'}, {'prefix': '97122043'}, {'prefix': '97122044'}, {'prefix': '97122045'}, {'prefix': '97122046'}, {'prefix': '97122047'}, {'prefix': '97122048'}, {'prefix': '97122049'}, {'prefix': '97122051'}, {'prefix': '97122052'}, {'prefix': '97122053'}, {'prefix': '97122054'}, {'prefix': '97122056'}, {'prefix': '97122057'}, {'prefix': '97122058'}, {'prefix': '97122059'}, {'prefix': '97122061'}, {'prefix': '97122062'}, {'prefix': '97122063'}, {'prefix': '97122064'}, {'prefix': '97122065'}, {'prefix': '97122066'}, {'prefix': '97122067'}, {'prefix': '97122068'}, {'prefix': '97122069'}, {'prefix': '97122070'}, {'prefix': '97122071'}, {'prefix': '97122072'}, {'prefix': '97122073'}, {'prefix': '97122074'}, {'prefix': '97122075'}, {'prefix': '97122076'}, {'prefix': '97122077'}, {'prefix': '97122078'}, {'prefix': '97122081'}, {'prefix': '97122082'}, {'prefix': '97122083'}, {'prefix': '97122084'}, {'prefix': '97122085'}, {'prefix': '97122086'}, {'prefix': '97122087'}, {'prefix': '97122088'}, {'prefix': '97122089'}, {'prefix': '97122090'}, {'prefix': '97122091'}, {'prefix': '97122092'}, {'prefix': '97122093'}, {'prefix': '97122094'}, {'prefix': '97122095'}, {'prefix': '97122096'}, {'prefix': '97122097'}, {'prefix': '97122103'}, {'prefix': '97122104'}]
+2022-08-29 15:54:29,316:INFO:searchNumber
+2022-08-29 15:54:29,318:INFO:93******
+2022-08-29 15:54:29,319:INFO:93******
+2022-08-29 15:54:29,319:INFO:engiin
+2022-08-29 15:54:29,321:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-08-29 15:54:29,321:INFO:ELSE
+2022-08-29 15:54:29,322:INFO:9312
+2022-08-29 15:54:29,322:INFO:****
+2022-08-29 15:54:29,551:INFO:93120102:6|93120549:6|93120596:6|93120597:6|93120615:6|93120629:6|93120631:6|93120632:6|93120634:6|93120638:6|93120645:6|93120648:6|93120650:6|93120652:6|93120654:6|93120658:6|93120659:6|93120667:6|93120669:6|93120673:6|93120674:6|93120675:6|93120678:6|93120679:6|93120683:6|93120684:6|93120685:6|93120687:6|93120690:6|93120692:6|93120693:6|93120694:6|93120695:6|93120696:6|93120698:6|93120718:6|93120719:6|93120720:6|93120723:6|93120724:6|93120727:6|93120728:6|93120730:6|93120732:6|93120735:6|93120736:6|93120737:6|93120738:6|93120739:6|93120741:6|93120742:6|93120743:6|93120745:6|93120746:6|93120748:6|93120749:6|93120750:6|93120752:6|93120756:6|93120757:6|93120759:6|93120762:6|93120763:6|93120764:6|93120767:6|93120768:6|93120772:6|93120773:6|93120774:6|93120775:6|93120778:6|93120779:6|93120780:6|93120781:6|93120782:6|93120783:6|93120784:6|93120785:6|93120786:6|93120787:6|93120789:6|93120791:6|93120792:6|93120793:6|93120794:6|93120795:6|93120797:6|93120813:6|93120817:6|93120819:6|93120824:6|93120827:6|93120830:6|93120832:6|93120835:6|93120836:6|93120838:6|93120839:6|93120840:6|93120843:6
+2022-08-29 15:54:29,551:INFO:numbers
+2022-08-29 15:54:29,551:INFO:['93120102', '93120549', '93120596', '93120597', '93120615', '93120629', '93120631', '93120632', '93120634', '93120638', '93120645', '93120648', '93120650', '93120652', '93120654', '93120658', '93120659', '93120667', '93120669', '93120673', '93120674', '93120675', '93120678', '93120679', '93120683', '93120684', '93120685', '93120687', '93120690', '93120692', '93120693', '93120694', '93120695', '93120696', '93120698', '93120718', '93120719', '93120720', '93120723', '93120724', '93120727', '93120728', '93120730', '93120732', '93120735', '93120736', '93120737', '93120738', '93120739', '93120741', '93120742', '93120743', '93120745', '93120746', '93120748', '93120749', '93120750', '93120752', '93120756', '93120757', '93120759', '93120762', '93120763', '93120764', '93120767', '93120768', '93120772', '93120773', '93120774', '93120775', '93120778', '93120779', '93120780', '93120781', '93120782', '93120783', '93120784', '93120785', '93120786', '93120787', '93120789', '93120791', '93120792', '93120793', '93120794', '93120795', '93120797', '93120813', '93120817', '93120819', '93120824', '93120827', '93120830', '93120832', '93120835', '93120836', '93120838', '93120839', '93120840', '93120843']
+2022-08-29 15:54:29,671:INFO:tmp
+2022-08-29 15:54:29,671:INFO:['93120102', '93120549', '93120596', '93120597', '93120615', '93120629', '93120631', '93120632', '93120634', '93120638', '93120645', '93120648', '93120650', '93120652', '93120654', '93120658', '93120659', '93120667', '93120669', '93120673', '93120674', '93120675', '93120678', '93120679', '93120683', '93120684', '93120685', '93120687', '93120690', '93120692', '93120693', '93120694', '93120695', '93120696', '93120698', '93120718', '93120719', '93120720', '93120723', '93120724', '93120727', '93120728', '93120730', '93120732', '93120735', '93120736', '93120737', '93120738', '93120739', '93120741', '93120742', '93120743', '93120745', '93120746', '93120748', '93120749', '93120750', '93120752', '93120756', '93120757', '93120759', '93120762', '93120763', '93120764', '93120767', '93120768', '93120772', '93120773', '93120774', '93120775', '93120778', '93120779', '93120780', '93120781', '93120782', '93120783', '93120784', '93120785', '93120786', '93120787', '93120789', '93120791', '93120792', '93120793', '93120794', '93120795', '93120797', '93120813', '93120817', '93120819', '93120824', '93120827', '93120830', '93120832', '93120835', '93120836', '93120838', '93120839', '93120840', '93120843']
+2022-08-29 15:54:29,671:INFO:[{'prefix': '93120102'}, {'prefix': '93120549'}, {'prefix': '93120596'}, {'prefix': '93120597'}, {'prefix': '93120615'}, {'prefix': '93120629'}, {'prefix': '93120631'}, {'prefix': '93120632'}, {'prefix': '93120634'}, {'prefix': '93120638'}, {'prefix': '93120645'}, {'prefix': '93120648'}, {'prefix': '93120650'}, {'prefix': '93120652'}, {'prefix': '93120654'}, {'prefix': '93120658'}, {'prefix': '93120659'}, {'prefix': '93120667'}, {'prefix': '93120669'}, {'prefix': '93120673'}, {'prefix': '93120674'}, {'prefix': '93120675'}, {'prefix': '93120678'}, {'prefix': '93120679'}, {'prefix': '93120683'}, {'prefix': '93120684'}, {'prefix': '93120685'}, {'prefix': '93120687'}, {'prefix': '93120690'}, {'prefix': '93120692'}, {'prefix': '93120693'}, {'prefix': '93120694'}, {'prefix': '93120695'}, {'prefix': '93120696'}, {'prefix': '93120698'}, {'prefix': '93120718'}, {'prefix': '93120719'}, {'prefix': '93120720'}, {'prefix': '93120723'}, {'prefix': '93120724'}, {'prefix': '93120727'}, {'prefix': '93120728'}, {'prefix': '93120730'}, {'prefix': '93120732'}, {'prefix': '93120735'}, {'prefix': '93120736'}, {'prefix': '93120737'}, {'prefix': '93120738'}, {'prefix': '93120739'}, {'prefix': '93120741'}, {'prefix': '93120742'}, {'prefix': '93120743'}, {'prefix': '93120745'}, {'prefix': '93120746'}, {'prefix': '93120748'}, {'prefix': '93120749'}, {'prefix': '93120750'}, {'prefix': '93120752'}, {'prefix': '93120756'}, {'prefix': '93120757'}, {'prefix': '93120759'}, {'prefix': '93120762'}, {'prefix': '93120763'}, {'prefix': '93120764'}, {'prefix': '93120767'}, {'prefix': '93120768'}, {'prefix': '93120772'}, {'prefix': '93120773'}, {'prefix': '93120774'}, {'prefix': '93120775'}, {'prefix': '93120778'}, {'prefix': '93120779'}, {'prefix': '93120780'}, {'prefix': '93120781'}, {'prefix': '93120782'}, {'prefix': '93120783'}, {'prefix': '93120784'}, {'prefix': '93120785'}, {'prefix': '93120786'}, {'prefix': '93120787'}, {'prefix': '93120789'}, {'prefix': '93120791'}, {'prefix': '93120792'}, {'prefix': '93120793'}, {'prefix': '93120794'}, {'prefix': '93120795'}, {'prefix': '93120797'}, {'prefix': '93120813'}, {'prefix': '93120817'}, {'prefix': '93120819'}, {'prefix': '93120824'}, {'prefix': '93120827'}, {'prefix': '93120830'}, {'prefix': '93120832'}, {'prefix': '93120835'}, {'prefix': '93120836'}, {'prefix': '93120838'}, {'prefix': '93120839'}, {'prefix': '93120840'}, {'prefix': '93120843'}]
+2022-08-29 15:54:52,387:INFO:searchNumber
+2022-08-29 15:54:52,389:INFO:93119354
+2022-08-29 15:54:52,389:INFO:93119354
+2022-08-29 15:54:52,389:INFO:engiin
+2022-08-29 15:54:52,392:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-08-29 15:54:52,392:INFO:ELSE
+2022-08-29 15:54:52,392:INFO:9311
+2022-08-29 15:54:52,392:INFO:9354
+2022-08-29 15:54:53,335:INFO:93119354:6
+2022-08-29 15:54:53,335:INFO:numbers
+2022-08-29 15:54:53,335:INFO:['93119354']
+2022-08-29 15:54:53,337:INFO:tmp
+2022-08-29 15:54:53,337:INFO:[]
+2022-08-29 15:54:53,337:INFO:[]
+2022-08-29 15:55:12,935:INFO:searchNumber
+2022-08-29 15:55:12,938:INFO:93******
+2022-08-29 15:55:12,938:INFO:93******
+2022-08-29 15:55:12,938:INFO:engiin
+2022-08-29 15:55:12,940:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-08-29 15:55:12,940:INFO:ELSE
+2022-08-29 15:55:12,941:INFO:9312
+2022-08-29 15:55:12,941:INFO:****
+2022-08-29 15:55:14,057:INFO:93120102:6|93120549:6|93120596:6|93120597:6|93120615:6|93120629:6|93120631:6|93120632:6|93120634:6|93120638:6|93120645:6|93120648:6|93120650:6|93120652:6|93120654:6|93120658:6|93120659:6|93120667:6|93120669:6|93120673:6|93120674:6|93120675:6|93120678:6|93120679:6|93120683:6|93120684:6|93120685:6|93120687:6|93120690:6|93120692:6|93120693:6|93120694:6|93120695:6|93120696:6|93120698:6|93120718:6|93120719:6|93120720:6|93120723:6|93120724:6|93120727:6|93120728:6|93120730:6|93120732:6|93120735:6|93120736:6|93120737:6|93120738:6|93120739:6|93120741:6|93120742:6|93120743:6|93120745:6|93120746:6|93120748:6|93120749:6|93120750:6|93120752:6|93120756:6|93120757:6|93120759:6|93120762:6|93120763:6|93120764:6|93120767:6|93120768:6|93120772:6|93120773:6|93120774:6|93120775:6|93120778:6|93120779:6|93120780:6|93120781:6|93120782:6|93120783:6|93120784:6|93120785:6|93120786:6|93120787:6|93120789:6|93120791:6|93120792:6|93120793:6|93120794:6|93120795:6|93120797:6|93120813:6|93120817:6|93120819:6|93120824:6|93120827:6|93120830:6|93120832:6|93120835:6|93120836:6|93120838:6|93120839:6|93120840:6|93120843:6
+2022-08-29 15:55:14,057:INFO:numbers
+2022-08-29 15:55:14,058:INFO:['93120102', '93120549', '93120596', '93120597', '93120615', '93120629', '93120631', '93120632', '93120634', '93120638', '93120645', '93120648', '93120650', '93120652', '93120654', '93120658', '93120659', '93120667', '93120669', '93120673', '93120674', '93120675', '93120678', '93120679', '93120683', '93120684', '93120685', '93120687', '93120690', '93120692', '93120693', '93120694', '93120695', '93120696', '93120698', '93120718', '93120719', '93120720', '93120723', '93120724', '93120727', '93120728', '93120730', '93120732', '93120735', '93120736', '93120737', '93120738', '93120739', '93120741', '93120742', '93120743', '93120745', '93120746', '93120748', '93120749', '93120750', '93120752', '93120756', '93120757', '93120759', '93120762', '93120763', '93120764', '93120767', '93120768', '93120772', '93120773', '93120774', '93120775', '93120778', '93120779', '93120780', '93120781', '93120782', '93120783', '93120784', '93120785', '93120786', '93120787', '93120789', '93120791', '93120792', '93120793', '93120794', '93120795', '93120797', '93120813', '93120817', '93120819', '93120824', '93120827', '93120830', '93120832', '93120835', '93120836', '93120838', '93120839', '93120840', '93120843']
+2022-08-29 15:55:14,182:INFO:tmp
+2022-08-29 15:55:14,182:INFO:['93120102', '93120549', '93120596', '93120597', '93120615', '93120629', '93120631', '93120632', '93120634', '93120638', '93120645', '93120648', '93120650', '93120652', '93120654', '93120658', '93120659', '93120667', '93120669', '93120673', '93120674', '93120675', '93120678', '93120679', '93120683', '93120684', '93120685', '93120687', '93120690', '93120692', '93120693', '93120694', '93120695', '93120696', '93120698', '93120718', '93120719', '93120720', '93120723', '93120724', '93120727', '93120728', '93120730', '93120732', '93120735', '93120736', '93120737', '93120738', '93120739', '93120741', '93120742', '93120743', '93120745', '93120746', '93120748', '93120749', '93120750', '93120752', '93120756', '93120757', '93120759', '93120762', '93120763', '93120764', '93120767', '93120768', '93120772', '93120773', '93120774', '93120775', '93120778', '93120779', '93120780', '93120781', '93120782', '93120783', '93120784', '93120785', '93120786', '93120787', '93120789', '93120791', '93120792', '93120793', '93120794', '93120795', '93120797', '93120813', '93120817', '93120819', '93120824', '93120827', '93120830', '93120832', '93120835', '93120836', '93120838', '93120839', '93120840', '93120843']
+2022-08-29 15:55:14,182:INFO:[{'prefix': '93120102'}, {'prefix': '93120549'}, {'prefix': '93120596'}, {'prefix': '93120597'}, {'prefix': '93120615'}, {'prefix': '93120629'}, {'prefix': '93120631'}, {'prefix': '93120632'}, {'prefix': '93120634'}, {'prefix': '93120638'}, {'prefix': '93120645'}, {'prefix': '93120648'}, {'prefix': '93120650'}, {'prefix': '93120652'}, {'prefix': '93120654'}, {'prefix': '93120658'}, {'prefix': '93120659'}, {'prefix': '93120667'}, {'prefix': '93120669'}, {'prefix': '93120673'}, {'prefix': '93120674'}, {'prefix': '93120675'}, {'prefix': '93120678'}, {'prefix': '93120679'}, {'prefix': '93120683'}, {'prefix': '93120684'}, {'prefix': '93120685'}, {'prefix': '93120687'}, {'prefix': '93120690'}, {'prefix': '93120692'}, {'prefix': '93120693'}, {'prefix': '93120694'}, {'prefix': '93120695'}, {'prefix': '93120696'}, {'prefix': '93120698'}, {'prefix': '93120718'}, {'prefix': '93120719'}, {'prefix': '93120720'}, {'prefix': '93120723'}, {'prefix': '93120724'}, {'prefix': '93120727'}, {'prefix': '93120728'}, {'prefix': '93120730'}, {'prefix': '93120732'}, {'prefix': '93120735'}, {'prefix': '93120736'}, {'prefix': '93120737'}, {'prefix': '93120738'}, {'prefix': '93120739'}, {'prefix': '93120741'}, {'prefix': '93120742'}, {'prefix': '93120743'}, {'prefix': '93120745'}, {'prefix': '93120746'}, {'prefix': '93120748'}, {'prefix': '93120749'}, {'prefix': '93120750'}, {'prefix': '93120752'}, {'prefix': '93120756'}, {'prefix': '93120757'}, {'prefix': '93120759'}, {'prefix': '93120762'}, {'prefix': '93120763'}, {'prefix': '93120764'}, {'prefix': '93120767'}, {'prefix': '93120768'}, {'prefix': '93120772'}, {'prefix': '93120773'}, {'prefix': '93120774'}, {'prefix': '93120775'}, {'prefix': '93120778'}, {'prefix': '93120779'}, {'prefix': '93120780'}, {'prefix': '93120781'}, {'prefix': '93120782'}, {'prefix': '93120783'}, {'prefix': '93120784'}, {'prefix': '93120785'}, {'prefix': '93120786'}, {'prefix': '93120787'}, {'prefix': '93120789'}, {'prefix': '93120791'}, {'prefix': '93120792'}, {'prefix': '93120793'}, {'prefix': '93120794'}, {'prefix': '93120795'}, {'prefix': '93120797'}, {'prefix': '93120813'}, {'prefix': '93120817'}, {'prefix': '93120819'}, {'prefix': '93120824'}, {'prefix': '93120827'}, {'prefix': '93120830'}, {'prefix': '93120832'}, {'prefix': '93120835'}, {'prefix': '93120836'}, {'prefix': '93120838'}, {'prefix': '93120839'}, {'prefix': '93120840'}, {'prefix': '93120843'}]
+2022-08-29 15:55:25,569:INFO:blockUnblock
+2022-08-29 15:55:25,570:INFO:block
+2022-08-29 15:55:25,570:INFO:1
+2022-08-29 15:55:25,570:INFO:user_ip: 192.168.16.196
+2022-08-29 15:55:25,588:INFO:Success
+2022-08-29 15:55:25,592:INFO:5000
+2022-08-29 15:55:25,592:INFO:{u'negj': u'3000', u'honog': u'30', u'nuhtsul': u'\u0411\u04af\u0445 \u0441\u04af\u043b\u0436\u044d\u044d\u043d\u0434\u044d\u044d 70 \u0442\u04e9\u0433', u'data': u'0', u'price': 5000}
+2022-08-29 15:56:05,813:INFO:userConfirmation
+2022-08-29 15:56:05,816:INFO:kiosk3|СЖ72102617|93120102|newnumber|yes|2022-08-29 15:56:05
+2022-08-29 15:57:59,166:INFO:ads
+2022-08-29 15:57:59,297:INFO:ads
+2022-08-29 16:28:34,578:INFO:jwt
+2022-08-29 16:28:34,584:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 8, 33, 34, 584108)}
+2022-08-29 16:28:34,584:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NjIwMTR9.I8iTwJjKBD3J8fcU0rWnyPFgRz4lN4UF92lVbge9QUg
+2022-08-29 16:28:37,782:INFO:ads
+2022-08-29 17:28:37,707:INFO:jwt
+2022-08-29 17:28:37,712:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 9, 33, 37, 712298)}
+2022-08-29 17:28:37,712:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NjU2MTd9.PwfVKOAZLmo-wBLvg0l5hUumUI9rSF62i_Gkr59-Dd0
+2022-08-29 17:28:40,966:INFO:ads
+2022-08-29 17:31:42,655:INFO:jwt
+2022-08-29 17:31:42,661:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 9, 36, 42, 660990)}
+2022-08-29 17:31:42,661:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NjU4MDJ9.BCbMb_8j6Zmj-don3M9-SHKjrxLbq7_QMoiT_jz3mhI
+2022-08-29 17:31:46,392:INFO:ads
+2022-08-29 18:28:40,936:INFO:jwt
+2022-08-29 18:28:40,942:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 10, 33, 40, 942113)}
+2022-08-29 18:28:40,942:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NjkyMjB9.CLMsZk1MNOnuSp5uRgVyfBTEwocoDPyhUyisKQfSFeQ
+2022-08-29 18:28:44,152:INFO:ads
+2022-08-29 19:28:44,055:INFO:jwt
+2022-08-29 19:28:44,061:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 11, 33, 44, 61627)}
+2022-08-29 19:28:44,061:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NzI4MjR9.XZ_B1p51xjo_DPqXaAH-kg-SDArRTkZDB_J_auwVPcs
+2022-08-29 19:28:47,263:INFO:ads
+2022-08-29 20:28:47,376:INFO:jwt
+2022-08-29 20:28:47,382:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 12, 33, 47, 382583)}
+2022-08-29 20:28:47,382:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3NzY0Mjd9.l5arQb5adbqBooyQF9kLKQdSdWWbEqzDLOIbXmCzG3Y
+2022-08-29 20:28:50,677:INFO:ads
+2022-08-29 21:28:50,859:INFO:jwt
+2022-08-29 21:28:50,864:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 13, 33, 50, 864767)}
+2022-08-29 21:28:50,865:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3ODAwMzB9.pPG2_iKkBvNErZXDz6do1FHAxZLFYiUgzNe0MEGVz-A
+2022-08-29 21:28:54,220:INFO:ads
+2022-08-29 22:28:54,331:INFO:jwt
+2022-08-29 22:28:54,336:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 14, 33, 54, 336727)}
+2022-08-29 22:28:54,337:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3ODM2MzR9.eKiGN0h2mbJnJj89r79RR5UUAh0GdfIyYpeaN9JNgwI
+2022-08-29 22:28:57,581:INFO:ads
+2022-08-29 23:28:57,484:INFO:jwt
+2022-08-29 23:28:57,490:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 15, 33, 57, 490435)}
+2022-08-29 23:28:57,490:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3ODcyMzd9.TFUHeHvWDLAYBNLc_6p-aoWTjpAxV8KO1Iz8PivlAuo
+2022-08-29 23:29:00,708:INFO:ads
+2022-08-30 00:29:00,683:INFO:jwt
+2022-08-30 00:29:00,688:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 16, 34, 0, 688677)}
+2022-08-30 00:29:00,689:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3OTA4NDB9.Khz-hyw1wS3rAoMGFsYPsmnOEUnpB3DAGPODzJQkMNI
+2022-08-30 00:29:03,935:INFO:ads
+2022-08-30 01:29:04,261:INFO:jwt
+2022-08-30 01:29:04,267:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 17, 34, 4, 267013)}
+2022-08-30 01:29:04,267:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3OTQ0NDR9.85Sr0AMg2vqSyfpxKmyS5p9q-XWdd6_0Jm4tAtuTiLQ
+2022-08-30 01:29:07,493:INFO:ads
+2022-08-30 02:29:07,417:INFO:jwt
+2022-08-30 02:29:07,423:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 18, 34, 7, 423851)}
+2022-08-30 02:29:07,424:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE3OTgwNDd9.dWrZLMNCoz0h1whGT85Rv0dNHQx72oJnsEFqPg4qBU8
+2022-08-30 02:29:10,654:INFO:ads
+2022-08-30 03:29:10,698:INFO:jwt
+2022-08-30 03:29:10,704:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 19, 34, 10, 704286)}
+2022-08-30 03:29:10,704:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MDE2NTB9.bEWgKEJUULe3U2XdE2dWjwwlVJmaikwyoMpvXjkUN6Y
+2022-08-30 03:29:13,916:INFO:ads
+2022-08-30 04:29:13,746:INFO:jwt
+2022-08-30 04:29:13,751:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 20, 34, 13, 751752)}
+2022-08-30 04:29:13,752:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MDUyNTN9.cqdLwah_PantGCI4V_kqslkiXxXC_WOMHjFpKScO4Ak
+2022-08-30 04:29:16,923:INFO:ads
+2022-08-30 05:29:16,719:INFO:jwt
+2022-08-30 05:29:16,725:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 21, 34, 16, 725574)}
+2022-08-30 05:29:16,725:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MDg4NTZ9.WrFQy9wT83V9jSXR-EWjYObKc1mZO4QzUIPEYYdeC-I
+2022-08-30 05:29:19,993:INFO:ads
+2022-08-30 06:29:20,142:INFO:jwt
+2022-08-30 06:29:20,148:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 22, 34, 20, 148452)}
+2022-08-30 06:29:20,148:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MTI0NjB9.It5Z_h-OfEnnAroD2mYOPxuR7V4JhdILOYUEikkKPdI
+2022-08-30 06:29:23,330:INFO:ads
+2022-08-30 07:29:23,467:INFO:jwt
+2022-08-30 07:29:23,473:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 29, 23, 34, 23, 473397)}
+2022-08-30 07:29:23,473:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MTYwNjN9.vSZxUkpM_xHVXJuHlKzVN5pcsjEUFwwnDcQXtKjMRaE
+2022-08-30 07:29:26,781:INFO:ads
+2022-08-30 08:29:26,887:INFO:jwt
+2022-08-30 08:29:26,894:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 0, 34, 26, 894130)}
+2022-08-30 08:29:26,894:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MTk2NjZ9.dcF29PU80sBIlc_EGHNJtn_VzP85m4x3NOkfXA7i2kg
+2022-08-30 08:29:30,245:INFO:ads
+2022-08-30 09:29:30,399:INFO:jwt
+2022-08-30 09:29:30,405:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 1, 34, 30, 405180)}
+2022-08-30 09:29:30,405:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MjMyNzB9.-pBp9XFnJIgUawZcp4rsPlsaRzGMYC84pWQS_9d0xb4
+2022-08-30 09:29:33,779:INFO:ads
+2022-08-30 10:29:33,764:INFO:jwt
+2022-08-30 10:29:33,770:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 2, 34, 33, 770686)}
+2022-08-30 10:29:33,770:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MjY4NzN9.lcZ7UsuBeNths-hT6pe_t-E1BSkwAwajVDAXN77TmkI
+2022-08-30 10:29:37,011:INFO:ads
+2022-08-30 11:29:37,327:INFO:jwt
+2022-08-30 11:29:37,333:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 3, 34, 37, 333387)}
+2022-08-30 11:29:37,333:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MzA0Nzd9.lAHZY3X5IH5PKjk_tyvsnHAcB9hkC7fqSkB0DaKhxgs
+2022-08-30 11:29:40,696:INFO:ads
+2022-08-30 12:29:40,564:INFO:jwt
+2022-08-30 12:29:40,569:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 4, 34, 40, 569718)}
+2022-08-30 12:29:40,570:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4MzQwODB9.wxjiU6a6ElCtHuG41y6FR1QEmn8u1is2nhr39_jKJsE
+2022-08-30 12:29:43,787:INFO:ads
+2022-08-30 13:29:44,011:INFO:jwt
+2022-08-30 13:29:44,017:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 5, 34, 44, 17387)}
+2022-08-30 13:29:44,017:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4Mzc2ODR9.-PyzxHOAZNaWmbiEzEXaiVKbjDZvaR1dJ54oVgEA3us
+2022-08-30 13:29:47,296:INFO:ads
+2022-08-30 14:29:47,464:INFO:jwt
+2022-08-30 14:29:47,470:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 6, 34, 47, 470285)}
+2022-08-30 14:29:47,470:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NDEyODd9.AX61FHfyWWGQrt_HKnVkfu8V55Xen948d78jJGVZo1U
+2022-08-30 14:29:50,772:INFO:ads
+2022-08-30 15:29:50,731:INFO:jwt
+2022-08-30 15:29:50,737:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 7, 34, 50, 737222)}
+2022-08-30 15:29:50,737:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NDQ4OTB9.aJ-blE4VwMtdE52iCyxuelg6Jws8LTUbqnBCfJXfKOE
+2022-08-30 15:29:53,984:INFO:ads
+2022-08-30 16:29:54,442:INFO:jwt
+2022-08-30 16:29:54,448:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 8, 34, 54, 448809)}
+2022-08-30 16:29:54,449:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NDg0OTR9.uk3CtRJg47Ao60hn3WKE0b2j5MZSOSDSNxcS4hQMDxg
+2022-08-30 16:29:57,668:INFO:ads
+2022-08-30 17:29:57,733:INFO:jwt
+2022-08-30 17:29:57,739:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 9, 34, 57, 739327)}
+2022-08-30 17:29:57,739:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NTIwOTd9.Fi5EM8vhk1KLgSx73fK11lLTrXPeSaVRiwD0iDZA5tE
+2022-08-30 17:30:01,068:INFO:ads
+2022-08-30 18:30:01,112:INFO:jwt
+2022-08-30 18:30:01,119:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 10, 35, 1, 119530)}
+2022-08-30 18:30:01,119:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NTU3MDF9.bLqVG4ugGnpedyB1MEqm5MjMSPu5Y3tBuJ4EXnSkjKc
+2022-08-30 18:30:04,365:INFO:ads
+2022-08-30 19:30:04,251:INFO:jwt
+2022-08-30 19:30:04,259:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 11, 35, 4, 259154)}
+2022-08-30 19:30:04,259:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NTkzMDR9.5XrstmTQi-7QKvC5uExV1Do40j9aULj1snhvDLoUQQ0
+2022-08-30 19:30:07,469:INFO:ads
+2022-08-30 20:30:07,352:INFO:jwt
+2022-08-30 20:30:07,359:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 12, 35, 7, 359878)}
+2022-08-30 20:30:07,360:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NjI5MDd9.xCvaJ5JkudBQxQap50ll6magS7HEE1_30aqxraAqOh4
+2022-08-30 20:30:10,563:INFO:ads
+2022-08-30 21:30:10,445:INFO:jwt
+2022-08-30 21:30:10,451:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 13, 35, 10, 451208)}
+2022-08-30 21:30:10,451:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NjY1MTB9.iHhOmMcJu_Niwhz9Sdne_pR-DmVczWEH8B_WJia1N1I
+2022-08-30 21:30:13,665:INFO:ads
+2022-08-30 22:30:13,756:INFO:jwt
+2022-08-30 22:30:13,762:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 14, 35, 13, 762706)}
+2022-08-30 22:30:13,763:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NzAxMTN9.gK_XxMZZI5nmKYBelEatXfxrbMOeuyzxd8gjPQm5vaY
+2022-08-30 22:30:17,120:INFO:ads
+2022-08-30 23:30:17,052:INFO:jwt
+2022-08-30 23:30:17,059:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 15, 35, 17, 59926)}
+2022-08-30 23:30:17,060:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NzM3MTd9.v8bF3TCgY-ZFh3wD9Lx3oD2MIidJO7MvT5fuNDbEFNY
+2022-08-30 23:30:20,325:INFO:ads
+2022-08-31 00:30:20,248:INFO:jwt
+2022-08-31 00:30:20,254:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 16, 35, 20, 254677)}
+2022-08-31 00:30:20,254:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4NzczMjB9.yPAKfwMKvvqg3mWrgp6Wuv_BIr3NQWuhokLhJxCb82g
+2022-08-31 00:30:23,483:INFO:ads
+2022-08-31 01:30:23,686:INFO:jwt
+2022-08-31 01:30:23,692:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 17, 35, 23, 692066)}
+2022-08-31 01:30:23,692:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4ODA5MjN9.wOrTWmvin-1namnDpAP46CTghu9Vr7kAT1fmGx4ELjA
+2022-08-31 01:30:26,869:INFO:ads
+2022-08-31 02:30:26,760:INFO:jwt
+2022-08-31 02:30:26,765:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 18, 35, 26, 765817)}
+2022-08-31 02:30:26,766:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4ODQ1MjZ9.lRP_bRspuoY6mWDDd508EAm7rypQTqqrXf1LXSbVmBw
+2022-08-31 02:30:29,988:INFO:ads
+2022-08-31 03:30:30,285:INFO:jwt
+2022-08-31 03:30:30,291:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 19, 35, 30, 291350)}
+2022-08-31 03:30:30,291:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4ODgxMzB9.LJDZy4dbTv4t_6xOe1eJaFrFNRi4Wu4yeqA0wR8VAs4
+2022-08-31 03:30:33,518:INFO:ads
+2022-08-31 04:30:33,560:INFO:jwt
+2022-08-31 04:30:33,567:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 20, 35, 33, 567584)}
+2022-08-31 04:30:33,568:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4OTE3MzN9.-QONbA0hvdN1tA2fKVbHvGK1ZSL0JcUlbJvdj9d77p4
+2022-08-31 04:30:36,835:INFO:ads
+2022-08-31 05:30:36,908:INFO:jwt
+2022-08-31 05:30:36,914:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 21, 35, 36, 914302)}
+2022-08-31 05:30:36,914:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4OTUzMzZ9.p7KboC1kT3B8lj9sdDoTdPrrbIjcAhmDEzQprSKG4oE
+2022-08-31 05:30:40,273:INFO:ads
+2022-08-31 06:30:40,815:INFO:jwt
+2022-08-31 06:30:40,821:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 22, 35, 40, 821477)}
+2022-08-31 06:30:40,821:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE4OTg5NDB9.jFELV__fDIKOZ0JPJf7YLrAVEKaJzLhTuVMKb8W59Wo
+2022-08-31 06:30:44,059:INFO:ads
+2022-08-31 07:30:44,039:INFO:jwt
+2022-08-31 07:30:44,045:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 30, 23, 35, 44, 45561)}
+2022-08-31 07:30:44,045:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MDI1NDR9.hf00V38VfjU6Ys_xI1aPkJTligjRj-ZwU3BiqEB60bA
+2022-08-31 07:30:47,408:INFO:ads
+2022-08-31 08:30:47,421:INFO:jwt
+2022-08-31 08:30:47,427:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 31, 0, 35, 47, 427676)}
+2022-08-31 08:30:47,428:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MDYxNDd9.53Nc9JrSkEqpw9WuzQKTRj1fLvZTZEUyKv-0qDWm6Hg
+2022-08-31 08:30:50,723:INFO:ads
+2022-08-31 09:30:50,945:INFO:jwt
+2022-08-31 09:30:50,951:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 31, 1, 35, 50, 951161)}
+2022-08-31 09:30:50,951:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MDk3NTB9.Iip1Btmskj8wlbM_lmd8IKSksdEd0s3vyR3cAh_cZ3Y
+2022-08-31 09:30:54,364:INFO:ads
+2022-08-31 10:30:54,666:INFO:jwt
+2022-08-31 10:30:54,671:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 31, 2, 35, 54, 671536)}
+2022-08-31 10:30:54,671:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MTMzNTR9.hXjTl_PriS5Q3CwrN7a6uUcBplt5kBTKlYyr5IXaMAQ
+2022-08-31 10:30:58,482:INFO:ads
+2022-08-31 11:30:58,758:INFO:jwt
+2022-08-31 11:30:58,764:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 31, 3, 35, 58, 764205)}
+2022-08-31 11:30:58,764:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MTY5NTh9.3VwxWvo9zirSR82WbCZeJqKAHQ5VjVRxSYCycRRp5TU
+2022-08-31 11:31:02,122:INFO:ads
+2022-08-31 12:31:02,174:INFO:jwt
+2022-08-31 12:31:02,179:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 31, 4, 36, 2, 179939)}
+2022-08-31 12:31:02,180:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MjA1NjJ9.FRFSbeR5PltzgNX8DDA71CiMCogieUxbNc4nE-BKz6o
+2022-08-31 12:31:05,400:INFO:ads
+2022-08-31 13:17:08,696:INFO:ads
+2022-08-31 13:17:20,048:INFO:checkNumber
+2022-08-31 13:17:20,051:INFO:2
+2022-08-31 13:17:20,051:INFO:bankConnection
+2022-08-31 13:17:20,051:INFO:2
+2022-08-31 13:17:20,051:INFO:{'phone_number': u'99119109', 'amount': '', 'serviceName': 'Kiosk', 'trans_id': u'', 'cashOrCard': u'', 'card': u''}
+2022-08-31 13:17:20,053:DEBUG:Starting new HTTPS connection (1): banksystem.gmobile.mn:443
+2022-08-31 13:17:20,158:DEBUG:https://banksystem.gmobile.mn:443 "POST /service.php/api_services/kiosk/socialPay/checkNumber/response HTTP/1.1" 200 143
+2022-08-31 13:17:20,161:INFO:{u'status': -1, u'errors': u'ER0003', u'data': None, u'action': u'check_index', u'type': None, u'unit': None}
+2022-08-31 13:22:24,123:INFO:ads
+2022-08-31 14:22:24,481:INFO:jwt
+2022-08-31 14:22:24,487:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 31, 6, 27, 24, 487078)}
+2022-08-31 14:22:24,487:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MjcyNDR9.sHmmg2a-IMj883v3dNfPHkoZ_Too5C7ldQBm7TSZQsI
+2022-08-31 14:22:27,671:INFO:ads
+2022-08-31 15:22:27,636:INFO:jwt
+2022-08-31 15:22:27,642:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 8, 31, 7, 27, 27, 642385)}
+2022-08-31 15:22:27,642:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NjE5MzA4NDd9.IBeCyMwxn1Ekn81CHE6IJ-hCa6kSX4PO4mugmZDqgB8
+2022-08-31 15:22:30,793:INFO:ads

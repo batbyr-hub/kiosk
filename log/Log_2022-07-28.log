@@ -1,0 +1,98 @@
+2022-07-28 18:37:52,856:INFO:jwt
+2022-07-28 18:37:52,882:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 10, 42, 52, 882691)}
+2022-07-28 18:37:52,883:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMDQ5NzJ9.hiRCYnnz2wJhouRVAp9rOHvZq52hwRmR6OXENBmgg9Q
+2022-07-28 18:37:56,144:INFO:ads
+2022-07-28 19:37:56,110:INFO:jwt
+2022-07-28 19:37:56,115:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 11, 42, 56, 115769)}
+2022-07-28 19:37:56,116:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMDg1NzZ9.L4K44ZrIOQzKzW7oD3_9jCSNuyCM242hFfm43czsSGY
+2022-07-28 19:37:59,344:INFO:ads
+2022-07-28 20:37:59,151:INFO:jwt
+2022-07-28 20:37:59,156:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 12, 42, 59, 156733)}
+2022-07-28 20:37:59,157:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMTIxNzl9.VynHikHhL-72UJNWwHub0-vimIRqwocTvG_bjTue0Eg
+2022-07-28 20:38:02,448:INFO:ads
+2022-07-28 21:38:02,370:INFO:jwt
+2022-07-28 21:38:02,377:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 13, 43, 2, 377177)}
+2022-07-28 21:38:02,377:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMTU3ODJ9.JuH2tnkN9lfOYh6YXfs6OTSmEz51KV6aa2qc3NgRtO0
+2022-07-28 21:38:05,617:INFO:ads
+2022-07-28 22:38:05,507:INFO:jwt
+2022-07-28 22:38:05,512:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 14, 43, 5, 512762)}
+2022-07-28 22:38:05,513:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMTkzODV9.G_peOX4oxdp1VsZsyIOAyQc0JsghFpWZCchJdJRDL_E
+2022-07-28 22:38:08,720:INFO:ads
+2022-07-28 23:38:09,062:INFO:jwt
+2022-07-28 23:38:09,068:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 15, 43, 9, 68181)}
+2022-07-28 23:38:09,068:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMjI5ODl9.w4c8o2UG-8Wx6IVFDqkIJU278CFfeCdGIf3OkT3dZFo
+2022-07-28 23:38:12,293:INFO:ads
+2022-07-29 00:38:12,380:INFO:jwt
+2022-07-29 00:38:12,386:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 16, 43, 12, 386187)}
+2022-07-29 00:38:12,386:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMjY1OTJ9.GvWNdx2v1fIcVtor6o5Y0aZNUQGaMdaBA77akdawVQg
+2022-07-29 00:38:15,606:INFO:ads
+2022-07-29 01:38:15,688:INFO:jwt
+2022-07-29 01:38:15,693:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 17, 43, 15, 693874)}
+2022-07-29 01:38:15,694:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMzAxOTV9.fA1uPeM7DqYdxj0Lk70E0LOIemUThLU53KZ2U_TJzzU
+2022-07-29 01:38:18,932:INFO:ads
+2022-07-29 02:38:19,052:INFO:jwt
+2022-07-29 02:38:19,058:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 18, 43, 19, 58314)}
+2022-07-29 02:38:19,058:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMzM3OTl9.A4oAnRZUT0o8uKjte4HqyAw5atAuxdHeLJToTu8G-fU
+2022-07-29 02:38:22,288:INFO:ads
+2022-07-29 03:38:22,956:INFO:jwt
+2022-07-29 03:38:22,961:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 19, 43, 22, 961850)}
+2022-07-29 03:38:22,962:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwMzc0MDJ9.tLLggqjgeVeIfOmTCW8bYAXBWWPjyT42fRlA7N60IUk
+2022-07-29 03:38:26,189:INFO:ads
+2022-07-29 04:38:26,261:INFO:jwt
+2022-07-29 04:38:26,267:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 20, 43, 26, 267008)}
+2022-07-29 04:38:26,267:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwNDEwMDZ9.p_yZNbsepg1pCjccFxm1EH40X421w5BRlVj46Dbmwd4
+2022-07-29 04:38:29,460:INFO:ads
+2022-07-29 05:38:29,580:INFO:jwt
+2022-07-29 05:38:29,585:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a2', 'user_id': 2, 'exp': datetime.datetime(2022, 7, 28, 21, 43, 29, 585659)}
+2022-07-29 05:38:29,585:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTIiLCJ1c2VyX2lkIjoyLCJleHAiOjE2NTkwNDQ2MDl9.gqJjeKzgVbN17nrIUlJgK3nuGCUrIrM4rgCgveAQayU
+2022-07-29 05:38:32,789:INFO:ads
+2022-07-29 06:38:32,700:INFO:jwt
+2022-07-29 06:38:32,702:ERROR:Internal Server Error: /api/jwt/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 30, in jwt
+    if Status.objects.filter(device_id=device_id).exists():
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/query.py", line 673, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 517, in has_results
+    return compiler.has_results()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 858, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/MySQLdb/connections.py", line 179, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (13)")

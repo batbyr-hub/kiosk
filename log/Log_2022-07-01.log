@@ -1,0 +1,96 @@
+2022-07-01 13:34:40,160:INFO:jwt
+2022-07-01 13:34:40,183:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 1, 5, 39, 40, 183035)}
+2022-07-01 13:34:40,183:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTY2NTM5ODB9.BUF4l56J1cyeJD_tS-8Az1gaiZXgQhjTMfN1DUqIDYo
+2022-07-03 10:06:04,039:INFO:jwt
+2022-07-03 10:06:04,045:INFO:{'username': u'\u041a\u0438\u043e\u0441\u043a1', 'user_id': 1, 'exp': datetime.datetime(2022, 7, 3, 2, 11, 4, 45673)}
+2022-07-03 10:06:04,045:INFO:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ilx1MDQxYVx1MDQzOFx1MDQzZVx1MDQ0MVx1MDQzYTEiLCJ1c2VyX2lkIjoxLCJleHAiOjE2NTY4MTQyNjR9.xwA_EyrVkDxuow8HFw9ZpgqktVRBctEpEAF-nJTh95o
+2022-07-03 15:47:24,580:INFO:searchNumber
+2022-07-03 15:47:24,582:INFO:
+2022-07-03 15:47:24,582:INFO:
+2022-07-03 15:47:24,582:INFO:engiin
+2022-07-03 15:47:24,587:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-03 15:47:24,588:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 452, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-03 15:47:25,503:INFO:searchNumber
+2022-07-03 15:47:25,504:INFO:
+2022-07-03 15:47:25,504:INFO:
+2022-07-03 15:47:25,504:INFO:engiin
+2022-07-03 15:47:25,508:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-03 15:47:25,509:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 452, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
+2022-07-03 15:47:25,958:INFO:searchNumber
+2022-07-03 15:47:25,960:INFO:
+2022-07-03 15:47:25,960:INFO:
+2022-07-03 15:47:25,960:INFO:engiin
+2022-07-03 15:47:25,964:INFO:[<Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>, <Prefix: Prefix object>]
+2022-07-03 15:47:25,965:ERROR:Internal Server Error: /api/searchNumber/
+Traceback (most recent call last):
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ezen/kiosk/kioskenv/lib/python2.7/site-packages/rest_framework/decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "/home/ezen/kiosk/controller/views.py", line 452, in searchNumber
+    result = getNumber(number, az, numbertype)
+  File "/home/ezen/kiosk/controller/services.py", line 286, in getNumber
+    if prefix[2] == "*":
+IndexError: string index out of range
